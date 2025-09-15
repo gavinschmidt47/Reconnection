@@ -1,0 +1,42 @@
+[
+	{
+		"file": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Private\\PlayerData.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Public\\PlayerData.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Reconnection.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Reconnection.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Reconnection.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	}
+]

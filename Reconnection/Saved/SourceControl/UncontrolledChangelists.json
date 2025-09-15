@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/TopDown/Blueprints/BP_TopDownGameMode.uasset",
+				"C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Game/Reconnection_GameMode.uasset",
+				"C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/TopDown/Lvl_TopDown.umap",
+				"C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/TurnBased/BP_TurnManager.uasset",
+				"C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Game/Reconnection_GameState.uasset",
+				"C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Data/BP_PlayerData.uasset"
+			]
+		}
+	]
+}

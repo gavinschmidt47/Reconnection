@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Reconnection.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Reconnection.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ReconnectionEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Reconnection">
+      <UniqueIdentifier>{AE34496C-5908-3EDF-A7E8-49E5D0E8796C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Reconnection\Reconnection.Build.cs">
+      <Filter>Source\Reconnection</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Reconnection\Reconnection.cpp">
+      <Filter>Source\Reconnection</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Reconnection\Reconnection.h">
+      <Filter>Source\Reconnection</Filter>
+    </ClInclude>
+    <Filter Include="Source\Reconnection\Private">
+      <UniqueIdentifier>{C460ED18-A1D4-35FE-94B5-90A222DB4D4F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Reconnection\Private\PlayerData.cpp">
+      <Filter>Source\Reconnection\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Reconnection\Public">
+      <UniqueIdentifier>{B8A18F7A-A813-31B2-ADB8-C57A55BE166C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Reconnection\Public\PlayerData.h">
+      <Filter>Source\Reconnection\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

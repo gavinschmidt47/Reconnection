@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Reconnection",
+			"Path": "..\\Source\\Reconnection.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ReconnectionEditor",
+			"Path": "..\\Source\\ReconnectionEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
