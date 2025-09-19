@@ -146,9 +146,20 @@ struct Z_Construct_UClass_AFighter_Statics
 		{ "ToolTip", "Boolean to check if it's this fighter's turn" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InitiativeScore_MetaData[] = {
+		{ "Category", "Stored Variables" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//Initiative score for turn order\n" },
+#endif
+		{ "ModuleRelativePath", "Public/Fighter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Initiative score for turn order" },
+#endif
+	};
 #endif // WITH_METADATA
 	static void NewProp_bIsTurn_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bIsTurn;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_InitiativeScore;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -166,8 +177,10 @@ void Z_Construct_UClass_AFighter_Statics::NewProp_bIsTurn_SetBit(void* Obj)
 	((AFighter*)Obj)->bIsTurn = 1;
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFighter_Statics::NewProp_bIsTurn = { "bIsTurn", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AFighter), &Z_Construct_UClass_AFighter_Statics::NewProp_bIsTurn_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bIsTurn_MetaData), NewProp_bIsTurn_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AFighter_Statics::NewProp_InitiativeScore = { "InitiativeScore", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFighter, InitiativeScore), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InitiativeScore_MetaData), NewProp_InitiativeScore_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFighter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_bIsTurn,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_InitiativeScore,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFighter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AFighter_Statics::DependentSingletons[])() = {
@@ -206,10 +219,10 @@ AFighter::~AFighter() {}
 struct Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_Fighter_h__Script_Reconnection_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFighter, AFighter::StaticClass, TEXT("AFighter"), &Z_Registration_Info_UClass_AFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFighter), 269626403U) },
+		{ Z_Construct_UClass_AFighter, AFighter::StaticClass, TEXT("AFighter"), &Z_Registration_Info_UClass_AFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFighter), 2310285360U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_Fighter_h__Script_Reconnection_1273057196(TEXT("/Script/Reconnection"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_Fighter_h__Script_Reconnection_3675422390(TEXT("/Script/Reconnection"),
 	Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_Fighter_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_Fighter_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -1,0 +1,19 @@
+{
+  "targets": {
+    "ReconnectionEditor": {
+      "targetType": "Editor",
+      "targetPath": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\ReconnectionEditor.Target.cs",
+      "projectPath": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Reconnection.uproject",
+      "configurations": [
+        "Development"
+      ],
+      "platforms": [
+        "Win64"
+      ],
+      "architectures": [],
+      "configurationsAndPlatforms": [
+        "Development-Win64"
+      ]
+    }
+  }
+}

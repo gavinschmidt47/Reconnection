@@ -18,14 +18,10 @@ public:
 	//Boolean to check if it's this fighter's turn
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Stored Variables")
 	bool bIsTurn;
-	UFUNCTION(BlueprintCallable, Category="Stored Functions")
-	bool GetIsTurn() const { return bIsTurn; }
 
 	//Initiative score for turn order
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Stored Variables")
 	int32 InitiativeScore;
-	UFUNCTION(BlueprintCallable, Category="Stored Functions")
-	int32 GetInitiativeScore() const { return InitiativeScore; }
 
 	//Function to start this fighter's turn
 	UFUNCTION(BlueprintCallable, Category="Stored Functions")
