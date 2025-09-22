@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/Reconnection_GameState.uasset",
+				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/Struct_FighterRolls.uasset",
+				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/Struct_FighterRoles.uasset",
 				"C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Levels/TurnBased.umap",
 				"C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Core/Reconnection_GameMode.uasset",
 				"C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Core/Reconnection_GameState.uasset",
