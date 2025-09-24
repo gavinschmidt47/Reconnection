@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Fighter.generated.h"
-#include <string>
 
 UCLASS()
 class RECONNECTION_API AFighter : public AActor
@@ -33,10 +32,10 @@ public:
 	void EndTurn();
 
 	UFUNCTION(BlueprintCallable, Category = "Stored Functions")
-	void SendDamage(float damage, const FString& type, AFighter target);
+	void SendDamage(float Damage, const FString& Type, AFighter *Target);
 
 	UFUNCTION(BlueprintCallable, Category = "Stored Functions")
-	virtual void ReceiveDamage(float damage, const FString& type);
+	virtual void ReceiveDamage(float Damage, const FString& Type);
 
 protected:
 	// Called when the game starts or when spawned

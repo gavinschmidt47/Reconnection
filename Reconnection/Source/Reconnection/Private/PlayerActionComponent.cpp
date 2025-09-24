@@ -25,6 +25,6 @@ void UPlayerActionComponent::BeginPlay()
 
 void UPlayerActionComponent::PerformAttack(AFighter* Target)
 {
-	Player
+	Player->Attack(Target);
 }
 
