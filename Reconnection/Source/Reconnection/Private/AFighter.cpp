@@ -33,12 +33,12 @@ void AFighter::EndTurn()
 	UE_LOG(LogTemp, Warning, TEXT("Turn ended"));
 }
 
-void AFighter::SendDamage(float Damage, const FString& Type, AFighter Target)
+void AFighter::SendDamage(float Damage, const FString& Type, AFighter *Target)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Sending %f %s damage to target"), damage, *type);
+	UE_LOG(LogTemp, Warning, TEXT("Sending %f %s damage to target"), Damage, *Type);
 }
 
 void AFighter::ReceiveDamage(float Damage, const FString& Type)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Received %f %s damage from source"), damage, *type);
+	UE_LOG(LogTemp, Warning, TEXT("Received %f %s damage from source"), Damage, *Type);
 }

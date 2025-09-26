@@ -1,9 +1,5 @@
 {
 	"RemapUnityFiles": 
 	{
-		"Module.Reconnection.gen.cpp.obj": [
-			"Fighter.gen.cpp.obj",
-			"Reconnection.init.gen.cpp.obj"
-		]
 	}
 }

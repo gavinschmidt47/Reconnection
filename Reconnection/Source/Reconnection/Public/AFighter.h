@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Fighter.generated.h"
+#include "AFighter.generated.h" // <-- Move this to be the last include before code
 
 UCLASS()
 class RECONNECTION_API AFighter : public AActor
