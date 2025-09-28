@@ -1168,3 +1168,428 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
 		NumGeometrySegments changed: current: 0 - new: 512
 [2025.09.28-02.55.42:359][711]LogDerivedDataCache: C:/Users/gavin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.28-02.59.24:280][616]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 321.377625
+[2025.09.28-02.59.25:281][619]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-02.59.25:281][619]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 322.044617, Update Interval: 349.060944
+[2025.09.28-03.05.17:674][676]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 674.770935
+[2025.09.28-03.05.18:675][679]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-03.05.18:675][679]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 675.438538, Update Interval: 356.520874
+[2025.09.28-03.11.22:731][771]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1039.827515
+[2025.09.28-03.11.23:727][774]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-03.11.23:727][774]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1040.491577, Update Interval: 336.913361
+[2025.09.28-03.17.10:777][815]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1387.872559
+[2025.09.28-03.17.11:776][818]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-03.17.11:776][818]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1388.538940, Update Interval: 323.028046
+[2025.09.28-03.22.59:490][861]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1736.586182
+[2025.09.28-03.23.00:489][864]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-03.23.00:489][864]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1737.250488, Update Interval: 311.622070
+[2025.09.28-03.28.45:874][900]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2082.970947
+[2025.09.28-03.28.46:875][903]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-03.28.46:875][903]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2083.639404, Update Interval: 303.054291
+[2025.09.28-03.34.43:916][974]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2441.008545
+[2025.09.28-03.34.44:919][977]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-03.34.44:919][977]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2441.677002, Update Interval: 341.663269
+[2025.09.28-03.41.04:301][115]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2821.393066
+[2025.09.28-03.41.05:302][118]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-03.41.05:302][118]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2822.060303, Update Interval: 311.504883
+[2025.09.28-03.47.02:679][190]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3179.770752
+[2025.09.28-03.47.03:681][193]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-03.47.03:681][193]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3180.437744, Update Interval: 309.062164
+[2025.09.28-03.53.04:054][274]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3541.146240
+[2025.09.28-03.53.05:054][277]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-03.53.05:054][277]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3541.812988, Update Interval: 317.472473
+[2025.09.28-03.55.42:360][749]LogDerivedDataCache: C:/Users/gavin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.28-03.59.13:768][383]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3910.860596
+[2025.09.28-03.59.14:769][386]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-03.59.14:769][386]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3911.528320, Update Interval: 333.190704
+[2025.09.28-04.05.32:142][518]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4289.237305
+[2025.09.28-04.05.33:141][521]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-04.05.33:141][521]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4289.904297, Update Interval: 353.309113
+[2025.09.28-04.12.17:201][733]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4694.303223
+[2025.09.28-04.12.18:205][736]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-04.12.18:205][736]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4694.972168, Update Interval: 327.473999
+[2025.09.28-04.18.38:254][876]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5075.349609
+[2025.09.28-04.18.39:255][879]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-04.18.39:255][879]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5076.017578, Update Interval: 320.076294
+[2025.09.28-04.24.58:977][ 18]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5456.072754
+[2025.09.28-04.24.59:979][ 21]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-04.24.59:979][ 21]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5456.739746, Update Interval: 303.420502
+[2025.09.28-04.30.40:354][ 42]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5797.445801
+[2025.09.28-04.30.41:356][ 45]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-04.30.41:356][ 45]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5798.113281, Update Interval: 338.740814
+[2025.09.28-04.37.12:079][217]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6189.165039
+[2025.09.28-04.37.13:079][220]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-04.37.13:079][220]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6189.831543, Update Interval: 306.315491
+[2025.09.28-04.42.54:127][243]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6531.215332
+[2025.09.28-04.42.55:125][246]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-04.42.55:125][246]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6531.881836, Update Interval: 306.465637
+[2025.09.28-04.48.46:512][300]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6883.595215
+[2025.09.28-04.48.47:513][303]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-04.48.47:513][303]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6884.261230, Update Interval: 336.982941
+[2025.09.28-04.55.01:025][423]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7258.113770
+[2025.09.28-04.55.02:027][426]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-04.55.02:027][426]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7258.782227, Update Interval: 347.429413
+[2025.09.28-04.55.42:360][547]LogDerivedDataCache: C:/Users/gavin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.28-05.01.44:111][632]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7661.202148
+[2025.09.28-05.01.45:114][635]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-05.01.45:114][635]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7661.868652, Update Interval: 343.961304
+[2025.09.28-05.08.14:852][804]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8051.947266
+[2025.09.28-05.08.15:853][808]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-05.08.15:853][808]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8052.613770, Update Interval: 337.466370
+[2025.09.28-05.14.30:916][933]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8428.004883
+[2025.09.28-05.14.31:913][935]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-05.14.31:913][935]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8428.667969, Update Interval: 340.502319
+[2025.09.28-05.20.43:973][ 51]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8801.059570
+[2025.09.28-05.20.44:976][ 54]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-05.20.44:976][ 54]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8801.727539, Update Interval: 311.997437
+[2025.09.28-05.26.30:701][ 91]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9147.778320
+[2025.09.28-05.26.31:703][ 94]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-05.26.31:703][ 94]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9148.445312, Update Interval: 310.739471
+[2025.09.28-05.32.38:784][195]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9515.866211
+[2025.09.28-05.32.39:785][198]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-05.32.39:785][198]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9516.533203, Update Interval: 356.544678
+[2025.09.28-05.39.31:527][433]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9928.605469
+[2025.09.28-05.39.32:527][436]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-05.39.32:527][437]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9929.272461, Update Interval: 319.406097
+[2025.09.28-05.45.29:915][508]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10287.011719
+[2025.09.28-05.45.30:917][511]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-05.45.30:917][511]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10287.678711, Update Interval: 349.240387
+[2025.09.28-05.51.51:313][652]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10668.415039
+[2025.09.28-05.51.52:315][655]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-05.51.52:315][655]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10669.082031, Update Interval: 309.496155
+[2025.09.28-05.57.36:762][841]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11013.865234
+[2025.09.28-05.57.37:762][844]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-05.57.37:762][844]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11014.531250, Update Interval: 314.729462
+[2025.09.28-06.00.24:572][341]LogDerivedDataCache: C:/Users/gavin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.28-06.03.31:879][902]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11368.963867
+[2025.09.28-06.03.32:881][905]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-06.03.32:881][905]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11369.633789, Update Interval: 302.213806
+[2025.09.28-06.09.09:966][916]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11707.045898
+[2025.09.28-06.09.10:965][919]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-06.09.10:965][920]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11707.711914, Update Interval: 318.785370
+[2025.09.28-06.10.27:430][384]LogStreaming: Display: FlushAsyncLoading(476): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.28-06.10.27:484][384]Candidate modules for hot reload:
+[2025.09.28-06.10.27:484][384]  Reconnection
+[2025.09.28-06.10.27:497][384]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Reconnection,1470 ReconnectionEditor Win64 Development -Project="C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject" "C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject"  -IgnoreJunk]
+[2025.09.28-06.10.27:508][384]Warning: Starting HotReload took  0.1s.
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300 win-x64
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Reconnection,1470 ReconnectionEditor Win64 Development -Project="C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject" "C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject"  -IgnoreJunk
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Log file: C:\Users\gavin\AppData\Local\UnrealBuildTool\Log.txt
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gavin\OneDrive\Documents\GitHub\Reconnection).
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Building ReconnectionEditor...
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: [Upgrade]
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;' in ReconnectionEditor.Target.cs.
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: [Upgrade]
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: [Adaptive Build] Excluded from Reconnection unity file: AFighter.gen.cpp, Reconnection.init.gen.cpp
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: [Adaptive Build] Excluded from Reconnection unity file: AFighter.cpp
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2025.09.28-06.10.29:756][479]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 3 action(s)
+[2025.09.28-06.10.29:756][479]CompilerResultsLog:   Storage capacity 40Gb
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: ---- Starting trace: 250928_021028 ----
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: ------ Building 3 action(s) started ------
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: [1/3] Link [x64] UnrealEditor-Reconnection-1470.lib
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: AFighter.cpp.obj : warning LNK4006: "public: void __cdecl AFighter::OnEndTurn(void)" (?OnEndTurn@AFighter@@QEAAXXZ) already defined in AFighter.gen.cpp.obj; second definition ignored
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: AFighter.cpp.obj : warning LNK4006: "public: void __cdecl AFighter::OnHitAttack(void)" (?OnHitAttack@AFighter@@QEAAXXZ) already defined in AFighter.gen.cpp.obj; second definition ignored
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: AFighter.cpp.obj : warning LNK4006: "public: void __cdecl AFighter::OnHitMiss(void)" (?OnHitMiss@AFighter@@QEAAXXZ) already defined in AFighter.gen.cpp.obj; second definition ignored
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: [2/3] Link [x64] UnrealEditor-Reconnection-1470.dll
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Error: AFighter.cpp.obj : error LNK2005: "public: void __cdecl AFighter::OnEndTurn(void)" (?OnEndTurn@AFighter@@QEAAXXZ) already defined in AFighter.gen.cpp.obj
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Error: AFighter.cpp.obj : error LNK2005: "public: void __cdecl AFighter::OnHitAttack(void)" (?OnHitAttack@AFighter@@QEAAXXZ) already defined in AFighter.gen.cpp.obj
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Error: AFighter.cpp.obj : error LNK2005: "public: void __cdecl AFighter::OnHitMiss(void)" (?OnHitMiss@AFighter@@QEAAXXZ) already defined in AFighter.gen.cpp.obj
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Error: C:\Users\gavin\OneDrive\Documents\GitHub\Reconnection\Reconnection\Binaries\Win64\UnrealEditor-Reconnection-1470.dll : fatal error LNK1169: one or more multiply defined symbols found
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Trace written to file C:/Users/gavin/AppData/Local/UnrealBuildTool/Log.uba with size 3.3kb
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 0.92 seconds
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: 
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Result: Failed (OtherCompilationError)
+[2025.09.28-06.10.29:756][479]CompilerResultsLog: Total execution time: 1.99 seconds
+[2025.09.28-06.10.29:756][479]LogMainFrame: MainFrame: Module compiling took 2.326 seconds
+[2025.09.28-06.10.29:756][479]LogStreaming: Display: FlushAsyncLoading(477): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.28-06.10.29:772][479]Warning: HotReload failed, recompile failed
+[2025.09.28-06.12.10:740][214]LogSlate: Window 'Message Log' being destroyed
+[2025.09.28-06.12.10:749][214]LogSlate: Window 'Message Log' being destroyed
+[2025.09.28-06.12.13:638][322]Candidate modules for hot reload:
+[2025.09.28-06.12.13:638][322]  Reconnection
+[2025.09.28-06.12.13:644][322]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Reconnection,1978 ReconnectionEditor Win64 Development -Project="C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject" "C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject"  -IgnoreJunk]
+[2025.09.28-06.12.13:652][322]Warning: Starting HotReload took  0.0s.
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300 win-x64
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Reconnection,1978 ReconnectionEditor Win64 Development -Project="C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject" "C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject"  -IgnoreJunk
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Log file: C:\Users\gavin\AppData\Local\UnrealBuildTool\Log.txt
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gavin\OneDrive\Documents\GitHub\Reconnection).
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Creating makefile for ReconnectionEditor (command line arguments changed)
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Building ReconnectionEditor...
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [Upgrade]
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;' in ReconnectionEditor.Target.cs.
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [Upgrade]
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [Adaptive Build] Excluded from Reconnection unity file: AFighter.gen.cpp, Reconnection.init.gen.cpp
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [Adaptive Build] Excluded from Reconnection unity file: AFighter.cpp
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2025.09.28-06.12.19:262][586]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 4 action(s)
+[2025.09.28-06.12.19:262][586]CompilerResultsLog:   Storage capacity 40Gb
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: ---- Starting trace: 250928_021216 ----
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [1/4] Compile [x64] AFighter.cpp
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-Reconnection-1978.lib
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-Reconnection-1978.dll
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: [4/4] WriteMetadata ReconnectionEditor.target (UBA disabled)
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Trace written to file C:/Users/gavin/AppData/Local/UnrealBuildTool/Log.uba with size 3.3kb
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 2.17 seconds
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: 
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Result: Succeeded
+[2025.09.28-06.12.19:262][586]CompilerResultsLog: Total execution time: 5.38 seconds
+[2025.09.28-06.12.19:262][586]LogMainFrame: MainFrame: Module compiling took 5.630 seconds
+[2025.09.28-06.12.19:262][586]LogStreaming: Display: FlushAsyncLoading(478): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.28-06.12.19:392][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2025.09.28-06.12.19:526][586]LogClass: UPackage /Script/Reconnection Reload.
+[2025.09.28-06.12.19:526][586]LogClass: UClass Fighter Reload.
+[2025.09.28-06.12.19:527][586]LogClass: Could not find existing class Fighter in package /Script/Reconnection for reload, assuming new or modified class
+[2025.09.28-06.12.19:527][586]LogClass: Function AddBuff is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function Attack is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function Block is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function EndTurn is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function GetDefense is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function Heal is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function OnEndTurn is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function OnHitAttack is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function OnHitMiss is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function ReceiveDamage is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function RemoveBuff is new or belongs to a modified class.
+[2025.09.28-06.12.19:527][586]LogClass: Function RollDamage is new or belongs to a modified class.
+[2025.09.28-06.12.19:528][586]LogClass: Function RollToHit is new or belongs to a modified class.
+[2025.09.28-06.12.19:528][586]LogClass: Function SendDamage is new or belongs to a modified class.
+[2025.09.28-06.12.19:528][586]LogClass: Function StartTurn is new or belongs to a modified class.
+[2025.09.28-06.12.19:535][586]Re-instancing Fighter after reload.
+[2025.09.28-06.12.19:592][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.09.28-06.12.19:648][586]Display: HotReload took  6.0s.
+[2025.09.28-06.12.19:648][586]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2025.09.28-06.14.17:851][  9]LogStreaming: Display: FlushAsyncLoading(479): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.28-06.14.17:890][  9]LogBlueprint: Error: [AssetLog] C:\Users\gavin\OneDrive\Documents\GitHub\Reconnection\Reconnection\Content\Core\BP_Player.uasset: [Compiler] The function name in node  Attack  is already used
+[2025.09.28-06.14.17:922][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.09.28-06.14.18:133][  9]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.09.28-06.14.18:149][  9]LogSlate: Took 0.015295 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.09.28-06.14.19:308][  9]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.28-06.14.19:421][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.28-06.14.19:442][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.28-06.14.19:460][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.09.28-06.16.15:900][152]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.28-06.16.15:964][152]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.28-06.16.15:973][152]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.28-06.16.15:993][152]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12132.982422
+[2025.09.28-06.16.16:005][153]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.28-06.16.16:421][172]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-06.16.16:421][172]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12133.393555, Update Interval: 303.048798
+[2025.09.28-06.16.23:574][599]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Player
+[2025.09.28-06.16.23:634][599]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.28-06.16.25:376][690]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/BP_Player.BP_Player
+[2025.09.28-06.16.25:424][690]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.09.28-06.16.25:625][690]LogStreaming: Display: FlushAsyncLoading(480): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.28-06.20.24:449][224]LogStreaming: Display: FlushAsyncLoading(677): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.28-06.20.24:551][224]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2025.09.28-06.20.25:850][224]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.28-06.20.25:944][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.09.28-06.20.25:975][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.09.28-06.20.26:003][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.09.28-06.20.30:201][455]LogStreaming: Display: FlushAsyncLoading(678): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.28-06.20.30:272][455]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/Reconnection_GameState.Reconnection_GameState
+[2025.09.28-06.20.30:273][455]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.09.28-06.20.30:897][455]LogSlate: Took 0.054552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.09.28-06.22.15:035][679]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12492.020508
+[2025.09.28-06.22.15:219][690]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-06.22.15:219][691]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12492.187500, Update Interval: 332.331909
+[2025.09.28-06.26.38:726][168]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2025.09.28-06.26.38:727][168]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TurnBased' took 0.100
+[2025.09.28-06.26.38:730][168]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Core/BP_Player] ([2] browsable assets)...
+[2025.09.28-06.26.38:730][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/BP_Player]
+[2025.09.28-06.26.38:757][168]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/BP_Player_Auto1
+[2025.09.28-06.26.38:758][168]LogSavePackage: Moving '../../../../../../Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Saved/BP_Player_Auto1267375CE4A83E74999BDFDB076C95DD9.tmp' to '../../../../../../Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Saved/Autosaves/Game/Core/BP_Player_Auto1.uasset'
+[2025.09.28-06.26.38:762][168]LogFileHelpers: Auto-saving content packages took 0.035
+[2025.09.28-06.28.24:116][963]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12861.110352
+[2025.09.28-06.28.25:116][965]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-06.28.25:116][965]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12861.776367, Update Interval: 349.277008
+[2025.09.28-06.34.57:026][302]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13254.013672
+[2025.09.28-06.34.58:027][305]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-06.34.58:027][306]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13254.680664, Update Interval: 352.618805
+[2025.09.28-06.41.22:085][457]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13639.061523
+[2025.09.28-06.41.23:082][460]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-06.41.23:082][460]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13639.726562, Update Interval: 332.430786
+[2025.09.28-06.47.53:151][630]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14030.137695
+[2025.09.28-06.47.54:150][633]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-06.47.54:150][633]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14030.802734, Update Interval: 347.354340
+[2025.09.28-06.53.20:053][656]Candidate modules for hot reload:
+[2025.09.28-06.53.20:054][656]  Reconnection
+[2025.09.28-06.53.20:062][656]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Reconnection,4657 ReconnectionEditor Win64 Development -Project="C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject" "C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject"  -IgnoreJunk]
+[2025.09.28-06.53.20:072][656]Warning: Starting HotReload took  0.0s.
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300 win-x64
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Reconnection,4657 ReconnectionEditor Win64 Development -Project="C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject" "C:/Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Reconnection.uproject"  -IgnoreJunk
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: Log file: C:\Users\gavin\AppData\Local\UnrealBuildTool\Log.txt
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gavin\OneDrive\Documents\GitHub\Reconnection).
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: Parsing headers for ReconnectionEditor
+[2025.09.28-06.53.26:019][682]CompilerResultsLog:   Running Internal UnrealHeaderTool C:\Users\gavin\OneDrive\Documents\GitHub\Reconnection\Reconnection\Reconnection.uproject C:\Users\gavin\OneDrive\Documents\GitHub\Reconnection\Reconnection\Intermediate\Build\Win64\ReconnectionEditor\Development\ReconnectionEditor.uhtmanifest -WarningsAsErrors -installed
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: Total of 2 written
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: Reflection code generated for ReconnectionEditor in 1.6503242 seconds
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: Building ReconnectionEditor...
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: [Upgrade]
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;' in ReconnectionEditor.Target.cs.
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: [Upgrade]
+[2025.09.28-06.53.26:019][682]CompilerResultsLog: [Adaptive Build] Excluded from Reconnection unity file: AFighter.gen.cpp, Reconnection.init.gen.cpp
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: [Adaptive Build] Excluded from Reconnection unity file: AFighter.cpp
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2025.09.28-06.53.26:020][682]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 6 action(s)
+[2025.09.28-06.53.26:020][682]CompilerResultsLog:   Storage capacity 40Gb
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: ---- Starting trace: 250928_025322 ----
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: UbaServer - Listening on 0.0.0.0:1345
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: ------ Building 6 action(s) started ------
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: [1/6] Compile [x64] Reconnection.init.gen.cpp
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: [2/6] Compile [x64] AFighter.cpp
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: [3/6] Compile [x64] AFighter.gen.cpp
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: [4/6] Link [x64] UnrealEditor-Reconnection-4657.lib
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: [5/6] Link [x64] UnrealEditor-Reconnection-4657.dll
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: [6/6] WriteMetadata ReconnectionEditor.target (UBA disabled)
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: Trace written to file C:/Users/gavin/AppData/Local/UnrealBuildTool/Log.uba with size 3.7kb
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 2.32 seconds
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: 
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: Result: Succeeded
+[2025.09.28-06.53.26:020][682]CompilerResultsLog: Total execution time: 5.12 seconds
+[2025.09.28-06.53.26:020][682]LogMainFrame: MainFrame: Module compiling took 5.972 seconds
+[2025.09.28-06.53.26:045][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.09.28-06.53.26:116][682]LogClass: UPackage /Script/Reconnection Reload.
+[2025.09.28-06.53.26:116][682]LogClass: UClass Fighter Reload.
+[2025.09.28-06.53.26:116][682]LogClass: Could not find existing class Fighter in package /Script/Reconnection for reload, assuming new or modified class
+[2025.09.28-06.53.26:116][682]LogClass: Function AddBuff is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function Attack is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function Block is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function EndTurn is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function GetDefense is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function Heal is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function OnEndTurn is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function OnHitAttack is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function OnHitMiss is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function ReceiveDamage is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function RemoveBuff is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function RollDamage is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function RollToHit is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function SendDamage is new or belongs to a modified class.
+[2025.09.28-06.53.26:117][682]LogClass: Function StartTurn is new or belongs to a modified class.
+[2025.09.28-06.53.26:126][682]Re-instancing Fighter after reload.
+[2025.09.28-06.53.26:621][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.09.28-06.53.26:779][682]Display: HotReload took  6.7s.
+[2025.09.28-06.53.26:779][682]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2025.09.28-06.54.40:339][900]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14437.321289
+[2025.09.28-06.54.41:341][903]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-06.54.41:341][904]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14437.993164, Update Interval: 352.102417
+[2025.09.28-07.00.24:573][932]LogDerivedDataCache: C:/Users/gavin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.28-07.01.29:166][136]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14846.150391
+[2025.09.28-07.01.29:251][141]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-07.01.29:251][141]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14846.217773, Update Interval: 310.202942
+[2025.09.28-07.05.15:928][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.09.28-07.05.17:695][943]LogSlate: Window 'Save Content' being destroyed
+[2025.09.28-07.05.17:743][943]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.28-07.05.17:833][943]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Core/BP_Player] ([2] browsable assets)...
+[2025.09.28-07.05.17:833][943]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/BP_Player]
+[2025.09.28-07.05.17:833][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/BP_Player" FILE="../../../../../../Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Core/BP_Player.uasset" SILENT=true
+[2025.09.28-07.05.17:844][943]LogSavePackage: Moving output files for package: /Game/Core/BP_Player
+[2025.09.28-07.05.17:844][943]LogSavePackage: Moving '../../../../../../Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Saved/BP_PlayerF4C2C6714745ED572FED449792A06D99.tmp' to '../../../../../../Users/gavin/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Core/BP_Player.uasset'
+[2025.09.28-07.05.17:856][943]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.833 ms
+[2025.09.28-07.05.17:898][943]LogStall: Shutdown...
+[2025.09.28-07.05.17:899][943]LogStall: Shutdown complete.
+[2025.09.28-07.05.17:959][943]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.28-07.05.17:959][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.28-07.05.18:018][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.09.28-07.05.18:018][943]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.28-07.05.18:018][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.28-07.05.18:065][943]LogSlate: Window 'Reconnection - Unreal Editor' being destroyed
+[2025.09.28-07.05.18:067][943]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.09.28-07.05.18:187][943]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.28-07.05.18:187][943]LogContentValidation: Enabled validators:
+[2025.09.28-07.05.18:188][943]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.28-07.05.18:188][943]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.28-07.05.18:188][943]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.28-07.05.18:188][943]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.28-07.05.18:188][943]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.28-07.05.18:188][943]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.28-07.05.18:189][943]AssetCheck: /Game/Core/BP_Player Validating asset
+[2025.09.28-07.05.18:268][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.09.28-07.05.18:285][943]Cmd: QUIT_EDITOR
+[2025.09.28-07.05.18:285][944]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.09.28-07.05.18:291][944]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.09.28-07.05.18:292][944]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.09.28-07.05.18:292][944]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.09.28-07.05.18:295][944]LogWorld: UWorld::CleanupWorld for TurnBased, bSessionEnded=true, bCleanupResources=true
+[2025.09.28-07.05.18:295][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.28-07.05.18:307][944]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.09.28-07.05.18:308][944]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.09.28-07.05.18:311][944]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.09.28-07.05.18:323][944]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.09.28-07.05.18:323][944]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.09.28-07.05.18:331][944]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.09.28-07.05.18:335][944]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.09.28-07.05.18:335][944]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.09.28-07.05.18:335][944]LogAudio: Display: Audio Device unregistered from world 'TurnBased'.
+[2025.09.28-07.05.18:335][944]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.09.28-07.05.18:336][944]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.09.28-07.05.18:339][944]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.09.28-07.05.18:350][944]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.09.28-07.05.18:350][944]LogAudio: Display: Audio Device Manager Shutdown
+[2025.09.28-07.05.18:355][944]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.09.28-07.05.18:355][944]LogExit: Preparing to exit.
+[2025.09.28-07.05.18:402][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.18:405][944]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.28-07.05.19:678][944]LogEditorDataStorage: Deinitializing
+[2025.09.28-07.05.19:925][944]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.09.28-07.05.19:985][944]LogExit: Editor shut down
+[2025.09.28-07.05.19:996][944]LogExit: Transaction tracking system shut down
+[2025.09.28-07.05.20:508][944]LogExit: Object subsystem successfully closed.
+[2025.09.28-07.05.20:626][944]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.09.28-07.05.20:819][944]LogMemoryProfiler: Shutdown
+[2025.09.28-07.05.20:820][944]LogNetworkingProfiler: Shutdown
+[2025.09.28-07.05.20:820][944]LoadingProfiler: Shutdown
+[2025.09.28-07.05.20:821][944]LogTimingProfiler: Shutdown
+[2025.09.28-07.05.20:826][944]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.09.28-07.05.20:827][944]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.09.28-07.05.21:224][944]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.09.28-07.05.21:254][944]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.09.28-07.05.21:254][944]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8FB01C0D-4534-8828-E83A-8BACC7F59B93%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=4a7daed24711d21b4995a69cc4298b31%7C1724ca4b40714c0597dff15c92a39305%7Cfdd267f4-98ea-4531-a787-4f98f7d15872&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.09.28-07.05.21:792][944]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.09.28-07.05.21:792][944]RenderDocPlugin: plugin has been unloaded.
+[2025.09.28-07.05.21:799][944]LogNFORDenoise: NFORDenoise function shutting down
+[2025.09.28-07.05.21:804][944]LogXGEController: Cleaning working directory: C:/Users/gavin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.09.28-07.05.21:811][944]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.09.28-07.05.21:811][944]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.09.28-07.05.21:811][944]LogPakFile: Destroying PakPlatformFile
+[2025.09.28-07.05.22:507][944]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.09.28-07.05.22:538][944]LogExit: Exiting.
+[2025.09.28-07.05.22:555][944]Log file closed, 09/28/25 03:05:22

@@ -4,7 +4,6 @@
 #include "AFighter.h"
 void AFighter::BeginPlay()
 {
-	Super::BeginPlay();
 	
 }
 
@@ -33,12 +32,116 @@ void AFighter::EndTurn()
 	UE_LOG(LogTemp, Warning, TEXT("Turn ended"));
 }
 
-void AFighter::SendDamage(float Damage, const FString& Type, AFighter *Target)
+void AFighter::SendDamage(float Damage, AFighter *Target)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Sending %f %s damage to target"), Damage, *Type);
+	UE_LOG(LogTemp, Warning, TEXT("Sending %f damage to target"), Damage);
 }
 
-void AFighter::ReceiveDamage(float Damage, const FString& Type)
+void AFighter::ReceiveDamage(float Damage)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Received %f %s damage from source"), Damage, *Type);
+	UE_LOG(LogTemp, Warning, TEXT("Received %f damage from source"), Damage);
+}
+
+float AFighter::GetDefense()
+{
+	return BaseDefense + DefenseBuff;
+}
+
+float AFighter::RollDamage()
+{
+	float Damage = FMath::RandRange(MinDamage, MaxDamage) + AttackBuff;
+	return Damage;
+}
+
+void AFighter::Heal()
+{
+	CurrentHealth = FMath::Clamp(CurrentHealth + BaseHeal, 0.0f, MaxHealth);
+}
+
+void AFighter::Block()
+{
+	DamageReduction = BaseBlock + BlockBuff;
+}
+
+int AFighter::RollToHit()
+{
+	int Roll = FMath::RandRange(1, 20);
+	return Roll + BaseAttack + AttackBuff;
+}
+
+void AFighter::Attack(AFighter *Target)
+{
+	if (RollToHit() >= Target->GetDefense())
+	{
+		SendDamage(RollDamage(), Target);
+		OnHitAttack();
+	}
+	else
+	{
+		OnHitMiss();
+	}
+	OnEndTurn();
+}
+
+void AFighter::AddBuff(float BuffAmount, const FString& stat)
+{
+	if (stat == "Attack")
+	{
+		AttackBuff += BuffAmount;
+	}
+	else if (stat == "Damage")
+	{
+		DamageBuff += BuffAmount;
+	}
+	else if (stat == "Defense")
+	{
+		DefenseBuff += BuffAmount;
+	}
+	else if (stat == "Block")
+	{
+		BlockBuff += BuffAmount;
+	}
+	else if (stat == "Heal")
+	{
+		HealBuff += BuffAmount;
+	}
+}
+
+void AFighter::RemoveBuff(float BuffAmount, const FString& stat)
+{
+	if (stat == "Attack")
+	{
+		AttackBuff -= BuffAmount;
+	}
+	else if (stat == "Damage")
+	{
+		DamageBuff -= BuffAmount;
+	}
+	else if (stat == "Defense")
+	{
+		DefenseBuff -= BuffAmount;
+	}
+	else if (stat == "Block")
+	{
+		BlockBuff -= BuffAmount;
+	}
+	else if (stat == "Heal")
+	{
+		HealBuff -= BuffAmount;
+	}
+}
+
+void AFighter::OnHitAttack_Implementation()
+{
+	// Default implementation does nothing
+}
+
+void AFighter::OnHitMiss_Implementation()
+{
+	// Default implementation does nothing
+}
+
+void AFighter::OnEndTurn_Implementation()
+{
+	// Default implementation does nothing
 }
