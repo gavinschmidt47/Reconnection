@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/WidgetBlueprints/WB_AttackButton.uasset",
+				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/WidgetBlueprints/WB_FIghtMenu.uasset",
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/Reconnection_GameState.uasset",
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/Struct_FighterRolls.uasset",
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/Struct_FighterRoles.uasset",
