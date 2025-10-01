@@ -47,16 +47,10 @@
     <ClCompile Include="..\..\Source\Reconnection\Private\AFighter.cpp">
       <Filter>Source\Reconnection\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Reconnection\Private\PlayerActionComponent.cpp">
-      <Filter>Source\Reconnection\Private</Filter>
-    </ClCompile>
     <Filter Include="Source\Reconnection\Public">
       <UniqueIdentifier>{B8A18F7A-A813-31B2-ADB8-C57A55BE166C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Reconnection\Public\AFighter.h">
-      <Filter>Source\Reconnection\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Reconnection\Public\PlayerActionComponent.h">
       <Filter>Source\Reconnection\Public</Filter>
     </ClInclude>
   </ItemGroup>
