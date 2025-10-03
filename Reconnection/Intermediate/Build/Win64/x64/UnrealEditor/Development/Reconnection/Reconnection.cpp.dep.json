@@ -1,12 +1,21 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< Updated upstream
         "Source": "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\source\\reconnection\\reconnection.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
             "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\definitions.reconnection.h",
             "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\source\\reconnection\\reconnection.h"
+=======
+        "Source": "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\source\\reconnection\\reconnection.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\definitions.reconnection.h",
+            "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\source\\reconnection\\reconnection.h"
+>>>>>>> Stashed changes
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

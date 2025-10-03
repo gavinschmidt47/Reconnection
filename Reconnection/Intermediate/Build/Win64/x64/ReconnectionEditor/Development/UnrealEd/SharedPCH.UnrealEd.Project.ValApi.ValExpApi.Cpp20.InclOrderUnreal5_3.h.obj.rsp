@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 "C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.cpp"
+=======
+"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.cpp"
+>>>>>>> Stashed changes
 /I "."
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/UnrealEd/UHT"
 /I "Programs/UnrealLightmass/Public"
@@ -315,10 +319,17 @@
 /external:I "C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/um"
 /external:I "C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/winrt"
 /Yc"SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h"
+<<<<<<< Updated upstream
 /Fp"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.pch"
 /Fo"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
 /experimental:log "C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.sarif"
 /sourceDependencies "C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.dep.json"
+=======
+/Fp"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.pch"
+/Fo"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
+/experimental:log "C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.sarif"
+/sourceDependencies "C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.dep.json"
+>>>>>>> Stashed changes
 /Zc:inline
 /nologo
 /Oi

@@ -1,6 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< Updated upstream
         "Source": "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.cpp",
         "ProvidedModule": "",
         "Includes": [
@@ -16,6 +17,23 @@
             "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
             "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\misc\\build.h",
             "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\misc\\largeworldcoordinates.h",
+=======
+        "Source": "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h",
+            "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\shareddefinitions.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\editor\\unrealed\\public\\unrealedsharedpch.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\slate\\public\\slatesharedpch.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\coreuobjectsharedpch.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\coresharedpch.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\algo\\reverse.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\coretypes.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\misc\\build.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\misc\\largeworldcoordinates.h",
+>>>>>>> Stashed changes
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.44.35207\\include\\type_traits",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.44.35207\\include\\yvals_core.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.44.35207\\include\\vcruntime.h",
