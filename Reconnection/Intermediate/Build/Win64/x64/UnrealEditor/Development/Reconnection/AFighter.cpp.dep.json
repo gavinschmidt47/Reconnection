@@ -1,23 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-<<<<<<< Updated upstream
-        "Source": "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\source\\reconnection\\private\\afighter.cpp",
+        "Source": "c:\\users\\woyat\\onedrive\\projects\\reconnection\\reconnection\\source\\reconnection\\private\\afighter.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "PCH": "c:\\users\\woyat\\onedrive\\projects\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
-            "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\definitions.reconnection.h",
-            "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\source\\reconnection\\public\\afighter.h",
-            "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\intermediate\\build\\win64\\unrealeditor\\inc\\reconnection\\uht\\afighter.generated.h"
-=======
-        "Source": "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\source\\reconnection\\private\\afighter.cpp",
-        "ProvidedModule": "",
-        "PCH": "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
-        "Includes": [
-            "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\definitions.reconnection.h",
-            "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\source\\reconnection\\public\\afighter.h",
-            "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\unrealeditor\\inc\\reconnection\\uht\\afighter.generated.h"
->>>>>>> Stashed changes
+            "c:\\users\\woyat\\onedrive\\projects\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\definitions.reconnection.h",
+            "c:\\users\\woyat\\onedrive\\projects\\reconnection\\reconnection\\source\\reconnection\\public\\afighter.h",
+            "c:\\users\\woyat\\onedrive\\projects\\reconnection\\reconnection\\intermediate\\build\\win64\\unrealeditor\\inc\\reconnection\\uht\\afighter.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

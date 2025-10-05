@@ -36,21 +36,13 @@
 /FUNCTIONPADMIN:6
 /NOIMPLIB
 /NOEXP
-<<<<<<< Updated upstream
-"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
-"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/Module.Reconnection.gen.cpp.obj"
-"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/Reconnection.cpp.obj"
-"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/AFighter.cpp.obj"
-"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/PerModuleInline.gen.cpp.obj"
-"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/Default.rc2.res"
-=======
-"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
-"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/Module.Reconnection.gen.cpp.obj"
-"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/Reconnection.cpp.obj"
-"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/AFighter.cpp.obj"
-"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/PerModuleInline.gen.cpp.obj"
-"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/Default.rc2.res"
->>>>>>> Stashed changes
+"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/AFighter.gen.cpp.obj"
+"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/Reconnection.init.gen.cpp.obj"
+"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/Reconnection.cpp.obj"
+"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/AFighter.cpp.obj"
+"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/PerModuleInline.gen.cpp.obj"
+"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/UnrealEditor/Development/Reconnection/Default.rc2.res"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib"
 "../Intermediate/Build/Win64/x64/UnrealEditor/Development/CoreUObject/UnrealEditor-CoreUObject.lib"
@@ -80,11 +72,6 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-<<<<<<< Updated upstream
-/OUT:"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Binaries/Win64/UnrealEditor-Reconnection.dll"
-/PDB:"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Binaries/Win64/UnrealEditor-Reconnection.pdb"
-=======
-/OUT:"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Binaries/Win64/UnrealEditor-Reconnection.dll"
-/PDB:"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Binaries/Win64/UnrealEditor-Reconnection.pdb"
->>>>>>> Stashed changes
+/OUT:"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Binaries/Win64/UnrealEditor-Reconnection.dll"
+/PDB:"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Binaries/Win64/UnrealEditor-Reconnection.pdb"
 /ignore:4078

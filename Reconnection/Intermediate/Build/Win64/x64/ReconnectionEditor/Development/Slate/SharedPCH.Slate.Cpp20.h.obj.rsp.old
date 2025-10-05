@@ -1,4 +1,8 @@
-"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp"
+<<<<<<< Updated upstream
+"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp"
+=======
+"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp"
+>>>>>>> Stashed changes
 /I "."
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/Slate/UHT"
 /I "Runtime/Slate/Public"
@@ -39,10 +43,17 @@
 /external:I "C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/um"
 /external:I "C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/winrt"
 /Yc"SharedPCH.Slate.Cpp20.h"
-/Fp"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.pch"
-/Fo"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.obj"
-/experimental:log "C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.sarif"
-/sourceDependencies "C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.dep.json"
+<<<<<<< Updated upstream
+/Fp"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.pch"
+/Fo"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.obj"
+/experimental:log "C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.sarif"
+/sourceDependencies "C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.dep.json"
+=======
+/Fp"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.pch"
+/Fo"C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.obj"
+/experimental:log "C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.sarif"
+/sourceDependencies "C:/Users/danie/OneDrive/Desktop/Reconnection_Game/Reconnection/Reconnection/Intermediate/Build/Win64/x64/ReconnectionEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.dep.json"
+>>>>>>> Stashed changes
 /Zc:inline
 /nologo
 /Oi

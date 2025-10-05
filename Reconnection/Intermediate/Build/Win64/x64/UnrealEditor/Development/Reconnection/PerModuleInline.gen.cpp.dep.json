@@ -1,21 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-<<<<<<< Updated upstream
-        "Source": "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\permoduleinline.gen.cpp",
+        "Source": "c:\\users\\woyat\\onedrive\\projects\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\permoduleinline.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "PCH": "c:\\users\\woyat\\onedrive\\projects\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
-            "c:\\users\\dmd24\\documents\\github\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\definitions.reconnection.h",
-            "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
-=======
-        "Source": "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\permoduleinline.gen.cpp",
-        "ProvidedModule": "",
-        "PCH": "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\reconnectioneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
-        "Includes": [
-            "c:\\users\\danie\\onedrive\\desktop\\reconnection_game\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\definitions.reconnection.h",
+            "c:\\users\\woyat\\onedrive\\projects\\reconnection\\reconnection\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\reconnection\\definitions.reconnection.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
->>>>>>> Stashed changes
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

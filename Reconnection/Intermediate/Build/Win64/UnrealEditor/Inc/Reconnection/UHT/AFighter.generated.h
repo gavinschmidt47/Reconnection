@@ -19,8 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AFighter;
 
 // ********** Begin Class AFighter *****************************************************************
-<<<<<<< Updated upstream
-#define FID_Reconnection_Source_Reconnection_Public_AFighter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execAttack); \
 	DECLARE_FUNCTION(execBlock); \
 	DECLARE_FUNCTION(execRemoveBuff); \
@@ -29,9 +28,6 @@ class AFighter;
 	DECLARE_FUNCTION(execHeal); \
 	DECLARE_FUNCTION(execRollDamage); \
 	DECLARE_FUNCTION(execGetDefense); \
-=======
-#define FID_Users_danie_OneDrive_Desktop_Reconnection_Game_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
->>>>>>> Stashed changes
 	DECLARE_FUNCTION(execReceiveDamage); \
 	DECLARE_FUNCTION(execSendDamage); \
 	DECLARE_FUNCTION(execEndTurn); \
@@ -41,14 +37,10 @@ class AFighter;
 	DECLARE_FUNCTION(execOnHitAttack);
 
 
-#define FID_Reconnection_Source_Reconnection_Public_AFighter_h_12_CALLBACK_WRAPPERS
+#define FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_CALLBACK_WRAPPERS
 RECONNECTION_API UClass* Z_Construct_UClass_AFighter_NoRegister();
 
-<<<<<<< Updated upstream
-#define FID_Reconnection_Source_Reconnection_Public_AFighter_h_12_INCLASS_NO_PURE_DECLS \
-=======
-#define FID_Users_danie_OneDrive_Desktop_Reconnection_Game_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_INCLASS_NO_PURE_DECLS \
->>>>>>> Stashed changes
+#define FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFighter(); \
 	friend struct Z_Construct_UClass_AFighter_Statics; \
@@ -59,11 +51,7 @@ public: \
 	DECLARE_SERIALIZER(AFighter)
 
 
-<<<<<<< Updated upstream
-#define FID_Reconnection_Source_Reconnection_Public_AFighter_h_12_ENHANCED_CONSTRUCTORS \
-=======
-#define FID_Users_danie_OneDrive_Desktop_Reconnection_Game_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_ENHANCED_CONSTRUCTORS \
->>>>>>> Stashed changes
+#define FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AFighter(AFighter&&) = delete; \
 	AFighter(const AFighter&) = delete; \
@@ -73,24 +61,14 @@ public: \
 	NO_API virtual ~AFighter();
 
 
-<<<<<<< Updated upstream
-#define FID_Reconnection_Source_Reconnection_Public_AFighter_h_9_PROLOG
-#define FID_Reconnection_Source_Reconnection_Public_AFighter_h_12_GENERATED_BODY \
+#define FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_9_PROLOG
+#define FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Reconnection_Source_Reconnection_Public_AFighter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Reconnection_Source_Reconnection_Public_AFighter_h_12_CALLBACK_WRAPPERS \
-	FID_Reconnection_Source_Reconnection_Public_AFighter_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Reconnection_Source_Reconnection_Public_AFighter_h_12_ENHANCED_CONSTRUCTORS \
-=======
-#define FID_Users_danie_OneDrive_Desktop_Reconnection_Game_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_9_PROLOG
-#define FID_Users_danie_OneDrive_Desktop_Reconnection_Game_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_GENERATED_BODY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_Users_danie_OneDrive_Desktop_Reconnection_Game_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_danie_OneDrive_Desktop_Reconnection_Game_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Users_danie_OneDrive_Desktop_Reconnection_Game_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_ENHANCED_CONSTRUCTORS \
->>>>>>> Stashed changes
+	FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_CALLBACK_WRAPPERS \
+	FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_INCLASS_NO_PURE_DECLS \
+	FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -100,10 +78,6 @@ class AFighter;
 // ********** End Class AFighter *******************************************************************
 
 #undef CURRENT_FILE_ID
-<<<<<<< Updated upstream
-#define CURRENT_FILE_ID FID_Reconnection_Source_Reconnection_Public_AFighter_h
-=======
-#define CURRENT_FILE_ID FID_Users_danie_OneDrive_Desktop_Reconnection_Game_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h
->>>>>>> Stashed changes
+#define CURRENT_FILE_ID FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
