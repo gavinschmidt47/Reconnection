@@ -2,6 +2,6 @@
 	"BuildId": "43139311",
 	"Modules": 
 	{
-		"Reconnection": "UnrealEditor-Reconnection-8504.dll"
+		"Reconnection": "UnrealEditor-Reconnection.dll"
 	}
 }
