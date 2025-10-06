@@ -44,12 +44,18 @@
     <Filter Include="Source\Reconnection\Private">
       <UniqueIdentifier>{C460ED18-A1D4-35FE-94B5-90A222DB4D4F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Reconnection\Private\AEnemy.cpp">
+      <Filter>Source\Reconnection\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Reconnection\Private\AFighter.cpp">
       <Filter>Source\Reconnection\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Reconnection\Public">
       <UniqueIdentifier>{B8A18F7A-A813-31B2-ADB8-C57A55BE166C}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Reconnection\Public\AEnemy.h">
+      <Filter>Source\Reconnection\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Reconnection\Public\AFighter.h">
       <Filter>Source\Reconnection\Public</Filter>
     </ClInclude>

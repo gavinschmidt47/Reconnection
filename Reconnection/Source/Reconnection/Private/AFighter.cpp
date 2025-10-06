@@ -14,32 +14,35 @@ AFighter::AFighter()
 	PrimaryActorTick.bCanEverTick = false;
 
 	bIsTurn = false;
-
-	InitiativeScore = 0;
 }
 
 void AFighter::StartTurn()
 {
 	bIsTurn = true;
 
-	UE_LOG(LogTemp, Warning, TEXT("Turn started"));
+	OnStartTurn();
 }
 
 void AFighter::EndTurn()
 {
 	bIsTurn = false;
 
-	UE_LOG(LogTemp, Warning, TEXT("Turn ended"));
+	OnEndTurn();
 }
 
 void AFighter::SendDamage(float Damage, AFighter *Target)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Sending %f damage to target"), Damage);
+	Target->ReceiveDamage(Damage);
 }
 
 void AFighter::ReceiveDamage(float Damage)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Received %f damage from source"), Damage);
+	CurrentHealth = FMath::Clamp(CurrentHealth - (Damage - DamageReduction), 0.0f, MaxHealth);
+	if (CurrentHealth <= 0)
+	{
+		// Handle death logic here
+		UE_LOG(LogTemp, Warning, TEXT("Fighter has been defeated"));
+	}
 }
 
 float AFighter::GetDefense()
@@ -129,6 +132,16 @@ void AFighter::RemoveBuff(float BuffAmount, const FString& stat)
 	{
 		HealBuff -= BuffAmount;
 	}
+}
+
+void AFighter::Die()
+{
+	// Handle death logic here
+}
+
+void AFighter::OnStartTurn_Implementation()
+{
+	// Default implementation does nothing
 }
 
 void AFighter::OnHitAttack_Implementation()
