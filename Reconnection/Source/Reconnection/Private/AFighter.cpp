@@ -30,17 +30,17 @@ void AFighter::EndTurn()
 	OnEndTurn();
 }
 
-void AFighter::SendDamage(float Damage, AFighter *Target)
+void AFighter::SendDamage_Implementation(float Damage, AFighter *Target)
 {
 	Target->ReceiveDamage(Damage);
 }
 
-void AFighter::ReceiveDamage(float Damage)
+void AFighter::ReceiveDamage_Implementation(float Damage)
 {
 	CurrentHealth = FMath::Clamp(CurrentHealth - (Damage - DamageReduction), 0.0f, MaxHealth);
 	if (CurrentHealth <= 0)
 	{
-		// Handle death logic here
+		Die();
 		UE_LOG(LogTemp, Warning, TEXT("Fighter has been defeated"));
 	}
 }

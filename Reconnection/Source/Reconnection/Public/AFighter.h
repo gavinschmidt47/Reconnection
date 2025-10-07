@@ -94,11 +94,13 @@ public:
 	UFUNCTION(BlueprintCallable, Category="Turn Management")
 	virtual void EndTurn();
 
-	UFUNCTION(BlueprintCallable, Category = "Attacking")
+	UFUNCTION(BlueprintNativeEvent)
 	void SendDamage(float Damage, AFighter *Target);
+	void SendDamage_Implementation(float Damage, AFighter* Target);
 
-	UFUNCTION(BlueprintCallable, Category = "Defending")
-	virtual void ReceiveDamage(float Damage);
+	UFUNCTION(BlueprintNativeEvent)
+	void ReceiveDamage(float Damage);
+	void ReceiveDamage_Implementation(float Damage);
 
 	UFUNCTION(BlueprintCallable, Category = "Defending")
 	virtual float GetDefense();
