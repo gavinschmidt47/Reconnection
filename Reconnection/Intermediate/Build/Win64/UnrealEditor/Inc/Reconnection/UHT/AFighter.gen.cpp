@@ -15,8 +15,188 @@ void EmptyLinkFunctionForGeneratedCodeAFighter() {}
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 RECONNECTION_API UClass* Z_Construct_UClass_AFighter();
 RECONNECTION_API UClass* Z_Construct_UClass_AFighter_NoRegister();
+RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature();
+RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature();
+RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature();
+RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature();
 UPackage* Z_Construct_UPackage__Script_Reconnection();
 // ********** End Cross Module References **********************************************************
+
+// ********** Begin Delegate FOnStartTurn **********************************************************
+struct Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics
+{
+	struct _Script_Reconnection_eventOnStartTurn_Parms
+	{
+		AFighter* Fighter;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/AFighter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Fighter;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::NewProp_Fighter = { "Fighter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_Reconnection_eventOnStartTurn_Parms, Fighter), Z_Construct_UClass_AFighter_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::NewProp_Fighter,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_Reconnection, nullptr, "OnStartTurn__DelegateSignature", Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::_Script_Reconnection_eventOnStartTurn_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::_Script_Reconnection_eventOnStartTurn_Parms) < MAX_uint16);
+UFunction* Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FOnStartTurn_DelegateWrapper(const FMulticastScriptDelegate& OnStartTurn, AFighter* Fighter)
+{
+	struct _Script_Reconnection_eventOnStartTurn_Parms
+	{
+		AFighter* Fighter;
+	};
+	_Script_Reconnection_eventOnStartTurn_Parms Parms;
+	Parms.Fighter=Fighter;
+	OnStartTurn.ProcessMulticastDelegate<UObject>(&Parms);
+}
+// ********** End Delegate FOnStartTurn ************************************************************
+
+// ********** Begin Delegate FOnHitAttack **********************************************************
+struct Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics
+{
+	struct _Script_Reconnection_eventOnHitAttack_Parms
+	{
+		AFighter* Fighter;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/AFighter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Fighter;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::NewProp_Fighter = { "Fighter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_Reconnection_eventOnHitAttack_Parms, Fighter), Z_Construct_UClass_AFighter_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::NewProp_Fighter,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_Reconnection, nullptr, "OnHitAttack__DelegateSignature", Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::_Script_Reconnection_eventOnHitAttack_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::_Script_Reconnection_eventOnHitAttack_Parms) < MAX_uint16);
+UFunction* Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FOnHitAttack_DelegateWrapper(const FMulticastScriptDelegate& OnHitAttack, AFighter* Fighter)
+{
+	struct _Script_Reconnection_eventOnHitAttack_Parms
+	{
+		AFighter* Fighter;
+	};
+	_Script_Reconnection_eventOnHitAttack_Parms Parms;
+	Parms.Fighter=Fighter;
+	OnHitAttack.ProcessMulticastDelegate<UObject>(&Parms);
+}
+// ********** End Delegate FOnHitAttack ************************************************************
+
+// ********** Begin Delegate FOnHitMiss ************************************************************
+struct Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics
+{
+	struct _Script_Reconnection_eventOnHitMiss_Parms
+	{
+		AFighter* Fighter;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/AFighter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Fighter;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::NewProp_Fighter = { "Fighter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_Reconnection_eventOnHitMiss_Parms, Fighter), Z_Construct_UClass_AFighter_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::NewProp_Fighter,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_Reconnection, nullptr, "OnHitMiss__DelegateSignature", Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::_Script_Reconnection_eventOnHitMiss_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::_Script_Reconnection_eventOnHitMiss_Parms) < MAX_uint16);
+UFunction* Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FOnHitMiss_DelegateWrapper(const FMulticastScriptDelegate& OnHitMiss, AFighter* Fighter)
+{
+	struct _Script_Reconnection_eventOnHitMiss_Parms
+	{
+		AFighter* Fighter;
+	};
+	_Script_Reconnection_eventOnHitMiss_Parms Parms;
+	Parms.Fighter=Fighter;
+	OnHitMiss.ProcessMulticastDelegate<UObject>(&Parms);
+}
+// ********** End Delegate FOnHitMiss **************************************************************
+
+// ********** Begin Delegate FOnEndTurn ************************************************************
+struct Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics
+{
+	struct _Script_Reconnection_eventOnEndTurn_Parms
+	{
+		AFighter* Fighter;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/AFighter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Fighter;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::NewProp_Fighter = { "Fighter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_Reconnection_eventOnEndTurn_Parms, Fighter), Z_Construct_UClass_AFighter_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::NewProp_Fighter,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_Reconnection, nullptr, "OnEndTurn__DelegateSignature", Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::_Script_Reconnection_eventOnEndTurn_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::_Script_Reconnection_eventOnEndTurn_Parms) < MAX_uint16);
+UFunction* Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FOnEndTurn_DelegateWrapper(const FMulticastScriptDelegate& OnEndTurn, AFighter* Fighter)
+{
+	struct _Script_Reconnection_eventOnEndTurn_Parms
+	{
+		AFighter* Fighter;
+	};
+	_Script_Reconnection_eventOnEndTurn_Parms Parms;
+	Parms.Fighter=Fighter;
+	OnEndTurn.ProcessMulticastDelegate<UObject>(&Parms);
+}
+// ********** End Delegate FOnEndTurn **************************************************************
 
 // ********** Begin Class AFighter Function AddBuff ************************************************
 struct Z_Construct_UFunction_AFighter_AddBuff_Statics
@@ -280,174 +460,6 @@ DEFINE_FUNCTION(AFighter::execHeal)
 }
 // ********** End Class AFighter Function Heal *****************************************************
 
-// ********** Begin Class AFighter Function OnEndTurn **********************************************
-static FName NAME_AFighter_OnEndTurn = FName(TEXT("OnEndTurn"));
-void AFighter::OnEndTurn()
-{
-	UFunction* Func = FindFunctionChecked(NAME_AFighter_OnEndTurn);
-	if (!Func->GetOwnerClass()->HasAnyClassFlags(CLASS_Native))
-	{
-	ProcessEvent(Func,NULL);
-	}
-	else
-	{
-		OnEndTurn_Implementation();
-	}
-}
-struct Z_Construct_UFunction_AFighter_OnEndTurn_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/AFighter.h" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFighter_OnEndTurn_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFighter, nullptr, "OnEndTurn", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFighter_OnEndTurn_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFighter_OnEndTurn_Statics::Function_MetaDataParams)},  };
-UFunction* Z_Construct_UFunction_AFighter_OnEndTurn()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFighter_OnEndTurn_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(AFighter::execOnEndTurn)
-{
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->OnEndTurn_Implementation();
-	P_NATIVE_END;
-}
-// ********** End Class AFighter Function OnEndTurn ************************************************
-
-// ********** Begin Class AFighter Function OnHitAttack ********************************************
-static FName NAME_AFighter_OnHitAttack = FName(TEXT("OnHitAttack"));
-void AFighter::OnHitAttack()
-{
-	UFunction* Func = FindFunctionChecked(NAME_AFighter_OnHitAttack);
-	if (!Func->GetOwnerClass()->HasAnyClassFlags(CLASS_Native))
-	{
-	ProcessEvent(Func,NULL);
-	}
-	else
-	{
-		OnHitAttack_Implementation();
-	}
-}
-struct Z_Construct_UFunction_AFighter_OnHitAttack_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/AFighter.h" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFighter_OnHitAttack_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFighter, nullptr, "OnHitAttack", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFighter_OnHitAttack_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFighter_OnHitAttack_Statics::Function_MetaDataParams)},  };
-UFunction* Z_Construct_UFunction_AFighter_OnHitAttack()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFighter_OnHitAttack_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(AFighter::execOnHitAttack)
-{
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->OnHitAttack_Implementation();
-	P_NATIVE_END;
-}
-// ********** End Class AFighter Function OnHitAttack **********************************************
-
-// ********** Begin Class AFighter Function OnHitMiss **********************************************
-static FName NAME_AFighter_OnHitMiss = FName(TEXT("OnHitMiss"));
-void AFighter::OnHitMiss()
-{
-	UFunction* Func = FindFunctionChecked(NAME_AFighter_OnHitMiss);
-	if (!Func->GetOwnerClass()->HasAnyClassFlags(CLASS_Native))
-	{
-	ProcessEvent(Func,NULL);
-	}
-	else
-	{
-		OnHitMiss_Implementation();
-	}
-}
-struct Z_Construct_UFunction_AFighter_OnHitMiss_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/AFighter.h" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFighter_OnHitMiss_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFighter, nullptr, "OnHitMiss", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFighter_OnHitMiss_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFighter_OnHitMiss_Statics::Function_MetaDataParams)},  };
-UFunction* Z_Construct_UFunction_AFighter_OnHitMiss()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFighter_OnHitMiss_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(AFighter::execOnHitMiss)
-{
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->OnHitMiss_Implementation();
-	P_NATIVE_END;
-}
-// ********** End Class AFighter Function OnHitMiss ************************************************
-
-// ********** Begin Class AFighter Function OnStartTurn ********************************************
-static FName NAME_AFighter_OnStartTurn = FName(TEXT("OnStartTurn"));
-void AFighter::OnStartTurn()
-{
-	UFunction* Func = FindFunctionChecked(NAME_AFighter_OnStartTurn);
-	if (!Func->GetOwnerClass()->HasAnyClassFlags(CLASS_Native))
-	{
-	ProcessEvent(Func,NULL);
-	}
-	else
-	{
-		OnStartTurn_Implementation();
-	}
-}
-struct Z_Construct_UFunction_AFighter_OnStartTurn_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/AFighter.h" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFighter_OnStartTurn_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFighter, nullptr, "OnStartTurn", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFighter_OnStartTurn_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFighter_OnStartTurn_Statics::Function_MetaDataParams)},  };
-UFunction* Z_Construct_UFunction_AFighter_OnStartTurn()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFighter_OnStartTurn_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(AFighter::execOnStartTurn)
-{
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->OnStartTurn_Implementation();
-	P_NATIVE_END;
-}
-// ********** End Class AFighter Function OnStartTurn **********************************************
-
 // ********** Begin Class AFighter Function ReceiveDamage ******************************************
 struct Fighter_eventReceiveDamage_Parms
 {
@@ -709,13 +721,7 @@ struct Z_Construct_UFunction_AFighter_StartTurn_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Turn Management" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "//Function to start this fighter's turn\n" },
-#endif
 		{ "ModuleRelativePath", "Public/AFighter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Function to start this fighter's turn" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -751,10 +757,6 @@ void AFighter::StaticRegisterNativesAFighter()
 		{ "EndTurn", &AFighter::execEndTurn },
 		{ "GetDefense", &AFighter::execGetDefense },
 		{ "Heal", &AFighter::execHeal },
-		{ "OnEndTurn", &AFighter::execOnEndTurn },
-		{ "OnHitAttack", &AFighter::execOnHitAttack },
-		{ "OnHitMiss", &AFighter::execOnHitMiss },
-		{ "OnStartTurn", &AFighter::execOnStartTurn },
 		{ "ReceiveDamage", &AFighter::execReceiveDamage },
 		{ "RemoveBuff", &AFighter::execRemoveBuff },
 		{ "RollDamage", &AFighter::execRollDamage },
@@ -886,6 +888,22 @@ struct Z_Construct_UClass_AFighter_Statics
 		{ "Category", "Buffs" },
 		{ "ModuleRelativePath", "Public/AFighter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnStartTurn_MetaData[] = {
+		{ "Category", "Events" },
+		{ "ModuleRelativePath", "Public/AFighter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnHitAttack_MetaData[] = {
+		{ "Category", "Events" },
+		{ "ModuleRelativePath", "Public/AFighter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnHitMiss_MetaData[] = {
+		{ "Category", "Events" },
+		{ "ModuleRelativePath", "Public/AFighter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnEndTurn_MetaData[] = {
+		{ "Category", "Events" },
+		{ "ModuleRelativePath", "Public/AFighter.h" },
+	};
 #endif // WITH_METADATA
 	static void NewProp_bIsTurn_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bIsTurn;
@@ -905,6 +923,10 @@ struct Z_Construct_UClass_AFighter_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_BaseHeal;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_HealBuff;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_DamageReduction;
+	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnStartTurn;
+	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnHitAttack;
+	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnHitMiss;
+	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnEndTurn;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -915,16 +937,12 @@ struct Z_Construct_UClass_AFighter_Statics
 		{ &Z_Construct_UFunction_AFighter_EndTurn, "EndTurn" }, // 954514771
 		{ &Z_Construct_UFunction_AFighter_GetDefense, "GetDefense" }, // 2753655979
 		{ &Z_Construct_UFunction_AFighter_Heal, "Heal" }, // 2140219754
-		{ &Z_Construct_UFunction_AFighter_OnEndTurn, "OnEndTurn" }, // 1694515773
-		{ &Z_Construct_UFunction_AFighter_OnHitAttack, "OnHitAttack" }, // 1468625506
-		{ &Z_Construct_UFunction_AFighter_OnHitMiss, "OnHitMiss" }, // 2112308085
-		{ &Z_Construct_UFunction_AFighter_OnStartTurn, "OnStartTurn" }, // 2245558566
 		{ &Z_Construct_UFunction_AFighter_ReceiveDamage, "ReceiveDamage" }, // 2506525884
 		{ &Z_Construct_UFunction_AFighter_RemoveBuff, "RemoveBuff" }, // 1550616034
 		{ &Z_Construct_UFunction_AFighter_RollDamage, "RollDamage" }, // 2646677471
 		{ &Z_Construct_UFunction_AFighter_RollToHit, "RollToHit" }, // 2854575469
 		{ &Z_Construct_UFunction_AFighter_SendDamage, "SendDamage" }, // 3665401799
-		{ &Z_Construct_UFunction_AFighter_StartTurn, "StartTurn" }, // 1420685949
+		{ &Z_Construct_UFunction_AFighter_StartTurn, "StartTurn" }, // 251893210
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -953,6 +971,10 @@ const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFighter_Static
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFighter_Statics::NewProp_BaseHeal = { "BaseHeal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFighter, BaseHeal), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BaseHeal_MetaData), NewProp_BaseHeal_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFighter_Statics::NewProp_HealBuff = { "HealBuff", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFighter, HealBuff), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HealBuff_MetaData), NewProp_HealBuff_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFighter_Statics::NewProp_DamageReduction = { "DamageReduction", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFighter, DamageReduction), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DamageReduction_MetaData), NewProp_DamageReduction_MetaData) };
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AFighter_Statics::NewProp_OnStartTurn = { "OnStartTurn", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFighter, OnStartTurn), Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnStartTurn_MetaData), NewProp_OnStartTurn_MetaData) }; // 927045633
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AFighter_Statics::NewProp_OnHitAttack = { "OnHitAttack", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFighter, OnHitAttack), Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnHitAttack_MetaData), NewProp_OnHitAttack_MetaData) }; // 3317874133
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AFighter_Statics::NewProp_OnHitMiss = { "OnHitMiss", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFighter, OnHitMiss), Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnHitMiss_MetaData), NewProp_OnHitMiss_MetaData) }; // 674922657
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AFighter_Statics::NewProp_OnEndTurn = { "OnEndTurn", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFighter, OnEndTurn), Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnEndTurn_MetaData), NewProp_OnEndTurn_MetaData) }; // 2077864733
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFighter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_bIsTurn,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_InitiativeScore,
@@ -971,6 +993,10 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFighter_
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_BaseHeal,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_HealBuff,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_DamageReduction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_OnStartTurn,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_OnHitAttack,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_OnHitMiss,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFighter_Statics::NewProp_OnEndTurn,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFighter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AFighter_Statics::DependentSingletons[])() = {
@@ -1006,14 +1032,14 @@ AFighter::~AFighter() {}
 // ********** End Class AFighter *******************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h__Script_Reconnection_Statics
+struct Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h__Script_Reconnection_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFighter, AFighter::StaticClass, TEXT("AFighter"), &Z_Registration_Info_UClass_AFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFighter), 1792147006U) },
+		{ Z_Construct_UClass_AFighter, AFighter::StaticClass, TEXT("AFighter"), &Z_Registration_Info_UClass_AFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFighter), 4228664863U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h__Script_Reconnection_4090466558(TEXT("/Script/Reconnection"),
-	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h__Script_Reconnection_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h__Script_Reconnection_209879882(TEXT("/Script/Reconnection"),
+	Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_AFighter_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

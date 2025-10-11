@@ -20,14 +20,14 @@ void AFighter::StartTurn()
 {
 	bIsTurn = true;
 
-	OnStartTurn();
+	OnStartTurn.Broadcast(this);
 }
 
 void AFighter::EndTurn()
 {
 	bIsTurn = false;
 
-	OnEndTurn();
+	OnEndTurn.Broadcast(this);
 }
 
 void AFighter::SendDamage_Implementation(float Damage, AFighter *Target)
@@ -77,13 +77,13 @@ void AFighter::Attack(AFighter *Target)
 	if (RollToHit() >= Target->GetDefense())
 	{
 		SendDamage(RollDamage(), Target);
-		OnHitAttack();
+		OnHitAttack.Broadcast(Target);
 	}
 	else
 	{
-		OnHitMiss();
+		OnHitMiss.Broadcast(Target);
 	}
-	OnEndTurn();
+	EndTurn();
 }
 
 void AFighter::AddBuff(float BuffAmount, const FString& stat)
@@ -137,24 +137,4 @@ void AFighter::RemoveBuff(float BuffAmount, const FString& stat)
 void AFighter::Die()
 {
 	// Handle death logic here
-}
-
-void AFighter::OnStartTurn_Implementation()
-{
-	// Default implementation does nothing
-}
-
-void AFighter::OnHitAttack_Implementation()
-{
-	// Default implementation does nothing
-}
-
-void AFighter::OnHitMiss_Implementation()
-{
-	// Default implementation does nothing
-}
-
-void AFighter::OnEndTurn_Implementation()
-{
-	// Default implementation does nothing
 }

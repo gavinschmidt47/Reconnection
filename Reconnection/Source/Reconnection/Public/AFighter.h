@@ -6,6 +6,12 @@
 #include "GameFramework/Actor.h"
 #include "AFighter.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnStartTurn, AFighter*, Fighter);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHitAttack, AFighter*, Fighter);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHitMiss, AFighter*, Fighter);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnEndTurn, AFighter*, Fighter);
+
+
 UCLASS()
 class RECONNECTION_API AFighter : public AActor
 {
@@ -70,23 +76,18 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
 	float DamageReduction;
 
-	UFUNCTION(BlueprintNativeEvent)
-	void OnStartTurn();
-	void OnStartTurn_Implementation();
+	UPROPERTY(BlueprintAssignable, Category = "Events")
+	FOnStartTurn OnStartTurn;
 
-	UFUNCTION(BlueprintNativeEvent)
-	void OnHitAttack();
-	void OnHitAttack_Implementation();
+	UPROPERTY(BlueprintAssignable, Category = "Events")
+	FOnHitAttack OnHitAttack;
 
-	UFUNCTION(BlueprintNativeEvent)
-	void OnHitMiss();
-	void OnHitMiss_Implementation();
+	UPROPERTY(BlueprintAssignable, Category = "Events")
+	FOnHitMiss OnHitMiss;
 
-	UFUNCTION(BlueprintNativeEvent)
-	void OnEndTurn();
-	void OnEndTurn_Implementation();
+	UPROPERTY(BlueprintAssignable, Category = "Events")
+	FOnEndTurn OnEndTurn;
 
-	//Function to start this fighter's turn
 	UFUNCTION(BlueprintCallable, Category="Turn Management")
 	virtual void StartTurn();
 
