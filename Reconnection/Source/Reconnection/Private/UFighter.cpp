@@ -53,12 +53,22 @@ float UFighter::RollDamage()
 	return Damage;
 }
 
-void UFighter::Heal()
+void UFighter::CallHeal()
+{
+	Heal();
+}
+
+void UFighter::CallBlock()
+{
+	Block();
+}
+
+void UFighter::Heal_Implementation()
 {
 	CurrentHealth = FMath::Clamp(CurrentHealth + BaseHeal, 0.0f, MaxHealth);
 }
 
-void UFighter::Block()
+void UFighter::Block_Implementation()
 {
 	DamageReduction = BaseBlock + BlockBuff;
 }

@@ -12,7 +12,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHitMiss, UFighter*, Fighter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnEndTurn, UFighter*, Fighter);
 
 
-UCLASS(ClassGroup=(Fighters), meta=(BlueprintSpawnableComponent))
+UCLASS(Blueprintable, BlueprintType)
 class RECONNECTION_API UFighter : public UActorComponent
 {
 	GENERATED_BODY()
@@ -110,7 +110,14 @@ public:
 	virtual float RollDamage();
 
 	UFUNCTION(BlueprintCallable, Category = "Attacking")
-	virtual void Heal();
+	void CallHeal();
+
+	UFUNCTION(BlueprintCallable, Category = "Attacking")
+	void CallBlock();
+
+	UFUNCTION(BlueprintNativeEvent)
+	void Heal();
+	void Heal_Implementation();
 
 	UFUNCTION(BlueprintCallable, Category = "Attacking")
 	virtual int RollToHit();
@@ -121,8 +128,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Attacking")
 	virtual void RemoveBuff(float BuffAmount, const FString& Stat);
 
-	UFUNCTION(BlueprintCallable, Category = "Attacking")
-	virtual void Block();
+	UFUNCTION(BlueprintNativeEvent)
+	void Block();
+	void Block_Implementation();
 
 	UFUNCTION(BlueprintCallable, Category = "Attacking")
 	virtual void Attack(UFighter* Target);

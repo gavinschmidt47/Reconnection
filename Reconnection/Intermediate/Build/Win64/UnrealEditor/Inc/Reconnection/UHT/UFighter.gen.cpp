@@ -308,17 +308,29 @@ DEFINE_FUNCTION(UFighter::execAttack)
 // ********** End Class UFighter Function Attack ***************************************************
 
 // ********** Begin Class UFighter Function Block **************************************************
+static FName NAME_UFighter_Block = FName(TEXT("Block"));
+void UFighter::Block()
+{
+	UFunction* Func = FindFunctionChecked(NAME_UFighter_Block);
+	if (!Func->GetOwnerClass()->HasAnyClassFlags(CLASS_Native))
+	{
+	ProcessEvent(Func,NULL);
+	}
+	else
+	{
+		Block_Implementation();
+	}
+}
 struct Z_Construct_UFunction_UFighter_Block_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "Attacking" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFighter_Block_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFighter, nullptr, "Block", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFighter_Block_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFighter_Block_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFighter_Block_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFighter, nullptr, "Block", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFighter_Block_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFighter_Block_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_UFighter_Block()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -332,10 +344,70 @@ DEFINE_FUNCTION(UFighter::execBlock)
 {
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->Block();
+	P_THIS->Block_Implementation();
 	P_NATIVE_END;
 }
 // ********** End Class UFighter Function Block ****************************************************
+
+// ********** Begin Class UFighter Function CallBlock **********************************************
+struct Z_Construct_UFunction_UFighter_CallBlock_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Attacking" },
+		{ "ModuleRelativePath", "Public/UFighter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFighter_CallBlock_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFighter, nullptr, "CallBlock", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFighter_CallBlock_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFighter_CallBlock_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_UFighter_CallBlock()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UFighter_CallBlock_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UFighter::execCallBlock)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->CallBlock();
+	P_NATIVE_END;
+}
+// ********** End Class UFighter Function CallBlock ************************************************
+
+// ********** Begin Class UFighter Function CallHeal ***********************************************
+struct Z_Construct_UFunction_UFighter_CallHeal_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Attacking" },
+		{ "ModuleRelativePath", "Public/UFighter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFighter_CallHeal_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFighter, nullptr, "CallHeal", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFighter_CallHeal_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFighter_CallHeal_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_UFighter_CallHeal()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UFighter_CallHeal_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UFighter::execCallHeal)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->CallHeal();
+	P_NATIVE_END;
+}
+// ********** End Class UFighter Function CallHeal *************************************************
 
 // ********** Begin Class UFighter Function Die ****************************************************
 struct Z_Construct_UFunction_UFighter_Die_Statics
@@ -446,17 +518,29 @@ DEFINE_FUNCTION(UFighter::execGetDefense)
 // ********** End Class UFighter Function GetDefense ***********************************************
 
 // ********** Begin Class UFighter Function Heal ***************************************************
+static FName NAME_UFighter_Heal = FName(TEXT("Heal"));
+void UFighter::Heal()
+{
+	UFunction* Func = FindFunctionChecked(NAME_UFighter_Heal);
+	if (!Func->GetOwnerClass()->HasAnyClassFlags(CLASS_Native))
+	{
+	ProcessEvent(Func,NULL);
+	}
+	else
+	{
+		Heal_Implementation();
+	}
+}
 struct Z_Construct_UFunction_UFighter_Heal_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "Attacking" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFighter_Heal_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFighter, nullptr, "Heal", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFighter_Heal_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFighter_Heal_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFighter_Heal_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFighter, nullptr, "Heal", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFighter_Heal_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFighter_Heal_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_UFighter_Heal()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -470,7 +554,7 @@ DEFINE_FUNCTION(UFighter::execHeal)
 {
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->Heal();
+	P_THIS->Heal_Implementation();
 	P_NATIVE_END;
 }
 // ********** End Class UFighter Function Heal *****************************************************
@@ -771,6 +855,8 @@ void UFighter::StaticRegisterNativesUFighter()
 		{ "AddBuff", &UFighter::execAddBuff },
 		{ "Attack", &UFighter::execAttack },
 		{ "Block", &UFighter::execBlock },
+		{ "CallBlock", &UFighter::execCallBlock },
+		{ "CallHeal", &UFighter::execCallHeal },
 		{ "Die", &UFighter::execDie },
 		{ "EndTurn", &UFighter::execEndTurn },
 		{ "GetDefense", &UFighter::execGetDefense },
@@ -817,9 +903,9 @@ struct Z_Construct_UClass_UFighter_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-		{ "BlueprintSpawnableComponent", "" },
-		{ "ClassGroupNames", "Fighters" },
+		{ "BlueprintType", "true" },
 		{ "IncludePath", "UFighter.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsTurn_MetaData[] = {
@@ -952,11 +1038,13 @@ struct Z_Construct_UClass_UFighter_Statics
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_UFighter_AddBuff, "AddBuff" }, // 4265217981
 		{ &Z_Construct_UFunction_UFighter_Attack, "Attack" }, // 1375911308
-		{ &Z_Construct_UFunction_UFighter_Block, "Block" }, // 3840267547
+		{ &Z_Construct_UFunction_UFighter_Block, "Block" }, // 296727667
+		{ &Z_Construct_UFunction_UFighter_CallBlock, "CallBlock" }, // 702353420
+		{ &Z_Construct_UFunction_UFighter_CallHeal, "CallHeal" }, // 2810439346
 		{ &Z_Construct_UFunction_UFighter_Die, "Die" }, // 4090893082
 		{ &Z_Construct_UFunction_UFighter_EndTurn, "EndTurn" }, // 2904474031
 		{ &Z_Construct_UFunction_UFighter_GetDefense, "GetDefense" }, // 3042324889
-		{ &Z_Construct_UFunction_UFighter_Heal, "Heal" }, // 3574941271
+		{ &Z_Construct_UFunction_UFighter_Heal, "Heal" }, // 1627266929
 		{ &Z_Construct_UFunction_UFighter_ReceiveDamage, "ReceiveDamage" }, // 731869411
 		{ &Z_Construct_UFunction_UFighter_RemoveBuff, "RemoveBuff" }, // 2496408636
 		{ &Z_Construct_UFunction_UFighter_RollDamage, "RollDamage" }, // 3499022607
@@ -1052,14 +1140,14 @@ UFighter::~UFighter() {}
 // ********** End Class UFighter *******************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics
+struct Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFighter, UFighter::StaticClass, TEXT("UFighter"), &Z_Registration_Info_UClass_UFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFighter), 2656129045U) },
+		{ Z_Construct_UClass_UFighter, UFighter::StaticClass, TEXT("UFighter"), &Z_Registration_Info_UClass_UFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFighter), 256412172U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_2546166395(TEXT("/Script/Reconnection"),
-	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_2598346919(TEXT("/Script/Reconnection"),
+	Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************
