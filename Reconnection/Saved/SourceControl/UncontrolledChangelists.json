@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/ca908271/Documents/GitHub/Reconnection/Reconnection/Content/Characters/HealthBars/NomadHealthBar.uasset",
+				"C:/Users/ca908271/Documents/GitHub/Reconnection/Reconnection/Content/Characters/HealthBars/HealerHealthBar.uasset",
+				"C:/Users/ca908271/Documents/GitHub/Reconnection/Reconnection/Content/Characters/HealthBars/TitanHealthBar.uasset",
+				"C:/Users/ca908271/Documents/GitHub/Reconnection/Reconnection/Content/Characters/HealthBars/BaseHealthBar.uasset",
 				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/WidgetBlueprints/WB_FIghtMenu.uasset",
 				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/WidgetBlueprints/Buttons/WB_AttackButton.uasset",
 				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/WidgetBlueprints/Buttons/WB_BlockButton.uasset",
