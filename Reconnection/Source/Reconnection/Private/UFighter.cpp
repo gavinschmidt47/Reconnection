@@ -145,3 +145,25 @@ void UFighter::Die()
 {
 	// Handle death logic here
 }
+
+TArray<float> UFighter::GetAllStats()
+{
+	TArray<float> Stats;
+	Stats.Add(InitiativeScore);
+	Stats.Add(MaxHealth);
+	Stats.Add(CurrentHealth);
+	Stats.Add(MinDamage);
+	Stats.Add(MaxDamage);
+	Stats.Add(BaseAttack);
+	Stats.Add(AttackBuff);
+	Stats.Add(BaseDamage);
+	Stats.Add(DamageBuff);
+	Stats.Add(BaseDefense);
+	Stats.Add(DefenseBuff);
+	Stats.Add(BaseBlock);
+	Stats.Add(BlockBuff);
+	Stats.Add(BaseHeal);
+	Stats.Add(HealBuff);
+	Stats.Add(DamageReduction);
+	return Stats;
+}

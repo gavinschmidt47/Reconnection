@@ -138,6 +138,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Defending")
 	virtual void Die();
 
+	UFUNCTION(BlueprintCallable, Category = "StatsManagement")
+	TArray<float> GetAllStats();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
