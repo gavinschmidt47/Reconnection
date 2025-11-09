@@ -49,7 +49,7 @@ float UFighter::GetDefense()
 
 float UFighter::RollDamage()
 {
-	float Damage = FMath::RandRange(MinDamage, MaxDamage) + AttackBuff;
+	float Damage = FMath::RandRange(MinDamage, MaxDamage) + DamageBuff;
 	return Damage;
 }
 
@@ -66,11 +66,13 @@ void UFighter::CallBlock()
 void UFighter::Heal_Implementation()
 {
 	CurrentHealth = FMath::Clamp(CurrentHealth + BaseHeal, 0.0f, MaxHealth);
+	EndTurn();
 }
 
 void UFighter::Block_Implementation()
 {
 	DamageReduction = BaseBlock + BlockBuff;
+	EndTurn();
 }
 
 int UFighter::RollToHit()
@@ -154,10 +156,9 @@ TArray<float> UFighter::GetAllStats()
 	Stats.Add(CurrentHealth);
 	Stats.Add(MinDamage);
 	Stats.Add(MaxDamage);
+	Stats.Add(DamageBuff);
 	Stats.Add(BaseAttack);
 	Stats.Add(AttackBuff);
-	Stats.Add(BaseDamage);
-	Stats.Add(DamageBuff);
 	Stats.Add(BaseDefense);
 	Stats.Add(DefenseBuff);
 	Stats.Add(BaseBlock);

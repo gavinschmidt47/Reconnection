@@ -996,19 +996,15 @@ struct Z_Construct_UClass_UFighter_Statics
 		{ "Category", "Stats" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DamageBuff_MetaData[] = {
+		{ "Category", "Buffs" },
+		{ "ModuleRelativePath", "Public/UFighter.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BaseAttack_MetaData[] = {
 		{ "Category", "Stats" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttackBuff_MetaData[] = {
-		{ "Category", "Buffs" },
-		{ "ModuleRelativePath", "Public/UFighter.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BaseDamage_MetaData[] = {
-		{ "Category", "Stats" },
-		{ "ModuleRelativePath", "Public/UFighter.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DamageBuff_MetaData[] = {
 		{ "Category", "Buffs" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
@@ -1033,7 +1029,7 @@ struct Z_Construct_UClass_UFighter_Statics
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HealBuff_MetaData[] = {
-		{ "Category", "BUffs" },
+		{ "Category", "Buffs" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DamageReduction_MetaData[] = {
@@ -1064,10 +1060,9 @@ struct Z_Construct_UClass_UFighter_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_CurrentHealth;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_MinDamage;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_MaxDamage;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_DamageBuff;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_BaseAttack;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_AttackBuff;
-	static const UECodeGen_Private::FFloatPropertyParams NewProp_BaseDamage;
-	static const UECodeGen_Private::FFloatPropertyParams NewProp_DamageBuff;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_BaseDefense;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_DefenseBuff;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_BaseBlock;
@@ -1115,10 +1110,9 @@ const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Static
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_CurrentHealth = { "CurrentHealth", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, CurrentHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurrentHealth_MetaData), NewProp_CurrentHealth_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_MinDamage = { "MinDamage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, MinDamage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MinDamage_MetaData), NewProp_MinDamage_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_MaxDamage = { "MaxDamage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, MaxDamage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxDamage_MetaData), NewProp_MaxDamage_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_DamageBuff = { "DamageBuff", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, DamageBuff), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DamageBuff_MetaData), NewProp_DamageBuff_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_BaseAttack = { "BaseAttack", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, BaseAttack), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BaseAttack_MetaData), NewProp_BaseAttack_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_AttackBuff = { "AttackBuff", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, AttackBuff), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttackBuff_MetaData), NewProp_AttackBuff_MetaData) };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_BaseDamage = { "BaseDamage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, BaseDamage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BaseDamage_MetaData), NewProp_BaseDamage_MetaData) };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_DamageBuff = { "DamageBuff", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, DamageBuff), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DamageBuff_MetaData), NewProp_DamageBuff_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_BaseDefense = { "BaseDefense", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, BaseDefense), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BaseDefense_MetaData), NewProp_BaseDefense_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_DefenseBuff = { "DefenseBuff", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, DefenseBuff), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefenseBuff_MetaData), NewProp_DefenseBuff_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_BaseBlock = { "BaseBlock", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, BaseBlock), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BaseBlock_MetaData), NewProp_BaseBlock_MetaData) };
@@ -1137,10 +1131,9 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFighter_
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_CurrentHealth,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_MinDamage,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_MaxDamage,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_DamageBuff,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_BaseAttack,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_AttackBuff,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_BaseDamage,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_DamageBuff,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_BaseDefense,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_DefenseBuff,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_BaseBlock,
@@ -1187,14 +1180,14 @@ UFighter::~UFighter() {}
 // ********** End Class UFighter *******************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics
+struct Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFighter, UFighter::StaticClass, TEXT("UFighter"), &Z_Registration_Info_UClass_UFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFighter), 4265635429U) },
+		{ Z_Construct_UClass_UFighter, UFighter::StaticClass, TEXT("UFighter"), &Z_Registration_Info_UClass_UFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFighter), 1210703618U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_4039388354(TEXT("/Script/Reconnection"),
-	Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_967417402(TEXT("/Script/Reconnection"),
+	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

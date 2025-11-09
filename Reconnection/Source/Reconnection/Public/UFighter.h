@@ -43,17 +43,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
 	float MaxDamage;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
+	float DamageBuff;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
 	float BaseAttack;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
 	float AttackBuff;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
-	float BaseDamage;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
-	float DamageBuff;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
 	float BaseDefense;
@@ -70,7 +67,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
 	float BaseHeal;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BUffs")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
 	float HealBuff;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
