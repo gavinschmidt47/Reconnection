@@ -2958,3 +2958,728 @@ Sampler Limit: 32
 [2025.11.14-20.56.35:726][614]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.14-20.56.35:727][614]AssetCheck: /Game/Levels/VFX Validating asset
 [2025.11.14-20.56.35:770][614]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.14-20.58.54:040][700]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1331.010986
+[2025.11.14-20.58.54:143][705]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-20.58.54:143][705]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1331.097412, Update Interval: 317.520081
+[2025.11.14-20.58.54:582][729]LogStreaming: Display: FlushAsyncLoading(625): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.58.54:609][729]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword Attack.fbx]
+[2025.11.14-20.58.54:737][729]LogInterchangePipeline: Warning: UInterchangeGenericAnimationPipeline: Cannot execute pre-import pipeline because importing animation only requires a valid skeleton.
+[2025.11.14-20.58.54:757][729]LogInterchangePipeline: Warning: UInterchangeGenericAnimationPipeline: Cannot execute pre-import pipeline because importing animation only requires a valid skeleton.
+[2025.11.14-20.58.58:012][729]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.11.14-20.59.00:437][729]LogSlate: Window 'Import Content' being destroyed
+[2025.11.14-20.59.00:461][729]LogInterchangeEngine: [Pending] Importing
+[2025.11.14-20.59.00:840][732]LogStreaming: Display: FlushAsyncLoading(657): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.00:915][733]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Attack.Great_Sword_Attack (Required Memory Estimate: 0.67 MB)
+[2025.11.14-20.59.00:932][733]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Attack.Great_Sword_Attack, at AnimationSequence/3a273e2291ca8b7d00184783e25163196cb55d40
+[2025.11.14-20.59.00:941][733]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword Attack.fbx]
+[2025.11.14-20.59.00:941][733]LogInterchangeEngine: [Pending] Importing -  (31)
+[2025.11.14-20.59.00:941][733]LogInterchangeEngine: [Pending] Importing -  (31)
+[2025.11.14-20.59.00:941][733]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword Casting.fbx]
+[2025.11.14-20.59.01:217][742]LogStreaming: Display: FlushAsyncLoading(658): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.01:242][743]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Casting.Great_Sword_Casting (Required Memory Estimate: 2.01 MB)
+[2025.11.14-20.59.01:261][743]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword Casting.fbx]
+[2025.11.14-20.59.01:261][743]LogInterchangeEngine: [Pending] Importing -  (30)
+[2025.11.14-20.59.01:261][743]LogInterchangeEngine: [Pending] Importing -  (30)
+[2025.11.14-20.59.01:261][743]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword High Spin Attack.fbx]
+[2025.11.14-20.59.01:283][745]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Casting.Great_Sword_Casting, at AnimationSequence/65996afce79a72279ecf816887441b61e49f3c5a
+[2025.11.14-20.59.01:469][752]LogStreaming: Display: FlushAsyncLoading(659): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.01:491][753]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_High_Spin_Attack.Great_Sword_High_Spin_Attack (Required Memory Estimate: 0.92 MB)
+[2025.11.14-20.59.01:507][753]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword High Spin Attack.fbx]
+[2025.11.14-20.59.01:507][753]LogInterchangeEngine: [Pending] Importing -  (29)
+[2025.11.14-20.59.01:507][753]LogInterchangeEngine: [Pending] Importing -  (29)
+[2025.11.14-20.59.01:507][753]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword Impact.fbx]
+[2025.11.14-20.59.01:523][755]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_High_Spin_Attack.Great_Sword_High_Spin_Attack, at AnimationSequence/7ee7787537b5e8287db93077884c41d8d1b4a2e9
+[2025.11.14-20.59.01:718][762]LogStreaming: Display: FlushAsyncLoading(660): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.01:739][763]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Impact.Great_Sword_Impact (Required Memory Estimate: 0.69 MB)
+[2025.11.14-20.59.01:751][763]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Impact.Great_Sword_Impact, at AnimationSequence/ba5a9d76aa19a28c75fcd6a9892821f718200c7b
+[2025.11.14-20.59.01:755][763]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword Impact.fbx]
+[2025.11.14-20.59.01:755][763]LogInterchangeEngine: [Pending] Importing -  (28)
+[2025.11.14-20.59.01:755][763]LogInterchangeEngine: [Pending] Importing -  (28)
+[2025.11.14-20.59.01:755][763]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword Jump Attack.fbx]
+[2025.11.14-20.59.01:955][771]LogStreaming: Display: FlushAsyncLoading(661): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.01:979][772]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Jump_Attack.Great_Sword_Jump_Attack (Required Memory Estimate: 1.03 MB)
+[2025.11.14-20.59.01:996][772]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword Jump Attack.fbx]
+[2025.11.14-20.59.01:996][772]LogInterchangeEngine: [Pending] Importing -  (27)
+[2025.11.14-20.59.01:996][772]LogInterchangeEngine: [Pending] Importing -  (27)
+[2025.11.14-20.59.01:997][772]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword Kick.fbx]
+[2025.11.14-20.59.02:001][773]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Jump_Attack.Great_Sword_Jump_Attack, at AnimationSequence/e9df99d09fca64e8df57d775627259cfa6e21ed9
+[2025.11.14-20.59.02:212][781]LogStreaming: Display: FlushAsyncLoading(662): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.02:234][782]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Kick.Great_Sword_Kick (Required Memory Estimate: 0.87 MB)
+[2025.11.14-20.59.02:247][782]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Kick.Great_Sword_Kick, at AnimationSequence/2deb7b8b705af0412c917ce9c19d55fa1b65a567
+[2025.11.14-20.59.02:255][782]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword Kick.fbx]
+[2025.11.14-20.59.02:255][782]LogInterchangeEngine: [Pending] Importing -  (26)
+[2025.11.14-20.59.02:255][782]LogInterchangeEngine: [Pending] Importing -  (26)
+[2025.11.14-20.59.02:255][782]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword Slash (1).fbx]
+[2025.11.14-20.59.02:480][791]LogStreaming: Display: FlushAsyncLoading(663): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.02:502][792]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1_.Great_Sword_Slash__1_ (Required Memory Estimate: 0.90 MB)
+[2025.11.14-20.59.02:515][792]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1_.Great_Sword_Slash__1_, at AnimationSequence/4fa500ce706bf4786442b6a9d143f2d9115dfd31
+[2025.11.14-20.59.02:519][792]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword Slash (1).fbx]
+[2025.11.14-20.59.02:519][792]LogInterchangeEngine: [Pending] Importing -  (25)
+[2025.11.14-20.59.02:519][792]LogInterchangeEngine: [Pending] Importing -  (25)
+[2025.11.14-20.59.02:519][792]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword Slash (2).fbx]
+[2025.11.14-20.59.02:718][800]LogStreaming: Display: FlushAsyncLoading(664): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.02:741][801]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2_.Great_Sword_Slash__2_ (Required Memory Estimate: 0.69 MB)
+[2025.11.14-20.59.02:751][801]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2_.Great_Sword_Slash__2_, at AnimationSequence/11c97bdb5ed340217314a6d6eeadc46dfed066dd
+[2025.11.14-20.59.02:758][801]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword Slash (2).fbx]
+[2025.11.14-20.59.02:758][801]LogInterchangeEngine: [Pending] Importing -  (24)
+[2025.11.14-20.59.02:758][801]LogInterchangeEngine: [Pending] Importing -  (24)
+[2025.11.14-20.59.02:758][801]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword Slash (3).fbx]
+[2025.11.14-20.59.02:965][809]LogStreaming: Display: FlushAsyncLoading(665): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.02:985][810]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__3_.Great_Sword_Slash__3_ (Required Memory Estimate: 0.89 MB)
+[2025.11.14-20.59.02:999][810]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__3_.Great_Sword_Slash__3_, at AnimationSequence/61a991381d0c2ad1c9eedd742ef225b1d7e9ac98
+[2025.11.14-20.59.03:003][810]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword Slash (3).fbx]
+[2025.11.14-20.59.03:003][810]LogInterchangeEngine: [Pending] Importing -  (23)
+[2025.11.14-20.59.03:003][810]LogInterchangeEngine: [Pending] Importing -  (23)
+[2025.11.14-20.59.03:003][810]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword Slash.fbx]
+[2025.11.14-20.59.03:231][818]LogStreaming: Display: FlushAsyncLoading(666): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.03:256][819]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash.Great_Sword_Slash (Required Memory Estimate: 1.54 MB)
+[2025.11.14-20.59.03:272][819]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword Slash.fbx]
+[2025.11.14-20.59.03:272][819]LogInterchangeEngine: [Pending] Importing -  (22)
+[2025.11.14-20.59.03:272][819]LogInterchangeEngine: [Pending] Importing -  (22)
+[2025.11.14-20.59.03:272][819]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Great Sword Slide Attack.fbx]
+[2025.11.14-20.59.03:430][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash.Great_Sword_Slash, at AnimationSequence/6a7fe62c348fe433814fd4ab5cbbfeea857df18f
+[2025.11.14-20.59.03:493][828]LogStreaming: Display: FlushAsyncLoading(667): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.03:515][829]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack.Great_Sword_Slide_Attack (Required Memory Estimate: 1.02 MB)
+[2025.11.14-20.59.03:533][829]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Great Sword Slide Attack.fbx]
+[2025.11.14-20.59.03:533][829]LogInterchangeEngine: [Pending] Importing -  (21)
+[2025.11.14-20.59.03:533][829]LogInterchangeEngine: [Pending] Importing -  (21)
+[2025.11.14-20.59.03:533][829]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Attacks/Two Hand Sword Combo.fbx]
+[2025.11.14-20.59.03:535][830]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack.Great_Sword_Slide_Attack, at AnimationSequence/c4ee4f2d3f8819da253f3b40a829cfe9115f60fa
+[2025.11.14-20.59.03:750][837]LogStreaming: Display: FlushAsyncLoading(668): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.03:776][838]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo.Two_Hand_Sword_Combo (Required Memory Estimate: 1.44 MB)
+[2025.11.14-20.59.03:794][838]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...G_AnimSeq/FG_Attacks/Two Hand Sword Combo.fbx]
+[2025.11.14-20.59.03:794][838]LogInterchangeEngine: [Pending] Importing -  (20)
+[2025.11.14-20.59.03:794][838]LogInterchangeEngine: [Pending] Importing -  (20)
+[2025.11.14-20.59.03:794][838]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Crouching/Great Sword Crouching (1).fbx]
+[2025.11.14-20.59.03:800][839]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo.Two_Hand_Sword_Combo, at AnimationSequence/cafcb5e438e2a4b4ec9f51351448200111275ede
+[2025.11.14-20.59.03:977][846]LogStreaming: Display: FlushAsyncLoading(669): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.03:997][847]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__1_.Great_Sword_Crouching__1_ (Required Memory Estimate: 0.40 MB)
+[2025.11.14-20.59.04:003][847]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__1_.Great_Sword_Crouching__1_, at AnimationSequence/21e5353f0b9f4095b1f175f8fdb2af2c2cf2fc11
+[2025.11.14-20.59.04:022][847]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...AnimSeq/FG_Crouching/Great Sword Crouching (1).fbx]
+[2025.11.14-20.59.04:022][847]LogInterchangeEngine: [Pending] Importing -  (19)
+[2025.11.14-20.59.04:022][847]LogInterchangeEngine: [Pending] Importing -  (19)
+[2025.11.14-20.59.04:022][847]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Crouching/Great Sword Crouching (2).fbx]
+[2025.11.14-20.59.04:213][855]LogStreaming: Display: FlushAsyncLoading(670): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.04:235][856]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__2_.Great_Sword_Crouching__2_ (Required Memory Estimate: 0.74 MB)
+[2025.11.14-20.59.04:251][856]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__2_.Great_Sword_Crouching__2_ (Required Memory Estimate: 0.74 MB)
+[2025.11.14-20.59.04:260][856]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__2_.Great_Sword_Crouching__2_, at AnimationSequence/32e50281543a8e5fda05c78d93eccae766ae797f
+[2025.11.14-20.59.04:264][856]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...AnimSeq/FG_Crouching/Great Sword Crouching (2).fbx]
+[2025.11.14-20.59.04:264][856]LogInterchangeEngine: [Pending] Importing -  (18)
+[2025.11.14-20.59.04:264][856]LogInterchangeEngine: [Pending] Importing -  (18)
+[2025.11.14-20.59.04:264][856]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Crouching/Great Sword Crouching (3).fbx]
+[2025.11.14-20.59.04:488][865]LogStreaming: Display: FlushAsyncLoading(671): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.04:511][866]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__3_.Great_Sword_Crouching__3_ (Required Memory Estimate: 0.90 MB)
+[2025.11.14-20.59.04:526][866]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__3_.Great_Sword_Crouching__3_, at AnimationSequence/2616da3a2aa3ad3e443e9e01a2001db77c7e0fd3
+[2025.11.14-20.59.04:529][866]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...AnimSeq/FG_Crouching/Great Sword Crouching (3).fbx]
+[2025.11.14-20.59.04:529][866]LogInterchangeEngine: [Pending] Importing -  (17)
+[2025.11.14-20.59.04:529][866]LogInterchangeEngine: [Pending] Importing -  (17)
+[2025.11.14-20.59.04:529][866]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Crouching/Great Sword Crouching (4).fbx]
+[2025.11.14-20.59.04:726][874]LogStreaming: Display: FlushAsyncLoading(672): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.04:746][875]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__4_.Great_Sword_Crouching__4_ (Required Memory Estimate: 0.48 MB)
+[2025.11.14-20.59.04:752][875]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__4_.Great_Sword_Crouching__4_, at AnimationSequence/8216355117d79eb8e32a482e7b182542db79c733
+[2025.11.14-20.59.04:767][875]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...AnimSeq/FG_Crouching/Great Sword Crouching (4).fbx]
+[2025.11.14-20.59.04:767][875]LogInterchangeEngine: [Pending] Importing -  (16)
+[2025.11.14-20.59.04:767][875]LogInterchangeEngine: [Pending] Importing -  (16)
+[2025.11.14-20.59.04:767][875]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Crouching/Great Sword Crouching.fbx]
+[2025.11.14-20.59.04:953][883]LogStreaming: Display: FlushAsyncLoading(673): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.04:976][884]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching.Great_Sword_Crouching (Required Memory Estimate: 0.47 MB)
+[2025.11.14-20.59.04:984][884]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching.Great_Sword_Crouching, at AnimationSequence/ddb72cf0622d5e18a450ad3d718b5ef2e371a056
+[2025.11.14-20.59.05:002][884]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...AnimSeq/FG_Crouching/Great Sword Crouching.fbx]
+[2025.11.14-20.59.05:002][884]LogInterchangeEngine: [Pending] Importing -  (15)
+[2025.11.14-20.59.05:002][884]LogInterchangeEngine: [Pending] Importing -  (15)
+[2025.11.14-20.59.05:002][884]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Death/Sword And Shield Death.fbx]
+[2025.11.14-20.59.05:223][893]LogStreaming: Display: FlushAsyncLoading(674): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.05:247][894]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Sword_And_Shield_Death.Sword_And_Shield_Death (Required Memory Estimate: 1.08 MB)
+[2025.11.14-20.59.05:264][894]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr.../FG_AnimSeq/FG_Death/Sword And Shield Death.fbx]
+[2025.11.14-20.59.05:264][894]LogInterchangeEngine: [Pending] Importing -  (14)
+[2025.11.14-20.59.05:264][894]LogInterchangeEngine: [Pending] Importing -  (14)
+[2025.11.14-20.59.05:264][894]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Death/Two Handed Sword Death (1).fbx]
+[2025.11.14-20.59.05:265][895]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Sword_And_Shield_Death.Sword_And_Shield_Death, at AnimationSequence/75a7e16d7f661e3a0413cb1143499606873ca68e
+[2025.11.14-20.59.05:465][902]LogStreaming: Display: FlushAsyncLoading(675): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.05:489][903]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death__1_.Two_Handed_Sword_Death__1_ (Required Memory Estimate: 1.19 MB)
+[2025.11.14-20.59.05:504][903]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr.../FG_AnimSeq/FG_Death/Two Handed Sword Death (1).fbx]
+[2025.11.14-20.59.05:504][903]LogInterchangeEngine: [Pending] Importing -  (13)
+[2025.11.14-20.59.05:504][903]LogInterchangeEngine: [Pending] Importing -  (13)
+[2025.11.14-20.59.05:504][903]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Death/Two Handed Sword Death.fbx]
+[2025.11.14-20.59.05:596][909]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death__1_.Two_Handed_Sword_Death__1_, at AnimationSequence/72c3b3be599b76dfbdc6bc89c239f5130784a033
+[2025.11.14-20.59.05:741][913]LogStreaming: Display: FlushAsyncLoading(676): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.05:764][914]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death.Two_Handed_Sword_Death (Required Memory Estimate: 1.12 MB)
+[2025.11.14-20.59.05:783][914]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death.Two_Handed_Sword_Death, at AnimationSequence/979bc6297709cf841cd45996a2251ef886fca85e
+[2025.11.14-20.59.05:783][914]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr.../FG_AnimSeq/FG_Death/Two Handed Sword Death.fbx]
+[2025.11.14-20.59.05:783][914]LogInterchangeEngine: [Pending] Importing -  (12)
+[2025.11.14-20.59.05:783][914]LogInterchangeEngine: [Pending] Importing -  (12)
+[2025.11.14-20.59.05:783][914]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_GettingHurt/Great Sword Impact.fbx]
+[2025.11.14-20.59.05:995][923]LogStreaming: Display: FlushAsyncLoading(677): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.06:018][924]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_GettingHurt/Great_Sword_Impact.Great_Sword_Impact (Required Memory Estimate: 0.67 MB)
+[2025.11.14-20.59.06:027][924]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_GettingHurt/Great_Sword_Impact.Great_Sword_Impact, at AnimationSequence/946836d89e28f0f3ff8222e7a645254937f2a241
+[2025.11.14-20.59.06:034][924]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...imSeq/FG_GettingHurt/Great Sword Impact.fbx]
+[2025.11.14-20.59.06:034][924]LogInterchangeEngine: [Pending] Importing -  (11)
+[2025.11.14-20.59.06:034][924]LogInterchangeEngine: [Pending] Importing -  (11)
+[2025.11.14-20.59.06:034][924]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Movements/Great Sword 180 Turn.fbx]
+[2025.11.14-20.59.06:225][932]LogStreaming: Display: FlushAsyncLoading(678): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.06:245][933]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_180_Turn.Great_Sword_180_Turn (Required Memory Estimate: 0.43 MB)
+[2025.11.14-20.59.06:249][933]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_180_Turn.Great_Sword_180_Turn, at AnimationSequence/5cad4e5f41e8e099a69088e9cbb3cad41d6aa651
+[2025.11.14-20.59.06:264][933]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...AnimSeq/FG_Movements/Great Sword 180 Turn.fbx]
+[2025.11.14-20.59.06:265][933]LogInterchangeEngine: [Pending] Importing -  (10)
+[2025.11.14-20.59.06:265][933]LogInterchangeEngine: [Pending] Importing -  (10)
+[2025.11.14-20.59.06:265][933]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Movements/Great Sword Idle.fbx]
+[2025.11.14-20.59.06:475][941]LogStreaming: Display: FlushAsyncLoading(679): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.06:497][942]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle.Great_Sword_Idle (Required Memory Estimate: 1.60 MB)
+[2025.11.14-20.59.06:514][942]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...AnimSeq/FG_Movements/Great Sword Idle.fbx]
+[2025.11.14-20.59.06:514][942]LogInterchangeEngine: [Pending] Importing -  (9)
+[2025.11.14-20.59.06:514][942]LogInterchangeEngine: [Pending] Importing -  (9)
+[2025.11.14-20.59.06:514][942]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Movements/Great Sword Run.fbx]
+[2025.11.14-20.59.06:528][944]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle.Great_Sword_Idle, at AnimationSequence/1c4f264efd338eeafa4484de1bf2e6bc65af9a73
+[2025.11.14-20.59.06:699][950]LogStreaming: Display: FlushAsyncLoading(680): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.06:723][951]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Run.Great_Sword_Run (Required Memory Estimate: 0.45 MB)
+[2025.11.14-20.59.06:729][951]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Run.Great_Sword_Run (Required Memory Estimate: 0.45 MB)
+[2025.11.14-20.59.06:733][951]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Run.Great_Sword_Run, at AnimationSequence/361aaff707e2963f8e54a963fc60c3ed3b626a76
+[2025.11.14-20.59.06:743][951]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...AnimSeq/FG_Movements/Great Sword Run.fbx]
+[2025.11.14-20.59.06:743][951]LogInterchangeEngine: [Pending] Importing -  (8)
+[2025.11.14-20.59.06:743][951]LogInterchangeEngine: [Pending] Importing -  (8)
+[2025.11.14-20.59.06:743][951]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Movements/Great Sword Strafe.fbx]
+[2025.11.14-20.59.06:930][959]LogStreaming: Display: FlushAsyncLoading(681): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.06:951][960]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Strafe.Great_Sword_Strafe (Required Memory Estimate: 0.66 MB)
+[2025.11.14-20.59.06:962][960]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Strafe.Great_Sword_Strafe, at AnimationSequence/2da7dd9812f852907115dba64883f99ade58d7fc
+[2025.11.14-20.59.06:969][960]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...AnimSeq/FG_Movements/Great Sword Strafe.fbx]
+[2025.11.14-20.59.06:969][960]LogInterchangeEngine: [Pending] Importing -  (7)
+[2025.11.14-20.59.06:969][960]LogInterchangeEngine: [Pending] Importing -  (7)
+[2025.11.14-20.59.06:969][960]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_Movements/Great Sword Walk.fbx]
+[2025.11.14-20.59.07:164][968]LogStreaming: Display: FlushAsyncLoading(682): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.07:187][969]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Walk.Great_Sword_Walk (Required Memory Estimate: 0.73 MB)
+[2025.11.14-20.59.07:199][969]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Walk.Great_Sword_Walk, at AnimationSequence/c81f8a109c1eadc3409808537da19af8f88d9488
+[2025.11.14-20.59.07:206][969]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...AnimSeq/FG_Movements/Great Sword Walk.fbx]
+[2025.11.14-20.59.07:206][969]LogInterchangeEngine: [Pending] Importing -  (6)
+[2025.11.14-20.59.07:206][969]LogInterchangeEngine: [Pending] Importing -  (6)
+[2025.11.14-20.59.07:206][969]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_PowerUp&Magic/Great Sword Power Up.fbx]
+[2025.11.14-20.59.07:448][977]LogStreaming: Display: FlushAsyncLoading(683): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.07:473][978]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Great_Sword_Power_Up.Great_Sword_Power_Up (Required Memory Estimate: 1.52 MB)
+[2025.11.14-20.59.07:491][978]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...Seq/FG_PowerUp&Magic/Great Sword Power Up.fbx]
+[2025.11.14-20.59.07:491][978]LogInterchangeEngine: [Pending] Importing -  (5)
+[2025.11.14-20.59.07:491][978]LogInterchangeEngine: [Pending] Importing -  (5)
+[2025.11.14-20.59.07:491][978]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_PowerUp&Magic/Spell Cast.fbx]
+[2025.11.14-20.59.07:506][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Great_Sword_Power_Up.Great_Sword_Power_Up, at AnimationSequence/fd994c8078de17a1dd9412a366feeec90c599f7e
+[2025.11.14-20.59.07:691][986]LogStreaming: Display: FlushAsyncLoading(684): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.07:713][987]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Spell_Cast.Spell_Cast (Required Memory Estimate: 0.64 MB)
+[2025.11.14-20.59.07:722][987]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Spell_Cast.Spell_Cast (Required Memory Estimate: 0.64 MB)
+[2025.11.14-20.59.07:732][987]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Spell_Cast.Spell_Cast, at AnimationSequence/6856dc5140fd8f2c7e5b67b2a0f45b21538a7464
+[2025.11.14-20.59.07:737][987]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...Seq/FG_PowerUp&Magic/Spell Cast.fbx]
+[2025.11.14-20.59.07:737][987]LogInterchangeEngine: [Pending] Importing -  (4)
+[2025.11.14-20.59.07:737][987]LogInterchangeEngine: [Pending] Importing -  (4)
+[2025.11.14-20.59.07:737][987]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_SwordEquip&Drawn/Draw A Great Sword 1.fbx]
+[2025.11.14-20.59.07:925][995]LogStreaming: Display: FlushAsyncLoading(685): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.07:948][996]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_1.Draw_A_Great_Sword_1 (Required Memory Estimate: 0.41 MB)
+[2025.11.14-20.59.07:951][996]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_1.Draw_A_Great_Sword_1, at AnimationSequence/f405a608322dd70c46175179d54cb60fe7314759
+[2025.11.14-20.59.07:966][996]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr.../FG_SwordEquip&Drawn/Draw A Great Sword 1.fbx]
+[2025.11.14-20.59.07:966][996]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.11.14-20.59.07:966][996]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.11.14-20.59.07:966][996]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_SwordEquip&Drawn/Draw A Great Sword 2.fbx]
+[2025.11.14-20.59.08:151][  4]LogStreaming: Display: FlushAsyncLoading(686): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.08:172][  5]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_2.Draw_A_Great_Sword_2 (Required Memory Estimate: 0.52 MB)
+[2025.11.14-20.59.08:180][  5]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_2.Draw_A_Great_Sword_2, at AnimationSequence/c66c3173ce77e7a4ec63d0f7fc52139332972b57
+[2025.11.14-20.59.08:193][  5]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr.../FG_SwordEquip&Drawn/Draw A Great Sword 2.fbx]
+[2025.11.14-20.59.08:193][  5]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.11.14-20.59.08:193][  5]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.11.14-20.59.08:193][  5]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_SwordEquip&Drawn/Sheath A Great Sword 1.fbx]
+[2025.11.14-20.59.08:379][ 13]LogStreaming: Display: FlushAsyncLoading(687): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.08:400][ 14]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_1.Sheath_A_Great_Sword_1 (Required Memory Estimate: 0.50 MB)
+[2025.11.14-20.59.08:417][ 14]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_1.Sheath_A_Great_Sword_1, at AnimationSequence/afd170613650ae41740f90fab909e543b665ed2f
+[2025.11.14-20.59.08:417][ 14]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr.../FG_SwordEquip&Drawn/Sheath A Great Sword 1.fbx]
+[2025.11.14-20.59.08:417][ 14]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.11.14-20.59.08:417][ 14]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.11.14-20.59.08:417][ 14]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/First General/FG_AnimSeq/FG_SwordEquip&Drawn/Sheath A Great Sword 2.fbx]
+[2025.11.14-20.59.08:606][ 22]LogStreaming: Display: FlushAsyncLoading(688): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.14-20.59.08:627][ 23]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_2.Sheath_A_Great_Sword_2 (Required Memory Estimate: 0.64 MB)
+[2025.11.14-20.59.08:642][ 23]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_2.Sheath_A_Great_Sword_2, at AnimationSequence/32506584302e7121f4b739bf59ebdab42dbafe71
+[2025.11.14-20.59.08:644][ 23]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr.../FG_SwordEquip&Drawn/Sheath A Great Sword 2.fbx]
+[2025.11.14-20.59.08:748][ 23]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.11.14-20.59.08:750][ 23]LogInterchangeEngine: [Success] Import Done
+[2025.11.14-20.59.08:834][ 25]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.11.14-20.59.18:222][486]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Impact.Great_Sword_Impact
+[2025.11.14-20.59.18:225][486]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.11.14-20.59.18:233][486]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.11.14-20.59.18:627][486]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.11.14-20.59.19:233][486]LogSlate: Took 0.006904 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.11.14-20.59.19:260][486]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2025.11.14-20.59.19:272][486]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.11.14-20.59.25:355][719]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack.Great_Sword_Slide_Attack
+[2025.11.14-20.59.25:463][719]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.11.14-20.59.25:521][719]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-20.59.25:521][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-20.59.25:669][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.14-20.59.39:931][311]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack.Great_Sword_Slide_Attack
+[2025.11.14-20.59.39:931][311]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack.Great_Sword_Slide_Attack
+[2025.11.14-20.59.39:931][311]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_1
+[2025.11.14-20.59.39:933][311]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_1
+[2025.11.14-20.59.41:300][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.11.14-20.59.41:302][370]LogEditorActor: Deleted 0 Actors (0.026 secs)
+[2025.11.14-20.59.41:309][370]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack.Great_Sword_Slide_Attack
+[2025.11.14-20.59.41:309][370]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack.Great_Sword_Slide_Attack
+[2025.11.14-20.59.41:312][370]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F001DA202_1407257672
+[2025.11.14-20.59.41:313][370]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F001DA202_1407257672
+[2025.11.14-21.00.04:913][387]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo.Two_Hand_Sword_Combo
+[2025.11.14-21.00.04:913][387]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo.Two_Hand_Sword_Combo
+[2025.11.14-21.00.04:913][387]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_2
+[2025.11.14-21.00.04:914][387]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_2
+[2025.11.14-21.00.06:384][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.11.14-21.00.06:388][449]LogEditorActor: Deleted 0 Actors (0.026 secs)
+[2025.11.14-21.00.06:393][449]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo.Two_Hand_Sword_Combo
+[2025.11.14-21.00.06:393][449]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo.Two_Hand_Sword_Combo
+[2025.11.14-21.00.06:398][449]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F001DA202_1432341673
+[2025.11.14-21.00.06:399][449]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F001DA202_1432341673
+[2025.11.14-21.00.26:971][285]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1_.Great_Sword_Slash__1_
+[2025.11.14-21.00.26:971][285]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1_.Great_Sword_Slash__1_
+[2025.11.14-21.00.26:971][285]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_3
+[2025.11.14-21.00.26:972][285]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_3
+[2025.11.14-21.00.28:777][361]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.11.14-21.00.28:784][361]LogEditorActor: Deleted 0 Actors (0.030 secs)
+[2025.11.14-21.00.28:789][361]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1_.Great_Sword_Slash__1_
+[2025.11.14-21.00.28:789][361]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1_.Great_Sword_Slash__1_
+[2025.11.14-21.00.28:792][361]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F001DA202_1454737674
+[2025.11.14-21.00.28:792][361]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F001DA202_1454737674
+[2025.11.14-21.00.30:869][430]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2_.Great_Sword_Slash__2_
+[2025.11.14-21.00.30:869][430]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2_.Great_Sword_Slash__2_
+[2025.11.14-21.00.30:869][430]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_4
+[2025.11.14-21.00.30:870][430]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_4
+[2025.11.14-21.00.33:716][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.11.14-21.00.33:719][555]LogEditorActor: Deleted 0 Actors (0.023 secs)
+[2025.11.14-21.00.33:725][555]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2_.Great_Sword_Slash__2_
+[2025.11.14-21.00.33:725][555]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2_.Great_Sword_Slash__2_
+[2025.11.14-21.00.33:728][555]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F001DA202_1459673675
+[2025.11.14-21.00.33:729][555]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F001DA202_1459673675
+[2025.11.14-21.00.47:084][119]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.14-21.00.47:106][119]LogContentBundle: [VFX(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-21.00.47:108][119]LogWorldPartition: Display: GenerateStreaming for 'VFX' started...
+[2025.11.14-21.00.47:118][119]LogWorldPartition: Display: GenerateStreaming for 'VFX' took 10.991 ms (total: 21.782 ms)
+[2025.11.14-21.00.47:123][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-21.00.47:131][119]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VFX
+[2025.11.14-21.00.47:165][119]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-21.00.47:170][119]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 5.439 ms (total: 19.927 ms)
+[2025.11.14-21.00.47:175][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043573s)
+[2025.11.14-21.00.47:175][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VFX.VFX to /Game/Levels/UEDPIE_0_VFX.VFX (0.043633s)
+[2025.11.14-21.00.47:194][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.11.14-21.00.47:199][119]LogChaosDD: Creating Chaos Debug Draw Scene for world VFX
+[2025.11.14-21.00.47:210][119]LogWorldPartition: ULevel::OnLevelLoaded(VFX)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-21.00.47:210][119]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-21.00.47:210][119]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_VFX.VFX, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-21.00.47:210][119]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-21.00.47:221][119]LogWorldPartition: Display: WorldPartition initialize took 10.830 ms (total: 1.33 sec)
+[2025.11.14-21.00.47:223][119]LogPlayLevel: PIE: World Init took: (0.024079s)
+[2025.11.14-21.00.47:225][119]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.11.14-21.00.47:227][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-21.00.47:227][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-21.00.47:227][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-21.00.47:227][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-21.00.47:227][119]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-21.00.47:227][119]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-21.00.47:227][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-21.00.47:227][119]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-21.00.47:230][119]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-21.00.47:230][119]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-21.00.47:230][119]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-21.00.47:233][119]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-21.00.47:324][119]LogAudioMixer: Display: Using Audio Hardware Device Headphones (AirPods Pro - Find My)
+[2025.11.14-21.00.47:325][119]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-21.00.47:325][119]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-21.00.47:326][119]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-21.00.47:328][119]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.11.14-21.00.47:328][119]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.11.14-21.00.47:329][119]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.11.14-21.00.47:329][119]LogInit: FAudioDevice initialized with ID 3.
+[2025.11.14-21.00.47:329][119]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.11.14-21.00.47:330][119]LogAudio: Display: Audio Device (ID: 3) registered with world 'VFX'.
+[2025.11.14-21.00.47:330][119]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.11.14-21.00.47:350][119]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.14-21.00.47:355][119]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VFX.VFX up for play (max tick rate 60) at 2025.11.14-16.00.47
+[2025.11.14-21.00.47:355][119]LogWorld: Bringing up level for play took: 0.004372
+[2025.11.14-21.00.47:362][119]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.11.14-21.00.47:405][119]LogStreaming: Display: FlushAsyncLoading(736,735,734,733,732,731,730,729,728,727,726,725,724,723,722,721,720,719,718,717,716,715,714,713,712,711,710,709,708,707,706,705,704,703,702,701,700,699,698,697,696,690,691,692,693,694,695,689): 48 QueuedPackages, 0 AsyncPackages
+[2025.11.14-21.00.47:653][119]LogTexture: Display: Waiting for textures to be ready 380/516 (/Memory/UEDPIE_0_VFX_8M56ZFCSA0HFYIHS3CWPF1AGN_InstanceOf_/Game/__ExternalActors__/Levels/VFX/5/7I/435RW64MRQ5ERMQ4LCCFLA) ...
+[2025.11.14-21.00.47:669][119]LogTexture: Display: Waiting for textures to be ready 441/516 (/Memory/UEDPIE_0_VFX_2I67G3HAOKSA2VJPR4SJPKV6E_InstanceOf_/Game/__ExternalActors__/Levels/VFX/F/3E/3VELRR0FBY9KHDIXEXX9XI) ...
+[2025.11.14-21.00.47:735][119]PIE: Server logged in
+[2025.11.14-21.00.47:737][119]PIE: Play in editor total start time 0.632 seconds.
+[2025.11.14-21.00.47:843][119]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-21.01.10:994][720]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.14-21.01.11:006][720]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/0/TI/VFZI2H9KD49L3EE0EHG4GL
+[2025.11.14-21.01.11:007][720]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/VFZI2H9KD49L3EE0EHG4GL01A9BBA146FEBDDDC7A37B86188B9B52.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/0/TI/VFZI2H9KD49L3EE0EHG4GL.uasset'
+[2025.11.14-21.01.11:017][720]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/4/GG/GA94QCKW2FC6Q7P9B4R12E
+[2025.11.14-21.01.11:017][720]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/GA94QCKW2FC6Q7P9B4R12E0532032949916BE2463675AA02BD3A73.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/4/GG/GA94QCKW2FC6Q7P9B4R12E.uasset'
+[2025.11.14-21.01.11:031][720]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/0/LI/082FB1UDFB5CCJ4Z6SD61T
+[2025.11.14-21.01.11:031][720]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/082FB1UDFB5CCJ4Z6SD61TFE75620349D853604316B28CAB57204B.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/0/LI/082FB1UDFB5CCJ4Z6SD61T.uasset'
+[2025.11.14-21.01.11:042][720]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/7/OO/P397HULPN2XYYOPMU8T5T2
+[2025.11.14-21.01.11:042][720]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/P397HULPN2XYYOPMU8T5T28BFB3BD7487AA296511C72AD003823FF.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/7/OO/P397HULPN2XYYOPMU8T5T2.uasset'
+[2025.11.14-21.01.11:043][720]LogFileHelpers: InternalPromptForCheckoutAndSave took 49.029 ms (total: 1.85 sec)
+[2025.11.14-21.01.11:049][720]LogContentValidation: Display: Starting to validate 4 assets
+[2025.11.14-21.01.11:050][720]LogContentValidation: Enabled validators:
+[2025.11.14-21.01.11:050][720]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.14-21.01.11:050][720]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.14-21.01.11:050][720]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.14-21.01.11:050][720]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.14-21.01.11:050][720]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.14-21.01.11:050][720]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.14-21.01.11:050][720]AssetCheck: /Game/Levels/VFX Validating asset
+[2025.11.14-21.01.11:074][720]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.14-21.01.27:500][256]LogMaterialEditor: Saving and Compiling material FG_002
+[2025.11.14-21.01.27:503][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.14-21.01.27:503][256]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_Materials/FG_002] ([1] browsable assets)...
+[2025.11.14-21.01.27:503][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_Materials/FG_002]
+[2025.11.14-21.01.27:515][256]LogSavePackage: Moving output files for package: /Game/Characters/1_FirstGeneral/FG_Materials/FG_002
+[2025.11.14-21.01.27:516][256]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/FG_0021B186A384591AC0328DE5A826233D0AA.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/1_FirstGeneral/FG_Materials/FG_002.uasset'
+[2025.11.14-21.01.27:517][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 13.608 ms (total: 1.86 sec)
+[2025.11.14-21.01.27:522][256]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.14-21.01.27:522][256]LogContentValidation: Enabled validators:
+[2025.11.14-21.01.27:522][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.14-21.01.27:522][256]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.14-21.01.27:522][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.14-21.01.27:522][256]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.14-21.01.27:522][256]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.14-21.01.27:522][256]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.14-21.01.27:522][256]AssetCheck: /Game/Characters/1_FirstGeneral/FG_Materials/FG_002 Validating asset
+[2025.11.14-21.01.29:081][293]LogMaterialEditor: Saving and Compiling material FG_003
+[2025.11.14-21.01.29:085][293]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.14-21.01.29:085][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_Materials/FG_003] ([1] browsable assets)...
+[2025.11.14-21.01.29:085][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_Materials/FG_003]
+[2025.11.14-21.01.29:094][293]LogSavePackage: Moving output files for package: /Game/Characters/1_FirstGeneral/FG_Materials/FG_003
+[2025.11.14-21.01.29:094][293]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/FG_0032DC61D604717DF54D863ED95EA4D2F77.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/1_FirstGeneral/FG_Materials/FG_003.uasset'
+[2025.11.14-21.01.29:095][293]LogFileHelpers: InternalPromptForCheckoutAndSave took 11.007 ms (total: 1.87 sec)
+[2025.11.14-21.01.29:100][293]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.14-21.01.29:100][293]LogContentValidation: Enabled validators:
+[2025.11.14-21.01.29:100][293]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.14-21.01.29:100][293]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.14-21.01.29:100][293]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.14-21.01.29:100][293]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.14-21.01.29:100][293]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.14-21.01.29:100][293]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.14-21.01.29:100][293]AssetCheck: /Game/Characters/1_FirstGeneral/FG_Materials/FG_003 Validating asset
+[2025.11.14-21.01.31:663][356]LogMaterialEditor: Saving and Compiling material FG_004
+[2025.11.14-21.01.31:665][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.14-21.01.31:665][356]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_Materials/FG_004] ([1] browsable assets)...
+[2025.11.14-21.01.31:665][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_Materials/FG_004]
+[2025.11.14-21.01.31:687][356]LogSavePackage: Moving output files for package: /Game/Characters/1_FirstGeneral/FG_Materials/FG_004
+[2025.11.14-21.01.31:687][356]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/FG_00418718FFC4AE821CCBA2A129A54C07279.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/1_FirstGeneral/FG_Materials/FG_004.uasset'
+[2025.11.14-21.01.31:689][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 23.308 ms (total: 1.90 sec)
+[2025.11.14-21.01.31:696][356]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.14-21.01.31:696][356]LogContentValidation: Enabled validators:
+[2025.11.14-21.01.31:696][356]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.14-21.01.31:696][356]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.14-21.01.31:696][356]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.14-21.01.31:696][356]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.14-21.01.31:696][356]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.14-21.01.31:696][356]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.14-21.01.31:696][356]AssetCheck: /Game/Characters/1_FirstGeneral/FG_Materials/FG_004 Validating asset
+[2025.11.14-21.01.33:862][407]LogMaterialEditor: Saving and Compiling material FG_001
+[2025.11.14-21.01.33:865][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.14-21.01.33:865][407]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_Materials/FG_001] ([1] browsable assets)...
+[2025.11.14-21.01.33:865][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_Materials/FG_001]
+[2025.11.14-21.01.33:877][407]LogSavePackage: Moving output files for package: /Game/Characters/1_FirstGeneral/FG_Materials/FG_001
+[2025.11.14-21.01.33:877][407]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/FG_001694FC0EC4826B2E1AA8F889D7F9E3E85.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/1_FirstGeneral/FG_Materials/FG_001.uasset'
+[2025.11.14-21.01.33:878][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 13.469 ms (total: 1.91 sec)
+[2025.11.14-21.01.33:885][407]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.14-21.01.33:885][407]LogContentValidation: Enabled validators:
+[2025.11.14-21.01.33:885][407]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.14-21.01.33:885][407]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.14-21.01.33:885][407]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.14-21.01.33:885][407]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.14-21.01.33:885][407]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.14-21.01.33:885][407]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.14-21.01.33:885][407]AssetCheck: /Game/Characters/1_FirstGeneral/FG_Materials/FG_001 Validating asset
+[2025.11.14-21.01.36:434][509]LogMaterialEditor: Saving and Compiling material FG_005
+[2025.11.14-21.01.36:437][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.14-21.01.36:437][509]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_Materials/FG_005] ([1] browsable assets)...
+[2025.11.14-21.01.36:437][509]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_Materials/FG_005]
+[2025.11.14-21.01.36:448][509]LogSavePackage: Moving output files for package: /Game/Characters/1_FirstGeneral/FG_Materials/FG_005
+[2025.11.14-21.01.36:449][509]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/FG_005B2BA3A124335856B508D46AF1B99E218.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/1_FirstGeneral/FG_Materials/FG_005.uasset'
+[2025.11.14-21.01.36:450][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 13.661 ms (total: 1.92 sec)
+[2025.11.14-21.01.36:456][509]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.14-21.01.36:456][509]LogContentValidation: Enabled validators:
+[2025.11.14-21.01.36:456][509]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.14-21.01.36:456][509]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.14-21.01.36:456][509]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.14-21.01.36:456][509]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.14-21.01.36:456][509]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.14-21.01.36:456][509]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.14-21.01.36:457][509]AssetCheck: /Game/Characters/1_FirstGeneral/FG_Materials/FG_005 Validating asset
+[2025.11.14-21.01.40:317][685]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.14-21.01.40:317][685]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack] ([1] browsable assets)...
+[2025.11.14-21.01.40:334][685]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack.Great_Sword_Slide_Attack]
+[2025.11.14-21.01.40:334][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack]
+[2025.11.14-21.01.40:358][685]LogSavePackage: Moving output files for package: /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack
+[2025.11.14-21.01.40:358][685]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Slide_Attack6116A1CC46B71B041766A2ABB784442D.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack.uasset'
+[2025.11.14-21.01.40:369][685]LogFileHelpers: InternalPromptForCheckoutAndSave took 52.745 ms (total: 1.98 sec)
+[2025.11.14-21.01.40:370][685]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.14-21.01.40:370][685]LogContentValidation: Enabled validators:
+[2025.11.14-21.01.40:370][685]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.14-21.01.40:370][685]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.14-21.01.40:370][685]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.14-21.01.40:370][685]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.14-21.01.40:370][685]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.14-21.01.40:370][685]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.14-21.01.40:370][685]AssetCheck: /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slide_Attack Validating asset
+[2025.11.14-21.01.40:396][685]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.14-21.02.32:383][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-21.02.32:383][602]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_VFX
+[2025.11.14-21.02.32:395][602]LogWorld: UWorld::CleanupWorld for VFX, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-21.02.32:397][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-21.02.32:397][602]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_VFX.VFX
+[2025.11.14-21.02.32:410][602]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-21.02.32:416][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-21.02.32:446][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-21.02.32:447][602]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.11.14-21.02.32:450][602]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.11.14-21.02.32:453][602]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.11.14-21.02.32:479][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.11.14-21.02.32:579][603]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.11.14-21.02.55:053][319]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle.Great_Sword_Idle
+[2025.11.14-21.02.55:053][319]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle.Great_Sword_Idle
+[2025.11.14-21.02.55:054][319]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_5
+[2025.11.14-21.02.55:055][319]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_5
+[2025.11.14-21.02.57:370][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.11.14-21.02.57:375][417]LogEditorActor: Deleted 0 Actors (0.032 secs)
+[2025.11.14-21.02.57:383][417]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle.Great_Sword_Idle
+[2025.11.14-21.02.57:383][417]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle.Great_Sword_Idle
+[2025.11.14-21.02.57:387][417]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F001DA202_1603331676
+[2025.11.14-21.02.57:388][417]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/1_FirstGeneral/FG_Meshes_/FirstGeneral_Skeleton.FirstGeneral_Skeleton as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F001DA202_1603331676
+[2025.11.14-21.03.14:921][151]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.14-21.03.14:934][151]LogContentBundle: [VFX(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.14-21.03.14:934][151]LogWorldPartition: Display: GenerateStreaming for 'VFX' started...
+[2025.11.14-21.03.14:936][151]LogWorldPartition: Display: GenerateStreaming for 'VFX' took 2.728 ms (total: 24.510 ms)
+[2025.11.14-21.03.14:936][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.14-21.03.14:937][151]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VFX
+[2025.11.14-21.03.14:960][151]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.14-21.03.14:964][151]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 5.037 ms (total: 24.964 ms)
+[2025.11.14-21.03.14:966][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028656s)
+[2025.11.14-21.03.14:966][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VFX.VFX to /Game/Levels/UEDPIE_0_VFX.VFX (0.028718s)
+[2025.11.14-21.03.15:009][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.11.14-21.03.15:010][151]LogChaosDD: Creating Chaos Debug Draw Scene for world VFX
+[2025.11.14-21.03.15:013][151]LogWorldPartition: ULevel::OnLevelLoaded(VFX)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.14-21.03.15:013][151]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.14-21.03.15:013][151]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_VFX.VFX, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.14-21.03.15:013][151]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.14-21.03.15:021][151]LogWorldPartition: Display: WorldPartition initialize took 8.692 ms (total: 1.34 sec)
+[2025.11.14-21.03.15:022][151]LogPlayLevel: PIE: World Init took: (0.011120s)
+[2025.11.14-21.03.15:024][151]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.11.14-21.03.15:024][151]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.14-21.03.15:024][151]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.14-21.03.15:024][151]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.14-21.03.15:025][151]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.14-21.03.15:025][151]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.14-21.03.15:025][151]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.14-21.03.15:025][151]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.14-21.03.15:025][151]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.14-21.03.15:025][151]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.14-21.03.15:025][151]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.14-21.03.15:025][151]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.14-21.03.15:030][151]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.14-21.03.15:120][151]LogAudioMixer: Display: Using Audio Hardware Device Headphones (AirPods Pro - Find My)
+[2025.11.14-21.03.15:120][151]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.14-21.03.15:120][151]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.14-21.03.15:120][151]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.14-21.03.15:121][151]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.11.14-21.03.15:121][151]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.11.14-21.03.15:123][151]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.11.14-21.03.15:123][151]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.11.14-21.03.15:123][151]LogInit: FAudioDevice initialized with ID 4.
+[2025.11.14-21.03.15:123][151]LogAudio: Display: Audio Device (ID: 4) registered with world 'VFX'.
+[2025.11.14-21.03.15:123][151]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.11.14-21.03.15:128][151]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.14-21.03.15:130][151]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VFX.VFX up for play (max tick rate 60) at 2025.11.14-16.03.15
+[2025.11.14-21.03.15:130][151]LogWorld: Bringing up level for play took: 0.001418
+[2025.11.14-21.03.15:132][151]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.11.14-21.03.15:145][151]LogStreaming: Display: FlushAsyncLoading(784,783,782,781,780,779,778,777,776,775,774,773,772,771,770,769,768,767,766,765,764,763,762,761,760,759,758,757,756,755,754,753,752,751,750,749,748,747,746,745,744,738,739,740,741,742,743,737): 48 QueuedPackages, 0 AsyncPackages
+[2025.11.14-21.03.15:374][151]PIE: Server logged in
+[2025.11.14-21.03.15:376][151]PIE: Play in editor total start time 0.443 seconds.
+[2025.11.14-21.03.15:483][152]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.14-21.03.46:825][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-21.03.46:825][316]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_VFX
+[2025.11.14-21.03.46:837][316]LogWorld: UWorld::CleanupWorld for VFX, bSessionEnded=true, bCleanupResources=true
+[2025.11.14-21.03.46:837][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-21.03.46:837][316]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_VFX.VFX
+[2025.11.14-21.03.46:840][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.14-21.03.46:846][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.14-21.03.46:878][316]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.14-21.03.46:879][316]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.11.14-21.03.46:879][316]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.11.14-21.03.46:883][316]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.11.14-21.03.46:903][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.14-21.03.46:911][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.11.14-21.03.46:998][317]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.11.14-21.03.49:324][371]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.14-21.03.49:432][371]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/E/JD/J1QQJOQ6V652GND0GFX9H8
+[2025.11.14-21.03.49:432][371]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/J1QQJOQ6V652GND0GFX9H82116833840223EAA6C0103AB9DB3ABA6.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/E/JD/J1QQJOQ6V652GND0GFX9H8.uasset'
+[2025.11.14-21.03.49:446][371]LogFileHelpers: InternalPromptForCheckoutAndSave took 120.741 ms (total: 2.10 sec)
+[2025.11.14-21.03.49:472][371]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.14-21.03.49:472][371]LogContentValidation: Enabled validators:
+[2025.11.14-21.03.49:472][371]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.14-21.03.49:472][371]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.14-21.03.49:472][371]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.14-21.03.49:472][371]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.14-21.03.49:472][371]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.14-21.03.49:472][371]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.14-21.03.49:472][371]AssetCheck: /Game/Levels/VFX Validating asset
+[2025.11.14-21.03.49:507][371]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.14-21.04.06:541][ 44]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.11.14-21.04.39:384][808]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1676.356201
+[2025.11.14-21.04.40:361][811]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.14-21.04.40:361][811]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1676.998291, Update Interval: 341.646790
+[2025.11.14-21.04.48:079][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.11.14-21.04.48:084][834]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/VFX' took 0.025
+[2025.11.14-21.04.48:085][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Attack] ([1] browsable assets)...
+[2025.11.14-21.04.48:324][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Attack.Great_Sword_Attack]
+[2025.11.14-21.04.48:324][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Attack]
+[2025.11.14-21.04.48:345][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Attack_Auto2
+[2025.11.14-21.04.48:345][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Attack_Auto2E2789E974A071DB89D68488585A74258.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Attack_Auto2.uasset'
+[2025.11.14-21.04.48:346][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Casting] ([1] browsable assets)...
+[2025.11.14-21.04.48:363][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Casting.Great_Sword_Casting]
+[2025.11.14-21.04.48:363][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Casting]
+[2025.11.14-21.04.48:377][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Casting_Auto2
+[2025.11.14-21.04.48:377][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Casting_Auto2BEA412BB456B3D2F567DF8A715D85108.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Casting_Auto2.uasset'
+[2025.11.14-21.04.48:378][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_High_Spin_Attack] ([1] browsable assets)...
+[2025.11.14-21.04.48:387][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_High_Spin_Attack.Great_Sword_High_Spin_Attack]
+[2025.11.14-21.04.48:387][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_High_Spin_Attack]
+[2025.11.14-21.04.48:403][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_High_Spin_Attack_Auto2
+[2025.11.14-21.04.48:403][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_High_Spin_Attack_AutE3F3E9534A4DA5AA32D8338A7F1C75C9.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_High_Spin_Attack_Auto2.uasset'
+[2025.11.14-21.04.48:404][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Impact] ([1] browsable assets)...
+[2025.11.14-21.04.48:416][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Impact.Great_Sword_Impact]
+[2025.11.14-21.04.48:416][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Impact]
+[2025.11.14-21.04.48:431][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Impact_Auto2
+[2025.11.14-21.04.48:431][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Impact_Auto26EE96CE14D1332986679F1AB1DDADE0D.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Impact_Auto2.uasset'
+[2025.11.14-21.04.48:433][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Jump_Attack] ([1] browsable assets)...
+[2025.11.14-21.04.48:441][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Jump_Attack.Great_Sword_Jump_Attack]
+[2025.11.14-21.04.48:441][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Jump_Attack]
+[2025.11.14-21.04.48:458][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Jump_Attack_Auto2
+[2025.11.14-21.04.48:458][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Jump_Attack_Auto25C4B22194243820EAF5F5CB2E92ACE9B.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Jump_Attack_Auto2.uasset'
+[2025.11.14-21.04.48:459][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Kick] ([1] browsable assets)...
+[2025.11.14-21.04.48:468][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Kick.Great_Sword_Kick]
+[2025.11.14-21.04.48:468][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Kick]
+[2025.11.14-21.04.48:482][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Kick_Auto2
+[2025.11.14-21.04.48:482][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Kick_Auto2E26730024DDA0304C9825B920B038D22.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Kick_Auto2.uasset'
+[2025.11.14-21.04.48:483][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1_] ([1] browsable assets)...
+[2025.11.14-21.04.48:492][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1_.Great_Sword_Slash__1_]
+[2025.11.14-21.04.48:492][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1_]
+[2025.11.14-21.04.48:508][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1__Auto2
+[2025.11.14-21.04.48:508][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Slash__1__Auto2B87E795644DFFD250EEF4CBD62227BCE.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__1__Auto2.uasset'
+[2025.11.14-21.04.48:508][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2_] ([1] browsable assets)...
+[2025.11.14-21.04.48:520][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2_.Great_Sword_Slash__2_]
+[2025.11.14-21.04.48:520][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2_]
+[2025.11.14-21.04.48:537][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2__Auto2
+[2025.11.14-21.04.48:537][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Slash__2__Auto26262D372452FA1A0AB834FBFE9E417CC.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__2__Auto2.uasset'
+[2025.11.14-21.04.48:538][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__3_] ([1] browsable assets)...
+[2025.11.14-21.04.48:547][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__3_.Great_Sword_Slash__3_]
+[2025.11.14-21.04.48:547][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__3_]
+[2025.11.14-21.04.48:561][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__3__Auto2
+[2025.11.14-21.04.48:561][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Slash__3__Auto20CF5C406469FFDB0DB5E829719C37D3E.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash__3__Auto2.uasset'
+[2025.11.14-21.04.48:562][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash] ([1] browsable assets)...
+[2025.11.14-21.04.48:574][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash.Great_Sword_Slash]
+[2025.11.14-21.04.48:574][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash]
+[2025.11.14-21.04.48:589][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash_Auto2
+[2025.11.14-21.04.48:590][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Slash_Auto20E79C99E4056914DF9E90DB636791ABF.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Great_Sword_Slash_Auto2.uasset'
+[2025.11.14-21.04.48:590][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo] ([1] browsable assets)...
+[2025.11.14-21.04.48:600][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo.Two_Hand_Sword_Combo]
+[2025.11.14-21.04.48:600][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo]
+[2025.11.14-21.04.48:617][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo_Auto2
+[2025.11.14-21.04.48:617][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Two_Hand_Sword_Combo_Auto2278BD8A447013CB1B1CD7598A93E08AE.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Attacks/Two_Hand_Sword_Combo_Auto2.uasset'
+[2025.11.14-21.04.48:618][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__1_] ([1] browsable assets)...
+[2025.11.14-21.04.48:627][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__1_.Great_Sword_Crouching__1_]
+[2025.11.14-21.04.48:627][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__1_]
+[2025.11.14-21.04.48:642][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__1__Auto2
+[2025.11.14-21.04.48:642][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Crouching__1__Auto20BA7DCC041A1E64F7190E4B2D427F091.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__1__Auto2.uasset'
+[2025.11.14-21.04.48:643][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__2_] ([1] browsable assets)...
+[2025.11.14-21.04.48:654][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__2_.Great_Sword_Crouching__2_]
+[2025.11.14-21.04.48:654][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__2_]
+[2025.11.14-21.04.48:670][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__2__Auto2
+[2025.11.14-21.04.48:670][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Crouching__2__Auto2E690327C46FE87AF50E620AF680E71F9.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__2__Auto2.uasset'
+[2025.11.14-21.04.48:671][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__3_] ([1] browsable assets)...
+[2025.11.14-21.04.48:680][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__3_.Great_Sword_Crouching__3_]
+[2025.11.14-21.04.48:680][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__3_]
+[2025.11.14-21.04.48:695][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__3__Auto2
+[2025.11.14-21.04.48:695][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Crouching__3__Auto2DAC457B64E233E43DF33B78E5A48F509.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__3__Auto2.uasset'
+[2025.11.14-21.04.48:696][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__4_] ([1] browsable assets)...
+[2025.11.14-21.04.48:707][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__4_.Great_Sword_Crouching__4_]
+[2025.11.14-21.04.48:707][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__4_]
+[2025.11.14-21.04.48:726][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__4__Auto2
+[2025.11.14-21.04.48:726][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Crouching__4__Auto2476685164E24F05F9210B7A6B0FBA837.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching__4__Auto2.uasset'
+[2025.11.14-21.04.48:727][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching] ([1] browsable assets)...
+[2025.11.14-21.04.48:737][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching.Great_Sword_Crouching]
+[2025.11.14-21.04.48:737][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching]
+[2025.11.14-21.04.48:750][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching_Auto2
+[2025.11.14-21.04.48:750][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Crouching_Auto25342A32F415B9038268DC1A051790741.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Crouching/Great_Sword_Crouching_Auto2.uasset'
+[2025.11.14-21.04.48:752][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Sword_And_Shield_Death] ([1] browsable assets)...
+[2025.11.14-21.04.48:760][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Sword_And_Shield_Death.Sword_And_Shield_Death]
+[2025.11.14-21.04.48:760][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Sword_And_Shield_Death]
+[2025.11.14-21.04.48:777][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Sword_And_Shield_Death_Auto2
+[2025.11.14-21.04.48:777][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Death_Auto239C1EF184B63467F82DD2485805ED69E.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Sword_And_Shield_Death_Auto2.uasset'
+[2025.11.14-21.04.48:778][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death__1_] ([1] browsable assets)...
+[2025.11.14-21.04.48:789][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death__1_.Two_Handed_Sword_Death__1_]
+[2025.11.14-21.04.48:789][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death__1_]
+[2025.11.14-21.04.48:804][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death__1__Auto2
+[2025.11.14-21.04.48:804][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Two_Handed_Sword_Death__1__Auto2343316B7457AED1F4EB351B7C58D3AB0.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death__1__Auto2.uasset'
+[2025.11.14-21.04.48:805][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death] ([1] browsable assets)...
+[2025.11.14-21.04.48:814][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death.Two_Handed_Sword_Death]
+[2025.11.14-21.04.48:814][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death]
+[2025.11.14-21.04.48:833][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death_Auto2
+[2025.11.14-21.04.48:833][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Two_Handed_Sword_Death_Auto21DC801664A9B35732FE3B48A36A01EDE.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Death/Two_Handed_Sword_Death_Auto2.uasset'
+[2025.11.14-21.04.48:834][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_GettingHurt/Great_Sword_Impact] ([1] browsable assets)...
+[2025.11.14-21.04.48:843][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_GettingHurt/Great_Sword_Impact.Great_Sword_Impact]
+[2025.11.14-21.04.48:843][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_GettingHurt/Great_Sword_Impact]
+[2025.11.14-21.04.48:856][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_GettingHurt/Great_Sword_Impact_Auto2
+[2025.11.14-21.04.48:856][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Impact_Auto2B1D9FC9F425B3D4984A9C2955F373A7C.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_GettingHurt/Great_Sword_Impact_Auto2.uasset'
+[2025.11.14-21.04.48:858][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_180_Turn] ([1] browsable assets)...
+[2025.11.14-21.04.48:869][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_180_Turn.Great_Sword_180_Turn]
+[2025.11.14-21.04.48:869][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_180_Turn]
+[2025.11.14-21.04.48:882][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_180_Turn_Auto2
+[2025.11.14-21.04.48:882][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_180_Turn_Auto20A3B44C14B762EC0CF6E1CBA411E27E8.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_180_Turn_Auto2.uasset'
+[2025.11.14-21.04.48:883][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle] ([1] browsable assets)...
+[2025.11.14-21.04.48:893][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle.Great_Sword_Idle]
+[2025.11.14-21.04.48:893][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle]
+[2025.11.14-21.04.48:907][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle_Auto2
+[2025.11.14-21.04.48:907][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Idle_Auto2193EB1E74CD2CCF8D2C3C88109AA7398.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Idle_Auto2.uasset'
+[2025.11.14-21.04.48:908][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Run] ([1] browsable assets)...
+[2025.11.14-21.04.48:918][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Run.Great_Sword_Run]
+[2025.11.14-21.04.48:918][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Run]
+[2025.11.14-21.04.48:933][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Run_Auto2
+[2025.11.14-21.04.48:933][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Run_Auto238C9EC3B46B783832120EDA0E244679F.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Run_Auto2.uasset'
+[2025.11.14-21.04.48:934][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Strafe] ([1] browsable assets)...
+[2025.11.14-21.04.48:944][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Strafe.Great_Sword_Strafe]
+[2025.11.14-21.04.48:944][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Strafe]
+[2025.11.14-21.04.48:957][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Strafe_Auto2
+[2025.11.14-21.04.48:957][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Strafe_Auto228BEA90A44D38F1B1603948D7191CB78.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Strafe_Auto2.uasset'
+[2025.11.14-21.04.48:958][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Walk] ([1] browsable assets)...
+[2025.11.14-21.04.48:968][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Walk.Great_Sword_Walk]
+[2025.11.14-21.04.48:968][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Walk]
+[2025.11.14-21.04.48:981][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Walk_Auto2
+[2025.11.14-21.04.48:981][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Walk_Auto2A92F358C413BA097E669649F3566D51B.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_Movements/Great_Sword_Walk_Auto2.uasset'
+[2025.11.14-21.04.48:984][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Great_Sword_Power_Up] ([1] browsable assets)...
+[2025.11.14-21.04.48:996][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Great_Sword_Power_Up.Great_Sword_Power_Up]
+[2025.11.14-21.04.48:996][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Great_Sword_Power_Up]
+[2025.11.14-21.04.49:009][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Great_Sword_Power_Up_Auto2
+[2025.11.14-21.04.49:009][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Great_Sword_Power_Up_Auto2CDD728634F59684D8932368A6F075185.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Great_Sword_Power_Up_Auto2.uasset'
+[2025.11.14-21.04.49:009][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Spell_Cast] ([1] browsable assets)...
+[2025.11.14-21.04.49:019][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Spell_Cast.Spell_Cast]
+[2025.11.14-21.04.49:019][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Spell_Cast]
+[2025.11.14-21.04.49:036][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Spell_Cast_Auto2
+[2025.11.14-21.04.49:036][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Spell_Cast_Auto2A981CE504E285406264458BDE4DCA664.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_PowerUp_Magic/Spell_Cast_Auto2.uasset'
+[2025.11.14-21.04.49:037][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_1] ([1] browsable assets)...
+[2025.11.14-21.04.49:048][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_1.Draw_A_Great_Sword_1]
+[2025.11.14-21.04.49:048][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_1]
+[2025.11.14-21.04.49:066][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_1_Auto2
+[2025.11.14-21.04.49:066][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Draw_A_Great_Sword_1_Auto22CA881B949C8485C2EF64EA115249F7B.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_1_Auto2.uasset'
+[2025.11.14-21.04.49:067][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_2] ([1] browsable assets)...
+[2025.11.14-21.04.49:077][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_2.Draw_A_Great_Sword_2]
+[2025.11.14-21.04.49:077][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_2]
+[2025.11.14-21.04.49:091][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_2_Auto2
+[2025.11.14-21.04.49:091][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Draw_A_Great_Sword_2_Auto21696E4D8464FD189F0E2569B8AA0D688.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Draw_A_Great_Sword_2_Auto2.uasset'
+[2025.11.14-21.04.49:092][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_1] ([1] browsable assets)...
+[2025.11.14-21.04.49:102][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_1.Sheath_A_Great_Sword_1]
+[2025.11.14-21.04.49:102][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_1]
+[2025.11.14-21.04.49:121][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_1_Auto2
+[2025.11.14-21.04.49:121][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sheath_A_Great_Sword_1_Auto267144B574DE42B20E3FFDBB010541C6F.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_1_Auto2.uasset'
+[2025.11.14-21.04.49:121][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_2] ([1] browsable assets)...
+[2025.11.14-21.04.49:131][834]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_2.Sheath_A_Great_Sword_2]
+[2025.11.14-21.04.49:131][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_2]
+[2025.11.14-21.04.49:144][834]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_2_Auto2
+[2025.11.14-21.04.49:144][834]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sheath_A_Great_Sword_2_Auto25A7232DE41C9CB00D3C45A8432F87154.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/1_FirstGeneral/FG_AnimSeq/FG_SwordEquip_Drawn/Sheath_A_Great_Sword_2_Auto2.uasset'
+[2025.11.14-21.04.49:145][834]LogFileHelpers: Auto-saving content packages took 1.061
