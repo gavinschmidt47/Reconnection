@@ -4962,3 +4962,540 @@ Sampler Limit: 32
 [2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_013 Validating asset
 [2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_014 Validating asset
 [2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_015 Validating asset
+[2025.11.17-00.07.33:891][474]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3646.858887
+[2025.11.17-00.07.34:887][477]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.17-00.07.34:887][477]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3647.522461, Update Interval: 307.024139
+[2025.11.17-00.08.16:104][803]LogStreaming: Display: FlushAsyncLoading(803): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.16:133][803]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Attack/One Hand Sword Combo.fbx]
+[2025.11.17-00.08.16:256][803]LogInterchangePipeline: Warning: UInterchangeGenericAnimationPipeline: Cannot execute pre-import pipeline because importing animation only requires a valid skeleton.
+[2025.11.17-00.08.16:276][803]LogInterchangePipeline: Warning: UInterchangeGenericAnimationPipeline: Cannot execute pre-import pipeline because importing animation only requires a valid skeleton.
+[2025.11.17-00.08.18:642][803]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.11.17-00.08.18:989][803]LogPSOHitching: Encountered 1150 PSO creation hitches so far (565 graphics, 585 compute). 0 of them were precached.
+[2025.11.17-00.08.19:130][803]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.11.17-00.08.23:434][803]LogDerivedDataCache: C:/Users/danie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.003 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.17-00.08.29:777][803]LogSlate: Window 'Import Content' being destroyed
+[2025.11.17-00.08.29:798][803]LogInterchangeEngine: [Pending] Importing
+[2025.11.17-00.08.29:958][803]LogAutomationController: Ignoring very large delta of 13.89 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.11.17-00.08.30:581][806]LogStreaming: Display: FlushAsyncLoading(833): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.30:639][808]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo.One_Hand_Sword_Combo (Required Memory Estimate: 3.04 MB)
+[2025.11.17-00.08.30:670][808]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...N_AnimSeq/TTN_Attack/One Hand Sword Combo.fbx]
+[2025.11.17-00.08.30:670][808]LogInterchangeEngine: [Pending] Importing -  (29)
+[2025.11.17-00.08.30:670][808]LogInterchangeEngine: [Pending] Importing -  (29)
+[2025.11.17-00.08.30:670][808]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Attack/Sword And Shield Attack.fbx]
+[2025.11.17-00.08.30:690][809]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo.One_Hand_Sword_Combo, at AnimationSequence/7721994c1394fe8bf7f555a0bac605fc739f0442
+[2025.11.17-00.08.31:666][816]LogStreaming: Display: FlushAsyncLoading(834): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.31:752][817]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack.Sword_And_Shield_Attack (Required Memory Estimate: 1.68 MB)
+[2025.11.17-00.08.31:770][817]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...N_AnimSeq/TTN_Attack/Sword And Shield Attack.fbx]
+[2025.11.17-00.08.31:770][817]LogInterchangeEngine: [Pending] Importing -  (28)
+[2025.11.17-00.08.31:770][817]LogInterchangeEngine: [Pending] Importing -  (28)
+[2025.11.17-00.08.31:770][817]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Attack/Sword And Shield Attack2.fbx]
+[2025.11.17-00.08.31:779][818]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack.Sword_And_Shield_Attack, at AnimationSequence/04eea7ab54c0968afb00f438167bb5a3bccfb819
+[2025.11.17-00.08.32:445][823]LogStreaming: Display: FlushAsyncLoading(835): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.32:583][824]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2.Sword_And_Shield_Attack2 (Required Memory Estimate: 1.04 MB)
+[2025.11.17-00.08.32:603][824]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...N_AnimSeq/TTN_Attack/Sword And Shield Attack2.fbx]
+[2025.11.17-00.08.32:603][824]LogInterchangeEngine: [Pending] Importing -  (27)
+[2025.11.17-00.08.32:603][824]LogInterchangeEngine: [Pending] Importing -  (27)
+[2025.11.17-00.08.32:603][824]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Attack/Sword And Shield Slash (1).fbx]
+[2025.11.17-00.08.32:618][825]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2.Sword_And_Shield_Attack2, at AnimationSequence/999c2aeb81111640f63bce47f278a1857dab3d3c
+[2025.11.17-00.08.33:245][829]LogStreaming: Display: FlushAsyncLoading(836): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.33:382][830]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__1_.Sword_And_Shield_Slash__1_ (Required Memory Estimate: 1.17 MB)
+[2025.11.17-00.08.33:402][830]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__1_.Sword_And_Shield_Slash__1_, at AnimationSequence/7c1311aadb6af9cefe7ba12745c6534504908bc6
+[2025.11.17-00.08.33:405][830]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...N_AnimSeq/TTN_Attack/Sword And Shield Slash (1).fbx]
+[2025.11.17-00.08.33:405][830]LogInterchangeEngine: [Pending] Importing -  (26)
+[2025.11.17-00.08.33:405][830]LogInterchangeEngine: [Pending] Importing -  (26)
+[2025.11.17-00.08.33:405][830]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Attack/Sword And Shield Slash (2).fbx]
+[2025.11.17-00.08.33:864][835]LogStreaming: Display: FlushAsyncLoading(837): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.33:889][836]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2_.Sword_And_Shield_Slash__2_ (Required Memory Estimate: 2.42 MB)
+[2025.11.17-00.08.33:913][836]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...N_AnimSeq/TTN_Attack/Sword And Shield Slash (2).fbx]
+[2025.11.17-00.08.33:913][836]LogInterchangeEngine: [Pending] Importing -  (25)
+[2025.11.17-00.08.33:913][836]LogInterchangeEngine: [Pending] Importing -  (25)
+[2025.11.17-00.08.33:913][836]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Attack/Sword And Shield Slash.fbx]
+[2025.11.17-00.08.33:937][838]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2_.Sword_And_Shield_Slash__2_, at AnimationSequence/7bf9b9fc1d791bc456c3d1e37f1c3a071c3168ea
+[2025.11.17-00.08.34:171][845]LogStreaming: Display: FlushAsyncLoading(838): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.34:194][846]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash.Sword_And_Shield_Slash (Required Memory Estimate: 1.74 MB)
+[2025.11.17-00.08.34:215][846]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...N_AnimSeq/TTN_Attack/Sword And Shield Slash.fbx]
+[2025.11.17-00.08.34:215][846]LogInterchangeEngine: [Pending] Importing -  (24)
+[2025.11.17-00.08.34:215][846]LogInterchangeEngine: [Pending] Importing -  (24)
+[2025.11.17-00.08.34:215][846]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Attack/Sword And Shield Slash2.fbx]
+[2025.11.17-00.08.34:225][848]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash.Sword_And_Shield_Slash, at AnimationSequence/7385622c22fba89b9b53e3a6ab5d12d22c0ca2e7
+[2025.11.17-00.08.34:494][855]LogStreaming: Display: FlushAsyncLoading(839): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.34:518][856]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash2.Sword_And_Shield_Slash2 (Required Memory Estimate: 1.27 MB)
+[2025.11.17-00.08.34:544][856]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...N_AnimSeq/TTN_Attack/Sword And Shield Slash2.fbx]
+[2025.11.17-00.08.34:544][856]LogInterchangeEngine: [Pending] Importing -  (23)
+[2025.11.17-00.08.34:544][856]LogInterchangeEngine: [Pending] Importing -  (23)
+[2025.11.17-00.08.34:544][856]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Death/Sword And Shield Death 2.fbx]
+[2025.11.17-00.08.34:545][857]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash2.Sword_And_Shield_Slash2, at AnimationSequence/8eadfda54b5b649d3282a67df065c7caaca996ba
+[2025.11.17-00.08.34:810][865]LogStreaming: Display: FlushAsyncLoading(840): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.34:834][866]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death_2.Sword_And_Shield_Death_2 (Required Memory Estimate: 1.66 MB)
+[2025.11.17-00.08.34:857][866]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...TN_AnimSeq/TTN_Death/Sword And Shield Death 2.fbx]
+[2025.11.17-00.08.34:857][866]LogInterchangeEngine: [Pending] Importing -  (22)
+[2025.11.17-00.08.34:857][866]LogInterchangeEngine: [Pending] Importing -  (22)
+[2025.11.17-00.08.34:857][866]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Death/Sword And Shield Death.fbx]
+[2025.11.17-00.08.34:865][867]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death_2.Sword_And_Shield_Death_2, at AnimationSequence/1f7cb7eb2f9b66031dd996eba103b7024ebbd1fa
+[2025.11.17-00.08.35:153][875]LogStreaming: Display: FlushAsyncLoading(841): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.35:178][876]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death.Sword_And_Shield_Death (Required Memory Estimate: 2.65 MB)
+[2025.11.17-00.08.35:205][876]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...TN_AnimSeq/TTN_Death/Sword And Shield Death.fbx]
+[2025.11.17-00.08.35:205][876]LogInterchangeEngine: [Pending] Importing -  (21)
+[2025.11.17-00.08.35:205][876]LogInterchangeEngine: [Pending] Importing -  (21)
+[2025.11.17-00.08.35:205][876]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_DrawnSword/Draw Sword 1.fbx]
+[2025.11.17-00.08.35:224][878]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death.Sword_And_Shield_Death, at AnimationSequence/bf0e9edbbd8aae0b65f9a725ec6fe683e72dac1f
+[2025.11.17-00.08.35:445][885]LogStreaming: Display: FlushAsyncLoading(842): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.35:472][886]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_1.Draw_Sword_1 (Required Memory Estimate: 0.55 MB)
+[2025.11.17-00.08.35:480][886]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_1.Draw_Sword_1, at AnimationSequence/f43586faadc66c24847af1ccc4094f3e48305af7
+[2025.11.17-00.08.35:500][886]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...imSeq/TTN_DrawnSword/Draw Sword 1.fbx]
+[2025.11.17-00.08.35:500][886]LogInterchangeEngine: [Pending] Importing -  (20)
+[2025.11.17-00.08.35:500][886]LogInterchangeEngine: [Pending] Importing -  (20)
+[2025.11.17-00.08.35:500][886]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_DrawnSword/Draw Sword 2.fbx]
+[2025.11.17-00.08.35:755][896]LogStreaming: Display: FlushAsyncLoading(843): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.35:777][897]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_2.Draw_Sword_2 (Required Memory Estimate: 0.71 MB)
+[2025.11.17-00.08.35:788][897]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_2.Draw_Sword_2, at AnimationSequence/fdc2b3a1dba3ab74105a15763c10fc1c1206945f
+[2025.11.17-00.08.35:799][897]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...imSeq/TTN_DrawnSword/Draw Sword 2.fbx]
+[2025.11.17-00.08.35:799][897]LogInterchangeEngine: [Pending] Importing -  (19)
+[2025.11.17-00.08.35:799][897]LogInterchangeEngine: [Pending] Importing -  (19)
+[2025.11.17-00.08.35:799][897]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_GettingHurt/Sword And Shield Block (1).fbx]
+[2025.11.17-00.08.36:043][906]LogStreaming: Display: FlushAsyncLoading(844): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.36:067][907]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block__1_.Sword_And_Shield_Block__1_ (Required Memory Estimate: 0.65 MB)
+[2025.11.17-00.08.36:080][907]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block__1_.Sword_And_Shield_Block__1_, at AnimationSequence/c132f66d52cd67c130b878243083221608d2b1b3
+[2025.11.17-00.08.36:091][907]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...mSeq/TTN_GettingHurt/Sword And Shield Block (1).fbx]
+[2025.11.17-00.08.36:091][907]LogInterchangeEngine: [Pending] Importing -  (18)
+[2025.11.17-00.08.36:091][907]LogInterchangeEngine: [Pending] Importing -  (18)
+[2025.11.17-00.08.36:091][907]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_GettingHurt/Sword And Shield Block.fbx]
+[2025.11.17-00.08.36:337][916]LogStreaming: Display: FlushAsyncLoading(845): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.36:360][917]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block.Sword_And_Shield_Block (Required Memory Estimate: 0.59 MB)
+[2025.11.17-00.08.36:367][917]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block.Sword_And_Shield_Block, at AnimationSequence/d64497a1bed1e43a3170ac1adbbad29292cff9c8
+[2025.11.17-00.08.36:386][917]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...mSeq/TTN_GettingHurt/Sword And Shield Block.fbx]
+[2025.11.17-00.08.36:386][917]LogInterchangeEngine: [Pending] Importing -  (17)
+[2025.11.17-00.08.36:386][917]LogInterchangeEngine: [Pending] Importing -  (17)
+[2025.11.17-00.08.36:386][917]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_GettingHurt/Sword And Shield Impact (1).fbx]
+[2025.11.17-00.08.36:625][926]LogStreaming: Display: FlushAsyncLoading(846): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.36:648][927]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact__1_.Sword_And_Shield_Impact__1_ (Required Memory Estimate: 0.67 MB)
+[2025.11.17-00.08.36:658][927]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact__1_.Sword_And_Shield_Impact__1_, at AnimationSequence/b27c9b6157630fbe5a4230e9fb566b7ab0ab5c5f
+[2025.11.17-00.08.36:669][927]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...mSeq/TTN_GettingHurt/Sword And Shield Impact (1).fbx]
+[2025.11.17-00.08.36:669][927]LogInterchangeEngine: [Pending] Importing -  (16)
+[2025.11.17-00.08.36:669][927]LogInterchangeEngine: [Pending] Importing -  (16)
+[2025.11.17-00.08.36:669][927]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_GettingHurt/Sword And Shield Impact 2.fbx]
+[2025.11.17-00.08.36:902][936]LogStreaming: Display: FlushAsyncLoading(847): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.36:929][937]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact_2.Sword_And_Shield_Impact_2 (Required Memory Estimate: 0.71 MB)
+[2025.11.17-00.08.36:940][937]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact_2.Sword_And_Shield_Impact_2, at AnimationSequence/87a3298378018663e518dc23c70d2ea291108686
+[2025.11.17-00.08.36:954][937]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...mSeq/TTN_GettingHurt/Sword And Shield Impact 2.fbx]
+[2025.11.17-00.08.36:954][937]LogInterchangeEngine: [Pending] Importing -  (15)
+[2025.11.17-00.08.36:954][937]LogInterchangeEngine: [Pending] Importing -  (15)
+[2025.11.17-00.08.36:954][937]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_GettingHurt/Sword And Shield Impact.fbx]
+[2025.11.17-00.08.37:217][947]LogStreaming: Display: FlushAsyncLoading(848): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.37:244][948]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact.Sword_And_Shield_Impact (Required Memory Estimate: 0.84 MB)
+[2025.11.17-00.08.37:260][948]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact.Sword_And_Shield_Impact, at AnimationSequence/a2fbdb8ff226245817047e86b615ed908f899bf6
+[2025.11.17-00.08.37:267][948]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...mSeq/TTN_GettingHurt/Sword And Shield Impact.fbx]
+[2025.11.17-00.08.37:267][948]LogInterchangeEngine: [Pending] Importing -  (14)
+[2025.11.17-00.08.37:267][948]LogInterchangeEngine: [Pending] Importing -  (14)
+[2025.11.17-00.08.37:267][948]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Movements/Sword And Shield 180 Turn.fbx]
+[2025.11.17-00.08.37:513][957]LogStreaming: Display: FlushAsyncLoading(849): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.37:538][958]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_180_Turn.Sword_And_Shield_180_Turn (Required Memory Estimate: 0.76 MB)
+[2025.11.17-00.08.37:550][958]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_180_Turn.Sword_And_Shield_180_Turn, at AnimationSequence/27df358e66682aa5dd6a533b8b3eeaf8cd735298
+[2025.11.17-00.08.37:564][958]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...nimSeq/TTN_Movements/Sword And Shield 180 Turn.fbx]
+[2025.11.17-00.08.37:564][958]LogInterchangeEngine: [Pending] Importing -  (13)
+[2025.11.17-00.08.37:564][958]LogInterchangeEngine: [Pending] Importing -  (13)
+[2025.11.17-00.08.37:564][958]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Movements/Sword And Shield Block Idle.fbx]
+[2025.11.17-00.08.37:825][968]LogStreaming: Display: FlushAsyncLoading(850): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.37:849][969]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Block_Idle.Sword_And_Shield_Block_Idle (Required Memory Estimate: 1.11 MB)
+[2025.11.17-00.08.37:869][969]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Block_Idle.Sword_And_Shield_Block_Idle, at AnimationSequence/b139297378d5b53c3eb35ee37aa9fab6f8ba59bc
+[2025.11.17-00.08.37:874][969]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...nimSeq/TTN_Movements/Sword And Shield Block Idle.fbx]
+[2025.11.17-00.08.37:874][969]LogInterchangeEngine: [Pending] Importing -  (12)
+[2025.11.17-00.08.37:874][969]LogInterchangeEngine: [Pending] Importing -  (12)
+[2025.11.17-00.08.37:874][969]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Movements/Sword And Shield Idle 2.fbx]
+[2025.11.17-00.08.38:144][978]LogStreaming: Display: FlushAsyncLoading(851): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.38:172][979]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle_2.Sword_And_Shield_Idle_2 (Required Memory Estimate: 1.81 MB)
+[2025.11.17-00.08.38:193][979]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...nimSeq/TTN_Movements/Sword And Shield Idle 2.fbx]
+[2025.11.17-00.08.38:193][979]LogInterchangeEngine: [Pending] Importing -  (11)
+[2025.11.17-00.08.38:193][979]LogInterchangeEngine: [Pending] Importing -  (11)
+[2025.11.17-00.08.38:193][979]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Movements/Sword And Shield Idle.fbx]
+[2025.11.17-00.08.38:202][980]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle_2.Sword_And_Shield_Idle_2, at AnimationSequence/399ed2bf119df0594d216b8f0db5acabff357d71
+[2025.11.17-00.08.38:548][989]LogStreaming: Display: FlushAsyncLoading(852): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.38:575][990]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle.Sword_And_Shield_Idle (Required Memory Estimate: 4.90 MB)
+[2025.11.17-00.08.38:596][990]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...nimSeq/TTN_Movements/Sword And Shield Idle.fbx]
+[2025.11.17-00.08.38:596][990]LogInterchangeEngine: [Pending] Importing -  (10)
+[2025.11.17-00.08.38:596][990]LogInterchangeEngine: [Pending] Importing -  (10)
+[2025.11.17-00.08.38:596][990]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Movements/Sword And Shield Run.fbx]
+[2025.11.17-00.08.38:674][996]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle.Sword_And_Shield_Idle, at AnimationSequence/06ee06ea6353ae3aedd7d33d7350036a8a90b287
+[2025.11.17-00.08.38:894][999]LogStreaming: Display: FlushAsyncLoading(853): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.38:921][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Run.Sword_And_Shield_Run (Required Memory Estimate: 0.67 MB)
+[2025.11.17-00.08.38:930][  0]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Run.Sword_And_Shield_Run, at AnimationSequence/13d8f86b1b5a4175f76c6e0dbc09e22b6d1d8f17
+[2025.11.17-00.08.38:944][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...nimSeq/TTN_Movements/Sword And Shield Run.fbx]
+[2025.11.17-00.08.38:944][  0]LogInterchangeEngine: [Pending] Importing -  (9)
+[2025.11.17-00.08.38:944][  0]LogInterchangeEngine: [Pending] Importing -  (9)
+[2025.11.17-00.08.38:944][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Movements/Sword And Shield Strafe.fbx]
+[2025.11.17-00.08.39:191][  9]LogStreaming: Display: FlushAsyncLoading(854): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.39:214][ 10]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe.Sword_And_Shield_Strafe (Required Memory Estimate: 0.67 MB)
+[2025.11.17-00.08.39:225][ 10]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe.Sword_And_Shield_Strafe, at AnimationSequence/bca90783e50371302ba6104e0a2dc497acf1697d
+[2025.11.17-00.08.39:245][ 10]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...nimSeq/TTN_Movements/Sword And Shield Strafe.fbx]
+[2025.11.17-00.08.39:245][ 10]LogInterchangeEngine: [Pending] Importing -  (8)
+[2025.11.17-00.08.39:245][ 10]LogInterchangeEngine: [Pending] Importing -  (8)
+[2025.11.17-00.08.39:245][ 10]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Movements/Sword And Shield Strafe2.fbx]
+[2025.11.17-00.08.39:496][ 19]LogStreaming: Display: FlushAsyncLoading(855): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.39:524][ 20]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe2.Sword_And_Shield_Strafe2 (Required Memory Estimate: 0.94 MB)
+[2025.11.17-00.08.39:544][ 20]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe2.Sword_And_Shield_Strafe2, at AnimationSequence/7b95def6d832bbb886b64b708f223d906238eef5
+[2025.11.17-00.08.39:554][ 20]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...nimSeq/TTN_Movements/Sword And Shield Strafe2.fbx]
+[2025.11.17-00.08.39:554][ 20]LogInterchangeEngine: [Pending] Importing -  (7)
+[2025.11.17-00.08.39:554][ 20]LogInterchangeEngine: [Pending] Importing -  (7)
+[2025.11.17-00.08.39:554][ 20]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Movements/Sword And Shield Turn.fbx]
+[2025.11.17-00.08.39:798][ 29]LogStreaming: Display: FlushAsyncLoading(856): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.39:822][ 30]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Turn.Sword_And_Shield_Turn (Required Memory Estimate: 0.82 MB)
+[2025.11.17-00.08.39:836][ 30]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Turn.Sword_And_Shield_Turn, at AnimationSequence/40b770dbf0110c2d2a2882ab819e9961d4f04f09
+[2025.11.17-00.08.39:846][ 30]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...nimSeq/TTN_Movements/Sword And Shield Turn.fbx]
+[2025.11.17-00.08.39:846][ 30]LogInterchangeEngine: [Pending] Importing -  (6)
+[2025.11.17-00.08.39:846][ 30]LogInterchangeEngine: [Pending] Importing -  (6)
+[2025.11.17-00.08.39:846][ 30]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Movements/Sword And Shield Walk (1).fbx]
+[2025.11.17-00.08.40:109][ 40]LogStreaming: Display: FlushAsyncLoading(857): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.40:134][ 41]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk__1_.Sword_And_Shield_Walk__1_ (Required Memory Estimate: 1.02 MB)
+[2025.11.17-00.08.40:150][ 41]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk__1_.Sword_And_Shield_Walk__1_, at AnimationSequence/b8575babde802e995a52f8a4d1b0efef6e877466
+[2025.11.17-00.08.40:154][ 41]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...nimSeq/TTN_Movements/Sword And Shield Walk (1).fbx]
+[2025.11.17-00.08.40:155][ 41]LogInterchangeEngine: [Pending] Importing -  (5)
+[2025.11.17-00.08.40:155][ 41]LogInterchangeEngine: [Pending] Importing -  (5)
+[2025.11.17-00.08.40:155][ 41]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_Movements/Sword And Shield Walk.fbx]
+[2025.11.17-00.08.40:374][ 49]LogStreaming: Display: FlushAsyncLoading(858): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.40:396][ 50]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk.Sword_And_Shield_Walk (Required Memory Estimate: 0.92 MB)
+[2025.11.17-00.08.40:408][ 50]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk.Sword_And_Shield_Walk, at AnimationSequence/ee0d03d842c833c89b30c6b8f963a594694696c3
+[2025.11.17-00.08.40:413][ 50]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...nimSeq/TTN_Movements/Sword And Shield Walk.fbx]
+[2025.11.17-00.08.40:413][ 50]LogInterchangeEngine: [Pending] Importing -  (4)
+[2025.11.17-00.08.40:413][ 50]LogInterchangeEngine: [Pending] Importing -  (4)
+[2025.11.17-00.08.40:413][ 50]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_PowerUp&MagicHealing/Sword And Shield Casting 2.fbx]
+[2025.11.17-00.08.40:691][ 59]LogStreaming: Display: FlushAsyncLoading(859): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.40:714][ 60]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting_2.Sword_And_Shield_Casting_2 (Required Memory Estimate: 2.07 MB)
+[2025.11.17-00.08.40:737][ 60]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...PowerUp&MagicHealing/Sword And Shield Casting 2.fbx]
+[2025.11.17-00.08.40:737][ 60]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.11.17-00.08.40:737][ 60]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.11.17-00.08.40:737][ 60]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_PowerUp&MagicHealing/Sword And Shield Casting.fbx]
+[2025.11.17-00.08.40:745][ 61]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting_2.Sword_And_Shield_Casting_2, at AnimationSequence/782623a61739b43e6121345ba1b3400b0657de26
+[2025.11.17-00.08.40:983][ 69]LogStreaming: Display: FlushAsyncLoading(860): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.41:008][ 70]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting.Sword_And_Shield_Casting (Required Memory Estimate: 0.88 MB)
+[2025.11.17-00.08.41:029][ 70]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...PowerUp&MagicHealing/Sword And Shield Casting.fbx]
+[2025.11.17-00.08.41:029][ 70]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.11.17-00.08.41:029][ 70]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.11.17-00.08.41:029][ 70]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_PowerUp&MagicHealing/Sword And Shield Power Up.fbx]
+[2025.11.17-00.08.41:039][ 72]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting.Sword_And_Shield_Casting, at AnimationSequence/ce7710c62226a67358c5130d831473ab7ccfb86e
+[2025.11.17-00.08.41:306][ 79]LogStreaming: Display: FlushAsyncLoading(861): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.41:333][ 80]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Power_Up.Sword_And_Shield_Power_Up (Required Memory Estimate: 1.70 MB)
+[2025.11.17-00.08.41:352][ 80]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...PowerUp&MagicHealing/Sword And Shield Power Up.fbx]
+[2025.11.17-00.08.41:352][ 80]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.11.17-00.08.41:352][ 80]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.11.17-00.08.41:352][ 80]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/danie/OneDrive/Desktop/Reconnection_ Characters/Titan/TTN_AnimSeq/TTN_PowerUp&MagicHealing/Wide Arm Spell Casting.fbx]
+[2025.11.17-00.08.41:358][ 81]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Power_Up.Sword_And_Shield_Power_Up, at AnimationSequence/7acb88d834367476e6c66fe8ee9a1a93029e5fdc
+[2025.11.17-00.08.41:653][ 89]LogStreaming: Display: FlushAsyncLoading(862): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.08.41:677][ 90]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Wide_Arm_Spell_Casting.Wide_Arm_Spell_Casting (Required Memory Estimate: 2.42 MB)
+[2025.11.17-00.08.41:698][ 90]LogInterchangeEngine: Display: Interchange import completed [C:/Users/danie/OneDr...PowerUp&MagicHealing/Wide Arm Spell Casting.fbx]
+[2025.11.17-00.08.41:768][ 90]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Wide_Arm_Spell_Casting.Wide_Arm_Spell_Casting, at AnimationSequence/89756fd99b6d69894af256cd9fd9ed34c589d7ea
+[2025.11.17-00.08.41:778][ 90]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.11.17-00.08.41:778][ 90]LogInterchangeEngine: [Success] Import Done
+[2025.11.17-00.08.45:154][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.17-00.08.45:158][125]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/VFX' took 0.031
+[2025.11.17-00.08.45:158][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo] ([1] browsable assets)...
+[2025.11.17-00.08.45:222][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo.One_Hand_Sword_Combo]
+[2025.11.17-00.08.45:223][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo]
+[2025.11.17-00.08.45:241][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo_Auto3
+[2025.11.17-00.08.45:241][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/One_Hand_Sword_Combo_Auto3E35C464E440B32C254916F8DFE466A33.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo_Auto3.uasset'
+[2025.11.17-00.08.45:242][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack] ([1] browsable assets)...
+[2025.11.17-00.08.45:310][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack.Sword_And_Shield_Attack]
+[2025.11.17-00.08.45:310][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack]
+[2025.11.17-00.08.45:325][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack_Auto3
+[2025.11.17-00.08.45:325][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Attack_Auto3670BEC0A49C57C887D06B9981CC34764.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack_Auto3.uasset'
+[2025.11.17-00.08.45:327][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2] ([1] browsable assets)...
+[2025.11.17-00.08.45:411][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2.Sword_And_Shield_Attack2]
+[2025.11.17-00.08.45:411][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2]
+[2025.11.17-00.08.45:429][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2_Auto3
+[2025.11.17-00.08.45:429][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Attack2_Auto3F84DDC964C3743B648622A8621CC3EEA.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2_Auto3.uasset'
+[2025.11.17-00.08.45:430][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__1_] ([1] browsable assets)...
+[2025.11.17-00.08.45:507][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__1_.Sword_And_Shield_Slash__1_]
+[2025.11.17-00.08.45:507][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__1_]
+[2025.11.17-00.08.45:520][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__1__Auto3
+[2025.11.17-00.08.45:520][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Slash__1__Auto350267213438BD5272A6753B27A674B11.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__1__Auto3.uasset'
+[2025.11.17-00.08.45:520][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2_] ([1] browsable assets)...
+[2025.11.17-00.08.45:597][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2_.Sword_And_Shield_Slash__2_]
+[2025.11.17-00.08.45:597][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2_]
+[2025.11.17-00.08.45:616][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2__Auto3
+[2025.11.17-00.08.45:616][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Slash__2__Auto3555F8FFA49885D057321DC8320935B49.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2__Auto3.uasset'
+[2025.11.17-00.08.45:617][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash] ([1] browsable assets)...
+[2025.11.17-00.08.45:695][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash.Sword_And_Shield_Slash]
+[2025.11.17-00.08.45:696][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash]
+[2025.11.17-00.08.45:712][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash_Auto3
+[2025.11.17-00.08.45:712][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Slash_Auto3968736EB4C8273DFC162849CC7B50800.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash_Auto3.uasset'
+[2025.11.17-00.08.45:713][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash2] ([1] browsable assets)...
+[2025.11.17-00.08.45:776][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash2.Sword_And_Shield_Slash2]
+[2025.11.17-00.08.45:776][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash2]
+[2025.11.17-00.08.45:790][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash2_Auto3
+[2025.11.17-00.08.45:790][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Slash2_Auto302E9628748D2565895418A97B90B04DF.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash2_Auto3.uasset'
+[2025.11.17-00.08.45:792][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death_2] ([1] browsable assets)...
+[2025.11.17-00.08.45:857][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death_2.Sword_And_Shield_Death_2]
+[2025.11.17-00.08.45:857][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death_2]
+[2025.11.17-00.08.45:875][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death_2_Auto3
+[2025.11.17-00.08.45:875][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Death_2_Auto369B2E38148456C096E242AB3F258AD91.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death_2_Auto3.uasset'
+[2025.11.17-00.08.45:875][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death] ([1] browsable assets)...
+[2025.11.17-00.08.45:953][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death.Sword_And_Shield_Death]
+[2025.11.17-00.08.45:953][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death]
+[2025.11.17-00.08.45:967][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death_Auto3
+[2025.11.17-00.08.45:967][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Death_Auto3ECB53E6E475EC2DEA63BE497FCAA9CFD.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Death/Sword_And_Shield_Death_Auto3.uasset'
+[2025.11.17-00.08.45:968][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_1] ([1] browsable assets)...
+[2025.11.17-00.08.46:043][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_1.Draw_Sword_1]
+[2025.11.17-00.08.46:043][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_1]
+[2025.11.17-00.08.46:057][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_1_Auto3
+[2025.11.17-00.08.46:057][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Draw_Sword_1_Auto3B37A74E24BA641E848E5ECAD3135CA5C.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_1_Auto3.uasset'
+[2025.11.17-00.08.46:058][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_2] ([1] browsable assets)...
+[2025.11.17-00.08.46:135][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_2.Draw_Sword_2]
+[2025.11.17-00.08.46:135][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_2]
+[2025.11.17-00.08.46:151][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_2_Auto3
+[2025.11.17-00.08.46:151][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Draw_Sword_2_Auto3DDD1FF3A45AEB99AC960F8AE500494A5.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_DrawnSword/Draw_Sword_2_Auto3.uasset'
+[2025.11.17-00.08.46:152][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block__1_] ([1] browsable assets)...
+[2025.11.17-00.08.46:227][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block__1_.Sword_And_Shield_Block__1_]
+[2025.11.17-00.08.46:227][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block__1_]
+[2025.11.17-00.08.46:246][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block__1__Auto3
+[2025.11.17-00.08.46:246][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Block__1__Auto34AB75EF2419F8AF8CE1876B2328E06DB.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block__1__Auto3.uasset'
+[2025.11.17-00.08.46:247][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block] ([1] browsable assets)...
+[2025.11.17-00.08.46:312][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block.Sword_And_Shield_Block]
+[2025.11.17-00.08.46:312][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block]
+[2025.11.17-00.08.46:329][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block_Auto3
+[2025.11.17-00.08.46:329][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Block_Auto3110E8FAF4BC3065DD4CB48908879D461.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Block_Auto3.uasset'
+[2025.11.17-00.08.46:330][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact__1_] ([1] browsable assets)...
+[2025.11.17-00.08.46:397][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact__1_.Sword_And_Shield_Impact__1_]
+[2025.11.17-00.08.46:397][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact__1_]
+[2025.11.17-00.08.46:414][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact__1__Auto3
+[2025.11.17-00.08.46:414][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Impact__1__Auto08290F054C01763A47E581B20A4718CD.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact__1__Auto3.uasset'
+[2025.11.17-00.08.46:415][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact_2] ([1] browsable assets)...
+[2025.11.17-00.08.46:489][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact_2.Sword_And_Shield_Impact_2]
+[2025.11.17-00.08.46:489][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact_2]
+[2025.11.17-00.08.46:507][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact_2_Auto3
+[2025.11.17-00.08.46:507][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Impact_2_Auto3B3402EC44AC6F6494B23CF90DC62D48B.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact_2_Auto3.uasset'
+[2025.11.17-00.08.46:508][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact] ([1] browsable assets)...
+[2025.11.17-00.08.46:579][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact.Sword_And_Shield_Impact]
+[2025.11.17-00.08.46:579][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact]
+[2025.11.17-00.08.46:597][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact_Auto3
+[2025.11.17-00.08.46:597][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Impact_Auto3F93A6A9041CDF075902B9F93F1C76414.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_GettingHurt/Sword_And_Shield_Impact_Auto3.uasset'
+[2025.11.17-00.08.46:598][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_180_Turn] ([1] browsable assets)...
+[2025.11.17-00.08.46:664][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_180_Turn.Sword_And_Shield_180_Turn]
+[2025.11.17-00.08.46:664][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_180_Turn]
+[2025.11.17-00.08.46:681][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_180_Turn_Auto3
+[2025.11.17-00.08.46:681][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_180_Turn_Auto38A93AA414ACE38A02FB0DC8B7686AAAF.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_180_Turn_Auto3.uasset'
+[2025.11.17-00.08.46:682][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Block_Idle] ([1] browsable assets)...
+[2025.11.17-00.08.46:758][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Block_Idle.Sword_And_Shield_Block_Idle]
+[2025.11.17-00.08.46:758][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Block_Idle]
+[2025.11.17-00.08.46:773][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Block_Idle_Auto3
+[2025.11.17-00.08.46:773][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Block_Idle_AutoBC3C70EB4AF80F2797E487BC3B0966F8.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Block_Idle_Auto3.uasset'
+[2025.11.17-00.08.46:774][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle_2] ([1] browsable assets)...
+[2025.11.17-00.08.46:850][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle_2.Sword_And_Shield_Idle_2]
+[2025.11.17-00.08.46:850][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle_2]
+[2025.11.17-00.08.46:871][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle_2_Auto3
+[2025.11.17-00.08.46:871][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Idle_2_Auto34DDDFD31498C1A2C56778F885E33B4AB.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle_2_Auto3.uasset'
+[2025.11.17-00.08.46:872][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle] ([1] browsable assets)...
+[2025.11.17-00.08.46:939][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle.Sword_And_Shield_Idle]
+[2025.11.17-00.08.46:939][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle]
+[2025.11.17-00.08.46:956][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle_Auto3
+[2025.11.17-00.08.46:956][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Idle_Auto34232ACD643B11861765F2D9AD7802459.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Idle_Auto3.uasset'
+[2025.11.17-00.08.46:957][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Run] ([1] browsable assets)...
+[2025.11.17-00.08.47:033][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Run.Sword_And_Shield_Run]
+[2025.11.17-00.08.47:033][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Run]
+[2025.11.17-00.08.47:048][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Run_Auto3
+[2025.11.17-00.08.47:048][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Run_Auto3404E8D6F4A689352926596912765CE38.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Run_Auto3.uasset'
+[2025.11.17-00.08.47:049][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe] ([1] browsable assets)...
+[2025.11.17-00.08.47:120][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe.Sword_And_Shield_Strafe]
+[2025.11.17-00.08.47:120][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe]
+[2025.11.17-00.08.47:137][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe_Auto3
+[2025.11.17-00.08.47:137][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Strafe_Auto35E98C34944F7B075B9F97CAC1EF24FA6.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe_Auto3.uasset'
+[2025.11.17-00.08.47:137][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe2] ([1] browsable assets)...
+[2025.11.17-00.08.47:200][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe2.Sword_And_Shield_Strafe2]
+[2025.11.17-00.08.47:200][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe2]
+[2025.11.17-00.08.47:216][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe2_Auto3
+[2025.11.17-00.08.47:216][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Strafe2_Auto31A5E04B743A30B03EB7E8ABB5741642B.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Strafe2_Auto3.uasset'
+[2025.11.17-00.08.47:217][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Turn] ([1] browsable assets)...
+[2025.11.17-00.08.47:295][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Turn.Sword_And_Shield_Turn]
+[2025.11.17-00.08.47:295][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Turn]
+[2025.11.17-00.08.47:312][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Turn_Auto3
+[2025.11.17-00.08.47:312][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Turn_Auto3F3D9724B4F0D9145CF7E9E982BD33C68.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Turn_Auto3.uasset'
+[2025.11.17-00.08.47:313][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk__1_] ([1] browsable assets)...
+[2025.11.17-00.08.47:388][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk__1_.Sword_And_Shield_Walk__1_]
+[2025.11.17-00.08.47:389][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk__1_]
+[2025.11.17-00.08.47:406][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk__1__Auto3
+[2025.11.17-00.08.47:406][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Walk__1__Auto32400FA094C4A20B4D9DD9E9A1653B434.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk__1__Auto3.uasset'
+[2025.11.17-00.08.47:407][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk] ([1] browsable assets)...
+[2025.11.17-00.08.47:487][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk.Sword_And_Shield_Walk]
+[2025.11.17-00.08.47:487][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk]
+[2025.11.17-00.08.47:500][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk_Auto3
+[2025.11.17-00.08.47:500][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Walk_Auto3E04ECD624260666E916CC3AFC7124F87.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_Movements/Sword_And_Shield_Walk_Auto3.uasset'
+[2025.11.17-00.08.47:502][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting_2] ([1] browsable assets)...
+[2025.11.17-00.08.47:578][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting_2.Sword_And_Shield_Casting_2]
+[2025.11.17-00.08.47:578][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting_2]
+[2025.11.17-00.08.47:595][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting_2_Auto3
+[2025.11.17-00.08.47:595][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Casting_2_Auto3885F9659429A1800767FA7BB2F0BA274.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting_2_Auto3.uasset'
+[2025.11.17-00.08.47:597][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting] ([1] browsable assets)...
+[2025.11.17-00.08.47:661][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting.Sword_And_Shield_Casting]
+[2025.11.17-00.08.47:661][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting]
+[2025.11.17-00.08.47:678][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting_Auto3
+[2025.11.17-00.08.47:678][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Casting_Auto3427FA9BC4B9AA035E1971AB52C1A1762.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Casting_Auto3.uasset'
+[2025.11.17-00.08.47:679][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Power_Up] ([1] browsable assets)...
+[2025.11.17-00.08.47:748][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Power_Up.Sword_And_Shield_Power_Up]
+[2025.11.17-00.08.47:748][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Power_Up]
+[2025.11.17-00.08.47:763][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Power_Up_Auto3
+[2025.11.17-00.08.47:763][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Sword_And_Shield_Power_Up_Auto391BF68914B2A47A4EE2FBF823D6FF880.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Sword_And_Shield_Power_Up_Auto3.uasset'
+[2025.11.17-00.08.47:764][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Wide_Arm_Spell_Casting] ([1] browsable assets)...
+[2025.11.17-00.08.47:841][125]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Wide_Arm_Spell_Casting.Wide_Arm_Spell_Casting]
+[2025.11.17-00.08.47:841][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Wide_Arm_Spell_Casting]
+[2025.11.17-00.08.47:855][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Wide_Arm_Spell_Casting_Auto3
+[2025.11.17-00.08.47:855][125]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Wide_Arm_Spell_Casting_Auto3B0F605674EC8151CFCACA09063A6E7DE.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Autosaves/Game/Characters/2_Titan/TTN_AnimSeq/TTN_PowerUp_MagicHealing/Wide_Arm_Spell_Casting_Auto3.uasset'
+[2025.11.17-00.08.47:856][125]LogFileHelpers: Auto-saving content packages took 2.698
+[2025.11.17-00.08.47:888][125]LogAutomationController: Ignoring very large delta of 3.02 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.11.17-00.09.08:366][178]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2.Sword_And_Shield_Attack2
+[2025.11.17-00.09.08:366][178]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2.Sword_And_Shield_Attack2
+[2025.11.17-00.09.08:368][178]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_1
+[2025.11.17-00.09.08:369][178]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_1
+[2025.11.17-00.09.10:182][277]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.11.17-00.09.10:185][277]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2025.11.17-00.09.10:194][277]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2.Sword_And_Shield_Attack2
+[2025.11.17-00.09.10:194][277]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack2.Sword_And_Shield_Attack2
+[2025.11.17-00.09.10:197][277]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_1966290768
+[2025.11.17-00.09.10:197][277]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_1966290768
+[2025.11.17-00.09.23:754][956]LogPSOHitching: Encountered 1200 PSO creation hitches so far (600 graphics, 600 compute). 0 of them were precached.
+[2025.11.17-00.09.31:693][305]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash.Sword_And_Shield_Slash
+[2025.11.17-00.09.31:693][305]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash.Sword_And_Shield_Slash
+[2025.11.17-00.09.31:694][305]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_2
+[2025.11.17-00.09.31:694][305]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_2
+[2025.11.17-00.09.33:019][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.17-00.09.33:024][357]LogEditorActor: Deleted 0 Actors (0.030 secs)
+[2025.11.17-00.09.33:033][357]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash.Sword_And_Shield_Slash
+[2025.11.17-00.09.33:033][357]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash.Sword_And_Shield_Slash
+[2025.11.17-00.09.33:036][357]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_1989129769
+[2025.11.17-00.09.33:036][357]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_1989129769
+[2025.11.17-00.09.35:749][420]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2_.Sword_And_Shield_Slash__2_
+[2025.11.17-00.09.35:749][420]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2_.Sword_And_Shield_Slash__2_
+[2025.11.17-00.09.35:749][420]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_3
+[2025.11.17-00.09.35:750][420]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_3
+[2025.11.17-00.09.37:677][491]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.11.17-00.09.37:680][491]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2025.11.17-00.09.37:692][491]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2_.Sword_And_Shield_Slash__2_
+[2025.11.17-00.09.37:692][491]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Slash__2_.Sword_And_Shield_Slash__2_
+[2025.11.17-00.09.37:694][491]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_1993788770
+[2025.11.17-00.09.37:694][491]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_1993788770
+[2025.11.17-00.09.43:222][650]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack.Sword_And_Shield_Attack
+[2025.11.17-00.09.43:222][650]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack.Sword_And_Shield_Attack
+[2025.11.17-00.09.43:223][650]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_4
+[2025.11.17-00.09.43:223][650]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_4
+[2025.11.17-00.09.45:151][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.11.17-00.09.45:157][732]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2025.11.17-00.09.45:167][732]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack.Sword_And_Shield_Attack
+[2025.11.17-00.09.45:167][732]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/Sword_And_Shield_Attack.Sword_And_Shield_Attack
+[2025.11.17-00.09.45:171][732]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_2001263771
+[2025.11.17-00.09.45:172][732]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_2001263771
+[2025.11.17-00.09.46:836][787]Cmd: DELETE
+[2025.11.17-00.09.46:836][787]Cmd: ACTOR DELETE
+[2025.11.17-00.09.46:880][787]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.11.17-00.09.46:902][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.11.17-00.09.46:906][787]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2025.11.17-00.09.48:802][847]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo.One_Hand_Sword_Combo
+[2025.11.17-00.09.48:802][847]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo.One_Hand_Sword_Combo
+[2025.11.17-00.09.48:802][847]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_5
+[2025.11.17-00.09.48:803][847]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_5
+[2025.11.17-00.09.49:949][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.11.17-00.09.49:953][900]LogEditorActor: Deleted 0 Actors (0.034 secs)
+[2025.11.17-00.09.49:963][900]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo.One_Hand_Sword_Combo
+[2025.11.17-00.09.49:963][900]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Characters/2_Titan/TTN_AnimSeq/TTN_Attack/One_Hand_Sword_Combo.One_Hand_Sword_Combo
+[2025.11.17-00.09.49:964][900]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_2006059772
+[2025.11.17-00.09.49:965][900]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_2006059772
+[2025.11.17-00.10.21:292][400]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.17-00.10.21:313][400]LogContentBundle: [VFX(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.17-00.10.21:313][400]LogWorldPartition: Display: GenerateStreaming for 'VFX' started...
+[2025.11.17-00.10.21:327][400]LogWorldPartition: Display: GenerateStreaming for 'VFX' took 13.581 ms
+[2025.11.17-00.10.21:334][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.17-00.10.21:370][400]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.11.17-00.10.21:370][400]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.11.17-00.10.21:372][400]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VFX
+[2025.11.17-00.10.21:414][400]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.17-00.10.21:419][400]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 5.132 ms
+[2025.11.17-00.10.21:423][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051175s)
+[2025.11.17-00.10.21:423][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VFX.VFX to /Game/Levels/UEDPIE_0_VFX.VFX (0.051390s)
+[2025.11.17-00.10.21:449][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.11.17-00.10.21:456][400]LogChaosDD: Creating Chaos Debug Draw Scene for world VFX
+[2025.11.17-00.10.21:474][400]LogWorldPartition: ULevel::OnLevelLoaded(VFX)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.17-00.10.21:474][400]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.17-00.10.21:474][400]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_VFX.VFX, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.17-00.10.21:474][400]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.17-00.10.21:493][400]LogWorldPartition: Display: WorldPartition initialize took 18.956 ms (total: 6.51 sec)
+[2025.11.17-00.10.21:494][400]LogPlayLevel: PIE: World Init took: (0.038442s)
+[2025.11.17-00.10.21:498][400]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.11.17-00.10.21:499][400]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.17-00.10.21:499][400]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.17-00.10.21:499][400]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.17-00.10.21:499][400]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.17-00.10.21:499][400]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.17-00.10.21:499][400]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.17-00.10.21:499][400]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.17-00.10.21:500][400]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.17-00.10.21:502][400]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.17-00.10.21:502][400]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.17-00.10.21:502][400]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.17-00.10.21:505][400]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.17-00.10.21:592][400]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.17-00.10.21:595][400]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.17-00.10.21:595][400]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.17-00.10.21:596][400]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.17-00.10.21:599][400]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.11.17-00.10.21:599][400]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.11.17-00.10.21:602][400]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.11.17-00.10.21:602][400]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.11.17-00.10.21:602][400]LogInit: FAudioDevice initialized with ID 2.
+[2025.11.17-00.10.21:602][400]LogAudio: Display: Audio Device (ID: 2) registered with world 'VFX'.
+[2025.11.17-00.10.21:604][400]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.11.17-00.10.21:630][400]LogStreaming: Display: FlushAsyncLoading(863): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.10.22:179][400]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.17-00.10.22:186][400]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VFX.VFX up for play (max tick rate 60) at 2025.11.16-19.10.22
+[2025.11.17-00.10.22:186][400]LogWorld: Bringing up level for play took: 0.005059
+[2025.11.17-00.10.22:190][400]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.11.17-00.10.22:570][400]LogTexture: Display: Waiting for textures to be ready 410/516 (/Memory/UEDPIE_0_VFX_6I57JHDZZ4AZH3RYSJPTXUZC3_InstanceOf_/Game/__ExternalActors__/Levels/VFX/5/29/XDQEWHR3LHOBBOGU53T6G6) ...
+[2025.11.17-00.10.22:588][400]LogTexture: Display: Waiting for textures to be ready 500/516 (/Memory/UEDPIE_0_VFX_25LOGU997HHJR3ZHBTMYSMNPD_InstanceOf_/Game/__ExternalActors__/Levels/VFX/3/6R/O4BCSEFQJMYRN4EA9CA8MU) ...
+[2025.11.17-00.10.22:647][400]PIE: Server logged in
+[2025.11.17-00.10.22:649][400]PIE: Play in editor total start time 1.341 seconds.
+[2025.11.17-00.10.23:014][401]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.17-00.10.24:012][401]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.11.17-00.10.25:330][404]LogNiagara: Compiling System NiagaraSystem /Game/VFX/Bow_Arrow/VFXs_BowArrow/NS_BowCharged.NS_BowCharged took 0.314481 sec (time since issued).
+[2025.11.17-00.10.25:362][404]LogSlate: Took 0.001456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.11.17-00.10.25:670][406]LogPSOHitching: Encountered 1250 PSO creation hitches so far (610 graphics, 640 compute). 0 of them were precached.
+[2025.11.17-00.11.02:481][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.17-00.11.02:481][694]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_VFX
+[2025.11.17-00.11.02:496][694]LogWorld: UWorld::CleanupWorld for VFX, bSessionEnded=true, bCleanupResources=true
+[2025.11.17-00.11.02:497][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.17-00.11.02:498][694]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_VFX.VFX
+[2025.11.17-00.11.02:659][694]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.17-00.11.02:666][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.17-00.11.02:698][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.17-00.11.02:699][694]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.11.17-00.11.02:700][694]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.11.17-00.11.02:727][694]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.11.17-00.11.02:757][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.11.17-00.11.02:847][695]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.11.17-00.11.07:749][797]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.17-00.11.07:925][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.11.17-00.11.07:951][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.11.17-00.11.07:977][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.11.17-00.11.07:982][797]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/0/TI/VFZI2H9KD49L3EE0EHG4GL
+[2025.11.17-00.11.07:983][797]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/VFZI2H9KD49L3EE0EHG4GLF8D1E8744AC9B83F60DCF085885B5956.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/0/TI/VFZI2H9KD49L3EE0EHG4GL.uasset'
+[2025.11.17-00.11.07:994][797]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/9/36/25SAFDAGKC9JCN70NRW4DD
+[2025.11.17-00.11.07:994][797]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/25SAFDAGKC9JCN70NRW4DD24D9B8DB404626FD836BFC87F3187ED0.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/9/36/25SAFDAGKC9JCN70NRW4DD.uasset'
+[2025.11.17-00.11.08:004][797]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/5/0O/PFKIO5OM43THJJ6MQAC34G
+[2025.11.17-00.11.08:004][797]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/PFKIO5OM43THJJ6MQAC34GBAAC0B5141304254C060E4BB94E1B02B.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/5/0O/PFKIO5OM43THJJ6MQAC34G.uasset'
+[2025.11.17-00.11.08:012][797]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/7/N6/U4V6JYGUSMD8U9V9K31XZN
+[2025.11.17-00.11.08:012][797]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/U4V6JYGUSMD8U9V9K31XZN8A9476594B44EB7C9A17198B1094EA4B.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/7/N6/U4V6JYGUSMD8U9V9K31XZN.uasset'
+[2025.11.17-00.11.08:022][797]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/5/YE/GEAM04CVNK2U4966H27B7M
+[2025.11.17-00.11.08:022][797]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/GEAM04CVNK2U4966H27B7M586D67B64692498C9DAF51B68C2C7F09.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/5/YE/GEAM04CVNK2U4966H27B7M.uasset'
+[2025.11.17-00.11.08:036][797]LogFileHelpers: InternalPromptForCheckoutAndSave took 286.666 ms (total: 8.18 sec)
+[2025.11.17-00.11.08:074][797]LogContentValidation: Display: Starting to validate 5 assets
+[2025.11.17-00.11.08:075][797]LogContentValidation: Enabled validators:
+[2025.11.17-00.11.08:075][797]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.17-00.11.08:075][797]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.17-00.11.08:075][797]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.17-00.11.08:075][797]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.17-00.11.08:075][797]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.17-00.11.08:075][797]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.17-00.11.08:075][797]AssetCheck: /Game/Levels/VFX Validating asset
+[2025.11.17-00.11.08:104][797]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.17-00.11.31:059][133]LogAutomationController: Ignoring very large delta of 2.09 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.11.17-00.11.45:816][  4]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.17-00.11.45:882][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.11.17-00.11.45:908][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.11.17-00.11.45:928][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.11.17-00.11.45:938][  4]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.031 ms (total: 8.30 sec)
