@@ -2874,3 +2874,2091 @@ Sampler Limit: 32
 [2025.11.16-23.30.33:073][ 45]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_017 Validating asset
 [2025.11.16-23.30.33:103][ 45]LogAutomationController: Ignoring very large delta of 3.65 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2025.11.16-23.30.33:108][ 45]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.16-23.35.16:540][ 53]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1709.502441
+[2025.11.16-23.35.17:529][ 56]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-23.35.17:529][ 56]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1710.155029, Update Interval: 332.430786
+[2025.11.16-23.37.26:054][442]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VY249HF (NVIDIA High Definition Audio), InstanceID=1
+[2025.11.16-23.37.26:055][442]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{1d9795a0-4dff-4814-9628-8ffd62d50b7a}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.11.16-23.37.26:202][442]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{1d9795a0-4dff-4814-9628-8ffd62d50b7a}]
+[2025.11.16-23.37.26:202][442]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.11.16-23.37.26:203][442]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.11.16-23.37.26:544][443]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{1d9795a0-4dff-4814-9628-8ffd62d50b7a}, Name=VY249HF (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=75.65
+[2025.11.16-23.37.26:544][443]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.11.16-23.37.26:544][443]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.11.16-23.37.26:547][443]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.11.16-23.37.27:261][446]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.11.16-23.37.27:261][446]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{fcb23bad-4df5-4882-97c6-aa4325b92aa7}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.11.16-23.37.27:535][446]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{fcb23bad-4df5-4882-97c6-aa4325b92aa7}]
+[2025.11.16-23.37.27:535][446]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.11.16-23.37.27:535][446]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.11.16-23.37.28:549][449]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{fcb23bad-4df5-4882-97c6-aa4325b92aa7}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=881.80
+[2025.11.16-23.37.28:549][449]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.11.16-23.37.28:549][449]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.11.16-23.37.28:552][449]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.11.16-23.39.09:546][752]LogMaterialEditor: Saving and Compiling material TTN_003
+[2025.11.16-23.39.09:548][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.39.09:582][752]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_003] ([1] browsable assets)...
+[2025.11.16-23.39.09:582][752]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_003]
+[2025.11.16-23.39.09:593][752]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_003
+[2025.11.16-23.39.09:594][752]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_003A96DEB0542662B862969BF89187CCCC1.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_003.uasset'
+[2025.11.16-23.39.09:609][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.402 ms (total: 4.36 sec)
+[2025.11.16-23.39.09:650][752]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.39.09:650][752]LogContentValidation: Enabled validators:
+[2025.11.16-23.39.09:650][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.39.09:650][752]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.39.09:650][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.39.09:650][752]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.39.09:650][752]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.39.09:650][752]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.39.09:650][752]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_003 Validating asset
+[2025.11.16-23.39.13:016][920]LogPSOHitching: Encountered 700 PSO creation hitches so far (303 graphics, 397 compute). 0 of them were precached.
+[2025.11.16-23.39.13:143][920]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.11.16-23.39.13:243][920]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.11.16-23.39.13:443][920]LogD3D12RHI: Waited for PSO creation for 400.000000ms
+[2025.11.16-23.39.13:519][921]LogPSOHitching: Encountered 750 PSO creation hitches so far (325 graphics, 425 compute). 0 of them were precached.
+[2025.11.16-23.39.30:695][691]LogContentBrowser: Attempting asset rename: titan_low_v3_gauntlets_BaseColor -> titan_low_v3_gauntlets_BaseColor
+[2025.11.16-23.39.33:449][821]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.39.33:449][821]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.39.33:449][821]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.39.33:449][821]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.39.33:449][821]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.39.33:556][823]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.39.33:556][823]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.39.33:557][823]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.39.33:557][823]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.39.33:557][823]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.39.33:557][823]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.39.33:557][823]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.39.42:851][261]LogContentBrowser: Attempting asset rename: titan_low_v3_gauntlets_Normal -> titan_low_v3_gauntlets_Normal
+[2025.11.16-23.39.45:093][350]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.39.45:093][350]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.39.45:093][350]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.39.45:093][350]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.39.45:093][350]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.39.45:256][352]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.39.45:256][352]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.39.45:256][352]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.39.45:256][352]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.39.45:256][352]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.39.45:256][352]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.39.45:256][352]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.39.50:475][579]LogContentBrowser: Attempting asset rename: titan_low_v3_gauntlets_OcclusionRoughnessMetallic -> titan_low_v3_gauntlets_OcclusionRoughnessMetallic
+[2025.11.16-23.39.53:620][723]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.39.53:620][723]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.39.53:620][723]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.39.53:620][723]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.39.53:620][723]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.39.53:742][725]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.39.53:742][725]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.39.53:742][725]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.39.53:742][725]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.39.53:742][725]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.39.53:742][725]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.39.53:742][725]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.39.55:626][808]LogMaterialEditor: Saving and Compiling material TTN_004
+[2025.11.16-23.39.55:777][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.11.16-23.39.56:065][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.11.16-23.39.56:089][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.39.56:130][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_004] ([1] browsable assets)...
+[2025.11.16-23.39.56:199][808]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_004.TTN_004]
+[2025.11.16-23.39.56:199][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_004]
+[2025.11.16-23.39.56:216][808]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_004
+[2025.11.16-23.39.56:217][808]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0049AA120614958647EC21DFC980EB4A15B.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_004.uasset'
+[2025.11.16-23.39.56:234][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.721 ms (total: 4.51 sec)
+[2025.11.16-23.39.56:277][808]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.39.56:277][808]LogContentValidation: Enabled validators:
+[2025.11.16-23.39.56:277][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.39.56:277][808]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.39.56:277][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.39.56:277][808]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.39.56:277][808]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.39.56:277][808]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.39.56:277][808]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_004 Validating asset
+[2025.11.16-23.40.02:984][111]LogMaterialEditor: Saving and Compiling material TTN_004
+[2025.11.16-23.40.02:988][111]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.40.03:040][111]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_004] ([1] browsable assets)...
+[2025.11.16-23.40.03:041][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_004]
+[2025.11.16-23.40.03:056][111]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_004
+[2025.11.16-23.40.03:057][111]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0042895A87044DE0C792FEAEC8F18F6DE4B.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_004.uasset'
+[2025.11.16-23.40.03:075][111]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.841 ms (total: 4.59 sec)
+[2025.11.16-23.40.03:122][111]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.40.03:122][111]LogContentValidation: Enabled validators:
+[2025.11.16-23.40.03:122][111]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.40.03:122][111]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.40.03:122][111]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.40.03:122][111]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.40.03:123][111]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.40.03:123][111]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.40.03:123][111]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_004 Validating asset
+[2025.11.16-23.40.30:158][265]LogContentBrowser: Attempting asset rename: titan_low_v3_head_BaseColor -> titan_low_v3_head_BaseColor
+[2025.11.16-23.40.32:579][369]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.40.32:579][369]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.40.32:579][369]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.40.32:579][369]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.40.32:579][369]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.40.32:746][371]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.40.32:746][371]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.40.32:746][371]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.40.32:746][371]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.40.32:746][371]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.40.32:746][371]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.40.32:746][371]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.40.38:710][607]LogContentBrowser: Attempting asset rename: titan_low_v3_head_Normal -> titan_low_v3_head_Normal
+[2025.11.16-23.40.40:499][679]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.40.40:499][679]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.40.40:499][679]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.40.40:499][679]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.40.40:499][679]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.40.40:651][681]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.40.40:651][681]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.40.40:651][681]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.40.40:651][681]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.40.40:651][681]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.40.40:651][681]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.40.40:651][681]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.40.45:480][882]LogContentBrowser: Attempting asset rename: titan_low_v3_head_OcclusionRoughnessMetallic -> titan_low_v3_head_OcclusionRoughnessMetallic
+[2025.11.16-23.40.49:480][ 61]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.40.49:481][ 61]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.40.49:481][ 61]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.40.49:481][ 61]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.40.49:481][ 61]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.40.49:593][ 63]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.40.49:593][ 63]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.40.49:593][ 63]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.40.49:593][ 63]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.40.49:593][ 63]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.40.49:593][ 63]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.40.49:593][ 63]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.40.52:200][168]LogMaterialEditor: Saving and Compiling material TTN_005
+[2025.11.16-23.40.52:364][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.16-23.40.52:587][168]LogPSOHitching: Encountered 800 PSO creation hitches so far (358 graphics, 442 compute). 0 of them were precached.
+[2025.11.16-23.40.52:615][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.11.16-23.40.52:637][168]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.40.52:680][168]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_005] ([1] browsable assets)...
+[2025.11.16-23.40.52:728][168]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_005.TTN_005]
+[2025.11.16-23.40.52:728][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_005]
+[2025.11.16-23.40.52:741][168]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_005
+[2025.11.16-23.40.52:742][168]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_005A4A342AA4818B6C4F5E6188441F69189.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_005.uasset'
+[2025.11.16-23.40.52:760][168]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.453 ms (total: 4.72 sec)
+[2025.11.16-23.40.52:804][168]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.40.52:804][168]LogContentValidation: Enabled validators:
+[2025.11.16-23.40.52:804][168]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.40.52:804][168]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.40.52:804][168]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.40.52:804][168]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.40.52:805][168]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.40.52:805][168]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.40.52:805][168]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_005 Validating asset
+[2025.11.16-23.40.57:550][391]LogMaterialEditor: Saving and Compiling material TTN_005
+[2025.11.16-23.40.57:554][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.40.57:612][391]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_005] ([1] browsable assets)...
+[2025.11.16-23.40.57:612][391]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_005]
+[2025.11.16-23.40.57:629][391]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_005
+[2025.11.16-23.40.57:630][391]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_005B370B5DC406D281F16A7159B54370F97.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_005.uasset'
+[2025.11.16-23.40.57:651][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.924 ms (total: 4.81 sec)
+[2025.11.16-23.40.57:696][391]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.40.57:696][391]LogContentValidation: Enabled validators:
+[2025.11.16-23.40.57:696][391]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.40.57:696][391]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.40.57:696][391]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.40.57:696][391]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.40.57:696][391]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.40.57:696][391]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.40.57:696][391]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_005 Validating asset
+[2025.11.16-23.41.03:082][643]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.41.03:084][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.41.03:196][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2025.11.16-23.41.04:118][684]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.41.04:118][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.41.04:190][684]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2025.11.16-23.41.04:993][720]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.41.04:994][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.41.05:070][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.11.16-23.41.05:692][745]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.41.05:692][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.41.05:748][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.11.16-23.41.28:112][858]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2081.069336
+[2025.11.16-23.41.28:230][864]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-23.41.28:230][865]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2081.165283, Update Interval: 347.850586
+[2025.11.16-23.42.12:174][767]LogContentBrowser: Attempting asset rename: titan_low_v3_hip_atmor_BaseColor -> titan_low_v3_hip_atmor_BaseColor
+[2025.11.16-23.42.16:042][947]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.42.16:042][947]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.42.16:042][947]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.42.16:042][947]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.42.16:042][947]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.42.16:797][948]LogPSOHitching: Encountered 850 PSO creation hitches so far (378 graphics, 472 compute). 0 of them were precached.
+[2025.11.16-23.42.16:816][949]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.42.16:816][949]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.42.16:816][949]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.42.16:816][949]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.42.16:816][949]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.42.16:816][949]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.42.16:816][949]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.42.22:807][181]LogContentBrowser: Attempting asset rename: titan_low_v3_hip_atmor_Normal -> titan_low_v3_hip_atmor_Normal
+[2025.11.16-23.42.25:117][275]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.42.25:117][275]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.42.25:117][275]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.42.25:117][275]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.42.25:117][275]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.42.25:233][277]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.42.25:233][277]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.42.25:233][277]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.42.25:233][277]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.42.25:233][277]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.42.25:233][277]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.42.25:233][277]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.42.31:071][515]LogContentBrowser: Attempting asset rename: titan_low_v3_hip_atmor_OcclusionRoughnessMetallic -> titan_low_v3_hip_atmor_OcclusionRoughnessMetallic
+[2025.11.16-23.42.34:300][669]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.42.34:300][669]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.42.34:300][669]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.42.34:300][669]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.42.34:300][669]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.42.34:409][671]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.42.34:409][671]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.42.34:409][671]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.42.34:409][671]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.42.34:409][671]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.42.34:409][671]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.42.34:409][671]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.42.36:005][742]LogMaterialEditor: Saving and Compiling material TTN_005
+[2025.11.16-23.42.36:148][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.16-23.42.36:435][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.11.16-23.42.36:459][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.42.36:505][742]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_005] ([1] browsable assets)...
+[2025.11.16-23.42.36:568][742]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_005.TTN_005]
+[2025.11.16-23.42.36:568][742]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_005]
+[2025.11.16-23.42.36:585][742]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_005
+[2025.11.16-23.42.36:586][742]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_00500D9B99A412EAE0B239510BC1E492620.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_005.uasset'
+[2025.11.16-23.42.36:602][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 143.701 ms (total: 4.96 sec)
+[2025.11.16-23.42.36:647][742]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.42.36:648][742]LogContentValidation: Enabled validators:
+[2025.11.16-23.42.36:648][742]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.42.36:648][742]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.42.36:648][742]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.42.36:648][742]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.42.36:648][742]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.42.36:648][742]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.42.36:648][742]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_005 Validating asset
+[2025.11.16-23.44.28:980][613]LogContentBrowser: Attempting asset rename: titan_low_v3_head_BaseColor -> titan_low_v3_head_BaseColor
+[2025.11.16-23.44.31:573][726]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.44.31:573][726]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.44.31:573][726]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.44.31:573][726]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.44.31:573][726]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.44.31:886][727]LogPSOHitching: Encountered 900 PSO creation hitches so far (409 graphics, 491 compute). 0 of them were precached.
+[2025.11.16-23.44.31:962][728]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.44.31:962][728]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.44.31:962][728]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.44.31:962][728]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.44.31:962][728]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.44.31:962][728]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.44.31:962][728]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.44.36:958][939]LogContentBrowser: Attempting asset rename: titan_low_v3_head_Normal -> titan_low_v3_head_Normal
+[2025.11.16-23.44.39:227][ 37]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.44.39:227][ 37]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.44.39:227][ 37]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.44.39:227][ 37]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.44.39:227][ 37]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.44.39:451][ 39]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.44.39:451][ 39]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.44.39:451][ 39]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.44.39:451][ 39]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.44.39:451][ 39]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.44.39:451][ 39]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.44.39:451][ 39]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.44.45:317][312]LogContentBrowser: Attempting asset rename: titan_low_v3_head_OcclusionRoughnessMetallic -> titan_low_v3_head_OcclusionRoughnessMetallic
+[2025.11.16-23.44.48:254][446]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.44.48:254][446]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.44.48:254][446]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.44.48:254][446]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.44.48:254][446]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.44.48:381][448]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.44.48:381][448]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.44.48:381][448]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.44.48:381][448]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.44.48:381][448]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.44.48:381][448]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.44.48:381][448]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.44.49:695][505]LogMaterialEditor: Saving and Compiling material TTN_005
+[2025.11.16-23.44.49:844][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.11.16-23.44.50:129][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.11.16-23.44.50:153][505]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.44.50:207][505]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_005] ([1] browsable assets)...
+[2025.11.16-23.44.50:281][505]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_005.TTN_005]
+[2025.11.16-23.44.50:281][505]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_005]
+[2025.11.16-23.44.50:298][505]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_005
+[2025.11.16-23.44.50:299][505]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0054D5211744B727318D05A52973FD5A8F6.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_005.uasset'
+[2025.11.16-23.44.50:321][505]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.901 ms (total: 5.13 sec)
+[2025.11.16-23.44.50:378][505]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.44.50:378][505]LogContentValidation: Enabled validators:
+[2025.11.16-23.44.50:378][505]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.44.50:378][505]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.44.50:378][505]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.44.50:378][505]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.44.50:378][505]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.44.50:378][505]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.44.50:378][505]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_005 Validating asset
+[2025.11.16-23.44.53:441][638]LogMaterialEditor: Saving and Compiling material TTN_005
+[2025.11.16-23.44.53:446][638]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.44.53:490][638]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_005] ([1] browsable assets)...
+[2025.11.16-23.44.53:490][638]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_005]
+[2025.11.16-23.44.53:501][638]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_005
+[2025.11.16-23.44.53:502][638]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_005B4349DF6404E59B72D86E5B88E77CA9A.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_005.uasset'
+[2025.11.16-23.44.53:519][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.027 ms (total: 5.20 sec)
+[2025.11.16-23.44.53:589][638]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.44.53:589][638]LogContentValidation: Enabled validators:
+[2025.11.16-23.44.53:589][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.44.53:589][638]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.44.53:589][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.44.53:589][638]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.44.53:589][638]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.44.53:589][638]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.44.53:589][638]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_005 Validating asset
+[2025.11.16-23.44.54:529][679]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.44.54:529][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.44.54:591][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.11.16-23.45.03:021][ 89]LogContentBrowser: Attempting asset rename: titan_low_v3_hip_atmor_BaseColor -> titan_low_v3_hip_atmor_BaseColor
+[2025.11.16-23.45.05:316][175]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.05:316][175]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.05:316][175]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.05:316][175]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.05:316][175]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.05:495][177]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.05:495][177]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.05:495][177]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.05:495][177]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.05:495][177]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.05:495][177]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.05:495][177]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.09:195][343]LogContentBrowser: Attempting asset rename: titan_low_v3_hip_atmor_Normal -> titan_low_v3_hip_atmor_Normal
+[2025.11.16-23.45.11:659][452]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.11:660][452]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.11:660][452]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.11:660][452]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.11:660][452]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.11:783][454]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.11:783][454]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.11:783][454]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.11:783][454]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.11:783][454]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.11:783][454]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.11:783][454]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.16:255][661]LogContentBrowser: Attempting asset rename: titan_low_v3_hip_atmor_OcclusionRoughnessMetallic -> titan_low_v3_hip_atmor_OcclusionRoughnessMetallic
+[2025.11.16-23.45.18:406][751]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.18:406][751]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.18:406][751]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.18:406][751]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.18:406][751]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.18:518][753]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.18:518][753]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.18:518][753]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.18:518][753]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.18:518][753]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.18:518][753]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.18:518][753]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.21:554][879]LogMaterialEditor: Saving and Compiling material TTN_006
+[2025.11.16-23.45.21:675][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.11.16-23.45.21:859][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.11.16-23.45.21:884][879]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.45.21:928][879]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_006] ([1] browsable assets)...
+[2025.11.16-23.45.21:975][879]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_006.TTN_006]
+[2025.11.16-23.45.21:975][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_006]
+[2025.11.16-23.45.21:990][879]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_006
+[2025.11.16-23.45.21:991][879]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_006FF9B41C54A63FB6F983F9CB7CC431CD6.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_006.uasset'
+[2025.11.16-23.45.22:009][879]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.662 ms (total: 5.32 sec)
+[2025.11.16-23.45.22:052][879]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.45.22:052][879]LogContentValidation: Enabled validators:
+[2025.11.16-23.45.22:052][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.45.22:052][879]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.45.22:052][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.45.22:052][879]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.45.22:052][879]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.45.22:052][879]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.45.22:052][879]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_006 Validating asset
+[2025.11.16-23.45.31:004][223]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_007.TTN_007
+[2025.11.16-23.45.31:008][223]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.11.16-23.45.31:826][223]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.31:826][223]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.31:826][223]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.31:826][223]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.31:826][223]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.32:086][225]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.32:087][225]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.32:087][225]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.32:087][225]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.32:087][225]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.32:087][225]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.32:087][225]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.32:229][227]LogPSOHitching: Encountered 950 PSO creation hitches so far (435 graphics, 515 compute). 0 of them were precached.
+[2025.11.16-23.45.33:079][258]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_008.TTN_008
+[2025.11.16-23.45.33:082][258]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.11.16-23.45.33:848][258]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.33:848][258]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.33:848][258]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.33:848][258]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.33:849][258]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.33:983][260]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.33:983][260]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.33:983][260]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.33:983][260]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.33:983][260]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.33:983][260]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.33:983][260]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.34:418][274]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_009.TTN_009
+[2025.11.16-23.45.34:422][274]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.11.16-23.45.35:281][274]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.35:281][274]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.35:281][274]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.35:281][274]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.35:281][274]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.35:438][276]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.35:438][276]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.35:438][276]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.35:438][276]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.35:438][276]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.35:438][276]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.35:438][276]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.35:789][286]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_010.TTN_010
+[2025.11.16-23.45.35:792][286]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.11.16-23.45.36:787][286]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.36:787][286]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.36:787][286]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.36:787][286]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.36:787][286]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.36:933][288]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.36:933][288]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.36:933][288]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.36:933][288]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.36:933][288]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.36:933][288]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.36:933][288]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.37:388][303]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_011.TTN_011
+[2025.11.16-23.45.37:391][303]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.11.16-23.45.38:325][303]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.38:325][303]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.38:325][303]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.38:326][303]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.38:326][303]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.38:456][305]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.38:456][305]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.38:456][305]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.38:456][305]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.38:456][305]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.38:456][305]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.38:456][305]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.38:886][318]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_012.TTN_012
+[2025.11.16-23.45.38:890][318]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.11.16-23.45.39:855][318]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.39:855][318]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.39:855][318]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.39:855][318]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.39:855][318]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.39:968][320]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.39:968][320]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.39:968][320]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.39:968][320]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.39:968][320]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.39:968][320]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.39:968][320]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.41:396][371]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_013.TTN_013
+[2025.11.16-23.45.41:399][371]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.11.16-23.45.42:433][371]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.42:433][371]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.42:433][371]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.42:433][371]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.42:433][371]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.42:707][373]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.42:707][373]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.42:707][373]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.42:707][373]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.42:707][373]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.42:707][373]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.42:707][373]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.44:332][438]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_014.TTN_014
+[2025.11.16-23.45.44:337][438]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.11.16-23.45.45:477][438]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.45.45:477][438]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.45:477][438]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.45:477][438]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.45.45:477][438]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.45.45:670][440]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.45.45:670][440]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.45.45:670][440]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.45.45:670][440]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.45.45:670][440]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.45.45:670][440]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.45.45:670][440]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.01:647][ 91]LogContentBrowser: Attempting asset rename: titan_low_v3_legs_BaseColor -> titan_low_v3_legs_BaseColor
+[2025.11.16-23.46.04:685][202]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.46.04:685][202]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.46.04:685][202]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.46.04:685][202]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.46.04:685][202]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.04:795][204]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.46.04:795][204]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.46.04:795][204]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.46.04:795][204]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.46.04:795][204]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.46.04:795][204]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.46.04:795][204]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.09:530][405]LogContentBrowser: Attempting asset rename: titan_low_v3_legs_Normal -> titan_low_v3_legs_Normal
+[2025.11.16-23.46.11:383][480]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.46.11:383][480]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.46.11:383][480]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.46.11:383][480]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.46.11:383][480]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.11:499][482]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.46.11:499][482]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.46.11:499][482]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.46.11:499][482]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.46.11:499][482]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.46.11:499][482]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.46.11:499][482]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.15:439][647]LogContentBrowser: Attempting asset rename: titan_low_v3_legs_OcclusionRoughnessMetallic -> titan_low_v3_legs_OcclusionRoughnessMetallic
+[2025.11.16-23.46.17:472][731]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.46.17:472][731]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.46.17:472][731]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.46.17:472][731]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.46.17:472][731]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.17:595][733]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.46.17:595][733]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.46.17:595][733]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.46.17:595][733]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.46.17:595][733]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.46.17:595][733]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.46.17:595][733]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.19:526][812]LogMaterialEditor: Saving and Compiling material TTN_007
+[2025.11.16-23.46.19:882][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.11.16-23.46.20:068][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.16-23.46.20:092][812]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.46.20:137][812]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_007] ([1] browsable assets)...
+[2025.11.16-23.46.20:187][812]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_007.TTN_007]
+[2025.11.16-23.46.20:187][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_007]
+[2025.11.16-23.46.20:199][812]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_007
+[2025.11.16-23.46.20:200][812]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0071ACA144241DB2002740E9385C9302217.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_007.uasset'
+[2025.11.16-23.46.20:216][812]LogFileHelpers: InternalPromptForCheckoutAndSave took 123.658 ms (total: 5.45 sec)
+[2025.11.16-23.46.20:261][812]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.46.20:261][812]LogContentValidation: Enabled validators:
+[2025.11.16-23.46.20:261][812]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.46.20:261][812]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.46.20:261][812]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.46.20:261][812]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.46.20:261][812]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.46.20:261][812]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.46.20:261][812]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_007 Validating asset
+[2025.11.16-23.46.37:593][543]LogContentBrowser: Attempting asset rename: titan_low_v3_leg_armor_BaseColor -> titan_low_v3_leg_armor_BaseColor
+[2025.11.16-23.46.40:370][666]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.46.40:370][666]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.46.40:370][666]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.46.40:370][666]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.46.40:370][666]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.40:575][668]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.46.40:575][668]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.46.40:575][668]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.46.40:575][668]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.46.40:575][668]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.46.40:575][668]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.46.40:575][668]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.47:783][971]LogContentBrowser: Attempting asset rename: titan_low_v3_leg_armor_Normal -> titan_low_v3_leg_armor_Normal
+[2025.11.16-23.46.50:456][ 84]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.46.50:456][ 84]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.46.50:456][ 84]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.46.50:456][ 84]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.46.50:456][ 84]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.50:591][ 86]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.46.50:591][ 86]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.46.50:591][ 86]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.46.50:591][ 86]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.46.50:591][ 86]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.46.50:591][ 86]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.46.50:591][ 86]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.46.58:162][365]LogContentBrowser: Attempting asset rename: titan_low_v3_leg_armor_OcclusionRoughnessMetallic -> titan_low_v3_leg_armor_OcclusionRoughnessMetallic
+[2025.11.16-23.47.01:604][520]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.47.01:604][520]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.47.01:604][520]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.47.01:604][520]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.47.01:604][520]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.47.01:781][522]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.47.01:781][522]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.47.01:781][522]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.47.01:781][522]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.47.01:781][522]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.47.01:781][522]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.47.01:781][522]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.47.02:982][558]LogMaterialEditor: Saving and Compiling material TTN_008
+[2025.11.16-23.47.03:101][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.11.16-23.47.03:372][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.11.16-23.47.03:399][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.47.03:436][558]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_008] ([1] browsable assets)...
+[2025.11.16-23.47.03:483][558]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_008.TTN_008]
+[2025.11.16-23.47.03:483][558]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_008]
+[2025.11.16-23.47.03:499][558]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_008
+[2025.11.16-23.47.03:500][558]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_008EFA64AFA49D098DDA80C79BDECF8B2DE.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_008.uasset'
+[2025.11.16-23.47.03:520][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.310 ms (total: 5.57 sec)
+[2025.11.16-23.47.03:568][558]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.47.03:568][558]LogContentValidation: Enabled validators:
+[2025.11.16-23.47.03:568][558]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.47.03:568][558]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.47.03:568][558]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.47.03:568][558]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.47.03:568][558]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.47.03:568][558]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.47.03:568][558]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_008 Validating asset
+[2025.11.16-23.48.09:033][721]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2481.989990
+[2025.11.16-23.48.10:032][724]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-23.48.10:032][724]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2482.655762, Update Interval: 337.900330
+[2025.11.16-23.50.07:040][ 75]LogMaterialEditor: Saving and Compiling material TTN_008
+[2025.11.16-23.50.07:043][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.50.07:084][ 75]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_008] ([1] browsable assets)...
+[2025.11.16-23.50.07:084][ 75]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_008]
+[2025.11.16-23.50.07:097][ 75]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_008
+[2025.11.16-23.50.07:097][ 75]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_008533B540F496079457B661482D2438BE9.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_008.uasset'
+[2025.11.16-23.50.07:110][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave took 66.350 ms (total: 5.63 sec)
+[2025.11.16-23.50.07:147][ 75]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.50.07:147][ 75]LogContentValidation: Enabled validators:
+[2025.11.16-23.50.07:147][ 75]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.50.07:147][ 75]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.50.07:147][ 75]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.50.07:148][ 75]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.50.07:148][ 75]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.50.07:148][ 75]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.50.07:148][ 75]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_008 Validating asset
+[2025.11.16-23.50.08:571][ 78]LogPSOHitching: Encountered 1000 PSO creation hitches so far (464 graphics, 536 compute). 0 of them were precached.
+[2025.11.16-23.51.34:805][291]LogContentBrowser: Attempting asset rename: titan_low_v3_male_BaseColor -> titan_low_v3_male_BaseColor
+[2025.11.16-23.51.38:248][457]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.51.38:248][457]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.51.38:248][457]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.51.38:248][457]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.51.38:248][457]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.51.38:406][459]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.51.38:406][459]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.51.38:406][459]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.51.38:406][459]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.51.38:406][459]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.51.38:406][459]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.51.38:406][459]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.51.44:619][742]LogContentBrowser: Attempting asset rename: titan_low_v3_male_Normal -> titan_low_v3_male_Normal
+[2025.11.16-23.51.48:762][933]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.51.48:762][933]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.51.48:762][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.51.48:762][933]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.51.48:762][933]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.51.48:897][935]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.51.48:897][935]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.51.48:897][935]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.51.48:897][935]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.51.48:897][935]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.51.48:897][935]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.51.48:897][935]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.51.54:382][187]LogContentBrowser: Attempting asset rename: titan_low_v3_male_OcclusionRoughnessMetallic -> titan_low_v3_male_OcclusionRoughnessMetallic
+[2025.11.16-23.51.56:908][299]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.51.56:908][299]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.51.56:908][299]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.51.56:908][299]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.51.56:908][299]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.51.57:037][301]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.51.57:037][301]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.51.57:037][301]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.51.57:037][301]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.51.57:037][301]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.51.57:037][301]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.51.57:037][301]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.51.58:581][368]LogMaterialEditor: Saving and Compiling material TTN_009
+[2025.11.16-23.51.58:734][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.11.16-23.51.59:020][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.16-23.51.59:040][368]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.51.59:079][368]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_009] ([1] browsable assets)...
+[2025.11.16-23.51.59:149][368]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_009.TTN_009]
+[2025.11.16-23.51.59:149][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_009]
+[2025.11.16-23.51.59:164][368]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_009
+[2025.11.16-23.51.59:164][368]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0093392F2CF4D68F271B6A0F98AC394F8A5.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_009.uasset'
+[2025.11.16-23.51.59:182][368]LogFileHelpers: InternalPromptForCheckoutAndSave took 143.033 ms (total: 5.78 sec)
+[2025.11.16-23.51.59:216][368]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.51.59:216][368]LogContentValidation: Enabled validators:
+[2025.11.16-23.51.59:216][368]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.51.59:216][368]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.51.59:216][368]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.51.59:216][368]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.51.59:216][368]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.51.59:216][368]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.51.59:216][368]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_009 Validating asset
+[2025.11.16-23.53.16:989][838]LogPSOHitching: Encountered 1050 PSO creation hitches so far (493 graphics, 557 compute). 0 of them were precached.
+[2025.11.16-23.53.26:031][220]LogContentBrowser: Attempting asset rename: titan_low_v3_neck_armor_1_BaseColor -> titan_low_v3_neck_armor_1_BaseColor
+[2025.11.16-23.53.28:333][319]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.53.28:333][319]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.53.28:333][319]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.53.28:333][319]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.53.28:333][319]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.53.28:441][321]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.53.28:441][321]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.53.28:441][321]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.53.28:441][321]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.53.28:441][321]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.53.28:442][321]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.53.28:442][321]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.53.35:401][605]LogContentBrowser: Attempting asset rename: titan_low_v3_neck_armor_1_Normal -> titan_low_v3_neck_armor_1_Normal
+[2025.11.16-23.53.38:535][728]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.53.38:535][728]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.53.38:535][728]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.53.38:535][728]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.53.38:535][728]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.53.38:641][730]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.53.38:641][730]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.53.38:641][730]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.53.38:641][730]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.53.38:641][730]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.53.38:641][730]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.53.38:641][730]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.53.43:873][965]LogContentBrowser: Attempting asset rename: titan_low_v3_neck_armor_1_OcclusionRoughnessMetallic -> titan_low_v3_neck_armor_1_OcclusionRoughnessMetallic
+[2025.11.16-23.53.47:053][110]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.53.47:053][110]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.53.47:053][110]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.53.47:053][110]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.53.47:053][110]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.53.47:156][112]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.53.47:156][112]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.53.47:156][112]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.53.47:156][112]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.53.47:156][112]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.53.47:156][112]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.53.47:156][112]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.53.48:948][193]LogMaterialEditor: Saving and Compiling material TTN_010
+[2025.11.16-23.53.49:082][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.11.16-23.53.49:426][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.11.16-23.53.49:451][193]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.53.49:489][193]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_010] ([1] browsable assets)...
+[2025.11.16-23.53.49:557][193]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_010.TTN_010]
+[2025.11.16-23.53.49:557][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_010]
+[2025.11.16-23.53.49:570][193]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_010
+[2025.11.16-23.53.49:571][193]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_01045ACD8224CC134D7B8D10C9D4E4B1AC8.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_010.uasset'
+[2025.11.16-23.53.49:585][193]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.745 ms (total: 5.91 sec)
+[2025.11.16-23.53.49:619][193]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.53.49:619][193]LogContentValidation: Enabled validators:
+[2025.11.16-23.53.49:619][193]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.53.49:619][193]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.53.49:619][193]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.53.49:619][193]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.53.49:619][193]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.53.49:619][193]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.53.49:620][193]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_010 Validating asset
+[2025.11.16-23.54.06:786][945]LogContentBrowser: Attempting asset rename: titan_low_v3_ring_BaseColor -> titan_low_v3_ring_BaseColor
+[2025.11.16-23.54.09:572][ 69]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.54.09:572][ 69]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.54.09:572][ 69]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.54.09:572][ 69]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.54.09:572][ 69]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.54.09:757][ 71]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.54.09:757][ 71]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.54.09:757][ 71]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.54.09:757][ 71]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.54.09:757][ 71]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.54.09:757][ 71]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.54.09:757][ 71]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.54.14:335][272]LogContentBrowser: Attempting asset rename: titan_low_v3_ring_Normal -> titan_low_v3_ring_Normal
+[2025.11.16-23.54.16:253][355]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.54.16:253][355]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.54.16:253][355]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.54.16:253][355]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.54.16:253][355]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.54.16:385][357]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.54.16:385][357]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.54.16:385][357]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.54.16:385][357]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.54.16:386][357]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.54.16:386][357]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.54.16:386][357]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.54.21:007][552]LogContentBrowser: Attempting asset rename: titan_low_v3_ring_OcclusionRoughnessMetallic -> titan_low_v3_ring_OcclusionRoughnessMetallic
+[2025.11.16-23.54.21:780][586]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2854.738281
+[2025.11.16-23.54.21:911][592]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.16-23.54.21:911][593]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2854.847168, Update Interval: 353.820007
+[2025.11.16-23.54.23:100][644]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.54.23:100][644]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.54.23:100][644]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.54.23:100][644]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.54.23:100][644]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.54.23:237][646]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.54.23:237][646]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.54.23:237][646]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.54.23:237][646]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.54.23:237][646]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.54.23:237][646]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.54.23:237][646]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.54.24:307][692]LogMaterialEditor: Saving and Compiling material TTN_011
+[2025.11.16-23.54.24:435][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.11.16-23.54.24:622][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.11.16-23.54.24:645][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.54.24:678][692]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_011] ([1] browsable assets)...
+[2025.11.16-23.54.24:721][692]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_011.TTN_011]
+[2025.11.16-23.54.24:721][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_011]
+[2025.11.16-23.54.24:735][692]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_011
+[2025.11.16-23.54.24:736][692]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0116BB1A1B242FE1766D07B13A13D38847D.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_011.uasset'
+[2025.11.16-23.54.24:750][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.783 ms (total: 6.02 sec)
+[2025.11.16-23.54.24:793][692]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.54.24:793][692]LogContentValidation: Enabled validators:
+[2025.11.16-23.54.24:793][692]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.54.24:793][692]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.54.24:793][692]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.54.24:793][692]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.54.24:793][692]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.54.24:793][692]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.54.24:793][692]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_011 Validating asset
+[2025.11.16-23.54.26:255][752]LogMaterialEditor: Saving and Compiling material TTN_010
+[2025.11.16-23.54.26:259][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.54.26:289][752]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_010] ([1] browsable assets)...
+[2025.11.16-23.54.26:289][752]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_010]
+[2025.11.16-23.54.26:303][752]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_010
+[2025.11.16-23.54.26:304][752]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_010A79DA8394E2EF524A83709A40C222DFE.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_010.uasset'
+[2025.11.16-23.54.26:318][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.272 ms (total: 6.08 sec)
+[2025.11.16-23.54.26:369][752]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.54.26:369][752]LogContentValidation: Enabled validators:
+[2025.11.16-23.54.26:369][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.54.26:369][752]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.54.26:369][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.54.26:369][752]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.54.26:369][752]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.54.26:369][752]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.54.26:369][752]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_010 Validating asset
+[2025.11.16-23.54.27:994][821]LogMaterialEditor: Saving and Compiling material TTN_009
+[2025.11.16-23.54.27:998][821]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.54.28:037][821]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_009] ([1] browsable assets)...
+[2025.11.16-23.54.28:037][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_009]
+[2025.11.16-23.54.28:050][821]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_009
+[2025.11.16-23.54.28:050][821]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_009EF4980184D85D282FF72509C212D9CF0.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_009.uasset'
+[2025.11.16-23.54.28:065][821]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.258 ms (total: 6.14 sec)
+[2025.11.16-23.54.28:100][821]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.54.28:100][821]LogContentValidation: Enabled validators:
+[2025.11.16-23.54.28:101][821]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.54.28:101][821]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.54.28:101][821]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.54.28:101][821]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.54.28:101][821]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.54.28:101][821]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.54.28:101][821]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_009 Validating asset
+[2025.11.16-23.56.34:814][ 19]LogPSOHitching: Encountered 1100 PSO creation hitches so far (529 graphics, 571 compute). 0 of them were precached.
+[2025.11.16-23.57.09:737][604]LogContentBrowser: Attempting asset rename: titan_low_v3_shoulder_pad_BaseColor -> titan_low_v3_shoulder_pad_BaseColor
+[2025.11.16-23.57.12:273][726]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.57.12:274][726]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.57.12:274][726]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.57.12:274][726]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.57.12:274][726]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.57.12:410][728]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.57.12:410][728]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.57.12:410][728]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.57.12:410][728]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.57.12:410][728]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.57.12:410][728]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.57.12:410][728]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.57.16:549][915]LogContentBrowser: Attempting asset rename: titan_low_v3_shoulder_pad_Normal -> titan_low_v3_shoulder_pad_Normal
+[2025.11.16-23.57.18:601][  4]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.57.18:601][  4]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.57.18:601][  4]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.57.18:601][  4]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.57.18:601][  4]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.57.18:732][  6]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.57.18:734][  6]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.57.18:734][  6]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.57.18:734][  6]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.57.18:734][  6]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.57.18:734][  6]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.57.18:734][  6]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.57.22:928][200]LogContentBrowser: Attempting asset rename: titan_low_v3_shoulder_pad_OcclusionRoughnessMetallic -> titan_low_v3_shoulder_pad_OcclusionRoughnessMetallic
+[2025.11.16-23.57.25:440][314]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.57.25:440][314]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.57.25:440][314]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.57.25:440][314]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.57.25:440][314]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.57.25:578][316]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.57.25:578][316]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.57.25:578][316]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.57.25:578][316]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.57.25:578][316]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.57.25:578][316]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.57.25:578][316]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.57.27:100][379]LogMaterialEditor: Saving and Compiling material TTN_012
+[2025.11.16-23.57.27:247][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.11.16-23.57.27:522][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.16-23.57.27:542][379]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.57.27:575][379]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_012] ([1] browsable assets)...
+[2025.11.16-23.57.27:647][379]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_012.TTN_012]
+[2025.11.16-23.57.27:647][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_012]
+[2025.11.16-23.57.27:661][379]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_012
+[2025.11.16-23.57.27:662][379]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0124E59F20E441258BB04E20F87721C5C06.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_012.uasset'
+[2025.11.16-23.57.27:676][379]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.122 ms (total: 6.28 sec)
+[2025.11.16-23.57.27:712][379]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.57.27:712][379]LogContentValidation: Enabled validators:
+[2025.11.16-23.57.27:712][379]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.57.27:712][379]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.57.27:712][379]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.57.27:712][379]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.57.27:712][379]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.57.27:712][379]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.57.27:712][379]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_012 Validating asset
+[2025.11.16-23.57.56:168][644]LogContentBrowser: Attempting asset rename: titan_low_v3_spikes_BaseColor -> titan_low_v3_spikes_BaseColor
+[2025.11.16-23.57.58:623][739]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.57.58:623][739]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.57.58:623][739]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.57.58:623][739]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.57.58:623][739]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.57.58:887][741]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.57.58:887][741]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.57.58:887][741]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.57.58:887][741]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.57.58:888][741]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.57.58:888][741]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.57.58:888][741]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.07:790][159]LogContentBrowser: Attempting asset rename: titan_low_v3_spikes_Normal -> titan_low_v3_spikes_Normal
+[2025.11.16-23.58.09:734][245]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.58.09:734][245]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.09:734][245]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.09:734][245]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.58.09:734][245]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.10:002][247]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.58.10:002][247]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.58.10:002][247]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.58.10:002][247]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.10:002][247]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.10:002][247]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.58.10:002][247]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.14:193][434]LogContentBrowser: Attempting asset rename: titan_low_v3_spikes_OcclusionRoughnessMetallic -> titan_low_v3_spikes_OcclusionRoughnessMetallic
+[2025.11.16-23.58.16:886][563]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.58.16:887][563]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.16:887][563]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.16:887][563]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.58.16:887][563]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.17:107][565]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.58.17:107][565]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.58.17:107][565]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.58.17:107][565]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.17:107][565]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.17:107][565]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.58.17:107][565]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.19:036][608]LogMaterialEditor: Saving and Compiling material TTN_013
+[2025.11.16-23.58.19:167][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.11.16-23.58.19:355][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.11.16-23.58.19:377][608]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.58.19:409][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_013] ([1] browsable assets)...
+[2025.11.16-23.58.19:486][608]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_013.TTN_013]
+[2025.11.16-23.58.19:486][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_013]
+[2025.11.16-23.58.19:500][608]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_013
+[2025.11.16-23.58.19:500][608]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0132CB750074152671E8AA37C9FCF15DA7A.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_013.uasset'
+[2025.11.16-23.58.19:512][608]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.134 ms (total: 6.42 sec)
+[2025.11.16-23.58.19:551][608]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.58.19:551][608]LogContentValidation: Enabled validators:
+[2025.11.16-23.58.19:551][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.58.19:551][608]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.58.19:552][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.58.19:552][608]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.58.19:552][608]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.58.19:552][608]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.58.19:552][608]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_013 Validating asset
+[2025.11.16-23.58.20:334][637]LogMaterialEditor: Saving and Compiling material TTN_013
+[2025.11.16-23.58.20:339][637]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.16-23.58.20:384][637]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_013] ([1] browsable assets)...
+[2025.11.16-23.58.20:384][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_013]
+[2025.11.16-23.58.20:396][637]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_013
+[2025.11.16-23.58.20:396][637]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_01361B12F7044C8CFA67C1C34B345C9AD7D.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_013.uasset'
+[2025.11.16-23.58.20:409][637]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.979 ms (total: 6.49 sec)
+[2025.11.16-23.58.20:449][637]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.16-23.58.20:449][637]LogContentValidation: Enabled validators:
+[2025.11.16-23.58.20:449][637]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.16-23.58.20:449][637]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.16-23.58.20:449][637]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.16-23.58.20:449][637]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.16-23.58.20:449][637]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.16-23.58.20:449][637]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.16-23.58.20:449][637]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_013 Validating asset
+[2025.11.16-23.58.33:069][174]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.58.33:069][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.58.33:143][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.16-23.58.33:699][199]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.58.33:700][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.58.33:747][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.11.16-23.58.34:387][229]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.58.34:387][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.58.34:439][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.11.16-23.58.34:905][249]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.58.34:905][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.58.34:950][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.11.16-23.58.35:487][274]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.58.35:487][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.58.35:534][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.11.16-23.58.36:116][301]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.58.36:116][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.58.36:158][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.11.16-23.58.36:844][335]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.58.36:844][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.58.36:891][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.11.16-23.58.37:848][384]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.11.16-23.58.37:848][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.16-23.58.37:891][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.11.16-23.58.41:753][553]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_014.TTN_014
+[2025.11.16-23.58.41:757][553]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.11.16-23.58.42:400][553]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.58.42:400][553]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.42:400][553]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.42:400][553]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.58.42:400][553]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.42:608][555]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.58.42:608][555]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.58.42:608][555]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.58.42:608][555]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.42:608][555]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.42:608][555]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.58.42:608][555]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.43:555][581]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_015.TTN_015
+[2025.11.16-23.58.43:559][581]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.11.16-23.58.44:367][581]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.58.44:367][581]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.44:367][581]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.44:367][581]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.58.44:367][581]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.44:472][583]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.58.44:472][583]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.58.44:472][583]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.58.44:472][583]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.44:472][583]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.44:472][583]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.58.44:472][583]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.44:910][595]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_016.TTN_016
+[2025.11.16-23.58.44:914][595]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.11.16-23.58.45:627][595]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.58.45:627][595]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.45:627][595]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.45:627][595]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.58.45:627][595]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.45:737][597]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.58.45:737][597]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.58.45:737][597]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.58.45:737][597]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.45:737][597]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.45:737][597]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.58.45:737][597]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.46:462][618]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/2_Titan/TTN_Materials/TTN_017.TTN_017
+[2025.11.16-23.58.46:466][618]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2025.11.16-23.58.47:235][618]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.16-23.58.47:235][618]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.47:235][618]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.47:235][618]MaterialEditorStats: Shader Count: 0
+[2025.11.16-23.58.47:235][618]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.16-23.58.47:353][620]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.16-23.58.47:353][620]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.16-23.58.47:353][620]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.16-23.58.47:353][620]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.16-23.58.47:353][620]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.16-23.58.47:353][620]MaterialEditorStats: Shader Count: 5
+[2025.11.16-23.58.47:353][620]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.02:906][215]LogContentBrowser: Attempting asset rename: titan_low_v3_stomach_armor_BaseColor -> titan_low_v3_stomach_armor_BaseColor
+[2025.11.17-00.00.05:478][318]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.17-00.00.05:478][318]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.00.05:478][318]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.00.05:478][318]MaterialEditorStats: Shader Count: 0
+[2025.11.17-00.00.05:478][318]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.05:817][320]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.17-00.00.05:817][320]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.17-00.00.05:817][320]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.17-00.00.05:817][320]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.00.05:817][320]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.00.05:817][320]MaterialEditorStats: Shader Count: 5
+[2025.11.17-00.00.05:817][320]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.11:029][502]LogContentBrowser: Attempting asset rename: titan_low_v3_stomach_armor_Normal -> titan_low_v3_stomach_armor_Normal
+[2025.11.17-00.00.12:985][574]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.17-00.00.12:985][574]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.00.12:985][574]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.00.12:985][574]MaterialEditorStats: Shader Count: 0
+[2025.11.17-00.00.12:985][574]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.13:226][576]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.17-00.00.13:226][576]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.17-00.00.13:226][576]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.17-00.00.13:226][576]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.00.13:226][576]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.00.13:226][576]MaterialEditorStats: Shader Count: 5
+[2025.11.17-00.00.13:226][576]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.22:258][954]LogContentBrowser: Attempting asset rename: titan_low_v3_stomach_armor_OcclusionRoughnessMetallic -> titan_low_v3_stomach_armor_OcclusionRoughnessMetallic
+[2025.11.17-00.00.24:551][ 41]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.17-00.00.24:552][ 41]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.00.24:552][ 41]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.00.24:552][ 41]MaterialEditorStats: Shader Count: 0
+[2025.11.17-00.00.24:552][ 41]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.24:789][ 43]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.17-00.00.24:789][ 43]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.17-00.00.24:789][ 43]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.17-00.00.24:789][ 43]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.00.24:789][ 43]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.00.24:789][ 43]MaterialEditorStats: Shader Count: 5
+[2025.11.17-00.00.24:789][ 43]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.26:965][109]LogMaterialEditor: Saving and Compiling material TTN_014
+[2025.11.17-00.00.27:214][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.11.17-00.00.27:464][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.11.17-00.00.27:486][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.17-00.00.27:522][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_014] ([1] browsable assets)...
+[2025.11.17-00.00.27:574][109]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_014.TTN_014]
+[2025.11.17-00.00.27:574][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_014]
+[2025.11.17-00.00.27:588][109]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_014
+[2025.11.17-00.00.27:589][109]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_01432AAD2564D12AA1D20FEE5B9EA1922B4.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_014.uasset'
+[2025.11.17-00.00.27:604][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.176 ms (total: 6.60 sec)
+[2025.11.17-00.00.27:634][109]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.17-00.00.27:634][109]LogContentValidation: Enabled validators:
+[2025.11.17-00.00.27:634][109]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.17-00.00.27:634][109]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.17-00.00.27:634][109]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.17-00.00.27:634][109]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.17-00.00.27:634][109]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.17-00.00.27:634][109]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.17-00.00.27:634][109]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_014 Validating asset
+[2025.11.17-00.00.34:645][425]LogContentBrowser: Attempting asset rename: titan_low_v3_teeth_BaseColor -> titan_low_v3_teeth_BaseColor
+[2025.11.17-00.00.37:650][568]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.17-00.00.37:650][568]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.00.37:650][568]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.00.37:650][568]MaterialEditorStats: Shader Count: 0
+[2025.11.17-00.00.37:650][568]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.37:902][570]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.17-00.00.37:902][570]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.17-00.00.37:902][570]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.17-00.00.37:902][570]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.00.37:903][570]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.00.37:903][570]MaterialEditorStats: Shader Count: 5
+[2025.11.17-00.00.37:903][570]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.43:036][742]LogContentBrowser: Attempting asset rename: titan_low_v3_teeth_Normal -> titan_low_v3_teeth_Normal
+[2025.11.17-00.00.45:520][838]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.17-00.00.45:520][838]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.00.45:520][838]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.00.45:520][838]MaterialEditorStats: Shader Count: 0
+[2025.11.17-00.00.45:520][838]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.45:675][840]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.17-00.00.45:675][840]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.17-00.00.45:675][840]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.17-00.00.45:675][840]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.00.45:675][840]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.00.45:675][840]MaterialEditorStats: Shader Count: 5
+[2025.11.17-00.00.45:675][840]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.00.56:103][367]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3249.070068
+[2025.11.17-00.00.56:208][373]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.17-00.00.56:208][373]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3249.156738, Update Interval: 342.240051
+[2025.11.17-00.01.00:078][576]LogContentBrowser: Attempting asset rename: titan_low_v3_teeth_OcclusionRoughnessMetallic -> titan_low_v3_teeth_OcclusionRoughnessMetallic
+[2025.11.17-00.01.03:281][732]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.17-00.01.03:281][732]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.01.03:281][732]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.01.03:281][732]MaterialEditorStats: Shader Count: 0
+[2025.11.17-00.01.03:281][732]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.01.03:718][734]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.17-00.01.03:719][734]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.17-00.01.03:719][734]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.17-00.01.03:719][734]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.01.03:719][734]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.01.03:719][734]MaterialEditorStats: Shader Count: 5
+[2025.11.17-00.01.03:719][734]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.01.06:448][854]LogMaterialEditor: Saving and Compiling material TTN_015
+[2025.11.17-00.01.06:567][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.11.17-00.01.06:816][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.11.17-00.01.06:840][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.17-00.01.06:879][854]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_015] ([1] browsable assets)...
+[2025.11.17-00.01.06:941][854]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_015.TTN_015]
+[2025.11.17-00.01.06:941][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_015]
+[2025.11.17-00.01.06:957][854]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_015
+[2025.11.17-00.01.06:957][854]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_015637A70F14ADA7428248F35B54465B4B6.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_015.uasset'
+[2025.11.17-00.01.06:971][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.351 ms (total: 6.74 sec)
+[2025.11.17-00.01.07:011][854]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.17-00.01.07:011][854]LogContentValidation: Enabled validators:
+[2025.11.17-00.01.07:011][854]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.17-00.01.07:011][854]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.17-00.01.07:011][854]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.17-00.01.07:011][854]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.17-00.01.07:011][854]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.17-00.01.07:011][854]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.17-00.01.07:011][854]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_015 Validating asset
+[2025.11.17-00.01.15:245][235]LogContentBrowser: Attempting asset rename: titan_low_v3_upper_arms_BaseColor -> titan_low_v3_upper_arms_BaseColor
+[2025.11.17-00.01.18:970][424]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.17-00.01.18:970][424]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.01.18:970][424]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.01.18:970][424]MaterialEditorStats: Shader Count: 0
+[2025.11.17-00.01.18:970][424]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.01.19:196][426]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.17-00.01.19:196][426]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.17-00.01.19:196][426]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.01.19:196][426]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.01.19:196][426]MaterialEditorStats: Shader Count: 4
+[2025.11.17-00.01.19:196][426]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.01.19:236][427]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.17-00.01.19:236][427]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.17-00.01.19:236][427]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.17-00.01.19:236][427]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.01.19:236][427]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.01.19:236][427]MaterialEditorStats: Shader Count: 5
+[2025.11.17-00.01.19:236][427]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.01.23:797][618]LogContentBrowser: Attempting asset rename: titan_low_v3_upper_arms_Normal -> titan_low_v3_upper_arms_Normal
+[2025.11.17-00.01.25:861][702]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.17-00.01.25:861][702]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.01.25:861][702]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.01.25:861][702]MaterialEditorStats: Shader Count: 0
+[2025.11.17-00.01.25:861][702]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.01.25:988][704]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.17-00.01.25:988][704]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.17-00.01.25:988][704]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.17-00.01.25:988][704]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.01.25:988][704]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.01.25:988][704]MaterialEditorStats: Shader Count: 5
+[2025.11.17-00.01.25:988][704]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.01.31:608][942]LogContentBrowser: Attempting asset rename: titan_low_v3_upper_arms_OcclusionRoughnessMetallic -> titan_low_v3_upper_arms_OcclusionRoughnessMetallic
+[2025.11.17-00.01.33:717][ 36]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.17-00.01.33:717][ 36]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.01.33:717][ 36]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.01.33:717][ 36]MaterialEditorStats: Shader Count: 0
+[2025.11.17-00.01.33:717][ 36]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.01.33:950][ 38]MaterialEditorStats: Base pass shader: 189 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.11.17-00.01.33:950][ 38]MaterialEditorStats: Base pass vertex shader: 153 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.17-00.01.33:950][ 38]MaterialEditorStats: Texture samplers: 4/16
+[2025.11.17-00.01.33:950][ 38]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2025.11.17-00.01.33:950][ 38]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.11.17-00.01.33:950][ 38]MaterialEditorStats: Shader Count: 5
+[2025.11.17-00.01.33:950][ 38]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.17-00.01.35:259][ 82]LogMaterialEditor: Saving and Compiling material TTN_016
+[2025.11.17-00.01.35:382][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.11.17-00.01.35:571][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.17-00.01.35:592][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.17-00.01.35:632][ 82]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_016] ([1] browsable assets)...
+[2025.11.17-00.01.35:690][ 82]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/2_Titan/TTN_Materials/TTN_016.TTN_016]
+[2025.11.17-00.01.35:690][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_016]
+[2025.11.17-00.01.35:703][ 82]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_016
+[2025.11.17-00.01.35:704][ 82]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_016F1A155B841DF43E2A63648BECF439357.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_016.uasset'
+[2025.11.17-00.01.35:718][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave took 125.461 ms (total: 6.86 sec)
+[2025.11.17-00.01.35:770][ 82]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.17-00.01.35:770][ 82]LogContentValidation: Enabled validators:
+[2025.11.17-00.01.35:770][ 82]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.17-00.01.35:770][ 82]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.17-00.01.35:770][ 82]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.17-00.01.35:770][ 82]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.17-00.01.35:770][ 82]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.17-00.01.35:770][ 82]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.17-00.01.35:770][ 82]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_016 Validating asset
+[2025.11.17-00.01.36:626][120]LogMaterialEditor: Saving and Compiling material TTN_016
+[2025.11.17-00.01.36:629][120]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.17-00.01.36:665][120]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_016] ([1] browsable assets)...
+[2025.11.17-00.01.36:665][120]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_016]
+[2025.11.17-00.01.36:677][120]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_016
+[2025.11.17-00.01.36:678][120]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_016752EC7DC41FB0F2185A1E38590CE3952.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_016.uasset'
+[2025.11.17-00.01.36:692][120]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.996 ms (total: 6.92 sec)
+[2025.11.17-00.01.36:737][120]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.17-00.01.36:737][120]LogContentValidation: Enabled validators:
+[2025.11.17-00.01.36:737][120]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.17-00.01.36:737][120]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.17-00.01.36:737][120]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.17-00.01.36:737][120]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.17-00.01.36:737][120]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.17-00.01.36:737][120]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.17-00.01.36:737][120]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_016 Validating asset
+[2025.11.17-00.01.45:188][492]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.11.17-00.01.45:188][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.17-00.01.45:229][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.11.17-00.01.51:127][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.11.17-00.01.51:294][804]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.11.17-00.01.51:311][804]LogSlate: Took 0.014250 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.11.17-00.01.52:113][804]LogSlate: Window 'Delete Assets' being destroyed
+[2025.11.17-00.01.52:195][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.11.17-00.01.52:229][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.11.17-00.01.52:258][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.11.17-00.02.01:166][190]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.11.17-00.02.01:166][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.17-00.02.01:210][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.11.17-00.02.01:797][214]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.11.17-00.02.01:797][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.17-00.02.01:842][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.11.17-00.02.02:759][259]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.11.17-00.02.02:759][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.17-00.02.02:806][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.11.17-00.02.03:494][292]LogSlate: Window 'TTN_013' being destroyed
+[2025.11.17-00.02.03:559][292]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.11.17-00.02.03:559][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.17-00.02.03:607][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.11.17-00.02.24:181][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.11.17-00.02.25:251][ 47]LogSlate: Window 'Delete Assets' being destroyed
+[2025.11.17-00.02.25:316][ 47]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7_Anim.Titan_Skeleton_GoodVersion1_7_Anim
+	Asset Type: AnimSequence
+[2025.11.17-00.02.26:267][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.11.17-00.02.26:294][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.11.17-00.02.26:318][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.11.17-00.02.26:364][ 47]LogAutomationController: Ignoring very large delta of 2.22 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.11.17-00.02.27:457][ 78]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7
+[2025.11.17-00.02.27:528][ 78]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2025.11.17-00.02.27:580][ 78]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.11.17-00.02.27:955][ 78]LogStreaming: Display: FlushAsyncLoading(802): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.17-00.02.44:435][429]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.02.44:739][429]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_001.TTN_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.02.53:261][653]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.02.53:487][653]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_002.TTN_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.02.59:066][814]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.02.59:268][814]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_003.TTN_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.07:315][ 33]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.07:564][ 33]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_004.TTN_004 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.11:137][153]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.11:336][153]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_005.TTN_005 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.14:276][258]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.14:496][258]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_006.TTN_006 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.17:112][347]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.17:281][347]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_007.TTN_007 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.23:077][552]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.23:254][552]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_008.TTN_008 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.25:767][641]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.25:959][641]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_009.TTN_009 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.29:323][764]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.29:545][764]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_010.TTN_010 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.34:192][926]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.34:378][926]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_011.TTN_011 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.40:082][129]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.40:259][129]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_012.TTN_012 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.44:142][268]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.44:348][268]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_013.TTN_013 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.47:309][356]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.47:470][356]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_014.TTN_014 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.50:257][443]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.50:450][443]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_015.TTN_015 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.03.54:926][581]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Titan_Skeleton_GoodVersion1_7) ...
+[2025.11.17-00.03.55:072][581]LogMaterial: Display: Material /Game/Characters/2_Titan/TTN_Materials/TTN_016.TTN_016 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.11.17-00.04.12:815][143]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.17-00.04.12:845][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7] ([1] browsable assets)...
+[2025.11.17-00.04.12:857][143]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7]
+[2025.11.17-00.04.12:857][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7]
+[2025.11.17-00.04.13:145][143]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7
+[2025.11.17-00.04.13:146][143]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/Titan_Skeleton_GoodVersion1_7B64C3A024EC2BADC75B7F087655FE770.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.uasset'
+[2025.11.17-00.04.13:159][143]LogFileHelpers: InternalPromptForCheckoutAndSave took 344.187 ms (total: 7.27 sec)
+[2025.11.17-00.04.13:184][143]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.17-00.04.13:184][143]LogContentValidation: Enabled validators:
+[2025.11.17-00.04.13:184][143]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.17-00.04.13:184][143]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.17-00.04.13:184][143]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.17-00.04.13:184][143]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.17-00.04.13:184][143]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.17-00.04.13:184][143]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.17-00.04.13:184][143]AssetCheck: /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7 Validating asset
+[2025.11.17-00.04.21:907][421]LogSlate: Window 'Titan_Skeleton_GoodVersion1_7' being destroyed
+[2025.11.17-00.04.21:914][421]LogSlate: Window 'Titan_Skeleton_GoodVersion1_7' being destroyed
+[2025.11.17-00.04.22:046][421]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.11.17-00.04.22:046][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.17-00.04.22:116][421]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.11.17-00.04.26:746][617]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7
+[2025.11.17-00.04.26:747][617]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7
+[2025.11.17-00.04.26:752][617]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_0
+[2025.11.17-00.04.26:754][617]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_0
+[2025.11.17-00.04.27:840][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.17-00.04.27:846][669]LogEditorActor: Deleted 0 Actors (0.042 secs)
+[2025.11.17-00.04.27:854][669]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7
+[2025.11.17-00.04.27:855][669]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7
+[2025.11.17-00.04.27:863][669]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_1683952767
+[2025.11.17-00.04.27:864][669]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/2_Titan/TTN_Meshes/Titan_Skeleton_GoodVersion1_7.Titan_Skeleton_GoodVersion1_7 as actor: SkeletalMeshActor /Game/Levels/VFX.VFX:PersistentLevel.SkeletalMeshActor_UAID_BC0358B03F00C8A202_1683952767
+[2025.11.17-00.04.53:115][116]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.11.17-00.05.02:066][500]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.11.17-00.05.02:967][539]Cmd: DELETE
+[2025.11.17-00.05.02:968][539]Cmd: ACTOR DELETE
+[2025.11.17-00.05.02:996][539]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.11.17-00.05.03:028][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.11.17-00.05.03:034][539]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2025.11.17-00.05.03:963][584]Cmd: DELETE
+[2025.11.17-00.05.03:963][584]Cmd: ACTOR DELETE
+[2025.11.17-00.05.03:967][584]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.11.17-00.05.03:994][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.11.17-00.05.03:998][584]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2025.11.17-00.05.43:947][651]Cmd: DELETE
+[2025.11.17-00.05.43:947][651]Cmd: ACTOR DELETE
+[2025.11.17-00.05.43:951][651]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.11.17-00.05.43:976][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.11.17-00.05.43:984][651]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2025.11.17-00.05.51:711][ 30]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.17-00.05.51:847][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.11.17-00.05.51:873][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.11.17-00.05.51:894][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.17-00.05.51:918][ 30]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/9/O2/J5WI0BA6FP20LGXPJYHRNI
+[2025.11.17-00.05.51:919][ 30]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/J5WI0BA6FP20LGXPJYHRNIA08349F94B0B32068D31B3B1A807093D.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/9/O2/J5WI0BA6FP20LGXPJYHRNI.uasset'
+[2025.11.17-00.05.51:929][ 30]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/0/TI/VFZI2H9KD49L3EE0EHG4GL
+[2025.11.17-00.05.51:930][ 30]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/VFZI2H9KD49L3EE0EHG4GL029C7B084C10934C777BAD824E5D40C7.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/0/TI/VFZI2H9KD49L3EE0EHG4GL.uasset'
+[2025.11.17-00.05.51:939][ 30]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/4/FW/580RUJ5326VZV8F6ZSRQ8G
+[2025.11.17-00.05.51:939][ 30]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/580RUJ5326VZV8F6ZSRQ8G119FF46348A7BB3C1B852DADDC714306.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/4/FW/580RUJ5326VZV8F6ZSRQ8G.uasset'
+[2025.11.17-00.05.51:949][ 30]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/4/GG/GA94QCKW2FC6Q7P9B4R12E
+[2025.11.17-00.05.51:950][ 30]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/GA94QCKW2FC6Q7P9B4R12EEFAB152047E512EF84184E9EC8DDDC83.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/4/GG/GA94QCKW2FC6Q7P9B4R12E.uasset'
+[2025.11.17-00.05.51:961][ 30]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/5/VW/VBC0VIP1D3FTPIDIL4P0IS
+[2025.11.17-00.05.51:962][ 30]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/VBC0VIP1D3FTPIDIL4P0IS0AA7A7BB4AE78F8BD687FC92053329F6.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/5/VW/VBC0VIP1D3FTPIDIL4P0IS.uasset'
+[2025.11.17-00.05.51:970][ 30]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/6/5K/J5R4JI24MKBRJIIXWWY3F2
+[2025.11.17-00.05.51:970][ 30]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/J5R4JI24MKBRJIIXWWY3F205CB57924BF1A92A776382BC4A94FC6A.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/6/5K/J5R4JI24MKBRJIIXWWY3F2.uasset'
+[2025.11.17-00.05.51:980][ 30]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/VFX/6/OW/HQ9608P6PX1W85D3QQG1EP
+[2025.11.17-00.05.51:980][ 30]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/HQ9608P6PX1W85D3QQG1EP133B88CF47C96998181C2588FA406A4E.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/6/OW/HQ9608P6PX1W85D3QQG1EP.uasset'
+[2025.11.17-00.05.51:995][ 30]LogFileHelpers: InternalPromptForCheckoutAndSave took 284.767 ms (total: 7.55 sec)
+[2025.11.17-00.05.52:029][ 30]LogContentValidation: Display: Starting to validate 7 assets
+[2025.11.17-00.05.52:029][ 30]LogContentValidation: Enabled validators:
+[2025.11.17-00.05.52:029][ 30]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.17-00.05.52:029][ 30]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.17-00.05.52:029][ 30]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.17-00.05.52:029][ 30]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.17-00.05.52:029][ 30]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.17-00.05.52:029][ 30]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.17-00.05.52:030][ 30]AssetCheck: /Game/Levels/VFX Validating asset
+[2025.11.17-00.05.52:068][ 30]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.17-00.05.55:206][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.17-00.05.55:296][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.17-00.05.55:322][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.11.17-00.05.55:346][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.11.17-00.05.55:360][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 154.041 ms (total: 7.71 sec)
+[2025.11.17-00.05.57:130][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.11.17-00.05.57:137][316]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.17-00.05.57:165][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_016] ([1] browsable assets)...
+[2025.11.17-00.05.57:165][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_016]
+[2025.11.17-00.05.57:175][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_016
+[2025.11.17-00.05.57:175][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0167381F87249B22B3B846A4DA5C1464AC3.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_016.uasset'
+[2025.11.17-00.05.57:176][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_001] ([1] browsable assets)...
+[2025.11.17-00.05.57:176][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_001]
+[2025.11.17-00.05.57:184][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_001
+[2025.11.17-00.05.57:185][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0012A3A08AF471174F6F65179B78782F786.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_001.uasset'
+[2025.11.17-00.05.57:186][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_002] ([1] browsable assets)...
+[2025.11.17-00.05.57:186][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_002]
+[2025.11.17-00.05.57:192][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_002
+[2025.11.17-00.05.57:194][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0029E1A6DA94A519DA9C120429BEA580ED1.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_002.uasset'
+[2025.11.17-00.05.57:195][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_003] ([1] browsable assets)...
+[2025.11.17-00.05.57:195][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_003]
+[2025.11.17-00.05.57:202][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_003
+[2025.11.17-00.05.57:202][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_003A4056F5449043FF9BFCD9F946A75ED14.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_003.uasset'
+[2025.11.17-00.05.57:203][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_004] ([1] browsable assets)...
+[2025.11.17-00.05.57:203][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_004]
+[2025.11.17-00.05.57:210][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_004
+[2025.11.17-00.05.57:211][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_00447C599884AFDFB4788C30181EFB9A2DC.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_004.uasset'
+[2025.11.17-00.05.57:212][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_005] ([1] browsable assets)...
+[2025.11.17-00.05.57:212][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_005]
+[2025.11.17-00.05.57:219][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_005
+[2025.11.17-00.05.57:219][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_00595CF6D084E90A679EB5706937FB5ACD9.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_005.uasset'
+[2025.11.17-00.05.57:220][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_006] ([1] browsable assets)...
+[2025.11.17-00.05.57:220][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_006]
+[2025.11.17-00.05.57:227][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_006
+[2025.11.17-00.05.57:228][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_00637BA79D14E8063A345A3C5A630DDCFE2.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_006.uasset'
+[2025.11.17-00.05.57:229][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_007] ([1] browsable assets)...
+[2025.11.17-00.05.57:229][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_007]
+[2025.11.17-00.05.57:240][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_007
+[2025.11.17-00.05.57:240][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0077FD3BA8942252147D95744A4DB239733.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_007.uasset'
+[2025.11.17-00.05.57:241][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_008] ([1] browsable assets)...
+[2025.11.17-00.05.57:241][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_008]
+[2025.11.17-00.05.57:248][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_008
+[2025.11.17-00.05.57:249][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_00877FA136A46C564A4F660288B0A57CFFA.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_008.uasset'
+[2025.11.17-00.05.57:250][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_009] ([1] browsable assets)...
+[2025.11.17-00.05.57:250][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_009]
+[2025.11.17-00.05.57:258][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_009
+[2025.11.17-00.05.57:258][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_00911A081484CE262110ADE15817BA1EB59.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_009.uasset'
+[2025.11.17-00.05.57:259][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_010] ([1] browsable assets)...
+[2025.11.17-00.05.57:259][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_010]
+[2025.11.17-00.05.57:268][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_010
+[2025.11.17-00.05.57:268][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0100A2E38DE4C5DE19C6807FCB8B1304B7C.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_010.uasset'
+[2025.11.17-00.05.57:270][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_011] ([1] browsable assets)...
+[2025.11.17-00.05.57:270][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_011]
+[2025.11.17-00.05.57:279][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_011
+[2025.11.17-00.05.57:279][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_011B9C698FC4EA1C4BCE1B471BDD6AE154A.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_011.uasset'
+[2025.11.17-00.05.57:280][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_012] ([1] browsable assets)...
+[2025.11.17-00.05.57:280][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_012]
+[2025.11.17-00.05.57:288][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_012
+[2025.11.17-00.05.57:288][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_012CF1374864B8344CAB49AC5952C8FC930.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_012.uasset'
+[2025.11.17-00.05.57:289][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_013] ([1] browsable assets)...
+[2025.11.17-00.05.57:289][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_013]
+[2025.11.17-00.05.57:298][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_013
+[2025.11.17-00.05.57:298][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_013A29AC1C948ECB0BD1F5400A709850D9D.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_013.uasset'
+[2025.11.17-00.05.57:299][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_014] ([1] browsable assets)...
+[2025.11.17-00.05.57:299][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_014]
+[2025.11.17-00.05.57:307][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_014
+[2025.11.17-00.05.57:307][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_014D0FD469549845F9E1C096682B81D7F01.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_014.uasset'
+[2025.11.17-00.05.57:308][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/2_Titan/TTN_Materials/TTN_015] ([1] browsable assets)...
+[2025.11.17-00.05.57:308][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/2_Titan/TTN_Materials/TTN_015]
+[2025.11.17-00.05.57:316][316]LogSavePackage: Moving output files for package: /Game/Characters/2_Titan/TTN_Materials/TTN_015
+[2025.11.17-00.05.57:317][316]LogSavePackage: Moving '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Saved/TTN_0151881761B4EA83B2DDBB7BB915676203A.tmp' to '../../../../../../Users/danie/OneDrive/Desktop/Reconnection/Reconnection/Content/Characters/2_Titan/TTN_Materials/TTN_015.uasset'
+[2025.11.17-00.05.57:326][316]LogFileHelpers: InternalPromptForCheckoutAndSave took 188.771 ms (total: 7.90 sec)
+[2025.11.17-00.05.57:359][316]LogContentValidation: Display: Starting to validate 16 assets
+[2025.11.17-00.05.57:359][316]LogContentValidation: Enabled validators:
+[2025.11.17-00.05.57:359][316]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.17-00.05.57:359][316]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.17-00.05.57:359][316]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.17-00.05.57:359][316]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.17-00.05.57:359][316]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.17-00.05.57:359][316]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.17-00.05.57:359][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_016 Validating asset
+[2025.11.17-00.05.57:359][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_001 Validating asset
+[2025.11.17-00.05.57:359][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_002 Validating asset
+[2025.11.17-00.05.57:359][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_003 Validating asset
+[2025.11.17-00.05.57:359][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_004 Validating asset
+[2025.11.17-00.05.57:359][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_005 Validating asset
+[2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_006 Validating asset
+[2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_007 Validating asset
+[2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_008 Validating asset
+[2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_009 Validating asset
+[2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_010 Validating asset
+[2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_011 Validating asset
+[2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_012 Validating asset
+[2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_013 Validating asset
+[2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_014 Validating asset
+[2025.11.17-00.05.57:360][316]AssetCheck: /Game/Characters/2_Titan/TTN_Materials/TTN_015 Validating asset
