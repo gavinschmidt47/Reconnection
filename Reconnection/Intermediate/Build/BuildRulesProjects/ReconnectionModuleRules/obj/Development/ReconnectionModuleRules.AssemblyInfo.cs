@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReconnectionModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf75709c6aded15884ce4ae2e594f21eb13fe78b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11dfbc724bda53d53084b7065ecee367bdbfbb39")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReconnectionModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReconnectionModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
