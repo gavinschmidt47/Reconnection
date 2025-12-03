@@ -27,7 +27,7 @@ void UFighter::EndTurn()
 	OnEndTurn.Broadcast(this);
 }
 
-void UFighter::SendDamage_Implementation(float Damage, UFighter *Target)
+void UFighter::SendDamage_Implementation(float Damage, UFighter* Target)
 {
 	Target->ReceiveDamage(Damage);
 }
@@ -143,7 +143,7 @@ void UFighter::RemoveBuff(float BuffAmount, const FString& stat)
 	}
 }
 
-void UFighter::Die()
+void UFighter::Die_Implementation()
 {
 	// Handle death logic here
 }

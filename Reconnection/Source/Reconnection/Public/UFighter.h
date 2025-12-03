@@ -132,8 +132,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Attacking")
 	virtual void Attack(UFighter* Target);
 
-	UFUNCTION(BlueprintCallable, Category = "Defending")
-	virtual void Die();
+	UFUNCTION(BlueprintNativeEvent)
+	void Die();
+	void Die_Implementation();
 
 	UFUNCTION(BlueprintCallable, Category = "StatsManagement")
 	TArray<float> GetAllStats();
