@@ -410,17 +410,29 @@ DEFINE_FUNCTION(UFighter::execCallHeal)
 // ********** End Class UFighter Function CallHeal *************************************************
 
 // ********** Begin Class UFighter Function Die ****************************************************
+static FName NAME_UFighter_Die = FName(TEXT("Die"));
+void UFighter::Die()
+{
+	UFunction* Func = FindFunctionChecked(NAME_UFighter_Die);
+	if (!Func->GetOwnerClass()->HasAnyClassFlags(CLASS_Native))
+	{
+	ProcessEvent(Func,NULL);
+	}
+	else
+	{
+		Die_Implementation();
+	}
+}
 struct Z_Construct_UFunction_UFighter_Die_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "Defending" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFighter_Die_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFighter, nullptr, "Die", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFighter_Die_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFighter_Die_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFighter_Die_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFighter, nullptr, "Die", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFighter_Die_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFighter_Die_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_UFighter_Die()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -434,7 +446,7 @@ DEFINE_FUNCTION(UFighter::execDie)
 {
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->Die();
+	P_THIS->Die_Implementation();
 	P_NATIVE_END;
 }
 // ********** End Class UFighter Function Die ******************************************************
@@ -1082,7 +1094,7 @@ struct Z_Construct_UClass_UFighter_Statics
 		{ &Z_Construct_UFunction_UFighter_Block, "Block" }, // 296727667
 		{ &Z_Construct_UFunction_UFighter_CallBlock, "CallBlock" }, // 702353420
 		{ &Z_Construct_UFunction_UFighter_CallHeal, "CallHeal" }, // 2810439346
-		{ &Z_Construct_UFunction_UFighter_Die, "Die" }, // 4090893082
+		{ &Z_Construct_UFunction_UFighter_Die, "Die" }, // 3890305921
 		{ &Z_Construct_UFunction_UFighter_EndTurn, "EndTurn" }, // 2904474031
 		{ &Z_Construct_UFunction_UFighter_GetAllStats, "GetAllStats" }, // 797622548
 		{ &Z_Construct_UFunction_UFighter_GetDefense, "GetDefense" }, // 3042324889
@@ -1180,14 +1192,14 @@ UFighter::~UFighter() {}
 // ********** End Class UFighter *******************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics
+struct Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFighter, UFighter::StaticClass, TEXT("UFighter"), &Z_Registration_Info_UClass_UFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFighter), 1210703618U) },
+		{ Z_Construct_UClass_UFighter, UFighter::StaticClass, TEXT("UFighter"), &Z_Registration_Info_UClass_UFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFighter), 783345322U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_967417402(TEXT("/Script/Reconnection"),
-	Z_CompiledInDeferFile_FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_574930693(TEXT("/Script/Reconnection"),
+	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************
