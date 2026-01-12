@@ -73,6 +73,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
 	float DamageReduction;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Properties")
+	FVector FighterPosition;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Properties")
+	FVector IntendedFighterPosition;
+
 	UPROPERTY(BlueprintAssignable, Category = "Events")
 	FOnStartTurn OnStartTurn;
 
