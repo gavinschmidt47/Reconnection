@@ -17,6 +17,8 @@ void UFighter::StartTurn()
 {
 	bIsTurn = true;
 
+	MovementLeft = MaxMovement;
+
 	OnStartTurn.Broadcast(this);
 }
 
@@ -145,7 +147,7 @@ void UFighter::RemoveBuff(float BuffAmount, const FString& stat)
 
 void UFighter::Die_Implementation()
 {
-	// Handle death logic here
+	OnDeath.Broadcast(this);
 }
 
 TArray<float> UFighter::GetAllStats()

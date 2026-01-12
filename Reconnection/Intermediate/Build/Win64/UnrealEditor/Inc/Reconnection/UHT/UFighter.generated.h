@@ -46,8 +46,15 @@ RECONNECTION_API void FOnEndTurn_DelegateWrapper(const FMulticastScriptDelegate&
 
 // ********** End Delegate FOnEndTurn **************************************************************
 
+// ********** Begin Delegate FOnDeath **************************************************************
+#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_13_DELEGATE \
+RECONNECTION_API void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath, UFighter* Fighter);
+
+
+// ********** End Delegate FOnDeath ****************************************************************
+
 // ********** Begin Class UFighter *****************************************************************
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetAllStats); \
 	DECLARE_FUNCTION(execDie); \
 	DECLARE_FUNCTION(execAttack); \
@@ -66,10 +73,10 @@ RECONNECTION_API void FOnEndTurn_DelegateWrapper(const FMulticastScriptDelegate&
 	DECLARE_FUNCTION(execStartTurn);
 
 
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_18_CALLBACK_WRAPPERS
+#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_19_CALLBACK_WRAPPERS
 RECONNECTION_API UClass* Z_Construct_UClass_UFighter_NoRegister();
 
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUFighter(); \
 	friend struct Z_Construct_UClass_UFighter_Statics; \
@@ -80,7 +87,7 @@ public: \
 	DECLARE_SERIALIZER(UFighter)
 
 
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_19_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UFighter(UFighter&&) = delete; \
 	UFighter(const UFighter&) = delete; \
@@ -90,14 +97,14 @@ public: \
 	NO_API virtual ~UFighter();
 
 
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_15_PROLOG
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_18_GENERATED_BODY \
+#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_16_PROLOG
+#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_18_CALLBACK_WRAPPERS \
-	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_18_INCLASS_NO_PURE_DECLS \
-	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_18_ENHANCED_CONSTRUCTORS \
+	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_19_CALLBACK_WRAPPERS \
+	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

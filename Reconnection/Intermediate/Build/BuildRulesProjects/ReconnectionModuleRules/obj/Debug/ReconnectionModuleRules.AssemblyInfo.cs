@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReconnectionModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01f2a22adf25d6cfbbd1e6a8d67d9d230e48d87b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+045f9d99feccfdf0c3ec85aab17bc942e5ebcb9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReconnectionModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReconnectionModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

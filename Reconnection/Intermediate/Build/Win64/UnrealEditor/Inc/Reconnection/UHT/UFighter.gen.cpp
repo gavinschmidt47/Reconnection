@@ -16,6 +16,7 @@ COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 RECONNECTION_API UClass* Z_Construct_UClass_UFighter();
 RECONNECTION_API UClass* Z_Construct_UClass_UFighter_NoRegister();
+RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature();
 RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature();
 RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature();
 RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature();
@@ -210,6 +211,53 @@ void FOnEndTurn_DelegateWrapper(const FMulticastScriptDelegate& OnEndTurn, UFigh
 	OnEndTurn.ProcessMulticastDelegate<UObject>(&Parms);
 }
 // ********** End Delegate FOnEndTurn **************************************************************
+
+// ********** Begin Delegate FOnDeath **************************************************************
+struct Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics
+{
+	struct _Script_Reconnection_eventOnDeath_Parms
+	{
+		UFighter* Fighter;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/UFighter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Fighter_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Fighter;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::NewProp_Fighter = { "Fighter", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_Reconnection_eventOnDeath_Parms, Fighter), Z_Construct_UClass_UFighter_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Fighter_MetaData), NewProp_Fighter_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::NewProp_Fighter,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_Reconnection, nullptr, "OnDeath__DelegateSignature", Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::_Script_Reconnection_eventOnDeath_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::_Script_Reconnection_eventOnDeath_Parms) < MAX_uint16);
+UFunction* Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath, UFighter* Fighter)
+{
+	struct _Script_Reconnection_eventOnDeath_Parms
+	{
+		UFighter* Fighter;
+	};
+	_Script_Reconnection_eventOnDeath_Parms Parms;
+	Parms.Fighter=Fighter;
+	OnDeath.ProcessMulticastDelegate<UObject>(&Parms);
+}
+// ********** End Delegate FOnDeath ****************************************************************
 
 // ********** Begin Class UFighter Function AddBuff ************************************************
 struct Z_Construct_UFunction_UFighter_AddBuff_Statics
@@ -1009,6 +1057,10 @@ struct Z_Construct_UClass_UFighter_Statics
 		{ "Category", "Stats" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxMovement_MetaData[] = {
+		{ "Category", "Stats" },
+		{ "ModuleRelativePath", "Public/UFighter.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DamageBuff_MetaData[] = {
 		{ "Category", "Buffs" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
@@ -1057,6 +1109,10 @@ struct Z_Construct_UClass_UFighter_Statics
 		{ "Category", "Properties" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MovementLeft_MetaData[] = {
+		{ "Category", "Properties" },
+		{ "ModuleRelativePath", "Public/UFighter.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnStartTurn_MetaData[] = {
 		{ "Category", "Events" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
@@ -1073,6 +1129,10 @@ struct Z_Construct_UClass_UFighter_Statics
 		{ "Category", "Events" },
 		{ "ModuleRelativePath", "Public/UFighter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnDeath_MetaData[] = {
+		{ "Category", "Events" },
+		{ "ModuleRelativePath", "Public/UFighter.h" },
+	};
 #endif // WITH_METADATA
 	static void NewProp_bIsTurn_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bIsTurn;
@@ -1081,6 +1141,7 @@ struct Z_Construct_UClass_UFighter_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_CurrentHealth;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_MinDamage;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_MaxDamage;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_MaxMovement;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_DamageBuff;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_BaseAttack;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_AttackBuff;
@@ -1093,10 +1154,12 @@ struct Z_Construct_UClass_UFighter_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_DamageReduction;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_FighterPosition;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_IntendedFighterPosition;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_MovementLeft;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnStartTurn;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnHitAttack;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnHitMiss;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnEndTurn;
+	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnDeath;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -1133,6 +1196,7 @@ const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Static
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_CurrentHealth = { "CurrentHealth", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, CurrentHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurrentHealth_MetaData), NewProp_CurrentHealth_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_MinDamage = { "MinDamage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, MinDamage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MinDamage_MetaData), NewProp_MinDamage_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_MaxDamage = { "MaxDamage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, MaxDamage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxDamage_MetaData), NewProp_MaxDamage_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_MaxMovement = { "MaxMovement", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, MaxMovement), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxMovement_MetaData), NewProp_MaxMovement_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_DamageBuff = { "DamageBuff", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, DamageBuff), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DamageBuff_MetaData), NewProp_DamageBuff_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_BaseAttack = { "BaseAttack", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, BaseAttack), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BaseAttack_MetaData), NewProp_BaseAttack_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_AttackBuff = { "AttackBuff", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, AttackBuff), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttackBuff_MetaData), NewProp_AttackBuff_MetaData) };
@@ -1145,10 +1209,12 @@ const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Static
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_DamageReduction = { "DamageReduction", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, DamageReduction), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DamageReduction_MetaData), NewProp_DamageReduction_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_FighterPosition = { "FighterPosition", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, FighterPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FighterPosition_MetaData), NewProp_FighterPosition_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_IntendedFighterPosition = { "IntendedFighterPosition", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, IntendedFighterPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_IntendedFighterPosition_MetaData), NewProp_IntendedFighterPosition_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_MovementLeft = { "MovementLeft", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, MovementLeft), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MovementLeft_MetaData), NewProp_MovementLeft_MetaData) };
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_OnStartTurn = { "OnStartTurn", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, OnStartTurn), Z_Construct_UDelegateFunction_Reconnection_OnStartTurn__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnStartTurn_MetaData), NewProp_OnStartTurn_MetaData) }; // 672317339
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_OnHitAttack = { "OnHitAttack", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, OnHitAttack), Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnHitAttack_MetaData), NewProp_OnHitAttack_MetaData) }; // 3662103064
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_OnHitMiss = { "OnHitMiss", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, OnHitMiss), Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnHitMiss_MetaData), NewProp_OnHitMiss_MetaData) }; // 1607995715
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_OnEndTurn = { "OnEndTurn", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, OnEndTurn), Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnEndTurn_MetaData), NewProp_OnEndTurn_MetaData) }; // 725217656
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFighter_Statics::NewProp_OnDeath = { "OnDeath", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFighter, OnDeath), Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnDeath_MetaData), NewProp_OnDeath_MetaData) }; // 541176296
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFighter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_bIsTurn,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_InitiativeScore,
@@ -1156,6 +1222,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFighter_
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_CurrentHealth,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_MinDamage,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_MaxDamage,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_MaxMovement,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_DamageBuff,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_BaseAttack,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_AttackBuff,
@@ -1168,10 +1235,12 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFighter_
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_DamageReduction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_FighterPosition,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_IntendedFighterPosition,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_MovementLeft,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_OnStartTurn,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_OnHitAttack,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_OnHitMiss,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_OnEndTurn,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFighter_Statics::NewProp_OnDeath,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFighter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UFighter_Statics::DependentSingletons[])() = {
@@ -1210,10 +1279,10 @@ UFighter::~UFighter() {}
 struct Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFighter, UFighter::StaticClass, TEXT("UFighter"), &Z_Registration_Info_UClass_UFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFighter), 775116305U) },
+		{ Z_Construct_UClass_UFighter, UFighter::StaticClass, TEXT("UFighter"), &Z_Registration_Info_UClass_UFighter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFighter), 327576046U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_598557127(TEXT("/Script/Reconnection"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_4031770291(TEXT("/Script/Reconnection"),
 	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

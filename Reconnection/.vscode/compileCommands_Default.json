@@ -1,41 +1,225 @@
 [
 	{
-		"file": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Private\\Fighter.cpp",
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\Private\\VisualStudioBlueprintDebuggerHelperModule.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioBlueprintDebuggerHelper.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Public\\Fighter.h",
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\Private\\VisualStudioBlueprintDebuggerHelperModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioBlueprintDebuggerHelper.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Reconnection.Build.cs",
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\VisualStudioBlueprintDebuggerHelper.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioBlueprintDebuggerHelper.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Reconnection.cpp",
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\BlueprintAssetHelper.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Reconnection.h",
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\BlueprintAssetHelpers.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\BlueprintReferencesCommandlet.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\BlueprintReferencesCommandlet.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\FSmartBSTR.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VSServerCommandlet.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VSServerCommandlet.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VSTestAdapterCommandlet.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VSTestAdapterCommandlet.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioTools.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsBlueprintBreakpointExtension.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsBlueprintBreakpointExtension.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsCommandlet.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsCommandlet.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsCommandletBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsCommandletBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Public\\VisualStudioTools.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\VisualStudioTools.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\VisualStudioTools.45.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Private\\UEnemy.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Private\\UFighter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Public\\UEnemy.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Public\\UFighter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Reconnection.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Reconnection.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Reconnection.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default\\Reconnection.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
 	}

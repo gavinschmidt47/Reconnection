@@ -25,6 +25,8 @@
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Levels/CombatScene.umap",
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Characters/1_FirstGeneral/FG_Blendspace/General_AB.uasset",
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/TurnBased/BPI_GridInterface.uasset",
+				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/TurnBased/BPI_FighterComponentInterface.uasset",
+				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/TurnBased/BPI_GiveTurn.uasset",
 				"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Content/Core/TopDown/Blueprints/BP_TopDownGameMode.uasset",
 				"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Content/Core/TopDown/Blueprints/BP_TopDownController.uasset",
 				"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Content/Core/TopDown/Blueprints/BP_TopDownCharacter.uasset",
