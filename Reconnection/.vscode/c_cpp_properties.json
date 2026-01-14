@@ -7,8 +7,9 @@
             "cppStandard": "c++20",
             "intelliSenseMode": "msvc-x64",
             "compileCommands": [
-                "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Reconnection.json"
-            ]
+                "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Reconnection.json"
+            ],
+            "includePath": ["${workspaceFolder}\\Intermediate\\**", "${workspaceFolder}\\Source\\**", "${workspaceFolder}\\Plugins\\**"]
         },
         {
             "name": "Win32",
@@ -17,8 +18,9 @@
             "cppStandard": "c++20",
             "intelliSenseMode": "msvc-x64",
             "compileCommands": [
-                "C:\\Users\\gavin\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default.json"
-            ]
+                "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Default.json"
+            ],
+            "includePath": ["${workspaceFolder}\\Intermediate\\**", "${workspaceFolder}\\Source\\**", "${workspaceFolder}\\Plugins\\**"]
         }
     ],
     "version": 4

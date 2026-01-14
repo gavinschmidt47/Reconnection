@@ -10,6 +10,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnStartTurn, UFighter*, Fighter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHitAttack, UFighter*, Fighter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHitMiss, UFighter*, Fighter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnEndTurn, UFighter*, Fighter);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnDeath, UFighter*, Fighter);
 
 
 UCLASS(Blueprintable, BlueprintType)
@@ -43,6 +44,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
 	float MaxDamage;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
+	int32 MaxMovement;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
 	float DamageBuff;
 
@@ -73,6 +77,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
 	float DamageReduction;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Properties")
+	FVector FighterPosition;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Properties")
+	FVector IntendedFighterPosition;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Properties")
+	int32 MovementLeft;
+
 	UPROPERTY(BlueprintAssignable, Category = "Events")
 	FOnStartTurn OnStartTurn;
 
@@ -84,6 +97,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable, Category = "Events")
 	FOnEndTurn OnEndTurn;
+
+	UPROPERTY(BlueprintAssignable, Category = "Events")
+	FOnDeath OnDeath;
 
 	UFUNCTION(BlueprintCallable, Category="Turn Management")
 	virtual void StartTurn();

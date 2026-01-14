@@ -7,6 +7,7 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeReconnection_init() {}
+	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature();
 	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature();
 	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature();
 	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature();
@@ -17,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeReconnection_init() {}
 		if (!Z_Registration_Info_UPackage__Script_Reconnection.OuterSingleton)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature,
@@ -27,13 +29,13 @@ void EmptyLinkFunctionForGeneratedCodeReconnection_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xADEA5023,
-				0x63AC81FC,
+				0x7BD580AF,
+				0xE1476DCE,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Reconnection.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Reconnection.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Reconnection(Z_Construct_UPackage__Script_Reconnection, TEXT("/Script/Reconnection"), Z_Registration_Info_UPackage__Script_Reconnection, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xADEA5023, 0x63AC81FC));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Reconnection(Z_Construct_UPackage__Script_Reconnection, TEXT("/Script/Reconnection"), Z_Registration_Info_UPackage__Script_Reconnection, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x7BD580AF, 0xE1476DCE));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
