@@ -87,7 +87,16 @@ void UTurnTracker::NextTurn()
 	}
 	
 	// Move to next turn
-	CurrentTurnIndex = (CurrentTurnIndex + 1) % Fighters.Num();
+	if (CurrentTurnIndex < 0)
+	{
+		// Starting from beginning (initial state or after reset)
+		CurrentTurnIndex = 0;
+	}
+	else
+	{
+		// Advance to next fighter, wrapping around if necessary
+		CurrentTurnIndex = (CurrentTurnIndex + 1) % Fighters.Num();
+	}
 	
 	// Start the new turn
 	if (Fighters[CurrentTurnIndex].GetInterface())

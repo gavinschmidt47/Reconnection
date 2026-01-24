@@ -29,16 +29,12 @@ AFighter::AFighter()
 
 void AFighter::StartTurn()
 {
-	bIsTurn = true;
-
-	UE_LOG(LogTemp, Warning, TEXT("Turn started"));
+	SetIsTurn(true);
 }
 
 void AFighter::EndTurn()
 {
-	bIsTurn = false;
-
-	UE_LOG(LogTemp, Warning, TEXT("Turn ended"));
+	SetIsTurn(false);
 }
 
 void AFighter::SendDamage(float Damage, const FString& Type, AFighter *Target)
