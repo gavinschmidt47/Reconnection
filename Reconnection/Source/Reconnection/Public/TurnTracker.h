@@ -37,5 +37,5 @@ private:
 	TArray<TScriptInterface<IFighterInterface>> Fighters;
 
 	// Current turn index
-	int32 CurrentTurnIndex;
+	int32 CurrentTurnIndex = -1;
 };

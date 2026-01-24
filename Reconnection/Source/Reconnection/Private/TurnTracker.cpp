@@ -6,7 +6,7 @@
 
 UTurnTracker::UTurnTracker()
 {
-	CurrentTurnIndex = -1;
+	// Constructor - CurrentTurnIndex is initialized in header
 }
 
 void UTurnTracker::AddFighter(AActor* Fighter)
@@ -47,14 +47,26 @@ void UTurnTracker::RemoveFighter(AActor* Fighter)
 				// Fighter removed before current turn, decrement index
 				CurrentTurnIndex--;
 			}
-			else if (RemovedIndex == CurrentTurnIndex)
+			else if (RemovedIndex == CurrentTurnIndex && CurrentTurnIndex > 0)
 			{
-				// Current fighter removed, reset to -1 so NextTurn will start from 0
-				CurrentTurnIndex = -1;
+				// Current fighter removed, keep the same index (it will point to the next fighter)
+				// But decrement by 1 so NextTurn will advance correctly
+				CurrentTurnIndex--;
 			}
 			
 			// Remove the fighter
 			Fighters.RemoveAt(RemovedIndex);
+			
+			// Validate CurrentTurnIndex after removal
+			if (Fighters.Num() == 0)
+			{
+				CurrentTurnIndex = -1;
+			}
+			else if (CurrentTurnIndex >= Fighters.Num())
+			{
+				// If we removed the last fighter in the list and it was current, wrap around
+				CurrentTurnIndex = 0;
+			}
 			
 			UE_LOG(LogTemp, Log, TEXT("Fighter removed from TurnTracker. Total fighters: %d"), Fighters.Num());
 		}
