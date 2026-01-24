@@ -95,7 +95,16 @@ void UTurnTracker::NextTurn()
 	else
 	{
 		// Advance to next fighter, wrapping around if necessary
-		CurrentTurnIndex = (CurrentTurnIndex + 1) % Fighters.Num();
+		// Extra safety check to prevent division by zero
+		if (Fighters.Num() > 0)
+		{
+			CurrentTurnIndex = (CurrentTurnIndex + 1) % Fighters.Num();
+		}
+		else
+		{
+			CurrentTurnIndex = -1;
+			return;
+		}
 	}
 	
 	// Start the new turn
