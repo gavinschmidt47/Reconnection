@@ -59,9 +59,7 @@ int32 AFighter::GetTurnNumber() const
 
 void AFighter::SetIsTurn(bool bInIsTurn)
 {
-	bIsTurn = bInIsTurn;
-	
-	if (bIsTurn)
+	if (bInIsTurn)
 	{
 		StartTurn();
 	}

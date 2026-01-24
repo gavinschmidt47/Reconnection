@@ -33,12 +33,31 @@ void UTurnTracker::RemoveFighter(AActor* Fighter)
 {
 	if (Fighter)
 	{
-		Fighters.RemoveAll([Fighter](const TScriptInterface<IFighterInterface>& FighterInterface)
+		// Find the index of the fighter to remove
+		int32 RemovedIndex = Fighters.IndexOfByPredicate([Fighter](const TScriptInterface<IFighterInterface>& FighterInterface)
 		{
 			return FighterInterface.GetObject() == Fighter;
 		});
 		
-		UE_LOG(LogTemp, Log, TEXT("Fighter removed from TurnTracker. Total fighters: %d"), Fighters.Num());
+		if (RemovedIndex != INDEX_NONE)
+		{
+			// Adjust CurrentTurnIndex if necessary
+			if (RemovedIndex < CurrentTurnIndex)
+			{
+				// Fighter removed before current turn, decrement index
+				CurrentTurnIndex--;
+			}
+			else if (RemovedIndex == CurrentTurnIndex)
+			{
+				// Current fighter removed, reset to -1 so NextTurn will start from 0
+				CurrentTurnIndex = -1;
+			}
+			
+			// Remove the fighter
+			Fighters.RemoveAt(RemovedIndex);
+			
+			UE_LOG(LogTemp, Log, TEXT("Fighter removed from TurnTracker. Total fighters: %d"), Fighters.Num());
+		}
 	}
 }
 
@@ -47,6 +66,7 @@ void UTurnTracker::NextTurn()
 	if (Fighters.Num() == 0)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("No fighters in TurnTracker"));
+		CurrentTurnIndex = -1;
 		return;
 	}
 	
