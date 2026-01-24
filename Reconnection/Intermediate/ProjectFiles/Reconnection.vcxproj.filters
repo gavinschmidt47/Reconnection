@@ -148,6 +148,9 @@
     <ClCompile Include="..\..\Source\Reconnection\Private\UFighter.cpp">
       <Filter>Source\Reconnection\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Reconnection\Private\UTurnManager.cpp">
+      <Filter>Source\Reconnection\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Reconnection\Public">
       <UniqueIdentifier>{B8A18F7A-A813-31B2-ADB8-C57A55BE166C}</UniqueIdentifier>
     </Filter>
@@ -155,6 +158,9 @@
       <Filter>Source\Reconnection\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Reconnection\Public\UFighter.h">
+      <Filter>Source\Reconnection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Reconnection\Public\UTurnManager.h">
       <Filter>Source\Reconnection\Public</Filter>
     </ClInclude>
   </ItemGroup>
