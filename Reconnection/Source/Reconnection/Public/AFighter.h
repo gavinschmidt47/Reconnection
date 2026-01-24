@@ -4,11 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "FighterInterface.h"
 #include "AFighter.generated.h" // <-- Move this to be the last include before code
 
 UCLASS()
-class RECONNECTION_API AFighter : public AActor, public IFighterInterface
+class RECONNECTION_API AFighter : public AActor
 {
 	GENERATED_BODY()
 	
@@ -37,15 +36,6 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Stored Functions")
 	virtual void ReceiveDamage(float Damage, const FString& Type);
-
-	// IFighterInterface implementation
-	virtual int32 GetTurnNumber() const override;
-	virtual void SetIsTurn(bool bInIsTurn) override;
-	virtual bool GetIsTurn() const override;
-
-	// Reference to the turn tracker
-	UPROPERTY()
-	class UTurnTracker* TurnTracker;
 
 protected:
 	// Called when the game starts or when spawned

@@ -2,16 +2,10 @@
 
 
 #include "AFighter.h"
-#include "TurnTracker.h"
 void AFighter::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	// Register with TurnTracker if available
-	if (TurnTracker)
-	{
-		TurnTracker->AddFighter(this);
-	}
 }
 
 // Sets default values
@@ -23,18 +17,20 @@ AFighter::AFighter()
 	bIsTurn = false;
 
 	InitiativeScore = 0;
-
-	TurnTracker = nullptr;
 }
 
 void AFighter::StartTurn()
 {
-	SetIsTurn(true);
+	bIsTurn = true;
+
+	UE_LOG(LogTemp, Warning, TEXT("Turn started"));
 }
 
 void AFighter::EndTurn()
 {
-	SetIsTurn(false);
+	bIsTurn = false;
+
+	UE_LOG(LogTemp, Warning, TEXT("Turn ended"));
 }
 
 void AFighter::SendDamage(float Damage, const FString& Type, AFighter *Target)
@@ -45,31 +41,4 @@ void AFighter::SendDamage(float Damage, const FString& Type, AFighter *Target)
 void AFighter::ReceiveDamage(float Damage, const FString& Type)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Received %f %s damage from source"), Damage, *Type);
-}
-
-// IFighterInterface implementation
-int32 AFighter::GetTurnNumber() const
-{
-	return InitiativeScore;
-}
-
-void AFighter::SetIsTurn(bool bInIsTurn)
-{
-	// Update the turn status
-	bIsTurn = bInIsTurn;
-	
-	// Log the turn change
-	if (bIsTurn)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Turn started"));
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Turn ended"));
-	}
-}
-
-bool AFighter::GetIsTurn() const
-{
-	return bIsTurn;
 }
