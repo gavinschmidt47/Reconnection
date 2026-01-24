@@ -59,13 +59,17 @@ int32 AFighter::GetTurnNumber() const
 
 void AFighter::SetIsTurn(bool bInIsTurn)
 {
-	if (bInIsTurn)
+	// Update the turn status
+	bIsTurn = bInIsTurn;
+	
+	// Log the turn change
+	if (bIsTurn)
 	{
-		StartTurn();
+		UE_LOG(LogTemp, Warning, TEXT("Turn started"));
 	}
 	else
 	{
-		EndTurn();
+		UE_LOG(LogTemp, Warning, TEXT("Turn ended"));
 	}
 }
 

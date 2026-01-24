@@ -44,15 +44,10 @@ void UTurnTracker::RemoveFighter(AActor* Fighter)
 			// Adjust CurrentTurnIndex if necessary
 			if (RemovedIndex < CurrentTurnIndex)
 			{
-				// Fighter removed before current turn, decrement index
+				// Fighter removed before current turn, decrement index to maintain position
 				CurrentTurnIndex--;
 			}
-			else if (RemovedIndex == CurrentTurnIndex && CurrentTurnIndex > 0)
-			{
-				// Current fighter removed, keep the same index (it will point to the next fighter)
-				// But decrement by 1 so NextTurn will advance correctly
-				CurrentTurnIndex--;
-			}
+			// If RemovedIndex == CurrentTurnIndex, don't adjust - the next fighter will slide into this position
 			
 			// Remove the fighter
 			Fighters.RemoveAt(RemovedIndex);
@@ -64,7 +59,7 @@ void UTurnTracker::RemoveFighter(AActor* Fighter)
 			}
 			else if (CurrentTurnIndex >= Fighters.Num())
 			{
-				// If we removed the last fighter in the list and it was current, wrap around
+				// If current index is now out of bounds, wrap to beginning
 				CurrentTurnIndex = 0;
 			}
 			
