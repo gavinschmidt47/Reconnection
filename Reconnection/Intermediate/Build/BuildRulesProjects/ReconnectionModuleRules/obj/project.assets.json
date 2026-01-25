@@ -13,19 +13,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MPolf\\.nuget\\packages\\": {}
+    "C:\\Users\\jadyn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "projectUniqueName": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
       "projectName": "ReconnectionModuleRules",
-      "projectPath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
-      "packagesPath": "C:\\Users\\MPolf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\obj\\",
+      "projectPath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "packagesPath": "C:\\Users\\jadyn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MPolf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jadyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -85,7 +85,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

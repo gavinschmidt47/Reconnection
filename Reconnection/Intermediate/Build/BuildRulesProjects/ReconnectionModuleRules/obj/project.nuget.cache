@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "/KtdQGzo5GA=",
+  "dgSpecHash": "UTYx7F3o9rs=",
   "success": false,
-  "projectFilePath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+  "projectFilePath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1104",
       "level": "Error",
       "message": "Unable to find project 'C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. Check that the project reference is valid and that the project file exists.",
-      "projectPath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
-      "filePath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "projectPath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "filePath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
       "libraryId": "C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
       "targetGraphs": [
         "net8.0"
@@ -20,8 +20,8 @@
       "code": "NU1104",
       "level": "Error",
       "message": "Unable to find project 'C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. Check that the project reference is valid and that the project file exists.",
-      "projectPath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
-      "filePath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "projectPath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "filePath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
       "libraryId": "C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
       "targetGraphs": [
         "net8.0"
@@ -31,8 +31,8 @@
       "code": "NU1104",
       "level": "Error",
       "message": "Unable to find project 'C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. Check that the project reference is valid and that the project file exists.",
-      "projectPath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
-      "filePath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "projectPath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "filePath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
       "libraryId": "C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
       "targetGraphs": [
         "net8.0"
@@ -42,8 +42,8 @@
       "code": "NU1104",
       "level": "Error",
       "message": "Unable to find project 'C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. Check that the project reference is valid and that the project file exists.",
-      "projectPath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
-      "filePath": "C:\\Users\\MPolf\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "projectPath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "filePath": "C:\\Users\\jadyn\\OneDrive\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
       "libraryId": "C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
       "targetGraphs": [
         "net8.0"
