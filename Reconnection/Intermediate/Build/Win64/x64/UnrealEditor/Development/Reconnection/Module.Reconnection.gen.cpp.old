@@ -2,3 +2,4 @@
 #include "C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/UnrealEditor/Inc/Reconnection/UHT/Reconnection.init.gen.cpp"
 #include "C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/UnrealEditor/Inc/Reconnection/UHT/UEnemy.gen.cpp"
 #include "C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/UnrealEditor/Inc/Reconnection/UHT/UFighter.gen.cpp"
+#include "C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Intermediate/Build/Win64/UnrealEditor/Inc/Reconnection/UHT/UTurnManager.gen.cpp"
