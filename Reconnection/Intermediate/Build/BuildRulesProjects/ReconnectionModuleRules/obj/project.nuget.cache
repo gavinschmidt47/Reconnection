@@ -1,8 +1,53 @@
 {
   "version": 2,
-  "dgSpecHash": "X9kNXSv14T4=",
-  "success": true,
+  "dgSpecHash": "+fPWIn++QwQ=",
+  "success": false,
   "projectFilePath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "filePath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "libraryId": "D:\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "filePath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "libraryId": "D:\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "filePath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "libraryId": "D:\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "filePath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
+      "libraryId": "D:\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
