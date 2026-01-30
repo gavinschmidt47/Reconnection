@@ -38,6 +38,14 @@ void UTurnManager::InitializeCombat()
 				// Bind to fighter events
 				FighterComp->OnDeath.AddDynamic(this, &UTurnManager::OnFighterDeath);
 				FighterComp->OnEndTurn.AddDynamic(this, &UTurnManager::OnFighterEndTurn);
+
+				UEnemy* EnemyComp = FighterComp->GetOwner()->FindComponentByClass<UEnemy>();
+				if (EnemyComp)
+				{
+					EnemyComp->InitializeEnemy(Fighters);
+					OnFighterJoined.AddDynamic(EnemyComp, &UEnemy::UpdateAlliesAndEnemies);
+					OnFighterDeath.AddDynamic(EnemyComp, &UEnemy::UpdateAlliesAndEnemies);
+				}
 			}
 		}
 	}

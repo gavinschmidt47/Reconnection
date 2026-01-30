@@ -75,3 +75,4 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 *.ushaderbytecode
 *.pdb
+/Reconnection/Intermediate/ProjectFiles/.Rider
