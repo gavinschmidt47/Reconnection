@@ -23,14 +23,17 @@ class RECONNECTION_API UEnemy : public UFighter
 public:
 	virtual void StartTurn() override;
 
-	UFUNCTION(BlueprintNativeEvent)
+	UFUNCTION(BlueprintCallable, Category = "Enemy|Combat")
 	void ChooseAction();
-	void ChooseAction_Implementation();
 
 	UFUNCTION(BlueprintCallable, Category = "Enemy|Setup")
 	void InitializeEnemy(const TArray<UFighter*>& AllFighters);
 	UFUNCTION(BlueprintCallable, Category = "Enemy|Setup")
 	void UpdateAlliesAndEnemies(const TArray<UFighter*>& AllFighters);
+	UFUNCTION(BlueprintCallable, Category = "Enemy|Setup")
+	void OnFighterListChanged(UFighter* ChangedFighter);
+
+	virtual void ReceiveDamage(float Damage) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Enemy|Utility")
 	float GetAttackUtility();
@@ -70,6 +73,9 @@ public:
 private:
 	UPROPERTY()
 	TArray<UFighter*> Allies;
+
+	UPROPERTY()
+	float LastDamageReceived;
 
 	// Current weapon type for this enemy
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy|Weapon", meta = (AllowPrivateAccess = "true"))

@@ -89,9 +89,9 @@ public:
 private:
 	// Called when a fighter dies
 	UFUNCTION()
-	void OnFighterDeath(UFighter* DeadFighter);
+	void HandleFighterDeath(UFighter* DeadFighter);
 
 	// Called when a fighter ends their turn
 	UFUNCTION()
-	void OnFighterEndTurn(UFighter* Fighter);
+	void HandleFighterEndTurn(UFighter* Fighter);
 };

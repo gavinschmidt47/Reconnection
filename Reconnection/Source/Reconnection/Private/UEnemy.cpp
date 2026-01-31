@@ -1,7 +1,24 @@
+#include "UTurnManager.h"
+void UEnemy::OnFighterListChanged(UFighter* /*ChangedFighter*/)
+{
+	// Get the current list of fighters from the TurnManager
+	UWorld* World = GetWorld();
+	if (!World) return;
+	for (TObjectIterator<UTurnManager> It; It; ++It)
+	{
+		if (It->GetWorld() == World)
+		{
+			UpdateAlliesAndEnemies(It->Fighters);
+			break;
+		}
+	}
+}
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "UEnemy.h"
+
+#include "MathUtil.h"
 
 void UEnemy::StartTurn()
 {
@@ -9,7 +26,7 @@ void UEnemy::StartTurn()
 	ChooseAction();
 }
 
-void UEnemy::ChooseAction_Implementation()
+void UEnemy::ChooseAction()
 {
 	// Default implementation does nothing
 }
@@ -55,11 +72,19 @@ void UEnemy::UpdateAlliesAndEnemies(const TArray<UFighter*>& AllFighters)
 	}
 }
 
+void UEnemy::ReceiveDamage(float Damage)
+{
+	Super::ReceiveDamage(Damage);
+	LastDamageReceived = Damage;
+}
+
 float UEnemy::GetAttackUtility()
 {
 	float CurrUtility = 0;
 	UFighter* ClosestFighter = Enemies[0];
 	float ClosestDistance = ClosestFighter->GetOwner()->GetHorizontalDistanceTo(this->GetOwner());
+	bool bHasLineOfSight = false;
+	bool bWithinMelee = false;
 	
 	for ( UFighter* CurrFighter : Enemies )
 	{
@@ -68,14 +93,140 @@ float UEnemy::GetAttackUtility()
 			ClosestFighter = CurrFighter;
 			ClosestDistance = CurrFighter->GetOwner()->GetHorizontalDistanceTo(this->GetOwner());
 		}
+		if (CheckSightToTarget(CurrFighter))
+		{
+			bHasLineOfSight = true;
+		}
+		if (ClosestDistance > MaxMovement)
+		{
+			bWithinMelee = true;
+		}
 	}
 	
-	if (ClosestDistance > MovementLeft && ClosestFighter)
+	if ((ClosestDistance > MovementLeft && !bHasRanged) || !ClosestFighter || !bHasLineOfSight)
 	{
 		return CurrUtility;
 	}
+	else
+	{
+		float HealthRatio = FMath::Clamp(ClosestFighter->CurrentHealth / ClosestFighter->MaxHealth, 0.01f, 1.0f);
+		CurrUtility += -FMath::Loge(HealthRatio);
+	}
 
-	CurrUtility += ClosestFighter->CurrentHealth/ClosestFighter->MaxHealth;
+	return CurrUtility * AttackUtilityWeight;
+}
 
+float UEnemy::GetMeleeUtility()
+{
+	float CurrUtility = 0;
+	if (!bHasMelee) return CurrUtility;
+	if (CurrentWeaponType == EWeaponType::Melee)
+	{
+		CurrUtility = 1;
+	}
+	else
+	{
+		CurrUtility = 0.3f;
+	}
+	return CurrUtility;
+}
+
+float UEnemy::GetRangedUtility()
+{
+	float CurrUtility = 0;
+	if (!bHasRanged) return CurrUtility;
+	if (CurrentWeaponType == EWeaponType::Ranged)
+	{
+		CurrUtility = 1;
+	}
+	else
+	{
+		CurrUtility = 0.5f;
+	}
+	return CurrUtility;
+}
+
+float UEnemy::GetMagicUtility()
+{
+	float CurrUtility = 0;
+	if (!bHasMagic) return CurrUtility;
+	if (CurrentWeaponType == EWeaponType::Melee)
+	{
+		CurrUtility = 1;
+	}
+	else
+	{
+		CurrUtility = 0.6f;
+	}
+	return CurrUtility;
+}
+
+float UEnemy::GetSelfHealUtility()
+{
+	float CurrUtility = 0;
+	if (!bHasSelfHeal) return CurrUtility;
+
+	float HealthRatio = FMath::Clamp(CurrentHealth / MaxHealth, 0.01f, 1.0f);
+
+	if (HealthRatio <= 0.1f)
+	{
+		// Force heal at 10% health or lower
+		CurrUtility = FLT_MAX;
+	}
+	else
+	{
+		// Exponentially increase utility as health decreases
+		CurrUtility = FMath::Exp(-HealthRatio * 5.0f);
+	}
+
+	return CurrUtility;
+}
+
+float UEnemy::GetAllyHealUtility()
+{
+	float CurrUtility = 0;
+	if (!bHasAllyHeal) return CurrUtility;
+
+	float LowestHealthRatio = FLT_MAX;
+	UFighter* LowestAlly = nullptr;
 	
+	for (auto Ally : Allies)
+	{
+		if (CheckSightToTarget(Ally))
+		{
+			float CurrHealthRatio = Ally->CurrentHealth / Ally->MaxHealth;
+			if (CurrHealthRatio < LowestHealthRatio)
+			{
+				LowestAlly = Ally;
+				LowestHealthRatio = CurrHealthRatio;
+			}
+		}
+	}
+
+	CurrUtility = FMath::Exp(-LowestHealthRatio * 5.0f);
+	return CurrUtility;
+}
+
+float UEnemy::GetBlockUtility()
+{
+	float CurrUtility = 0;
+
+	CurrUtility = FMath::Exp(LastDamageReceived * 0.2f) - 1.0f;
+	return CurrUtility;
+}
+
+float UEnemy::GetBuffUtility()
+{
+	float CurrUtility = 0;
+	if (!bHasBuff) return CurrUtility;
+
+	if (BuffTracker.Num() == 0)
+	{
+		CurrUtility = 1.0f; // Very high utility if no buffs are active
+	}
+	else
+	{
+		CurrUtility = 0.5f / BuffTracker.Num(); // Higher utility for fewer buffs
+	}
+	return CurrUtility;
 }

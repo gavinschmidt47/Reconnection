@@ -10,6 +10,8 @@ void EmptyLinkFunctionForGeneratedCodeReconnection_init() {}
 	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnCombatEnded__DelegateSignature();
 	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature();
 	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature();
+	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnFighterDeath__DelegateSignature();
+	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnFighterJoined__DelegateSignature();
 	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature();
 	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature();
 	RECONNECTION_API UFunction* Z_Construct_UDelegateFunction_Reconnection_OnRoundStarted__DelegateSignature();
@@ -24,6 +26,8 @@ void EmptyLinkFunctionForGeneratedCodeReconnection_init() {}
 				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnCombatEnded__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnDeath__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnEndTurn__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnFighterDeath__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnFighterJoined__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnHitAttack__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnHitMiss__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Reconnection_OnRoundStarted__DelegateSignature,
@@ -35,13 +39,13 @@ void EmptyLinkFunctionForGeneratedCodeReconnection_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xEE32E534,
-				0x71458D0D,
+				0x6AFCDDAD,
+				0x5120068A,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Reconnection.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Reconnection.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Reconnection(Z_Construct_UPackage__Script_Reconnection, TEXT("/Script/Reconnection"), Z_Registration_Info_UPackage__Script_Reconnection, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xEE32E534, 0x71458D0D));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Reconnection(Z_Construct_UPackage__Script_Reconnection, TEXT("/Script/Reconnection"), Z_Registration_Info_UPackage__Script_Reconnection, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x6AFCDDAD, 0x5120068A));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
