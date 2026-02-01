@@ -6,6 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/BasicShapes/Cylinder.uasset",
+				"C:/Users/jadyn/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Levels/Level_2.umap",
+				"C:/Users/jadyn/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Materials/Ice_Concept.uasset",
+				"C:/Users/jadyn/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Core/TurnBased/Reconnection_GameMode.uasset",
+				"C:/Users/jadyn/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Materials/NPCs.uasset",
 				"C:/Users/MPolf/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Levels/SmallTown.umap",
 				"C:/Users/MPolf/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Levels/SmallForrestCamp.umap",
 				"C:/Users/MPolf/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/StarterContent/Props/Materials/M_Rock.uasset",
@@ -173,7 +177,6 @@
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/TopDown/NewCamera/Input/InputMappingContext.uasset",
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/TurnBased/BP_PlayerMovLock.uasset",
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/TurnBased/BP_Party.uasset",
-				"C:/Users/jadyn/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Levels/Level_2.umap",
 				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/WidgetBlueprints/WB_FIghtMenu.uasset",
 				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/WidgetBlueprints/Buttons/WB_AttackButton.uasset",
 				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/WidgetBlueprints/Buttons/WB_BlockButton.uasset",
