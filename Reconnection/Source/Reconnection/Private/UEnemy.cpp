@@ -1,3 +1,5 @@
+#include "UEnemy.h"
+#include "MathUtil.h"
 #include "UTurnManager.h"
 void UEnemy::OnFighterListChanged(UFighter* /*ChangedFighter*/)
 {
@@ -13,12 +15,6 @@ void UEnemy::OnFighterListChanged(UFighter* /*ChangedFighter*/)
 		}
 	}
 }
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
-#include "UEnemy.h"
-
-#include "MathUtil.h"
 
 void UEnemy::StartTurn()
 {
