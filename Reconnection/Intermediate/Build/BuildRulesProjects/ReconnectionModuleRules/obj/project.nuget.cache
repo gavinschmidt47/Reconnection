@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "ky2cjiaTI/I=",
-  "success": false,
+  "dgSpecHash": "Mca+sO/zT0Y=",
+  "success": true,
   "projectFilePath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gavin\\.nuget\\packages\\bitfaster.caching\\2.4.1\\bitfaster.caching.2.4.1.nupkg.sha512",
@@ -120,17 +120,5 @@
     "C:\\Users\\gavin\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
     "C:\\Users\\gavin\\.nuget\\packages\\zstdsharp.port\\0.8.1\\zstdsharp.port.0.8.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj'. Check that the project reference is valid and that the project file exists.",
-      "projectPath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
-      "filePath": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Intermediate\\Build\\BuildRulesProjects\\ReconnectionModuleRules\\ReconnectionModuleRules.csproj",
-      "libraryId": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

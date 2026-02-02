@@ -679,6 +679,18 @@ struct Z_Construct_UClass_UEnemy_Statics
 		{ "Category", "Enemy|Utility|Weight" },
 		{ "ModuleRelativePath", "Public/UEnemy.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHasBuff_MetaData[] = {
+		{ "Category", "Enemy|Utility|Weight" },
+		{ "ModuleRelativePath", "Public/UEnemy.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BlockUtilityWeight_MetaData[] = {
+		{ "Category", "Enemy|Utility|Weight" },
+		{ "ModuleRelativePath", "Public/UEnemy.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHasBlock_MetaData[] = {
+		{ "Category", "Enemy|Utility|Weight" },
+		{ "ModuleRelativePath", "Public/UEnemy.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Allies_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/UEnemy.h" },
@@ -715,6 +727,11 @@ struct Z_Construct_UClass_UEnemy_Statics
 	static void NewProp_bHasAllyHeal_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bHasAllyHeal;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_BuffUtilityWeight;
+	static void NewProp_bHasBuff_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bHasBuff;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_BlockUtilityWeight;
+	static void NewProp_bHasBlock_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bHasBlock;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Allies_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_Allies;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_LastDamageReceived;
@@ -772,6 +789,17 @@ void Z_Construct_UClass_UEnemy_Statics::NewProp_bHasAllyHeal_SetBit(void* Obj)
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_bHasAllyHeal = { "bHasAllyHeal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UEnemy), &Z_Construct_UClass_UEnemy_Statics::NewProp_bHasAllyHeal_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bHasAllyHeal_MetaData), NewProp_bHasAllyHeal_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_BuffUtilityWeight = { "BuffUtilityWeight", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnemy, BuffUtilityWeight), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BuffUtilityWeight_MetaData), NewProp_BuffUtilityWeight_MetaData) };
+void Z_Construct_UClass_UEnemy_Statics::NewProp_bHasBuff_SetBit(void* Obj)
+{
+	((UEnemy*)Obj)->bHasBuff = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_bHasBuff = { "bHasBuff", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UEnemy), &Z_Construct_UClass_UEnemy_Statics::NewProp_bHasBuff_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bHasBuff_MetaData), NewProp_bHasBuff_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_BlockUtilityWeight = { "BlockUtilityWeight", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnemy, BlockUtilityWeight), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BlockUtilityWeight_MetaData), NewProp_BlockUtilityWeight_MetaData) };
+void Z_Construct_UClass_UEnemy_Statics::NewProp_bHasBlock_SetBit(void* Obj)
+{
+	((UEnemy*)Obj)->bHasBlock = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_bHasBlock = { "bHasBlock", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UEnemy), &Z_Construct_UClass_UEnemy_Statics::NewProp_bHasBlock_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bHasBlock_MetaData), NewProp_bHasBlock_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_Allies_Inner = { "Allies", nullptr, (EPropertyFlags)0x0000000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UFighter_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_Allies = { "Allies", nullptr, (EPropertyFlags)0x0040008000000008, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnemy, Allies), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Allies_MetaData), NewProp_Allies_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_LastDamageReceived = { "LastDamageReceived", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnemy, LastDamageReceived), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LastDamageReceived_MetaData), NewProp_LastDamageReceived_MetaData) };
@@ -788,6 +816,9 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEnemy_St
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_bHasSelfHeal,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_bHasAllyHeal,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_BuffUtilityWeight,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_bHasBuff,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_BlockUtilityWeight,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_bHasBlock,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_Allies_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_Allies,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_LastDamageReceived,
@@ -837,10 +868,10 @@ struct Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Recon
 		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 200093190U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UEnemy, UEnemy::StaticClass, TEXT("UEnemy"), &Z_Registration_Info_UClass_UEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEnemy), 4218861283U) },
+		{ Z_Construct_UClass_UEnemy, UEnemy::StaticClass, TEXT("UEnemy"), &Z_Registration_Info_UClass_UEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEnemy), 54616738U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_4095255902(TEXT("/Script/Reconnection"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_1811408616(TEXT("/Script/Reconnection"),
 	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::EnumInfo));
