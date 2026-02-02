@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/ma046125/Documents/GitHub/Reconnection/Reconnection/Content/Levels/Level_1.umap",
+				"C:/Users/ma046125/Documents/GitHub/Reconnection/Reconnection/Content/Characters/Enemies/LowRank/granizo_low_granizo_BaseColor_sRGB_Mat.uasset",
+				"C:/Users/ma046125/Documents/GitHub/Reconnection/Reconnection/Content/Characters/Enemies/MidRank/helmetwisp_low_helmetwisp_BaseColor_sRGB_1001__2__Mat.uasset",
+				"C:/Users/ma046125/Documents/GitHub/Reconnection/Reconnection/Content/Levels/Level_2.umap",
+				"C:/Users/ma046125/Documents/GitHub/Reconnection/Reconnection/Content/Levels/TutorialLevel.umap",
 				"C:/Users/MPolf/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Characters/Enemies/LowRank/granizo_low_granizo_BaseColor_sRGB.uasset",
 				"C:/Users/MPolf/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Characters/Enemies/LowRank/granizo_low_granizo_OcclusionRoughnessMetallic_Raw.uasset",
 				"C:/Users/MPolf/OneDrive/Documents/GitHub/Reconnection/Reconnection/Content/Characters/Enemies/LowRank/granizo_low_granizo_Normal_Raw.uasset",
