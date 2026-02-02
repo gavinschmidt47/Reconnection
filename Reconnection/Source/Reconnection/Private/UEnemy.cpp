@@ -179,7 +179,7 @@ float UEnemy::GetSelfHealUtility()
 		CurrUtility = FMath::Exp(-HealthRatio * 5.0f);
 	}
 
-	return CurrUtility;
+	return CurrUtility * HealUtilityWeight;
 }
 
 float UEnemy::GetAllyHealUtility()
@@ -204,15 +204,19 @@ float UEnemy::GetAllyHealUtility()
 	}
 
 	CurrUtility = FMath::Exp(-LowestHealthRatio * 5.0f);
-	return CurrUtility;
+	return CurrUtility * HealUtilityWeight;
 }
 
 float UEnemy::GetBlockUtility()
 {
 	float CurrUtility = 0;
+	if (!bHasBlock) return CurrUtility;
 
-	CurrUtility = FMath::Exp(LastDamageReceived * 0.2f) - 1.0f;
-	return CurrUtility;
+	float HealthRatio = FMath::Clamp(CurrentHealth / MaxHealth, 0.01f, 1.0f);
+	float DamageRatio = FMath::Clamp(LastDamageReceived / MaxHealth, 0.0f, 1.0f);
+	CurrUtility = FMath::Exp(DamageRatio * BlockUtilityWeight) - 1.0f;
+
+	return CurrUtility * BlockUtilityWeight;
 }
 
 float UEnemy::GetBuffUtility()
@@ -228,5 +232,5 @@ float UEnemy::GetBuffUtility()
 	{
 		CurrUtility = 0.5f / BuffTracker.Num(); // Higher utility for fewer buffs
 	}
-	return CurrUtility;
+	return CurrUtility * BuffUtilityWeight;
 }

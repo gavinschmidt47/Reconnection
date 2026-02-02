@@ -68,7 +68,12 @@ public:
 	bool bHasAllyHeal;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Enemy|Utility|Weight")
 	float BuffUtilityWeight;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Enemy|Utility|Weight")
 	bool bHasBuff;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Enemy|Utility|Weight")
+	float BlockUtilityWeight;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Enemy|Utility|Weight")
+	bool bHasBlock;
 
 private:
 	UPROPERTY()
