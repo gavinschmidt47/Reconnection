@@ -41,6 +41,7 @@
 *.VC.db
 *.VC.opendb
 .vsconfig
+.csproject
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -75,3 +76,8 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 *.ushaderbytecode
 *.pdb
+
+# Crash and log files
+Saved/Config/CrashReportClient/*
+Saved/Logs/*
+*.log

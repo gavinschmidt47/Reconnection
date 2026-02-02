@@ -5,8 +5,25 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/WidgetBlueprints/WB_SimplifiedGridCombat1.uasset",
-				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/Levels/Tutorial_Town.umap"
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/VFX_Assets/Scry_Debuffing/M_RingPulse.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/VFX_Assets/Scry_Debuffing/M_DebuffLight.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/VFX_Assets/Scry_Debuffing/SM_Cone.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/VFX_Assets/Scry_Debuffing/NS_DebuffLight1.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/VFX_Assets/Scry_Debuffing/NS_RingPulse1.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/VFX_characters/Scry_Debuffing/NS_RingPulse1.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/VFX_characters/Scry_Debuffing/NS_DebuffLight1.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/VFX_characters/Scry_Debuffing/SM_Cone.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/VFX_characters/Scry_Debuffing/M_DebuffLight.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/VFX_characters/Scry_Debuffing/M_RingPulse.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/Scry_Debuffing/NS_RingPulse1.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/Scry_Debuffing/NS_DebuffLight1.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/Scry_Debuffing/SM_Cone.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/Scry_Debuffing/M_DebuffLight.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/VFX/Scry_Debuffing/M_RingPulse.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/2/PK/D8CFPC0RL6MF0OH1GTQ6EJ.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/9/Y8/Q23IXBBK1QNVB2IQNHUK3F.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/4/F9/PFCHIYIOG244UAMMM74MAD.uasset",
+				"C:/Users/danie/Downloads/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/8/FQ/9F8AKTTPCCLUYFF6N29ITG.uasset"
 			]
 		}
 	]
