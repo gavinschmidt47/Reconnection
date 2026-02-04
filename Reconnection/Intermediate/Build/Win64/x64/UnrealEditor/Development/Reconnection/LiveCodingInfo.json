@@ -2,10 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Reconnection.gen.cpp.obj": [
-			"UFighter.gen.cpp.obj",
-			"UTurnManager.gen.cpp.obj",
 			"Reconnection.init.gen.cpp.obj",
-			"UEnemy.gen.cpp.obj"
+			"UEnemy.gen.cpp.obj",
+			"UFighter.gen.cpp.obj",
+			"UTurnManager.gen.cpp.obj"
 		]
 	}
 }

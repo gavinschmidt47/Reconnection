@@ -61,8 +61,6 @@ RECONNECTION_API void FOnHitMiss_DelegateWrapper(const FMulticastScriptDelegate&
 	DECLARE_FUNCTION(execAddBuff); \
 	DECLARE_FUNCTION(execBlock); \
 	DECLARE_FUNCTION(execHeal); \
-	DECLARE_FUNCTION(execCallBlock); \
-	DECLARE_FUNCTION(execCallHeal); \
 	DECLARE_FUNCTION(execCheckSightToTarget); \
 	DECLARE_FUNCTION(execAttack); \
 	DECLARE_FUNCTION(execRollToHit); \

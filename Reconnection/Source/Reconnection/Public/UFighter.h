@@ -152,12 +152,6 @@ public:
 	bool CheckSightToTarget(UFighter* Target);
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Actions")
-	void CallHeal();
-
-	UFUNCTION(BlueprintCallable, Category = "Fighter|Actions")
-	void CallBlock();
-
-	UFUNCTION(BlueprintCallable, Category = "Fighter|Actions")
 	virtual void Heal();
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Actions")
