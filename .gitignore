@@ -93,8 +93,6 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 *.ushaderbytecode
 *.pdb
-
-# Crash and log files
 Reconnection/Saved/Crashes/
 Reconnection/Saved/Config/CrashReportClient/
 Reconnection/Saved/**/*.log
@@ -107,10 +105,7 @@ Reconnection/Intermediate/**/*.xml
 *.old
 
 # Keep essential config files
-!Config/
-!Config/*.ini
 !Reconnection/Config/*.ini
-!Plugins/**/Config/
 !Reconnection/Plugins/**/Config/*.ini
 !Reconnection/.idea/**/*.xml
 !Reconnection/.run/**/*.xml

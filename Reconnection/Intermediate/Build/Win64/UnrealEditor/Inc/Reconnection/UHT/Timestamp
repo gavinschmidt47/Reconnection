@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:\Users\gavin\Documents\GitHub\Reconnection\Reconnection\Source\Reconnection\Public\UFighter.h
 C:\Users\gavin\Documents\GitHub\Reconnection\Reconnection\Source\Reconnection\Public\UEnemy.h
 C:\Users\gavin\Documents\GitHub\Reconnection\Reconnection\Source\Reconnection\Public\UTurnManager.h
+=======
+C:\Users\woyat\OneDrive\Projects\Reconnection\Reconnection\Source\Reconnection\Public\UFighter.h
+C:\Users\woyat\OneDrive\Projects\Reconnection\Reconnection\Source\Reconnection\Public\UTurnManager.h
+C:\Users\woyat\OneDrive\Projects\Reconnection\Reconnection\Source\Reconnection\Public\UEnemy.h
+>>>>>>> origin/wy_turn_tracker
