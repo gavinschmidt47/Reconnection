@@ -83,3 +83,6 @@ Saved/Logs/*
 *.log
 *.xml
 Reconnection/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UnrealEditor.json
+*.ini
+*.rsp
+*.old
