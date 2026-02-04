@@ -41,6 +41,10 @@
 *.VC.db
 *.VC.opendb
 
+# Don't ignore .vcxproj files - include them in version control
+!*.vcxproj
+!*.vcxproj.filters
+
 # Don't ignore .uproject files - these are essential!
 !*.uproject
 
