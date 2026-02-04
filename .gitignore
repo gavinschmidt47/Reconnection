@@ -40,8 +40,17 @@
 *.sdf
 *.VC.db
 *.VC.opendb
-.vsconfig
-.csproject
+
+# Don't ignore .uproject files - these are essential!
+!*.uproject
+
+# Don't ignore Source files - these are essential for building!
+!Source/
+!Source/**/*.cs
+!Source/**/*.cpp
+!Source/**/*.h
+!Source/**/*.Build.cs
+!Source/**/*.Target.cs
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -90,7 +99,10 @@ Reconnection/Intermediate/**/*.xml
 *.old
 
 # Keep essential config files
+!Config/
+!Config/*.ini
 !Reconnection/Config/*.ini
+!Plugins/**/Config/
 !Reconnection/Plugins/**/Config/*.ini
 !Reconnection/.idea/**/*.xml
 !Reconnection/.run/**/*.xml
