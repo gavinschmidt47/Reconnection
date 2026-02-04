@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/da944322/Documents/GitHub/Reconnection/Reconnection/Content/VFX/ICE_Character/NS_ice.uasset",
+				"C:/Users/da944322/Documents/GitHub/Reconnection/Reconnection/Content/Characters/3_Scry/SCRY_AnimMontage/SCRY_Debuff.uasset",
+				"C:/Users/da944322/Documents/GitHub/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/0/KB/W8CR4RHZPN132ATQCJBQOT.uasset",
+				"C:/Users/da944322/Documents/GitHub/Reconnection/Reconnection/Content/Characters/3_Scry/SCRY_AnimMontage/SCRY_AM_Debuff.uasset",
+				"C:/Users/da944322/Documents/GitHub/Reconnection/Reconnection/Content/VFX/Scry_Debuffing/NS_DebuffLight1.uasset",
 				"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Content/VFX/ICE_Character/NS_ice.uasset",
 				"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/0/V5/UUOPUFVR0LJZE023C5P2HL.uasset",
 				"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Content/__ExternalActors__/Levels/VFX/3/CB/2FD1QTEKKKR8UB31E1CXMR.uasset",
