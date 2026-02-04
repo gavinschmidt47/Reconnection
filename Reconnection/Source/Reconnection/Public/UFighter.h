@@ -20,6 +20,21 @@ enum class EStats : uint8
 
 #include "UFighter.generated.h"
 
+USTRUCT(BlueprintType)
+struct FAttackData
+{
+	GENERATED_BODY()
+
+	UPROPERTY(BlueprintReadWrite)
+	int HitRoll;
+	
+	UPROPERTY(BlueprintReadWrite)
+	float DamageAmount;
+	
+	UPROPERTY(BlueprintReadWrite)
+	bool bDidHit;
+};
+
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnStartTurn, class UFighter*, Fighter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnEndTurn, class UFighter*, Fighter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnDeath, class UFighter*, Fighter);
@@ -146,7 +161,7 @@ public:
 	int RollToHit();
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
-	void Attack(UFighter* Target);
+	FAttackData Attack(UFighter* Target);
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
 	bool CheckSightToTarget(UFighter* Target);

@@ -102,18 +102,25 @@ int UFighter::RollToHit()
 	return Roll + BaseAttack + AttackBuff;
 }
 
-void UFighter::Attack(UFighter *Target)
+FAttackData UFighter::Attack(UFighter *Target)
 {
-	if (RollToHit() >= Target->GetDefense())
+	FAttackData AttackData;
+	AttackData.HitRoll = RollToHit();
+	if (AttackData.HitRoll >= Target->GetDefense())
 	{
-		SendDamage(RollDamage(), Target);
+		AttackData.DamageAmount = RollDamage();
+		SendDamage(AttackData.DamageAmount, Target);
 		OnHitAttack.Broadcast(Target);
+		AttackData.bDidhit = true;
 	}
 	else
 	{
 		OnHitMiss.Broadcast(Target);
+		AttackData.DamageAmount = 0.0f;
+		AttackData.bDidhit = false;
 	}
 	EndTurn();
+	return AttackData;
 }
 
 bool UFighter::CheckSightToTarget(UFighter* Target)
