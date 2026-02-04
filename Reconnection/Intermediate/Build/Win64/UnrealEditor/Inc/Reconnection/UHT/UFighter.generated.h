@@ -20,42 +20,42 @@ class UFighter;
 enum class EStats : uint8;
 
 // ********** Begin Delegate FOnStartTurn **********************************************************
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_23_DELEGATE \
+#define FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_23_DELEGATE \
 RECONNECTION_API void FOnStartTurn_DelegateWrapper(const FMulticastScriptDelegate& OnStartTurn, UFighter* Fighter);
 
 
 // ********** End Delegate FOnStartTurn ************************************************************
 
 // ********** Begin Delegate FOnEndTurn ************************************************************
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_24_DELEGATE \
+#define FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_24_DELEGATE \
 RECONNECTION_API void FOnEndTurn_DelegateWrapper(const FMulticastScriptDelegate& OnEndTurn, UFighter* Fighter);
 
 
 // ********** End Delegate FOnEndTurn **************************************************************
 
 // ********** Begin Delegate FOnDeath **************************************************************
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_25_DELEGATE \
+#define FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_25_DELEGATE \
 RECONNECTION_API void FOnDeath_DelegateWrapper(const FMulticastScriptDelegate& OnDeath, UFighter* Fighter);
 
 
 // ********** End Delegate FOnDeath ****************************************************************
 
 // ********** Begin Delegate FOnHitAttack **********************************************************
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_26_DELEGATE \
+#define FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_26_DELEGATE \
 RECONNECTION_API void FOnHitAttack_DelegateWrapper(const FMulticastScriptDelegate& OnHitAttack, UFighter* Target);
 
 
 // ********** End Delegate FOnHitAttack ************************************************************
 
 // ********** Begin Delegate FOnHitMiss ************************************************************
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_27_DELEGATE \
+#define FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_27_DELEGATE \
 RECONNECTION_API void FOnHitMiss_DelegateWrapper(const FMulticastScriptDelegate& OnHitMiss, UFighter* Target);
 
 
 // ********** End Delegate FOnHitMiss **************************************************************
 
 // ********** Begin Class UFighter *****************************************************************
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execDie); \
 	DECLARE_FUNCTION(execRemoveBuff); \
 	DECLARE_FUNCTION(execAddBuff); \
@@ -74,7 +74,7 @@ RECONNECTION_API void FOnHitMiss_DelegateWrapper(const FMulticastScriptDelegate&
 
 RECONNECTION_API UClass* Z_Construct_UClass_UFighter_NoRegister();
 
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_INCLASS_NO_PURE_DECLS \
+#define FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUFighter(); \
 	friend struct Z_Construct_UClass_UFighter_Statics; \
@@ -85,7 +85,7 @@ public: \
 	DECLARE_SERIALIZER(UFighter)
 
 
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_ENHANCED_CONSTRUCTORS \
+#define FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UFighter(UFighter&&) = delete; \
 	UFighter(const UFighter&) = delete; \
@@ -95,13 +95,13 @@ public: \
 	NO_API virtual ~UFighter();
 
 
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_29_PROLOG
-#define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_GENERATED_BODY \
+#define FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_29_PROLOG
+#define FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_INCLASS_NO_PURE_DECLS \
-	FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_ENHANCED_CONSTRUCTORS \
+	FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_INCLASS_NO_PURE_DECLS \
+	FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h_32_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -111,7 +111,7 @@ class UFighter;
 // ********** End Class UFighter *******************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h
+#define CURRENT_FILE_ID FID_Users_ja777252_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UFighter_h
 
 // ********** Begin Enum EStats ********************************************************************
 #define FOREACH_ENUM_ESTATS(op) \

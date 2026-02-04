@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/ja777252/Documents/GitHub/Reconnection/Reconnection/Content/Levels/RealWorld.umap",
+				"C:/Users/ja777252/Documents/GitHub/Reconnection/Reconnection/Content/Core/ActorBlueprints/BP_RealWorldUITrigger.uasset",
+				"C:/Users/ja777252/Documents/GitHub/Reconnection/Reconnection/Content/Core/BP_StructArraySetter.uasset",
+				"C:/Users/ja777252/Documents/GitHub/Reconnection/Reconnection/Content/WidgetBlueprints/WB_Dialogue_Box.uasset",
+				"C:/Users/ja777252/Documents/GitHub/Reconnection/Reconnection/Content/Core/TurnBased/Reconnection_GameState.uasset",
+				"C:/Users/ja777252/Documents/GitHub/Reconnection/Reconnection/Content/Core/TurnBased/Enemy/BP_EnemyComp.uasset",
 				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/BasicShapes/Cylinder.uasset",
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/WidgetBlueprints/WB_FIghtMenu.uasset",
 				"C:/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Content/Core/Reconnection_GameMode.uasset",
