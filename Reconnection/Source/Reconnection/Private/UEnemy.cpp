@@ -77,35 +77,38 @@ void UEnemy::ReceiveDamage(float Damage)
 float UEnemy::GetAttackUtility()
 {
 	float CurrUtility = 0;
-	UFighter* ClosestFighter = Enemies[0];
-	float ClosestDistance = ClosestFighter->GetOwner()->GetHorizontalDistanceTo(this->GetOwner());
+	ClosestEnemyIndex = 0;
+	float ClosestDistance = Enemies[ClosestEnemyIndex]->GetOwner()->GetHorizontalDistanceTo(this->GetOwner());
 	bool bHasLineOfSight = false;
 	bool bWithinMelee = false;
+
+	int i = 0;
 	
 	for ( UFighter* CurrFighter : Enemies )
 	{
-		if ( CurrFighter && CurrFighter->GetOwner() != GetOwner() && CurrFighter->GetOwner()->GetHorizontalDistanceTo(this->GetOwner()) < ClosestDistance)
+		if ( CurrFighter->GetOwner()->GetHorizontalDistanceTo(this->GetOwner()) < ClosestDistance)
 		{
-			ClosestFighter = CurrFighter;
+			ClosestEnemyIndex = i;
 			ClosestDistance = CurrFighter->GetOwner()->GetHorizontalDistanceTo(this->GetOwner());
 		}
 		if (CheckSightToTarget(CurrFighter))
 		{
 			bHasLineOfSight = true;
 		}
-		if (ClosestDistance > MaxMovement)
+		if (ClosestDistance <= MaxMovement)
 		{
 			bWithinMelee = true;
 		}
+		++i;
 	}
 	
-	if ((ClosestDistance > MovementLeft && !bHasRanged) || !ClosestFighter || !bHasLineOfSight)
+	if ((ClosestDistance > MovementLeft && !bHasRanged) || !Enemies[ClosestEnemyIndex] || !bHasLineOfSight)
 	{
 		return CurrUtility;
 	}
 	else
 	{
-		float HealthRatio = FMath::Clamp(ClosestFighter->CurrentHealth / ClosestFighter->MaxHealth, 0.01f, 1.0f);
+		float HealthRatio = FMath::Clamp(Enemies[ClosestEnemyIndex]->CurrentHealth / Enemies[ClosestEnemyIndex]->MaxHealth, 0.01f, 1.0f);
 		CurrUtility += -FMath::Loge(HealthRatio);
 	}
 
@@ -184,7 +187,11 @@ float UEnemy::GetAllyHealUtility()
 	if (!bHasAllyHeal) return CurrUtility;
 
 	float LowestHealthRatio = FLT_MAX;
-	UFighter* LowestAlly = nullptr;
+	LowestAllyIndex = 0;
+
+	bool bFoundAlly = false;
+
+	int i = 0;
 	
 	for (auto Ally : Allies)
 	{
@@ -193,10 +200,12 @@ float UEnemy::GetAllyHealUtility()
 			float CurrHealthRatio = Ally->CurrentHealth / Ally->MaxHealth;
 			if (CurrHealthRatio < LowestHealthRatio)
 			{
-				LowestAlly = Ally;
+				LowestAllyIndex = i;
 				LowestHealthRatio = CurrHealthRatio;
+				bFoundAlly = true;
 			}
 		}
+		++i;
 	}
 
 	CurrUtility = FMath::Exp(-LowestHealthRatio * 5.0f);
@@ -229,4 +238,14 @@ float UEnemy::GetBuffUtility()
 		CurrUtility = 0.5f / BuffTracker.Num(); // Higher utility for fewer buffs
 	}
 	return CurrUtility * BuffUtilityWeight;
+}
+
+UFighter* UEnemy::GetClosestEnemy()
+{
+	return Enemies[ClosestEnemyIndex];
+}
+
+UFighter* UEnemy::GetLowestAlly()
+{
+	return Allies[LowestAllyIndex];
 }

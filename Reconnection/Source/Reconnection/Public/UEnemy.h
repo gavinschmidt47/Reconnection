@@ -75,6 +75,11 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Enemy|Utility|Weight")
 	bool bHasBlock;
 
+	UFUNCTION(BlueprintCallable, Category = "Enemy|StorageAccess")
+	UFighter* GetClosestEnemy();
+	UFUNCTION(BlueprintCallable, Category = "Enemy|StorageAccess")
+	UFighter* GetLowestAlly();
+
 private:
 	UPROPERTY()
 	TArray<UFighter*> Allies;
@@ -88,4 +93,10 @@ private:
 
 	UPROPERTY()
 	TArray<UFighter*> Enemies;
+
+	UPROPERTY()
+	int ClosestEnemyIndex;
+
+	UPROPERTY()
+	int LowestAllyIndex;
 };

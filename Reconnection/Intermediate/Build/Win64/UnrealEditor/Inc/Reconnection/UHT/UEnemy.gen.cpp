@@ -275,6 +275,96 @@ DEFINE_FUNCTION(UEnemy::execGetBuffUtility)
 }
 // ********** End Class UEnemy Function GetBuffUtility *********************************************
 
+// ********** Begin Class UEnemy Function GetClosestEnemy ******************************************
+struct Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics
+{
+	struct Enemy_eventGetClosestEnemy_Parms
+	{
+		UFighter* ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Enemy|StorageAccess" },
+		{ "ModuleRelativePath", "Public/UEnemy.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReturnValue_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000080588, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Enemy_eventGetClosestEnemy_Parms, ReturnValue), Z_Construct_UClass_UFighter_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ReturnValue_MetaData), NewProp_ReturnValue_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UEnemy, nullptr, "GetClosestEnemy", Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::PropPointers), sizeof(Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::Enemy_eventGetClosestEnemy_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::Enemy_eventGetClosestEnemy_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UEnemy_GetClosestEnemy()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UEnemy_GetClosestEnemy_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UEnemy::execGetClosestEnemy)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(UFighter**)Z_Param__Result=P_THIS->GetClosestEnemy();
+	P_NATIVE_END;
+}
+// ********** End Class UEnemy Function GetClosestEnemy ********************************************
+
+// ********** Begin Class UEnemy Function GetLowestAlly ********************************************
+struct Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics
+{
+	struct Enemy_eventGetLowestAlly_Parms
+	{
+		UFighter* ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Enemy|StorageAccess" },
+		{ "ModuleRelativePath", "Public/UEnemy.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReturnValue_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000080588, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Enemy_eventGetLowestAlly_Parms, ReturnValue), Z_Construct_UClass_UFighter_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ReturnValue_MetaData), NewProp_ReturnValue_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UEnemy, nullptr, "GetLowestAlly", Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::PropPointers), sizeof(Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::Enemy_eventGetLowestAlly_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::Enemy_eventGetLowestAlly_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UEnemy_GetLowestAlly()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UEnemy_GetLowestAlly_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UEnemy::execGetLowestAlly)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(UFighter**)Z_Param__Result=P_THIS->GetLowestAlly();
+	P_NATIVE_END;
+}
+// ********** End Class UEnemy Function GetLowestAlly **********************************************
+
 // ********** Begin Class UEnemy Function GetMagicUtility ******************************************
 struct Z_Construct_UFunction_UEnemy_GetMagicUtility_Statics
 {
@@ -599,6 +689,8 @@ void UEnemy::StaticRegisterNativesUEnemy()
 		{ "GetAttackUtility", &UEnemy::execGetAttackUtility },
 		{ "GetBlockUtility", &UEnemy::execGetBlockUtility },
 		{ "GetBuffUtility", &UEnemy::execGetBuffUtility },
+		{ "GetClosestEnemy", &UEnemy::execGetClosestEnemy },
+		{ "GetLowestAlly", &UEnemy::execGetLowestAlly },
 		{ "GetMagicUtility", &UEnemy::execGetMagicUtility },
 		{ "GetMeleeUtility", &UEnemy::execGetMeleeUtility },
 		{ "GetRangedUtility", &UEnemy::execGetRangedUtility },
@@ -713,6 +805,12 @@ struct Z_Construct_UClass_UEnemy_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/UEnemy.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ClosestEnemyIndex_MetaData[] = {
+		{ "ModuleRelativePath", "Public/UEnemy.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LowestAllyIndex_MetaData[] = {
+		{ "ModuleRelativePath", "Public/UEnemy.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_AttackUtilityWeight;
 	static void NewProp_bHasMelee_SetBit(void* Obj);
@@ -739,6 +837,8 @@ struct Z_Construct_UClass_UEnemy_Statics
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_CurrentWeaponType;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Enemies_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_Enemies;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_ClosestEnemyIndex;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_LowestAllyIndex;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -747,6 +847,8 @@ struct Z_Construct_UClass_UEnemy_Statics
 		{ &Z_Construct_UFunction_UEnemy_GetAttackUtility, "GetAttackUtility" }, // 1860539213
 		{ &Z_Construct_UFunction_UEnemy_GetBlockUtility, "GetBlockUtility" }, // 1342516898
 		{ &Z_Construct_UFunction_UEnemy_GetBuffUtility, "GetBuffUtility" }, // 3642174251
+		{ &Z_Construct_UFunction_UEnemy_GetClosestEnemy, "GetClosestEnemy" }, // 3283241416
+		{ &Z_Construct_UFunction_UEnemy_GetLowestAlly, "GetLowestAlly" }, // 2101523114
 		{ &Z_Construct_UFunction_UEnemy_GetMagicUtility, "GetMagicUtility" }, // 934736592
 		{ &Z_Construct_UFunction_UEnemy_GetMeleeUtility, "GetMeleeUtility" }, // 3133853315
 		{ &Z_Construct_UFunction_UEnemy_GetRangedUtility, "GetRangedUtility" }, // 3914083282
@@ -807,6 +909,8 @@ const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UEnemy_Statics::
 const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_CurrentWeaponType = { "CurrentWeaponType", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnemy, CurrentWeaponType), Z_Construct_UEnum_Reconnection_EWeaponType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurrentWeaponType_MetaData), NewProp_CurrentWeaponType_MetaData) }; // 200093190
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_Enemies_Inner = { "Enemies", nullptr, (EPropertyFlags)0x0000000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UFighter_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_Enemies = { "Enemies", nullptr, (EPropertyFlags)0x0040008000000008, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnemy, Enemies), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Enemies_MetaData), NewProp_Enemies_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_ClosestEnemyIndex = { "ClosestEnemyIndex", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnemy, ClosestEnemyIndex), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClosestEnemyIndex_MetaData), NewProp_ClosestEnemyIndex_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UEnemy_Statics::NewProp_LowestAllyIndex = { "LowestAllyIndex", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnemy, LowestAllyIndex), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LowestAllyIndex_MetaData), NewProp_LowestAllyIndex_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEnemy_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_AttackUtilityWeight,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_bHasMelee,
@@ -826,6 +930,8 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEnemy_St
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_CurrentWeaponType,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_Enemies_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_Enemies,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_ClosestEnemyIndex,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnemy_Statics::NewProp_LowestAllyIndex,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UEnemy_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UEnemy_Statics::DependentSingletons[])() = {
@@ -868,10 +974,10 @@ struct Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Recon
 		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 200093190U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UEnemy, UEnemy::StaticClass, TEXT("UEnemy"), &Z_Registration_Info_UClass_UEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEnemy), 54616738U) },
+		{ Z_Construct_UClass_UEnemy, UEnemy::StaticClass, TEXT("UEnemy"), &Z_Registration_Info_UClass_UEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEnemy), 2106027201U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_1811408616(TEXT("/Script/Reconnection"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_2327174321(TEXT("/Script/Reconnection"),
 	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::EnumInfo));

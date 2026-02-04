@@ -46,6 +46,8 @@ void UFighter::StartTurn()
 
 	MovementLeft = MaxMovement;
 
+	DamageReduction = 0;
+
 	OnStartTurn.Broadcast(this);
 }
 
@@ -80,16 +82,6 @@ float UFighter::RollDamage()
 {
 	float Damage = FMath::RandRange(MinDamage, MaxDamage) + DamageBuff;
 	return Damage;
-}
-
-void UFighter::CallHeal()
-{
-	Heal();
-}
-
-void UFighter::CallBlock()
-{
-	Block();
 }
 
 void UFighter::Heal()

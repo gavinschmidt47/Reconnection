@@ -544,6 +544,7 @@
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultGameplayTags.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
     <None Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper\VisualStudioBlueprintDebuggerHelper.Build.cs"/>
     <ClCompile Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper\Private\VisualStudioBlueprintDebuggerHelperModule.cpp">

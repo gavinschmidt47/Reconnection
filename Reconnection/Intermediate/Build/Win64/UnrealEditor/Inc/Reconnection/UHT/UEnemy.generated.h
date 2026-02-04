@@ -20,6 +20,8 @@ class UFighter;
 
 // ********** Begin Class UEnemy *******************************************************************
 #define FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetLowestAlly); \
+	DECLARE_FUNCTION(execGetClosestEnemy); \
 	DECLARE_FUNCTION(execGetBuffUtility); \
 	DECLARE_FUNCTION(execGetBlockUtility); \
 	DECLARE_FUNCTION(execGetAllyHealUtility); \
