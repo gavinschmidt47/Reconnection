@@ -75,4 +75,17 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 *.ushaderbytecode
 *.pdb
+<<<<<<< Updated upstream
 /Reconnection/Intermediate/ProjectFiles/.Rider
+=======
+
+# Crash and log files
+Saved/Config/CrashReportClient/*
+Saved/Logs/*
+*.log
+*.xml
+Reconnection/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UnrealEditor.json
+*.ini
+*.rsp
+*.old
+>>>>>>> Stashed changes
