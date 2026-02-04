@@ -3,7 +3,21 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include <map>
 #include "Components/ActorComponent.h"
+
+UENUM(BlueprintType)
+enum class EStats : uint8
+{
+	Movement UMETA(DisplayName = "Movement"),
+	Health UMETA(DisplayName = "Health"),
+	Damage UMETA(DisplayName = "Damage"),
+	Attack UMETA(DisplayName = "Attack"),
+	Defense UMETA(DisplayName = "Defense"),
+	Block UMETA(DisplayName = "Block"),
+	Heal UMETA(DisplayName = "Heal")
+};
+
 #include "UFighter.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnStartTurn, class UFighter*, Fighter);
@@ -32,6 +46,9 @@ public:
 	float InitiativeScore;
 
 	// Movement
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Movement")
+	float BaseMovement;
+	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Movement")
 	float MaxMovement;
 
@@ -86,6 +103,10 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Heal")
 	float HealBuff;
 
+	// Buff Map
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|BuffManagement")
+	TMap<EStats, int32> BuffTracker;
+
 	// Events
 	UPROPERTY(BlueprintAssignable, Category = "Fighter|Events")
 	FOnStartTurn OnStartTurn;
@@ -109,13 +130,11 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Turn")
 	virtual void EndTurn();
 
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Fighter|Combat")
-	void SendDamage(float Damage, UFighter* Target);
-	virtual void SendDamage_Implementation(float Damage, UFighter* Target);
+	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
+	virtual void SendDamage(float Damage, UFighter* Target);
 
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Fighter|Combat")
-	void ReceiveDamage(float Damage);
-	virtual void ReceiveDamage_Implementation(float Damage);
+	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
+	virtual void ReceiveDamage(float Damage);
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
 	float GetDefense();
@@ -129,30 +148,21 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
 	void Attack(UFighter* Target);
 
-	UFUNCTION(BlueprintCallable, Category = "Fighter|Actions")
-	void CallHeal();
+	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
+	bool CheckSightToTarget(UFighter* Target);
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Actions")
-	void CallBlock();
+	virtual void Heal();
 
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Fighter|Actions")
-	void Heal();
-	virtual void Heal_Implementation();
-
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Fighter|Actions")
-	void Block();
-	virtual void Block_Implementation();
+	UFUNCTION(BlueprintCallable, Category = "Fighter|Actions")
+	virtual void Block();
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Buffs")
-	void AddBuff(float BuffAmount, const FString& stat);
+	void AddBuff(float BuffAmount, const EStats& Stat, int NumberOfRounds);
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Buffs")
-	void RemoveBuff(float BuffAmount, const FString& stat);
+	void RemoveBuff(float BuffAmount, const EStats& Stat);
 
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Fighter|Combat")
+	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
 	void Die();
-	virtual void Die_Implementation();
-
-	UFUNCTION(BlueprintCallable, Category = "Fighter|Stats")
-	TArray<float> GetAllStats();
 };
