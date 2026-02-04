@@ -78,6 +78,20 @@ DerivedDataCache/*
 *.pdb
 
 # Crash and log files
-Saved/Config/CrashReportClient/*
-Saved/Logs/*
-*.log
+Reconnection/Saved/Crashes/
+Reconnection/Saved/Config/CrashReportClient/
+Reconnection/Saved/**/*.log
+Reconnection/Saved/**/*.ini
+Reconnection/Saved/**/*.xml
+Reconnection/Build/**/*.log
+Reconnection/Intermediate/**/*.log
+Reconnection/Intermediate/**/*.xml
+*.rsp
+*.old
+
+# Keep essential config files
+!Reconnection/Config/*.ini
+!Reconnection/Plugins/**/Config/*.ini
+!Reconnection/.idea/**/*.xml
+!Reconnection/.run/**/*.xml
+/Reconnection/Intermediate/ProjectFiles/.Rider
