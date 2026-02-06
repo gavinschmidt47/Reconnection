@@ -94,4 +94,4 @@ Reconnection/Intermediate/**/*.xml
 !Reconnection/Plugins/**/Config/*.ini
 !Reconnection/.idea/**/*.xml
 !Reconnection/.run/**/*.xml
-/Reconnection/Intermediate/ProjectFiles/.Rider
+
