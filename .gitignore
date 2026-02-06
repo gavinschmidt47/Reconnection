@@ -85,10 +85,6 @@ Saved/*
 Intermediate/*
 Plugins/**/Intermediate/*
 
-# Don't ignore Visual Studio project files in Intermediate/ProjectFiles
-!Reconnection/Intermediate/ProjectFiles/*.vcxproj
-!Reconnection/Intermediate/ProjectFiles/*.vcxproj.filters
-
 # Cache files for the editor to use
 DerivedDataCache/*
 *.ushaderbytecode
