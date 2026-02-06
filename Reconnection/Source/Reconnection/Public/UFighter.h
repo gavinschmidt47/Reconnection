@@ -60,6 +60,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Turn")
 	float InitiativeScore;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Turn")
+	class UTexture2D* FighterImage;
+
 	// Movement
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Movement")
 	float BaseMovement;

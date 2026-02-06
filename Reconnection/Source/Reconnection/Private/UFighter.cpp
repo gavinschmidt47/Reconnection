@@ -105,19 +105,30 @@ int UFighter::RollToHit()
 FAttackData UFighter::Attack(UFighter *Target)
 {
 	FAttackData AttackData;
+	
+	// Null check to prevent crash
+	if (!Target)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("UFighter::Attack called with null Target"));
+		AttackData.HitRoll = 0;
+		AttackData.DamageAmount = 0.0f;
+		AttackData.bDidHit = false;
+		return AttackData;
+	}
+	
 	AttackData.HitRoll = RollToHit();
 	if (AttackData.HitRoll >= Target->GetDefense())
 	{
 		AttackData.DamageAmount = RollDamage();
 		SendDamage(AttackData.DamageAmount, Target);
 		OnHitAttack.Broadcast(Target);
-		AttackData.bDidhit = true;
+		AttackData.bDidHit = true;
 	}
 	else
 	{
 		OnHitMiss.Broadcast(Target);
 		AttackData.DamageAmount = 0.0f;
-		AttackData.bDidhit = false;
+		AttackData.bDidHit = false;
 	}
 	EndTurn();
 	return AttackData;
