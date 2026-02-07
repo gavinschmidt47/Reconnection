@@ -1,6 +1,10 @@
 {
 	"FileVersion": 3,
+<<<<<<< HEAD
 	"EngineAssociation": "{46E8A76D-402E-D0EC-6442-F59FCF07D901}",
+=======
+	"EngineAssociation": "5.6",
+>>>>>>> dev
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -22,6 +26,10 @@
 				"Win64"
 			],
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2"
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
 		}
 	]
 }

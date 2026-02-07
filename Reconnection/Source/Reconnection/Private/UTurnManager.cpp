@@ -36,8 +36,16 @@ void UTurnManager::InitializeCombat()
 				Fighters.Add(FighterComp);
 				
 				// Bind to fighter events
-				FighterComp->OnDeath.AddDynamic(this, &UTurnManager::OnFighterDeath);
-				FighterComp->OnEndTurn.AddDynamic(this, &UTurnManager::OnFighterEndTurn);
+				FighterComp->OnDeath.AddDynamic(this, &UTurnManager::HandleFighterDeath);
+				FighterComp->OnEndTurn.AddDynamic(this, &UTurnManager::HandleFighterEndTurn);
+
+				UEnemy* EnemyComp = FighterComp->GetOwner()->FindComponentByClass<UEnemy>();
+				if (EnemyComp)
+				{
+					EnemyComp->InitializeEnemy(Fighters);
+					OnFighterJoined.AddDynamic(EnemyComp, &UEnemy::OnFighterListChanged);
+					OnFighterDeath.AddDynamic(EnemyComp, &UEnemy::OnFighterListChanged);
+				}
 			}
 		}
 	}
@@ -153,12 +161,12 @@ void UTurnManager::EndCombat()
 	UE_LOG(LogTemp, Log, TEXT("TurnManager: Combat ended"));
 }
 
-void UTurnManager::OnFighterDeath(UFighter* DeadFighter)
+void UTurnManager::HandleFighterDeath(UFighter* DeadFighter)
 {
 	RemoveFighter(DeadFighter);
 }
 
-void UTurnManager::OnFighterEndTurn(UFighter* Fighter)
+void UTurnManager::HandleFighterEndTurn(UFighter* Fighter)
 {
 	if (bCombatActive)
 	{

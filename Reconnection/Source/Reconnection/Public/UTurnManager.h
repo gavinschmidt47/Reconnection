@@ -5,11 +5,14 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "UFighter.h"
+#include "UEnemy.h"
 #include "UTurnManager.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnTurnChanged, UFighter*, CurrentFighter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnRoundStarted);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnCombatEnded);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnFighterDeath, UFighter*, DeadFighter);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnFighterJoined, UFighter*, NewFighter);
 
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class RECONNECTION_API UTurnManager : public UActorComponent
@@ -49,6 +52,12 @@ public:
 	UPROPERTY(BlueprintAssignable, Category = "Turn Manager|Events")
 	FOnCombatEnded OnCombatEnded;
 
+	UPROPERTY(BlueprintAssignable, Category = "Turn Manager|Events")
+	FOnFighterDeath OnFighterDeath;
+
+	UPROPERTY(BlueprintAssignable, Category = "Turn Manager|Events")
+	FOnFighterJoined OnFighterJoined;
+
 	// Find all fighters in the level and initialize
 	UFUNCTION(BlueprintCallable, Category = "Turn Manager")
 	void InitializeCombat();
@@ -80,9 +89,9 @@ public:
 private:
 	// Called when a fighter dies
 	UFUNCTION()
-	void OnFighterDeath(UFighter* DeadFighter);
+	void HandleFighterDeath(UFighter* DeadFighter);
 
 	// Called when a fighter ends their turn
 	UFUNCTION()
-	void OnFighterEndTurn(UFighter* Fighter);
+	void HandleFighterEndTurn(UFighter* Fighter);
 };
