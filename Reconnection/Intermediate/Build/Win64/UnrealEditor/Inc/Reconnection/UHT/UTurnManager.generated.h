@@ -19,42 +19,42 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UFighter;
 
 // ********** Begin Delegate FOnTurnChanged ********************************************************
-#define FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_11_DELEGATE \
+#define FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_11_DELEGATE \
 RECONNECTION_API void FOnTurnChanged_DelegateWrapper(const FMulticastScriptDelegate& OnTurnChanged, UFighter* CurrentFighter);
 
 
 // ********** End Delegate FOnTurnChanged **********************************************************
 
 // ********** Begin Delegate FOnRoundStarted *******************************************************
-#define FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_12_DELEGATE \
+#define FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_12_DELEGATE \
 RECONNECTION_API void FOnRoundStarted_DelegateWrapper(const FMulticastScriptDelegate& OnRoundStarted);
 
 
 // ********** End Delegate FOnRoundStarted *********************************************************
 
 // ********** Begin Delegate FOnCombatEnded ********************************************************
-#define FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_13_DELEGATE \
+#define FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_13_DELEGATE \
 RECONNECTION_API void FOnCombatEnded_DelegateWrapper(const FMulticastScriptDelegate& OnCombatEnded);
 
 
 // ********** End Delegate FOnCombatEnded **********************************************************
 
 // ********** Begin Delegate FOnFighterDeath *******************************************************
-#define FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_14_DELEGATE \
+#define FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_14_DELEGATE \
 RECONNECTION_API void FOnFighterDeath_DelegateWrapper(const FMulticastScriptDelegate& OnFighterDeath, UFighter* DeadFighter);
 
 
 // ********** End Delegate FOnFighterDeath *********************************************************
 
 // ********** Begin Delegate FOnFighterJoined ******************************************************
-#define FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_15_DELEGATE \
+#define FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_15_DELEGATE \
 RECONNECTION_API void FOnFighterJoined_DelegateWrapper(const FMulticastScriptDelegate& OnFighterJoined, UFighter* NewFighter);
 
 
 // ********** End Delegate FOnFighterJoined ********************************************************
 
 // ********** Begin Class UTurnManager *************************************************************
-#define FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execHandleFighterEndTurn); \
 	DECLARE_FUNCTION(execHandleFighterDeath); \
 	DECLARE_FUNCTION(execEndCombat); \
@@ -68,7 +68,7 @@ RECONNECTION_API void FOnFighterJoined_DelegateWrapper(const FMulticastScriptDel
 
 RECONNECTION_API UClass* Z_Construct_UClass_UTurnManager_NoRegister();
 
-#define FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_INCLASS_NO_PURE_DECLS \
+#define FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTurnManager(); \
 	friend struct Z_Construct_UClass_UTurnManager_Statics; \
@@ -79,7 +79,7 @@ public: \
 	DECLARE_SERIALIZER(UTurnManager)
 
 
-#define FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_ENHANCED_CONSTRUCTORS \
+#define FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UTurnManager(UTurnManager&&) = delete; \
 	UTurnManager(const UTurnManager&) = delete; \
@@ -89,13 +89,13 @@ public: \
 	NO_API virtual ~UTurnManager();
 
 
-#define FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_17_PROLOG
-#define FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_GENERATED_BODY \
+#define FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_17_PROLOG
+#define FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_INCLASS_NO_PURE_DECLS \
-	FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_ENHANCED_CONSTRUCTORS \
+	FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Reconnection_Source_Reconnection_Public_UTurnManager_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -105,6 +105,6 @@ class UTurnManager;
 // ********** End Class UTurnManager ***************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h
+#define CURRENT_FILE_ID FID_Reconnection_Source_Reconnection_Public_UTurnManager_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
