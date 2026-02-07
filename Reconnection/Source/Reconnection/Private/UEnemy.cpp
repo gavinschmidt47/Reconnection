@@ -18,13 +18,14 @@ void UEnemy::OnFighterListChanged(UFighter* /*ChangedFighter*/)
 
 void UEnemy::StartTurn()
 {
+	UE_LOG(LogTemp, Warning, TEXT("UEnemy::StartTurn - Called for %s"), *GetOwner()->GetName());
 	Super::StartTurn();
 	ChooseAction();
 }
 
-void UEnemy::ChooseAction()
+void UEnemy::ChooseAction_Implementation()
 {
-	// Default implementation does nothing
+	// Default implementation does nothing - override this in Blueprint
 }
 
 void UEnemy::InitializeEnemy(const TArray<UFighter*>& AllFighters)
@@ -149,7 +150,7 @@ float UEnemy::GetMagicUtility()
 {
 	float CurrUtility = 0;
 	if (!bHasMagic) return CurrUtility;
-	if (CurrentWeaponType == EWeaponType::Melee)
+	if (CurrentWeaponType == EWeaponType::Magic)
 	{
 		CurrUtility = 1;
 	}

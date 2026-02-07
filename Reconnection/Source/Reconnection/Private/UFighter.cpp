@@ -15,7 +15,13 @@ UFighter::UFighter()
 
 void UFighter::StartTurn()
 {
-		bIsTurn = true;
+	if (bIsTurn)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("UFighter::StartTurn - %s already has active turn, skipping"), *GetOwner()->GetName());
+		return;
+	}
+	
+	bIsTurn = true;
 
 		// List of all EStats values
 		static const EStats AllStats[] = {
@@ -48,6 +54,7 @@ void UFighter::StartTurn()
 
 	DamageReduction = 0;
 
+	UE_LOG(LogTemp, Warning, TEXT("UFighter::StartTurn - Broadcasting OnStartTurn for %s"), *GetOwner()->GetName());
 	OnStartTurn.Broadcast(this);
 }
 

@@ -106,3 +106,4 @@ Reconnection/Intermediate/**/*.xml
 !Reconnection/.idea/**/*.xml
 !Reconnection/.run/**/*.xml
 /Reconnection/Intermediate/ProjectFiles/.Rider
+/Reconnection/Saved/StagedBuilds

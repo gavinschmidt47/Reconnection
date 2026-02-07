@@ -38,12 +38,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "B567550989C6A2B918FE3F5EF8114BCED4F35024",
-			"Assets": [
-				"/Engine/EngineSky/M_SimpleSkyDome"
-			]
-		},
-		{
 			"ShaderMapHash": "BA16850BB63CD65C96ECF31D6C59DF5BDCE2246A",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Mask_DS"
@@ -100,7 +94,7 @@
 		{
 			"ShaderMapHash": "9A7AFF23A955A52C490B31D7B0AAE9540572DFC3",
 			"Assets": [
-				"/Game/Materials/M_Enemy"
+				"/Game/ArtSources/Materials/M_Enemy"
 			]
 		},
 		{
@@ -122,9 +116,21 @@
 			]
 		},
 		{
+			"ShaderMapHash": "C16B192C4954E1C7E24917DF3A90E2985BF01660",
+			"Assets": [
+				"/Game/ArtSources/Materials/Burnt"
+			]
+		},
+		{
 			"ShaderMapHash": "6BA8D431EA2D3B83AA2AA2523A4057A45AB58999",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "39E53033F4726C7F441732D43A54125FE5046D24",
+			"Assets": [
+				"/Game/ArtSources/Characters/Mannequins/Materials/Manny/MI_Manny_02_New"
 			]
 		},
 		{
@@ -182,6 +188,14 @@
 			]
 		},
 		{
+			"ShaderMapHash": "45C8B0464755F24AA1B271D9586B49DD816A3081",
+			"Assets": [
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_004",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_008",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_015"
+			]
+		},
+		{
 			"ShaderMapHash": "CF0A1E4EE7693F7C8EE7C4702E6A82F0151A9DA3",
 			"Assets": [
 				"/Engine/EditorLandscapeResources/SplineEditorMeshMat"
@@ -197,12 +211,6 @@
 			"ShaderMapHash": "4E5BD34F3883AB094B398F77A0368231A5D516C4",
 			"Assets": [
 				"/Engine/EditorMaterials/PhAT_UnselectedMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "4A4D5754E5432ACACF00C32E87F296AF1C3D9DA8",
-			"Assets": [
-				"/Game/StarterContent/Materials/M_Ground_Grass1"
 			]
 		},
 		{
@@ -266,6 +274,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "E8D85B767DBB4898388970971CDE9B1494A0A218",
+			"Assets": [
+				"/Game/Core/TopDown/Cursor/M_Cursor"
+			]
+		},
+		{
 			"ShaderMapHash": "BD0E3F778DE350D68596E20ED820D4F804C24290",
 			"Assets": [
 				"/ControlRig/Controls/ControlRigXRayMaterial"
@@ -281,12 +295,6 @@
 			"ShaderMapHash": "283F997BE144224D5D25855304C84E7B72C8CB27",
 			"Assets": [
 				"/Engine/EngineMaterials/RemoveSurfaceMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "DCE05C876F886C8F2200EA7048D08CC73AF1A9CF",
-			"Assets": [
-				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
 			]
 		},
 		{
@@ -393,12 +401,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "91A6A0ACD7F346E36528B5238F715D95CE8CDFEE",
-			"Assets": [
-				"/Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud"
-			]
-		},
-		{
 			"ShaderMapHash": "3FBFBEAF8F158D0C46C493DC5F8F9559FB1D35AF",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Blend_DS"
@@ -472,6 +474,29 @@
 			]
 		},
 		{
+			"ShaderMapHash": "2B4589C8194A288642B50BA2E61AF2C2BEC59D4A",
+			"Assets": [
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_001",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_002",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_003",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_005",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_006",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_007",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_009",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_010",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_011",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_012",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_013",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_014",
+				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_016",
+				"/Game/ArtSources/Characters/3_Scry/SCRY_Materials/SCRY01",
+				"/Game/ArtSources/Characters/3_Scry/SCRY_Materials/SCRY02",
+				"/Game/ArtSources/Characters/3_Scry/SCRY_Materials/SCRY03",
+				"/Game/ArtSources/Characters/3_Scry/SCRY_Materials/SCRY04",
+				"/Game/ArtSources/Characters/3_Scry/SCRY_Materials/SCRY05"
+			]
+		},
+		{
 			"ShaderMapHash": "C55271D15BBBFB227D46116B4F7D629603701B7F",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Blend"
@@ -493,6 +518,12 @@
 			"ShaderMapHash": "3769B9D6ED941510AA6361321A80823815BBE95C",
 			"Assets": [
 				"/Engine/EngineMaterials/EmissiveMeshMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "0A171DD80CA70EA8973F37F2CC2E83036E8EEBB8",
+			"Assets": [
+				"/Game/ArtSources/Characters/Mannequins/Materials/M_Mannequin"
 			]
 		},
 		{
@@ -563,6 +594,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "71C310F10B4D7DC98FD1D84515D7727703C2C9CE",
+			"Assets": [
+				"/Game/ArtSources/Characters/Nomad/NMD_Materials/nomad_low_standardSurface1_BaseColor_sRGB_Mat"
+			]
+		},
+		{
 			"ShaderMapHash": "F47E25F16713CBA52606B3A1BE8AB6BD32FF73A4",
 			"Assets": [
 				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque"
@@ -602,12 +639,6 @@
 			"ShaderMapHash": "C536CFFD897E82A21F95DE80FFCF99F96BF4A341",
 			"Assets": [
 				"/Engine/EngineMaterials/PhAT_JointLimitMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "A1546BFE2718E7EA49B8D2D2F3E6B9F071DC7910",
-			"Assets": [
-				"/Game/Materials/M_RedTree"
 			]
 		}
 	]

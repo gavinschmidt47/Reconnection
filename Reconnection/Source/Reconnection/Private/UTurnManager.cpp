@@ -46,6 +46,7 @@ void UTurnManager::InitializeCombat()
 					OnFighterJoined.AddDynamic(EnemyComp, &UEnemy::OnFighterListChanged);
 					OnFighterDeath.AddDynamic(EnemyComp, &UEnemy::OnFighterListChanged);
 				}
+				OnFighterJoined.Broadcast(FighterComp);
 			}
 		}
 	}
@@ -54,6 +55,8 @@ void UTurnManager::InitializeCombat()
 
 	// Sort by initiative
 	SortFightersByInitiative();
+	
+	// Don't automatically start - let StartCombat() handle it
 }
 
 void UTurnManager::StartCombat()
@@ -70,10 +73,20 @@ void UTurnManager::StartCombat()
 
 	OnRoundStarted.Broadcast();
 
+	// End all fighter turns first
+	for (UFighter* Fighter : Fighters)
+	{
+		if (Fighter && Fighter->bIsTurn)
+		{
+			Fighter->bIsTurn = false;
+		}
+	}
+	
 	// Start the first fighter's turn
 	UFighter* FirstFighter = GetCurrentFighter();
 	if (FirstFighter)
 	{
+		UE_LOG(LogTemp, Log, TEXT("TurnManager: Starting combat with %s"), *FirstFighter->GetOwner()->GetName());
 		FirstFighter->StartTurn();
 		OnTurnChanged.Broadcast(FirstFighter);
 	}
@@ -98,10 +111,20 @@ void UTurnManager::NextTurn()
 		UE_LOG(LogTemp, Log, TEXT("TurnManager: Starting Round %d"), CurrentRound);
 	}
 
+	// End previous fighter's turn
+	for (UFighter* Fighter : Fighters)
+	{
+		if (Fighter && Fighter->bIsTurn)
+		{
+			Fighter->bIsTurn = false;
+		}
+	}
+	
 	// Start the next fighter's turn
 	UFighter* CurrentFighter = GetCurrentFighter();
 	if (CurrentFighter)
 	{
+		UE_LOG(LogTemp, Log, TEXT("TurnManager: Next turn - %s"), *CurrentFighter->GetOwner()->GetName());
 		CurrentFighter->StartTurn();
 		OnTurnChanged.Broadcast(CurrentFighter);
 	}

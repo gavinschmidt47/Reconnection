@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include <map>
 #include "Components/ActorComponent.h"
+#include "UFighter.generated.h"
 
 UENUM(BlueprintType)
 enum class EStats : uint8
@@ -17,8 +18,6 @@ enum class EStats : uint8
 	Block UMETA(DisplayName = "Block"),
 	Heal UMETA(DisplayName = "Heal")
 };
-
-#include "UFighter.generated.h"
 
 USTRUCT(BlueprintType)
 struct FAttackData

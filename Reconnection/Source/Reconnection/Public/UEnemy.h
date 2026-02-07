@@ -23,8 +23,9 @@ class RECONNECTION_API UEnemy : public UFighter
 public:
 	virtual void StartTurn() override;
 
-	UFUNCTION(BlueprintCallable, Category = "Enemy|Combat")
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Enemy|Combat")
 	void ChooseAction();
+	virtual void ChooseAction_Implementation();
 
 	UFUNCTION(BlueprintCallable, Category = "Enemy|Setup")
 	void InitializeEnemy(const TArray<UFighter*>& AllFighters);
