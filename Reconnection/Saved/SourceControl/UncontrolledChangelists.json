@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/Levels/Tutorial_Town.umap",
+				"C:/Users/woyat/OneDrive/Projects/Reconnection/Reconnection/Content/Levels/TutorialLevel.umap",
 				"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Content/WidgetBlueprints/WB_AudioSettings.uasset",
 				"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Content/WidgetBlueprints/WB_AudioMenu.uasset",
 				"C:/Users/dmd24/Documents/GitHub/Reconnection/Reconnection/Content/WidgetBlueprints/WB_ControlsMenu.uasset"
