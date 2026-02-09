@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include <string>
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "UFighter.h"
@@ -41,6 +42,12 @@ public:
 	// Whether combat is active
 	UPROPERTY(BlueprintReadWrite, Category = "Turn Manager")
 	bool bCombatActive;
+	
+	UPROPERTY(BlueprintReadOnly, Category = "Turn Manager")
+	int32 EnemiesLeft = 0;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Turn Manager")
+	FName NextLevel;
 
 	// Events
 	UPROPERTY(BlueprintAssignable, Category = "Turn Manager|Events")

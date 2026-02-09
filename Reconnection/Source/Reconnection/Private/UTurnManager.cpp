@@ -45,6 +45,7 @@ void UTurnManager::InitializeCombat()
 					EnemyComp->InitializeEnemy(Fighters);
 					OnFighterJoined.AddDynamic(EnemyComp, &UEnemy::OnFighterListChanged);
 					OnFighterDeath.AddDynamic(EnemyComp, &UEnemy::OnFighterListChanged);
+					++EnemiesLeft;
 				}
 				OnFighterJoined.Broadcast(FighterComp);
 			}
@@ -187,6 +188,14 @@ void UTurnManager::EndCombat()
 void UTurnManager::HandleFighterDeath(UFighter* DeadFighter)
 {
 	RemoveFighter(DeadFighter);
+	if (DeadFighter -> GetOwner() -> FindComponentByClass<UEnemy>())
+	{
+		--EnemiesLeft;
+		if (EnemiesLeft <= 0)
+		{
+			UGameplayStatics::OpenLevel(GetWorld(), FName(NextLevel));
+		}
+	}
 }
 
 void UTurnManager::HandleFighterEndTurn(UFighter* Fighter)

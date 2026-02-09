@@ -698,6 +698,14 @@ struct Z_Construct_UClass_UTurnManager_Statics
 		{ "ToolTip", "Whether combat is active" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EnemiesLeft_MetaData[] = {
+		{ "Category", "Turn Manager" },
+		{ "ModuleRelativePath", "Public/UTurnManager.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NextLevel_MetaData[] = {
+		{ "Category", "Turn Manager" },
+		{ "ModuleRelativePath", "Public/UTurnManager.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnTurnChanged_MetaData[] = {
 		{ "Category", "Turn Manager|Events" },
 #if !UE_BUILD_SHIPPING
@@ -731,6 +739,8 @@ struct Z_Construct_UClass_UTurnManager_Statics
 	static const UECodeGen_Private::FIntPropertyParams NewProp_CurrentRound;
 	static void NewProp_bCombatActive_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bCombatActive;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_EnemiesLeft;
+	static const UECodeGen_Private::FNamePropertyParams NewProp_NextLevel;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnTurnChanged;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnRoundStarted;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnCombatEnded;
@@ -764,6 +774,8 @@ void Z_Construct_UClass_UTurnManager_Statics::NewProp_bCombatActive_SetBit(void*
 	((UTurnManager*)Obj)->bCombatActive = 1;
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTurnManager_Statics::NewProp_bCombatActive = { "bCombatActive", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UTurnManager), &Z_Construct_UClass_UTurnManager_Statics::NewProp_bCombatActive_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bCombatActive_MetaData), NewProp_bCombatActive_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UTurnManager_Statics::NewProp_EnemiesLeft = { "EnemiesLeft", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UTurnManager, EnemiesLeft), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EnemiesLeft_MetaData), NewProp_EnemiesLeft_MetaData) };
+const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UTurnManager_Statics::NewProp_NextLevel = { "NextLevel", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UTurnManager, NextLevel), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_NextLevel_MetaData), NewProp_NextLevel_MetaData) };
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTurnManager_Statics::NewProp_OnTurnChanged = { "OnTurnChanged", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UTurnManager, OnTurnChanged), Z_Construct_UDelegateFunction_Reconnection_OnTurnChanged__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnTurnChanged_MetaData), NewProp_OnTurnChanged_MetaData) }; // 2021697084
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTurnManager_Statics::NewProp_OnRoundStarted = { "OnRoundStarted", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UTurnManager, OnRoundStarted), Z_Construct_UDelegateFunction_Reconnection_OnRoundStarted__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnRoundStarted_MetaData), NewProp_OnRoundStarted_MetaData) }; // 2724744591
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTurnManager_Statics::NewProp_OnCombatEnded = { "OnCombatEnded", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UTurnManager, OnCombatEnded), Z_Construct_UDelegateFunction_Reconnection_OnCombatEnded__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnCombatEnded_MetaData), NewProp_OnCombatEnded_MetaData) }; // 356089515
@@ -775,6 +787,8 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTurnMana
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTurnManager_Statics::NewProp_CurrentTurnIndex,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTurnManager_Statics::NewProp_CurrentRound,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTurnManager_Statics::NewProp_bCombatActive,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTurnManager_Statics::NewProp_EnemiesLeft,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTurnManager_Statics::NewProp_NextLevel,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTurnManager_Statics::NewProp_OnTurnChanged,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTurnManager_Statics::NewProp_OnRoundStarted,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTurnManager_Statics::NewProp_OnCombatEnded,
@@ -815,14 +829,14 @@ UTurnManager::~UTurnManager() {}
 // ********** End Class UTurnManager ***************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_jadyn_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics
+struct Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UTurnManager, UTurnManager::StaticClass, TEXT("UTurnManager"), &Z_Registration_Info_UClass_UTurnManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTurnManager), 156258408U) },
+		{ Z_Construct_UClass_UTurnManager, UTurnManager::StaticClass, TEXT("UTurnManager"), &Z_Registration_Info_UClass_UTurnManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTurnManager), 1568396217U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jadyn_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_1357262629(TEXT("/Script/Reconnection"),
-	Z_CompiledInDeferFile_FID_Users_jadyn_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jadyn_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_2041554769(TEXT("/Script/Reconnection"),
+	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

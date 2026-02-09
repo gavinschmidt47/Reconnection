@@ -79,6 +79,7 @@ float UEnemy::GetAttackUtility()
 {
 	float CurrUtility = 0;
 	ClosestEnemyIndex = 0;
+	if (Enemies.Num() <= 0) return CurrUtility;
 	float ClosestDistance = Enemies[ClosestEnemyIndex]->GetOwner()->GetHorizontalDistanceTo(this->GetOwner());
 	bool bHasLineOfSight = false;
 	bool bWithinMelee = false;
