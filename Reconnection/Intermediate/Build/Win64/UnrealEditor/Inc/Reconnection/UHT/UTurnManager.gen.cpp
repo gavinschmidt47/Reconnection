@@ -815,14 +815,14 @@ UTurnManager::~UTurnManager() {}
 // ********** End Class UTurnManager ***************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_danie_Downloads_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics
+struct Z_CompiledInDeferFile_FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UTurnManager, UTurnManager::StaticClass, TEXT("UTurnManager"), &Z_Registration_Info_UClass_UTurnManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTurnManager), 156258408U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_danie_Downloads_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_1357262629(TEXT("/Script/Reconnection"),
-	Z_CompiledInDeferFile_FID_Users_danie_Downloads_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_danie_Downloads_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_1357262629(TEXT("/Script/Reconnection"),
+	Z_CompiledInDeferFile_FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_woyat_OneDrive_Projects_Reconnection_Reconnection_Source_Reconnection_Public_UTurnManager_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************
