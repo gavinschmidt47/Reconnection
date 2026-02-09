@@ -1,5 +1,154 @@
 [UsedSettings]
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:0=(Profile="Meta_Quest_3",Match=((SourceType=SRC_DeviceMake,CompareType=CMP_Equal,MatchString="Oculus"), (SourceType=SRC_HMDSystemName,CompareType=CMP_Equal,MatchString="Meta Quest 3")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:1=(Profile="Meta_Quest_Pro",Match=((SourceType=SRC_DeviceMake,CompareType=CMP_Equal,MatchString="Oculus"), (SourceType=SRC_HMDSystemName,CompareType=CMP_Equal,MatchString="Meta Quest Pro")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:2=(Profile="Oculus_Quest2",Match=((SourceType=SRC_DeviceMake,CompareType=CMP_Equal,MatchString="Oculus"), (SourceType=SRC_HMDSystemName,CompareType=CMP_Equal,MatchString="Oculus Quest2")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:3=(Profile="Oculus_Quest",Match=((SourceType=SRC_DeviceMake,CompareType=CMP_Equal,MatchString="Oculus")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:4=(Profile="MagicLeap_Vulkan",Match=((SourceType=SRC_DeviceMake,CompareType=CMP_Equal,MatchString="Magic Leap"), (SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:5=(Profile="Android_Emulator",Match=((SourceType=SRC_DeviceMake,CompareType=CMP_Equal,MatchString="Google"),(SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Android Emulator")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:6=(Profile="Android_PC_Emulator",Match=((SourceType=SRC_DeviceMake,CompareType=CMP_Equal,MatchString="Google"),(SourceType=SRC_DeviceModel,CompareType=CMP_Equal,MatchString="HPE device")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:7=(Profile="Android_Adreno4xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) 4[0-9][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:8=(Profile="Android_Adreno5xx_Low",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) 5[0-1][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:9=(Profile="Android_Adreno5xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) 5[0-9][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:10=(Profile="Android_Adreno_Vulkan_SM5",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) [7-8][0-9][0-9]"),(SourceType=SRC_AndroidVersion, CompareType=CMP_Regex,MatchString="([0-9]+).*"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="10"),(SourceType=SRC_SM5Available,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:11=(Profile="Android_Adreno6xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) 660"),(SourceType=SRC_GLVersion, CompareType=CMP_Regex,MatchString="V@([0-9]+)"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_LessEqual,MatchString="525")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:12=(Profile="Android_Adreno6xx_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) 6[0-9][0-9]"),(SourceType=SRC_AndroidVersion, CompareType=CMP_Regex,MatchString="([0-9]+).*"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="10"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true"),(SourceType=SRC_GLVersion, CompareType=CMP_Regex,MatchString="V@([0-9]+)"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="500")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:13=(Profile="Android_Adreno6xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) 6[0-9][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:14=(Profile="Android_Adreno7xx_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) 7[0-9][0-9]"),(SourceType=SRC_AndroidVersion, CompareType=CMP_Regex,MatchString="([0-9]+).*"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="10"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:15=(Profile="Android_Adreno7xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) 7[0-9][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:16=(Profile="Android_Adreno8xx_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) 8[0-9][0-9]"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:17=(Profile="Android_Adreno8xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno \\(TM\\) 8[0-9][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:18=(Profile="Android_Unknown_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Adreno"),(SourceType=SRC_AndroidVersion, CompareType=CMP_Regex,MatchString="([0-9]+).*"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="10"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:19=(Profile="Android_Mali_T6xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-T6")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:20=(Profile="Android_Mali_T7xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-T7")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:21=(Profile="Android_Mali_T8xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-T8")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:22=(Profile="Android_Mali_G71",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G71($| )")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:23=(Profile="Android_Mali_G72_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G72($| )"),(SourceType=SRC_AndroidVersion, CompareType=CMP_Regex,MatchString="([0-9]+).*"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="9"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:24=(Profile="Android_Mali_G72",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G72($| )")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:25=(Profile="Android_Mali_G76_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G76($| )"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:26=(Profile="Android_Mali_G76",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G76($| )")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:27=(Profile="Android_Mali_G77_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G77($| )"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:28=(Profile="Android_Mali_G77",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G77($| )")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:29=(Profile="Android_Mali_G78_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G78($| )"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:30=(Profile="Android_Mali_G78",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G78($| )")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:31=(Profile="Android_Mali_G710_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G710"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:32=(Profile="Android_Mali_G710",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G710")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:33=(Profile="Android_Mali_Vulkan_SM5",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G[7-9][1-9][0-9]"),(SourceType=SRC_SM5Available,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:34=(Profile="Android_Mali_G7xx_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G7[0-9][0-9]"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:35=(Profile="Android_Mali_G7xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G7[0-9][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:36=(Profile="Android_Mali_G9xx_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G9[0-9][0-9]"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:37=(Profile="Android_Mali_G9xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali\\-G9[0-9][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:38=(Profile="Android_Unknown_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="^Mali"),(SourceType=SRC_AndroidVersion, CompareType=CMP_Regex,MatchString="([0-9]+).*"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="10"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:39=(Profile="Android_Xclipse_5xx_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Samsung Xclipse 5[0-9][0-9]"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:40=(Profile="Android_Xclipse_5xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Samsung Xclipse 5[0-9][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:41=(Profile="Android_Xclipse_Vulkan_SM5",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Samsung Xclipse 9[0-9][0-9]"),(SourceType=SRC_SM5Available,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:42=(Profile="Android_Xclipse_9xx_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Samsung Xclipse 9[0-9][0-9]"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:43=(Profile="Android_Xclipse_9xx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Samsung Xclipse 9[0-9][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:44=(Profile="Android_Xclipse_xxx_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Samsung Xclipse [0-9][0-9][0-9]"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:45=(Profile="Android_Xclipse_xxx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="Samsung Xclipse [0-9][0-9][0-9]")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:46=(Profile="Android_PowerVR_G6xxx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR Rogue G6[0-9]+")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:47=(Profile="Android_PowerVR_GT7xxx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR Rogue GT7[0-9]+")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:48=(Profile="Android_PowerVR_GE8xxx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR Rogue GE8[0-9]+")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:49=(Profile="Android_PowerVR_GM9xxx_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR Rogue GM9[0-9]+"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:50=(Profile="Android_PowerVR_GM9xxx",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR Rogue GM9[0-9]+")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:51=(Profile="Android_PowerVR_Series_High_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR [A-D]\\-Series [A-D]X[A-Z]+\\-([0-9]+)\\-[0-9]+"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="32"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:52=(Profile="Android_PowerVR_Series_Mid_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR [A-D]\\-Series [A-D]X[A-Z]+\\-([0-9]+)\\-[0-9]+"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="16"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:53=(Profile="Android_PowerVR_Series_Low_Vulkan",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR [A-D]\\-Series [A-D]X[A-Z]+\\-[0-9]+\\-[0-9]+"),(SourceType=SRC_VulkanAvailable,CompareType=CMP_Equal,MatchString="true")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:54=(Profile="Android_PowerVR_Series_High",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR [A-D]\\-Series [A-D]X[A-Z]+\\-([0-9]+)\\-[0-9]+"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="32")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:55=(Profile="Android_PowerVR_Series_Mid",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR [A-D]\\-Series [A-D]X[A-Z]+\\-([0-9]+)\\-[0-9]+"),(SourceType=SRC_PreviousRegexMatch,CompareType=CMP_GreaterEqual,MatchString="16")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:56=(Profile="Android_PowerVR_Series_Low",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Regex,MatchString="PowerVR [A-D]\\-Series [A-D]X[A-Z]+\\-[0-9]+\\-[0-9]+")))
+ConfigSystem.Android.DeviceProfiles:/Script/AndroidDeviceProfileSelector.AndroidDeviceProfileMatchingRules:MatchProfile:57=(Profile="Android_TegraK1",Match=((SourceType=SRC_GpuFamily,CompareType=CMP_Equal,MatchString="NVIDIA Tegra"),(SourceType=SRC_GlVersion,CompareType=CMP_Regex,MatchString="^OpenGL ES 3\\.")))
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:BaseProfileName:0=
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:0=r.MobileContentScaleFactor=1.0
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:1=r.Vulkan.RobustBufferAccess=1
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:2=r.Android.DisableVulkanSupport=1
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:3=r.Android.DisableVulkanSM5Support=1
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:4=r.DefaultBackBufferPixelFormat=0
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:5=r.DistanceFields=0
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:6=r.Forward.LightLinkedListCulling=0
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:7=r.SkylightCapture.LODDistanceScale=2
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:8=UI.SlateSDFText.RasterizationMode=SdfApproximation
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:9=UI.SlateSDFText.ResolutionLevel=1
+ConfigSystem.Android.DeviceProfiles:Android DeviceProfile:CVars:10=AsyncTraceDelegateHitchThresholdMS=1.5
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.ActorClusteringEnabled:0=False
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.AllowParallelGC:0=True
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.AssetClustreringEnabled:0=False
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.CreateGCClusters:0=True
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.FlushStreamingOnGC:0=0
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.GarbageEliminationEnabled:0=True
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.IncrementalBeginDestroyEnabled:0=True
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsInEditor:0=25165824
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsInGame:0=131072
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsNotConsideredByGC:0=1
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.MinGCClusterSize:0=5
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.NumRetriesBeforeForcingGC:0=10
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.TimeBetweenPurgingPendingKillObjects:0=61.1
+ConfigSystem.Android.Engine:/Script/Engine.GarbageCollectionSettings:gc.VerifyUObjectsAreNotFGCObjects:0=False
+ConfigSystem.Android.Engine:/Script/Engine.NetworkSettings:NetworkEmulationProfiles:0=(ProfileName="Average",ToolTip="Simulates average internet conditions")
+ConfigSystem.Android.Engine:/Script/Engine.NetworkSettings:NetworkEmulationProfiles:1=(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:MaxSkinBones:0=(Default=65536,PerPlatform=(("Mobile", 256)))
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.AllowStaticLighting:0=False
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0=True
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.LocalExposure.HighlightContrastScale:0=0.8
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.LocalExposure.ShadowContrastScale:0=0.8
 ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.DistanceFields:0=1
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.DynamicGlobalIlluminationMethod:0=1
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.GenerateMeshDistanceFields:0=True
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.GPUCrashDebugging:0=false
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.RayTracing:0=True
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.RayTracing.RayTracingProxies.ProjectEnabled:0=True
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.ReflectionMethod:0=1
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.Shadow.DetectVertexShaderLayerAtRuntime:0=1
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.Shadow.Virtual.Enable:0=1
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.SkinCache.CompileShaders:0=True
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.Substrate.ClosuresPerPixel:0=1
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.Substrate.Glints:0=0
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.Substrate.RoughDiffuse:0=0
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.Substrate.ShadingQuality:0=2
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.Substrate.SheenQuality:0=2
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.Substrate.TileCoord8bits:0=1
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.TemporalAA.Mobile.UseCompute:0=0
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:r.Visibility.DynamicMeshElements.Parallel:0=0
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:VisualizeCalibrationColorMaterialPath:0=/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor
+ConfigSystem.Android.Engine:/Script/Engine.RendererSettings:VisualizeCalibrationGrayscaleMaterialPath:0=/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:0=/Script/Engine/Default__SoundBase
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:1=/Script/Engine/Default__MaterialInterface
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:2=/Script/Engine/Default__DeviceProfileManager
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.AsyncLoadingThreadEnabled:0=True
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.EventDrivenLoaderEnabled:0=True
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.FlushStreamingOnExit:0=True
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingActorsUpdateTimeLimit:0=5.0
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingComponentsRegistrationGranularity:0=10
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingComponentsUnregistrationGranularity:0=5
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.MaxPackageSummarySize:0=16384
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.MinBulkDataSizeForAsyncLoading:0=131072
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.PriorityAsyncLoadingExtraTime:0=15.0
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.PriorityLevelStreamingActorsUpdateExtraTime:0=5.0
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.TimeLimitExceededMinTime:0=0.005
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.TimeLimitExceededMultiplier:0=1.5
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.UnregisterComponentsTimeLimit:0=1.0
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.UseBackgroundLevelStreaming:0=True
+ConfigSystem.Android.Engine:/Script/Engine.StreamingSettings:s.WarnIfTimeLimitExceeded:0=False
+ConfigSystem.Android.Engine:ConsoleVariables:r.Forward.LightGridSizeZ:0=8
+ConfigSystem.Android.Engine:ConsoleVariables:r.Forward.MaxCulledLightsPerCell:0=8
+ConfigSystem.Android.Engine:ConsoleVariables:r.HairStrands.Binding:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:r.HairStrands.Simulation:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:r.HairStrands.Strands:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:r.LensFlareBlurComputeShader:0=1
+ConfigSystem.Android.Engine:ConsoleVariables:r.ParallelShadows:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:r.Shadow.ForceSerialSingleRenderPass:0=1
+ConfigSystem.Android.Engine:ConsoleVariables:r.TemporalAA.R11G11B10History:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:r.VSync:0=1
+ConfigSystem.Android.Engine:ConsoleVariables:r.Vulkan.AllowAsyncCompute:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:r.Vulkan.AllowSplitBarriers:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:r.Vulkan.Depth24Bit:0=1
+ConfigSystem.Android.Engine:ConsoleVariables:r.Vulkan.DiagnosticBuffer:0=1
+ConfigSystem.Android.Engine:ConsoleVariables:r.Vulkan.MemoryBacktrace:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:r.Vulkan.RHIThread:0=1
+ConfigSystem.Android.Engine:ConsoleVariables:r.Vulkan.Submission.AllowTimelineSemaphores:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:r.Vulkan.Submission.UseInterruptThread:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:r.Vulkan.Submission.UseSubmissionThread:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:Slate.CacheRenderData:0=0
+ConfigSystem.Android.Engine:ConsoleVariables:TaskGraph.EnablePowerSavingThreadPriorityReduction:0=1
 ConfigSystem.Android.Engine:DeviceProfileManager:PreviewDeviceProfileSelectionModule:0=AndroidDeviceProfileSelector
 ConfigSystem.Android.Engine:StaticMeshLODSettings:Deco:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=10,Name=LOCTEXT("DecoLOD","Deco"))
 ConfigSystem.Android.Engine:StaticMeshLODSettings:Foliage:0=(NumLODs=1,MaxNumStreamedLODs=0,bSupportLODStreaming=0,Name=LOCTEXT("FoliageLOD","Foliage"))
@@ -8,9 +157,260 @@ ConfigSystem.Android.Engine:StaticMeshLODSettings:LargeProp:0=(NumLODs=4,MaxNumS
 ConfigSystem.Android.Engine:StaticMeshLODSettings:LevelArchitecture:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LightMapResolution=32,LODPercentTriangles=50,PixelError=12,SilhouetteImportance=4,Name=LOCTEXT("LevelArchitectureLOD","Level Architecture"))
 ConfigSystem.Android.Engine:StaticMeshLODSettings:SmallProp:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=10,Name=LOCTEXT("SmallPropLOD","Small Prop"))
 ConfigSystem.Android.Engine:StaticMeshLODSettings:Vista:0=(NumLODs=1,MaxNumStreamedLODs=0,bSupportLODStreaming=0,Name=LOCTEXT("VistaLOD","Vista"))
+ConfigSystem.Android.Engine:SystemSettings:con.DebugEarlyCheat:0=True
+ConfigSystem.Android.Engine:SystemSettings:con.DebugEarlyDefault:0=True
+ConfigSystem.Android.Engine:SystemSettings:con.DebugLateCheat:0=True
+ConfigSystem.Android.Engine:SystemSettings:con.DebugLateDefault:0=True
+ConfigSystem.Android.Engine:SystemSettings:fx.Niagara.QualityLevel.Max:0=1
+ConfigSystem.Android.Engine:SystemSettings:fx.Niagara.QualityLevel.Min:0=0
+ConfigSystem.Android.Engine:SystemSettings:LogNamedEventFilters:0=Frame *
+ConfigSystem.Android.Engine:SystemSettings:QualityLevelMapping:0=low
 ConfigSystem.Android.Input:InputPlatformSettings_Android InputPlatformSettings:input.DeviceMappingPolicy:0=1
 ConfigSystem.Android.Input:InputPlatformSettings_Android InputPlatformSettings:MaxPlatformUserCount:0=4
+ConfigSystem.Android.Scalability:AntiAliasingQuality@3:r.FXAA.Quality:0=0
+ConfigSystem.Android.Scalability:AntiAliasingQuality@3:r.TemporalAA.Quality:0=2
+ConfigSystem.Android.Scalability:AntiAliasingQuality@3:r.TSR.History.R11G11B10:0=1
+ConfigSystem.Android.Scalability:AntiAliasingQuality@3:r.TSR.History.ScreenPercentage:0=200
+ConfigSystem.Android.Scalability:AntiAliasingQuality@3:r.TSR.History.UpdateQuality:0=3
+ConfigSystem.Android.Scalability:AntiAliasingQuality@3:r.TSR.RejectionAntiAliasingQuality:0=2
+ConfigSystem.Android.Scalability:AntiAliasingQuality@3:r.TSR.ReprojectionField:0=1
+ConfigSystem.Android.Scalability:AntiAliasingQuality@3:r.TSR.Resurrection:0=1
+ConfigSystem.Android.Scalability:AntiAliasingQuality@3:r.TSR.ShadingRejection.Flickering:0=1
+ConfigSystem.Android.Scalability:EffectsQuality@3:fx.Niagara.QualityLevel:0=1
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.DetailMode:0=3
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.EmitterSpawnRateScale:0=1.0
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.DownsampleFactor:0=2
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.MaxStepCount:0=256
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.Shadows.MaxSampleCount:0=8
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.Shadows.Resolution:0=256
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.UseExistenceMask:0=0
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.MaterialQualityLevel:0=1 ; High quality
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.ParticleLightQuality:0=2
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.Refraction.OffsetQuality:0=1
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.RefractionQuality:0=1
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SceneColorFormat:0=4
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:0=4
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0=1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:0=1
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT:0=1
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.Height:0=50
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.SampleCountMax:0=8.0
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.SampleCountMin:0=1.0
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.Width:0=96
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.MultiScatteringLUT.SampleCount:0=15.0
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.SampleCountMax:0=128.0
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.SampleCountMin:0=4.0
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.TransmittanceLUT.SampleCount:0=10.0
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0=1
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SSGI.Quality:0=3
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SSS.HalfRes:0=0
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SSS.Quality:0=1
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SSS.SampleSet:0=2
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.SSS.Scale:0=1
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.TranslucencyLightingVolumeDim:0=64
+ConfigSystem.Android.Scalability:EffectsQuality@3:r.TranslucencyVolumeBlur:0=1
+ConfigSystem.Android.Scalability:FoliageQuality@3:foliage.DensityScale:0=1.0
+ConfigSystem.Android.Scalability:FoliageQuality@3:grass.CullDistanceScale:0=1.0
+ConfigSystem.Android.Scalability:FoliageQuality@3:grass.DensityScale:0=1.0
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.AOQuality:0=2
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.DistanceFieldAO:0=1
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.DiffuseIndirect.Allow:0=1
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.DownsampleFactor:0=16
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:0=1
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.IrradianceFormat:0=0
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.NumAdaptiveProbes:0=8
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:0=100
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:0=32
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:0=1
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:0=1
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0=0
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.StochasticInterpolation:0=0
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.TracingOctahedronResolution:0=8
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:0=1
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.TraceMeshSDFs.Allow:0=1
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.GridPixelSize:0=32
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:0=70
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:0=8
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.TraceFromVolume:0=1
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.TracingOctahedronResolution:0=3
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.LumenScene.DirectLighting.MaxLightsPerTile:0=8
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.LumenScene.DirectLighting.UpdateFactor:0=32
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.HemisphereProbeResolution:0=4
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.ProbeSpacing:0=4
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.UpdateFactor:0=64
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.RayTracing.Scene.BuildMode:0=1
+ConfigSystem.Android.Scalability:GlobalIlluminationQuality@3:r.SkylightIntensityMultiplier:0=1.0
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.AmbientOcclusionLevels:0=-1
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.AmbientOcclusionMaxQuality:0=100
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.AmbientOcclusionMipLevelFactor:0=0.4
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.AmbientOcclusionRadiusScale:0=1.0
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.Bloom.ScreenPercentage:0=50.000
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.BloomQuality:0=3
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DepthOfFieldQuality:0=1
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Gather.AccumulatorQuality:0=1        ; higher gathering accumulator quality
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Gather.EnableBokehSettings:0=0       ; no bokeh simulation when gathering
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Gather.PostfilterMethod:0=1          ; Median3x3 postfilering method
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Gather.ResolutionDivisor:0=2         ; lower gathering resolution
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Gather.RingCount:0=4                 ; medium number of samples when gathering
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Kernel.MaxBackgroundRadius:0=0.025
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Kernel.MaxForegroundRadius:0=0.025
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Recombine.EnableBokehSettings:0=0    ; no bokeh simulation on slight out of focus
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Recombine.Quality:0=1                ; cheap slight out of focus
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Scatter.BackgroundCompositing:0=2    ; additive background scattering
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Scatter.EnableBokehSettings:0=1      ; bokeh simulation when scattering
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Scatter.ForegroundCompositing:0=1    ; additive foreground scattering
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.Scatter.MaxSpriteRatio:0=0.1         ; only a maximum of 10% of scattered bokeh
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.DOF.TemporalAAQuality:0=1                ; more stable temporal accumulation
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.EyeAdaptationQuality:0=1
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.FastBlurThreshold:0=100
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.Filter.SizeScale:0=1
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.LensFlareQuality:0=2
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.LightShaftQuality:0=1
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.Mobile.AmbientOcclusionQuality:0=1
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.MotionBlur.HalfResGather:0=0
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.MotionBlurQuality:0=4
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.RenderTargetPoolMin:0=400
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.SceneColorFringeQuality:0=1
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.Tonemapper.Quality:0=3
+ConfigSystem.Android.Scalability:PostProcessQuality@3:r.Upscale.Quality:0=3
+ConfigSystem.Android.Scalability:ReflectionQuality@3:r.Lumen.Reflections.Allow:0=1
+ConfigSystem.Android.Scalability:ReflectionQuality@3:r.Lumen.Reflections.DownsampleFactor:0=1
+ConfigSystem.Android.Scalability:ReflectionQuality@3:r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0=0.4
+ConfigSystem.Android.Scalability:ReflectionQuality@3:r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0=0
+ConfigSystem.Android.Scalability:ReflectionQuality@3:r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:0=5
+ConfigSystem.Android.Scalability:ReflectionQuality@3:r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0=0.8
+ConfigSystem.Android.Scalability:ReflectionQuality@3:r.Lumen.TranslucencyReflections.FrontLayer.Allow:0=1
+ConfigSystem.Android.Scalability:ReflectionQuality@3:r.Lumen.TranslucencyReflections.FrontLayer.Enable:0=0
+ConfigSystem.Android.Scalability:ReflectionQuality@3:r.SSR.HalfResSceneColor:0=0
+ConfigSystem.Android.Scalability:ReflectionQuality@3:r.SSR.Quality:0=3
+ConfigSystem.Android.Scalability:ShadingQuality@3:r.AnisotropicMaterials:0=1
+ConfigSystem.Android.Scalability:ShadingQuality@3:r.HairStrands.SkyAO.SampleCount:0=4
+ConfigSystem.Android.Scalability:ShadingQuality@3:r.HairStrands.SkyLighting.IntegrationType:0=2
+ConfigSystem.Android.Scalability:ShadingQuality@3:r.HairStrands.Visibility.MSAA.SamplePerPixel:0=4
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.CapsuleShadows:0=1
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.ContactShadows:0=0
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.DistanceFieldShadowing:0=1
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.LightFunctionQuality:0=1
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.LightMaxDrawDistanceScale:0=1
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.CSM.MaxCascades:0=3
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.CSM.TransitionScale:0=1.0
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.DistanceScale:0=1.0
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.MaxCSMResolution:0=2048
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.MaxResolution:0=2048
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.PreShadowResolutionFactor:0=1.0
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.RadiusThreshold:0=0.06
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.Virtual.MaxPhysicalPages:0=4096
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasDirectional:0=-1.5
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0=-1.5
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasLocal:0=0.0
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasLocalMoving:0=1.0
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.RayCountDirectional:0=8
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.RayCountLocal:0=8
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:0=4
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.SamplesPerRayLocal:0=4
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.ShadowQuality:0=2
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.VolumetricFog:0=0
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.VolumetricFog.GridPixelSize:0=8
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.VolumetricFog.GridSizeZ:0=128
+ConfigSystem.Android.Scalability:ShadowQuality@3:r.VolumetricFog.HistoryMissSupersampleCount:0=4
+ConfigSystem.Android.Scalability:TextureQuality@3:r.MaxAnisotropy:0=4
+ConfigSystem.Android.Scalability:TextureQuality@3:r.Streaming.AmortizeCPUToGPUCopy:0=0
+ConfigSystem.Android.Scalability:TextureQuality@3:r.Streaming.Boost:0=1
+ConfigSystem.Android.Scalability:TextureQuality@3:r.Streaming.LimitPoolSizeToVRAM:0=0
+ConfigSystem.Android.Scalability:TextureQuality@3:r.Streaming.MaxEffectiveScreenSize:0=0
+ConfigSystem.Android.Scalability:TextureQuality@3:r.Streaming.MaxNumTexturesToStreamPerFrame:0=0
+ConfigSystem.Android.Scalability:TextureQuality@3:r.Streaming.MipBias:0=0
+ConfigSystem.Android.Scalability:TextureQuality@3:r.Streaming.PoolSize:0=1000
+ConfigSystem.Android.Scalability:TextureQuality@3:r.VT.MaxAnisotropy:0=8
+ConfigSystem.Android.Scalability:ViewDistanceQuality@3:r.NeverOcclusionTestDistance:0=200
+ConfigSystem.Android.Scalability:ViewDistanceQuality@3:r.SkeletalMeshLODBias:0=0
+ConfigSystem.Android.Scalability:ViewDistanceQuality@3:r.ViewDistanceScale:0=1.0
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:BaseProfileName:0=
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:0=r.HZBOcclusion=0
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:1=r.EarlyZPass=0
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:2=r.TranslucentLightingVolume=0
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:3=r.AllowPointLightCubemapShadows=0
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:4=r.Decal.StencilSizeThreshold=-1
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:5=r.MorphTarget.Mode=0
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:6=r.DefaultBackBufferPixelFormat=0
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:7=sg.AntiAliasingQuality=0
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:8=sg.ShadowQuality=1
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:9=sg.GlobalIlluminationQuality=1
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:10=sg.ReflectionQuality=1
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:11=sg.ViewDistanceQuality=3
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:12=sg.PostProcessQuality=3
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:13=sg.TextureQuality=3
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:14=sg.EffectsQuality=3
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:15=sg.FoliageQuality=3
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:16=sg.LandscapeQuality=2
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:17=r.Forward.LightLinkedListCulling=0
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:18=UI.SlateSDFText.RasterizationMode=SdfApproximation
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:19=UI.SlateSDFText.ResolutionLevel=1
+ConfigSystem.IOS.DeviceProfiles:IOS DeviceProfile:CVars:20=AsyncTraceDelegateHitchThresholdMS=0.75
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.ActorClusteringEnabled:0=False
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.AllowParallelGC:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.AssetClustreringEnabled:0=False
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.CreateGCClusters:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.FlushStreamingOnGC:0=0
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.GarbageEliminationEnabled:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.IncrementalBeginDestroyEnabled:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsInEditor:0=25165824
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsInGame:0=131072
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsNotConsideredByGC:0=1
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.MinGCClusterSize:0=5
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.NumRetriesBeforeForcingGC:0=10
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.TimeBetweenPurgingPendingKillObjects:0=61.1
+ConfigSystem.IOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.VerifyUObjectsAreNotFGCObjects:0=False
+ConfigSystem.IOS.Engine:/Script/Engine.NetworkSettings:NetworkEmulationProfiles:0=(ProfileName="Average",ToolTip="Simulates average internet conditions")
+ConfigSystem.IOS.Engine:/Script/Engine.NetworkSettings:NetworkEmulationProfiles:1=(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:MaxSkinBones:0=(Default=65536,PerPlatform=(("Mobile", 256)))
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.AllowStaticLighting:0=False
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.LocalExposure.HighlightContrastScale:0=0.8
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.LocalExposure.ShadowContrastScale:0=0.8
 ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.DistanceFields:0=0
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.DynamicGlobalIlluminationMethod:0=1
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.GenerateMeshDistanceFields:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.GPUCrashDebugging:0=false
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.RayTracing:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.RayTracing.RayTracingProxies.ProjectEnabled:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.ReflectionMethod:0=1
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.Shadow.Virtual.Enable:0=1
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.SkinCache.CompileShaders:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.Substrate.ClosuresPerPixel:0=1
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.Substrate.Glints:0=0
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.Substrate.RoughDiffuse:0=0
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.Substrate.ShadingQuality:0=2
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.Substrate.SheenQuality:0=2
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.Substrate.TileCoord8bits:0=1
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.TemporalAA.Mobile.UseCompute:0=0
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:r.Visibility.DynamicMeshElements.Parallel:0=0
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:VisualizeCalibrationColorMaterialPath:0=/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor
+ConfigSystem.IOS.Engine:/Script/Engine.RendererSettings:VisualizeCalibrationGrayscaleMaterialPath:0=/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:0=/Script/Engine/Default__SoundBase
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:1=/Script/Engine/Default__MaterialInterface
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:2=/Script/Engine/Default__DeviceProfileManager
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.AsyncLoadingThreadEnabled:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.EventDrivenLoaderEnabled:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.FlushStreamingOnExit:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingActorsUpdateTimeLimit:0=5.0
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingComponentsRegistrationGranularity:0=10
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingComponentsUnregistrationGranularity:0=5
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.MaxPackageSummarySize:0=16384
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.MinBulkDataSizeForAsyncLoading:0=131072
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.PriorityAsyncLoadingExtraTime:0=15.0
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.PriorityLevelStreamingActorsUpdateExtraTime:0=5.0
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.TimeLimitExceededMinTime:0=0.005
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.TimeLimitExceededMultiplier:0=1.5
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.UnregisterComponentsTimeLimit:0=1.0
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.UseBackgroundLevelStreaming:0=True
+ConfigSystem.IOS.Engine:/Script/Engine.StreamingSettings:s.WarnIfTimeLimitExceeded:0=False
+ConfigSystem.IOS.Engine:ConsoleVariables:r.Forward.LightGridSizeZ:0=8
+ConfigSystem.IOS.Engine:ConsoleVariables:r.Forward.MaxCulledLightsPerCell:0=8
+ConfigSystem.IOS.Engine:ConsoleVariables:r.HairStrands.Binding:0=0
+ConfigSystem.IOS.Engine:ConsoleVariables:r.HairStrands.Simulation:0=0
+ConfigSystem.IOS.Engine:ConsoleVariables:r.HairStrands.Strands:0=0
+ConfigSystem.IOS.Engine:ConsoleVariables:Slate.CacheRenderData:0=0
 ConfigSystem.IOS.Engine:StaticMeshLODSettings:Deco:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=10,Name=LOCTEXT("DecoLOD","Deco"))
 ConfigSystem.IOS.Engine:StaticMeshLODSettings:Foliage:0=(NumLODs=1,MaxNumStreamedLODs=0,bSupportLODStreaming=0,Name=LOCTEXT("FoliageLOD","Foliage"))
 ConfigSystem.IOS.Engine:StaticMeshLODSettings:HighDetail:0=(NumLODs=6,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=6,Name=LOCTEXT("HighDetailLOD","High Detail"))
@@ -18,8 +418,215 @@ ConfigSystem.IOS.Engine:StaticMeshLODSettings:LargeProp:0=(NumLODs=4,MaxNumStrea
 ConfigSystem.IOS.Engine:StaticMeshLODSettings:LevelArchitecture:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LightMapResolution=32,LODPercentTriangles=50,PixelError=12,SilhouetteImportance=4,Name=LOCTEXT("LevelArchitectureLOD","Level Architecture"))
 ConfigSystem.IOS.Engine:StaticMeshLODSettings:SmallProp:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=10,Name=LOCTEXT("SmallPropLOD","Small Prop"))
 ConfigSystem.IOS.Engine:StaticMeshLODSettings:Vista:0=(NumLODs=1,MaxNumStreamedLODs=0,bSupportLODStreaming=0,Name=LOCTEXT("VistaLOD","Vista"))
+ConfigSystem.IOS.Engine:SystemSettings:con.DebugEarlyCheat:0=True
+ConfigSystem.IOS.Engine:SystemSettings:con.DebugEarlyDefault:0=True
+ConfigSystem.IOS.Engine:SystemSettings:con.DebugLateCheat:0=True
+ConfigSystem.IOS.Engine:SystemSettings:con.DebugLateDefault:0=True
+ConfigSystem.IOS.Engine:SystemSettings:fx.Niagara.QualityLevel.Max:0=1
+ConfigSystem.IOS.Engine:SystemSettings:fx.Niagara.QualityLevel.Min:0=0
+ConfigSystem.IOS.Engine:SystemSettings:LogNamedEventFilters:0=Frame *
+ConfigSystem.IOS.Engine:SystemSettings:net.DisableIPv6:0=0
+ConfigSystem.IOS.Engine:SystemSettings:QualityLevelMapping:0=low
 ConfigSystem.IOS.Input:InputPlatformSettings_IOS InputPlatformSettings:input.DeviceMappingPolicy:0=0
 ConfigSystem.IOS.Input:InputPlatformSettings_IOS InputPlatformSettings:MaxPlatformUserCount:0=4
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@0:r.FXAA.Quality:0=0
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@0:r.TemporalAA.Quality:0=0
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@0:r.TSR.History.R11G11B10:0=1
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@0:r.TSR.History.ScreenPercentage:0=100
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@0:r.TSR.History.UpdateQuality:0=0
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@0:r.TSR.RejectionAntiAliasingQuality:0=0
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@0:r.TSR.ReprojectionField:0=0
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@0:r.TSR.Resurrection:0=0
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@0:r.TSR.ShadingRejection.Flickering:0=0
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@3:r.FXAA.Quality:0=0
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@3:r.TemporalAA.Quality:0=2
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@3:r.TSR.History.R11G11B10:0=1
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@3:r.TSR.History.ScreenPercentage:0=200
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@3:r.TSR.History.UpdateQuality:0=3
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@3:r.TSR.RejectionAntiAliasingQuality:0=2
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@3:r.TSR.ReprojectionField:0=1
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@3:r.TSR.Resurrection:0=1
+ConfigSystem.IOS.Scalability:AntiAliasingQuality@3:r.TSR.ShadingRejection.Flickering:0=1
+ConfigSystem.IOS.Scalability:EffectsQuality@3:fx.Niagara.QualityLevel:0=1
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.DetailMode:0=3
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.EmitterSpawnRateScale:0=1.0
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.DownsampleFactor:0=2
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.MaxStepCount:0=256
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.Shadows.MaxSampleCount:0=8
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.Shadows.Resolution:0=256
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.UseExistenceMask:0=0
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.MaterialQualityLevel:0=1 ; High quality
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.ParticleLightQuality:0=2
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.Refraction.OffsetQuality:0=1
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.RefractionQuality:0=1
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SceneColorFormat:0=4
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:0=4
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0=1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:0=1
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT:0=1
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.Height:0=50
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.SampleCountMax:0=8.0
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.SampleCountMin:0=1.0
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.Width:0=96
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.MultiScatteringLUT.SampleCount:0=15.0
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.SampleCountMax:0=128.0
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.SampleCountMin:0=4.0
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.TransmittanceLUT.SampleCount:0=10.0
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0=1
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SSGI.Quality:0=3
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SSS.HalfRes:0=0
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SSS.Quality:0=1
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SSS.SampleSet:0=2
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.SSS.Scale:0=1
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.TranslucencyLightingVolumeDim:0=64
+ConfigSystem.IOS.Scalability:EffectsQuality@3:r.TranslucencyVolumeBlur:0=1
+ConfigSystem.IOS.Scalability:FoliageQuality@3:foliage.DensityScale:0=1.0
+ConfigSystem.IOS.Scalability:FoliageQuality@3:grass.CullDistanceScale:0=1.0
+ConfigSystem.IOS.Scalability:FoliageQuality@3:grass.DensityScale:0=1.0
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@1:r.AOQuality:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@1:r.DistanceFieldAO:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@1:r.Lumen.DiffuseIndirect.Allow:0=0
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@1:r.RayTracing.Scene.BuildMode:0=0
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@1:r.SkylightIntensityMultiplier:0=1.0
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.AOQuality:0=2
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.DistanceFieldAO:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.DiffuseIndirect.Allow:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.DownsampleFactor:0=16
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.IrradianceFormat:0=0
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.NumAdaptiveProbes:0=8
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:0=100
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:0=32
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0=0
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.StochasticInterpolation:0=0
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.TracingOctahedronResolution:0=8
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TraceMeshSDFs.Allow:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.GridPixelSize:0=32
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:0=70
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:0=8
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.TraceFromVolume:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.TracingOctahedronResolution:0=3
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.LumenScene.DirectLighting.MaxLightsPerTile:0=8
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.LumenScene.DirectLighting.UpdateFactor:0=32
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.HemisphereProbeResolution:0=4
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.ProbeSpacing:0=4
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.UpdateFactor:0=64
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.RayTracing.Scene.BuildMode:0=1
+ConfigSystem.IOS.Scalability:GlobalIlluminationQuality@3:r.SkylightIntensityMultiplier:0=1.0
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.AmbientOcclusionLevels:0=-1
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.AmbientOcclusionMaxQuality:0=100
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.AmbientOcclusionMipLevelFactor:0=0.4
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.AmbientOcclusionRadiusScale:0=1.0
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.Bloom.ScreenPercentage:0=50.000
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.BloomQuality:0=3
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DepthOfFieldQuality:0=1
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Gather.AccumulatorQuality:0=1        ; higher gathering accumulator quality
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Gather.EnableBokehSettings:0=0       ; no bokeh simulation when gathering
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Gather.PostfilterMethod:0=1          ; Median3x3 postfilering method
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Gather.ResolutionDivisor:0=2         ; lower gathering resolution
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Gather.RingCount:0=4                 ; medium number of samples when gathering
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Kernel.MaxBackgroundRadius:0=0.025
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Kernel.MaxForegroundRadius:0=0.025
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Recombine.EnableBokehSettings:0=0    ; no bokeh simulation on slight out of focus
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Recombine.Quality:0=1                ; cheap slight out of focus
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Scatter.BackgroundCompositing:0=2    ; additive background scattering
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Scatter.EnableBokehSettings:0=1      ; bokeh simulation when scattering
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Scatter.ForegroundCompositing:0=1    ; additive foreground scattering
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.Scatter.MaxSpriteRatio:0=0.1         ; only a maximum of 10% of scattered bokeh
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.DOF.TemporalAAQuality:0=1                ; more stable temporal accumulation
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.EyeAdaptationQuality:0=1
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.FastBlurThreshold:0=100
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.Filter.SizeScale:0=1
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.LensFlareQuality:0=2
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.LightShaftQuality:0=1
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.Mobile.AmbientOcclusionQuality:0=1
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.MotionBlur.HalfResGather:0=0
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.MotionBlurQuality:0=4
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.RenderTargetPoolMin:0=400
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.SceneColorFringeQuality:0=1
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.Tonemapper.Quality:0=3
+ConfigSystem.IOS.Scalability:PostProcessQuality@3:r.Upscale.Quality:0=3
+ConfigSystem.IOS.Scalability:ReflectionQuality@1:r.Lumen.Reflections.Allow:0=0
+ConfigSystem.IOS.Scalability:ReflectionQuality@1:r.SSR.HalfResSceneColor:0=1
+ConfigSystem.IOS.Scalability:ReflectionQuality@1:r.SSR.Quality:0=2
+ConfigSystem.IOS.Scalability:ReflectionQuality@3:r.Lumen.Reflections.Allow:0=1
+ConfigSystem.IOS.Scalability:ReflectionQuality@3:r.Lumen.Reflections.DownsampleFactor:0=1
+ConfigSystem.IOS.Scalability:ReflectionQuality@3:r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0=0.4
+ConfigSystem.IOS.Scalability:ReflectionQuality@3:r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0=0
+ConfigSystem.IOS.Scalability:ReflectionQuality@3:r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:0=5
+ConfigSystem.IOS.Scalability:ReflectionQuality@3:r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0=0.8
+ConfigSystem.IOS.Scalability:ReflectionQuality@3:r.Lumen.TranslucencyReflections.FrontLayer.Allow:0=1
+ConfigSystem.IOS.Scalability:ReflectionQuality@3:r.Lumen.TranslucencyReflections.FrontLayer.Enable:0=0
+ConfigSystem.IOS.Scalability:ReflectionQuality@3:r.SSR.HalfResSceneColor:0=0
+ConfigSystem.IOS.Scalability:ReflectionQuality@3:r.SSR.Quality:0=3
+ConfigSystem.IOS.Scalability:ShadingQuality@3:r.AnisotropicMaterials:0=1
+ConfigSystem.IOS.Scalability:ShadingQuality@3:r.HairStrands.SkyAO.SampleCount:0=4
+ConfigSystem.IOS.Scalability:ShadingQuality@3:r.HairStrands.SkyLighting.IntegrationType:0=2
+ConfigSystem.IOS.Scalability:ShadingQuality@3:r.HairStrands.Visibility.MSAA.SamplePerPixel:0=4
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.CapsuleShadows:0=1
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.ContactShadows:0=0
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.DistanceFieldShadowing:0=0
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.LightFunctionQuality:0=1
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.LightMaxDrawDistanceScale:0=0.5
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.CSM.MaxCascades:0=1
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.CSM.TransitionScale:0=0.25
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.DistanceScale:0=0.7
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.MaxCSMResolution:0=1024
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.MaxResolution:0=1024
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.PreShadowResolutionFactor:0=0.5
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.RadiusThreshold:0=0.06
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.Virtual.MaxPhysicalPages:0=512
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.Virtual.ResolutionLodBiasDirectional:0=0.0
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0=0.0
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.Virtual.ResolutionLodBiasLocal:0=1.0
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.Virtual.ResolutionLodBiasLocalMoving:0=2.0
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.Virtual.SMRT.RayCountDirectional:0=4
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.Virtual.SMRT.RayCountLocal:0=4
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:0=2
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.Shadow.Virtual.SMRT.SamplesPerRayLocal:0=2
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.ShadowQuality:0=1
+ConfigSystem.IOS.Scalability:ShadowQuality@1:r.VolumetricFog:0=0
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.CapsuleShadows:0=1
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.ContactShadows:0=0
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.DistanceFieldShadowing:0=1
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.LightFunctionQuality:0=1
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.LightMaxDrawDistanceScale:0=1
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.CSM.MaxCascades:0=3
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.CSM.TransitionScale:0=1.0
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.DistanceScale:0=1.0
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.MaxCSMResolution:0=2048
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.MaxResolution:0=2048
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.PreShadowResolutionFactor:0=1.0
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.RadiusThreshold:0=0.06
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.MaxPhysicalPages:0=4096
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasDirectional:0=-1.5
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0=-1.5
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasLocal:0=0.0
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasLocalMoving:0=1.0
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.RayCountDirectional:0=8
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.RayCountLocal:0=8
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:0=4
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.SamplesPerRayLocal:0=4
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.ShadowQuality:0=2
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.VolumetricFog:0=0
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.VolumetricFog.GridPixelSize:0=8
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.VolumetricFog.GridSizeZ:0=128
+ConfigSystem.IOS.Scalability:ShadowQuality@3:r.VolumetricFog.HistoryMissSupersampleCount:0=4
+ConfigSystem.IOS.Scalability:TextureQuality@3:r.MaxAnisotropy:0=4
+ConfigSystem.IOS.Scalability:TextureQuality@3:r.Streaming.AmortizeCPUToGPUCopy:0=0
+ConfigSystem.IOS.Scalability:TextureQuality@3:r.Streaming.Boost:0=1
+ConfigSystem.IOS.Scalability:TextureQuality@3:r.Streaming.LimitPoolSizeToVRAM:0=0
+ConfigSystem.IOS.Scalability:TextureQuality@3:r.Streaming.MaxEffectiveScreenSize:0=0
+ConfigSystem.IOS.Scalability:TextureQuality@3:r.Streaming.MaxNumTexturesToStreamPerFrame:0=0
+ConfigSystem.IOS.Scalability:TextureQuality@3:r.Streaming.MipBias:0=0
+ConfigSystem.IOS.Scalability:TextureQuality@3:r.Streaming.PoolSize:0=1000
+ConfigSystem.IOS.Scalability:TextureQuality@3:r.VT.MaxAnisotropy:0=8
+ConfigSystem.IOS.Scalability:ViewDistanceQuality@3:r.NeverOcclusionTestDistance:0=200
+ConfigSystem.IOS.Scalability:ViewDistanceQuality@3:r.SkeletalMeshLODBias:0=0
+ConfigSystem.IOS.Scalability:ViewDistanceQuality@3:r.ViewDistanceScale:0=1.0
 ConfigSystem.Linux.Engine:StaticMeshLODSettings:Deco:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=10,Name=LOCTEXT("DecoLOD","Deco"))
 ConfigSystem.Linux.Engine:StaticMeshLODSettings:Foliage:0=(NumLODs=1,MaxNumStreamedLODs=0,bSupportLODStreaming=0,Name=LOCTEXT("FoliageLOD","Foliage"))
 ConfigSystem.Linux.Engine:StaticMeshLODSettings:HighDetail:0=(NumLODs=6,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=6,Name=LOCTEXT("HighDetailLOD","High Detail"))
@@ -27,6 +634,62 @@ ConfigSystem.Linux.Engine:StaticMeshLODSettings:LargeProp:0=(NumLODs=4,MaxNumStr
 ConfigSystem.Linux.Engine:StaticMeshLODSettings:LevelArchitecture:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LightMapResolution=32,LODPercentTriangles=50,PixelError=12,SilhouetteImportance=4,Name=LOCTEXT("LevelArchitectureLOD","Level Architecture"))
 ConfigSystem.Linux.Engine:StaticMeshLODSettings:SmallProp:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=10,Name=LOCTEXT("SmallPropLOD","Small Prop"))
 ConfigSystem.Linux.Engine:StaticMeshLODSettings:Vista:0=(NumLODs=1,MaxNumStreamedLODs=0,bSupportLODStreaming=0,Name=LOCTEXT("VistaLOD","Vista"))
+ConfigSystem.Mac.DeviceProfiles:Mac DeviceProfile:BaseProfileName:0=
+ConfigSystem.Mac.DeviceProfiles:Mac DeviceProfile:CVars:0=r.Shaders.ZeroInitialise=1
+ConfigSystem.Mac.DeviceProfiles:Mac DeviceProfile:CVars:1=r.Shaders.BoundsChecking=1
+ConfigSystem.Mac.DeviceProfiles:Mac DeviceProfile:CVars:2=UI.SlateSDFText.RasterizationMode=Msdf
+ConfigSystem.Mac.DeviceProfiles:Mac DeviceProfile:CVars:3=UI.SlateSDFText.ResolutionLevel=2
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.ActorClusteringEnabled:0=False
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.AllowParallelGC:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.AssetClustreringEnabled:0=False
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.CreateGCClusters:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.FlushStreamingOnGC:0=0
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.GarbageEliminationEnabled:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.IncrementalBeginDestroyEnabled:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsInEditor:0=25165824
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsNotConsideredByGC:0=1
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.MinGCClusterSize:0=5
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.NumRetriesBeforeForcingGC:0=10
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.TimeBetweenPurgingPendingKillObjects:0=61.1
+ConfigSystem.Mac.Engine:/Script/Engine.GarbageCollectionSettings:gc.VerifyUObjectsAreNotFGCObjects:0=False
+ConfigSystem.Mac.Engine:/Script/Engine.NetworkSettings:NetworkEmulationProfiles:0=(ProfileName="Average",ToolTip="Simulates average internet conditions")
+ConfigSystem.Mac.Engine:/Script/Engine.NetworkSettings:NetworkEmulationProfiles:1=(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:MaxSkinBones:0=(Default=65536,PerPlatform=(("Mobile", 256)))
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.AllowStaticLighting:0=False
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.LocalExposure.HighlightContrastScale:0=0.8
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.LocalExposure.ShadowContrastScale:0=0.8
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.DynamicGlobalIlluminationMethod:0=1
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.GenerateMeshDistanceFields:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.GPUCrashDebugging:0=false
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.RayTracing:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.RayTracing.RayTracingProxies.ProjectEnabled:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.ReflectionMethod:0=1
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.Shadow.Virtual.Enable:0=1
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:r.SkinCache.CompileShaders:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:VisualizeCalibrationColorMaterialPath:0=/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor
+ConfigSystem.Mac.Engine:/Script/Engine.RendererSettings:VisualizeCalibrationGrayscaleMaterialPath:0=/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:0=/Script/Engine/Default__SoundBase
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:1=/Script/Engine/Default__MaterialInterface
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:2=/Script/Engine/Default__DeviceProfileManager
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.AsyncLoadingThreadEnabled:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.EventDrivenLoaderEnabled:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.FlushStreamingOnExit:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingActorsUpdateTimeLimit:0=5.0
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingComponentsRegistrationGranularity:0=10
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingComponentsUnregistrationGranularity:0=5
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.MaxPackageSummarySize:0=16384
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.MinBulkDataSizeForAsyncLoading:0=131072
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.PriorityAsyncLoadingExtraTime:0=15.0
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.PriorityLevelStreamingActorsUpdateExtraTime:0=5.0
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.TimeLimitExceededMinTime:0=0.005
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.TimeLimitExceededMultiplier:0=1.5
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.UnregisterComponentsTimeLimit:0=1.0
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.UseBackgroundLevelStreaming:0=True
+ConfigSystem.Mac.Engine:/Script/Engine.StreamingSettings:s.WarnIfTimeLimitExceeded:0=False
+ConfigSystem.Mac.Engine:ConsoleVariables:r.GPUStatsEnabled:0=0
+ConfigSystem.Mac.Engine:ConsoleVariables:r.HairStrands.Visibility.MSAA.SamplePerPixel:0=1
+ConfigSystem.Mac.Engine:ConsoleVariables:r.SceneCulling.ExplicitCellBounds:0=1
 ConfigSystem.Mac.Engine:StaticMeshLODSettings:Deco:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=10,Name=LOCTEXT("DecoLOD","Deco"))
 ConfigSystem.Mac.Engine:StaticMeshLODSettings:Foliage:0=(NumLODs=1,MaxNumStreamedLODs=0,bSupportLODStreaming=0,Name=LOCTEXT("FoliageLOD","Foliage"))
 ConfigSystem.Mac.Engine:StaticMeshLODSettings:HighDetail:0=(NumLODs=6,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=6,Name=LOCTEXT("HighDetailLOD","High Detail"))
@@ -34,8 +697,170 @@ ConfigSystem.Mac.Engine:StaticMeshLODSettings:LargeProp:0=(NumLODs=4,MaxNumStrea
 ConfigSystem.Mac.Engine:StaticMeshLODSettings:LevelArchitecture:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LightMapResolution=32,LODPercentTriangles=50,PixelError=12,SilhouetteImportance=4,Name=LOCTEXT("LevelArchitectureLOD","Level Architecture"))
 ConfigSystem.Mac.Engine:StaticMeshLODSettings:SmallProp:0=(NumLODs=4,MaxNumStreamedLODs=0,bSupportLODStreaming=0,LODPercentTriangles=50,PixelError=10,Name=LOCTEXT("SmallPropLOD","Small Prop"))
 ConfigSystem.Mac.Engine:StaticMeshLODSettings:Vista:0=(NumLODs=1,MaxNumStreamedLODs=0,bSupportLODStreaming=0,Name=LOCTEXT("VistaLOD","Vista"))
+ConfigSystem.Mac.Engine:SystemSettings:con.DebugEarlyCheat:0=True
+ConfigSystem.Mac.Engine:SystemSettings:con.DebugEarlyDefault:0=True
+ConfigSystem.Mac.Engine:SystemSettings:con.DebugLateCheat:0=True
+ConfigSystem.Mac.Engine:SystemSettings:con.DebugLateDefault:0=True
+ConfigSystem.Mac.Engine:SystemSettings:framepro.ScopeMinTimeMicroseconds:0=10
+ConfigSystem.Mac.Engine:SystemSettings:fx.NiagaraAllowRuntimeScalabilityChanges:0=1
+ConfigSystem.Mac.Engine:SystemSettings:g.TimeoutForBlockOnRenderFence:0=300000
+ConfigSystem.Mac.Engine:SystemSettings:LogNamedEventFilters:0=Frame *
+ConfigSystem.Mac.Engine:SystemSettings:QualityLevelMapping:0=high
+ConfigSystem.Mac.Engine:SystemSettings:r.setres:0=1280x720
 ConfigSystem.Mac.Input:InputPlatformSettings_Mac InputPlatformSettings:input.DeviceMappingPolicy:0=1
 ConfigSystem.Mac.Input:InputPlatformSettings_Mac InputPlatformSettings:MaxPlatformUserCount:0=8
+ConfigSystem.Mac.Scalability:AntiAliasingQuality@3:r.FXAA.Quality:0=4
+ConfigSystem.Mac.Scalability:AntiAliasingQuality@3:r.TemporalAA.Quality:0=2
+ConfigSystem.Mac.Scalability:AntiAliasingQuality@3:r.TSR.History.R11G11B10:0=1
+ConfigSystem.Mac.Scalability:AntiAliasingQuality@3:r.TSR.History.ScreenPercentage:0=200
+ConfigSystem.Mac.Scalability:AntiAliasingQuality@3:r.TSR.History.UpdateQuality:0=3
+ConfigSystem.Mac.Scalability:AntiAliasingQuality@3:r.TSR.RejectionAntiAliasingQuality:0=2
+ConfigSystem.Mac.Scalability:AntiAliasingQuality@3:r.TSR.ReprojectionField:0=1
+ConfigSystem.Mac.Scalability:AntiAliasingQuality@3:r.TSR.Resurrection:0=1
+ConfigSystem.Mac.Scalability:AntiAliasingQuality@3:r.TSR.ShadingRejection.Flickering:0=1
+ConfigSystem.Mac.Scalability:EffectsQuality@3:fx.Niagara.QualityLevel:0=3
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.DetailMode:0=3
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.EmitterSpawnRateScale:0=1.0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.DownsampleFactor:0=2
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.MaxStepCount:0=256
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.Shadows.MaxSampleCount:0=8
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.Shadows.Resolution:0=256
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.UseExistenceMask:0=0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.MaterialQualityLevel:0=1 ; High quality
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.ParticleLightQuality:0=2
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.Refraction.OffsetQuality:0=1
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.RefractionQuality:0=2
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SceneColorFormat:0=4
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:0=16.0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0=1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:0=4
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT:0=1
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.SampleCountMax:0=128.0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.SampleCountMin:0=4.0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.MultiScatteringLUT.SampleCount:0=15.0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.SampleCountMax:0=128.0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.SampleCountMin:0=4.0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.TransmittanceLUT.SampleCount:0=10.0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0=0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SSGI.Quality:0=3
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SSS.HalfRes:0=0
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SSS.Quality:0=1
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SSS.SampleSet:0=2
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.SSS.Scale:0=1
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.TranslucencyLightingVolumeDim:0=64
+ConfigSystem.Mac.Scalability:EffectsQuality@3:r.TranslucencyVolumeBlur:0=1
+ConfigSystem.Mac.Scalability:FoliageQuality@3:foliage.DensityScale:0=1.0
+ConfigSystem.Mac.Scalability:FoliageQuality@3:grass.DensityScale:0=1.0
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.AOQuality:0=2
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.DistanceFieldAO:0=1
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.DiffuseIndirect.Allow:0=1
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.DownsampleFactor:0=16
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:0=1
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.IrradianceFormat:0=0
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.NumAdaptiveProbes:0=8
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:0=100
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:0=32
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:0=1
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:0=1
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0=0
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.StochasticInterpolation:0=0
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.TracingOctahedronResolution:0=8
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:0=1
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.TraceMeshSDFs.Allow:0=1
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.GridPixelSize:0=32
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:0=70
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:0=8
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.TraceFromVolume:0=1
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.TracingOctahedronResolution:0=3
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.LumenScene.DirectLighting.MaxLightsPerTile:0=8
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.LumenScene.DirectLighting.UpdateFactor:0=32
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.HemisphereProbeResolution:0=4
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.ProbeSpacing:0=4
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.UpdateFactor:0=64
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.RayTracing.Scene.BuildMode:0=1
+ConfigSystem.Mac.Scalability:GlobalIlluminationQuality@3:r.SkylightIntensityMultiplier:0=1.0
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.AmbientOcclusionLevels:0=-1
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.AmbientOcclusionMaxQuality:0=100
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.AmbientOcclusionMipLevelFactor:0=0.4
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.AmbientOcclusionRadiusScale:0=1.0
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.Bloom.ScreenPercentage:0=50.000
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.BloomQuality:0=5
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DepthOfFieldQuality:0=2
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Gather.AccumulatorQuality:0=1        ; higher gathering accumulator quality
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Gather.EnableBokehSettings:0=0       ; no bokeh simulation when gathering
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Gather.PostfilterMethod:0=1          ; Median3x3 postfilering method
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Gather.ResolutionDivisor:0=2         ; lower gathering resolution
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Gather.RingCount:0=4                 ; medium number of samples when gathering
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Kernel.MaxBackgroundRadius:0=0.025
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Kernel.MaxForegroundRadius:0=0.025
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Recombine.EnableBokehSettings:0=0    ; no bokeh simulation on slight out of focus
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Recombine.Quality:0=1                ; cheap slight out of focus
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Scatter.BackgroundCompositing:0=2    ; additive background scattering
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Scatter.EnableBokehSettings:0=1      ; bokeh simulation when scattering
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Scatter.ForegroundCompositing:0=1    ; additive foreground scattering
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.Scatter.MaxSpriteRatio:0=0.1         ; only a maximum of 10% of scattered bokeh
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.DOF.TemporalAAQuality:0=1                ; more stable temporal accumulation
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.EyeAdaptationQuality:0=2
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.FastBlurThreshold:0=100
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.Filter.SizeScale:0=1
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.LensFlareQuality:0=2
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.LightShaftQuality:0=1
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.MotionBlur.HalfResGather:0=0
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.MotionBlurQuality:0=4
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.RenderTargetPoolMin:0=400
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.SceneColorFringeQuality:0=1
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.Tonemapper.Quality:0=5
+ConfigSystem.Mac.Scalability:PostProcessQuality@3:r.Upscale.Quality:0=3
+ConfigSystem.Mac.Scalability:ReflectionQuality@3:r.Lumen.Reflections.Allow:0=1
+ConfigSystem.Mac.Scalability:ReflectionQuality@3:r.Lumen.Reflections.DownsampleFactor:0=1
+ConfigSystem.Mac.Scalability:ReflectionQuality@3:r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0=0.4
+ConfigSystem.Mac.Scalability:ReflectionQuality@3:r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0=0
+ConfigSystem.Mac.Scalability:ReflectionQuality@3:r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:0=5
+ConfigSystem.Mac.Scalability:ReflectionQuality@3:r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0=0.8
+ConfigSystem.Mac.Scalability:ReflectionQuality@3:r.Lumen.TranslucencyReflections.FrontLayer.Allow:0=1
+ConfigSystem.Mac.Scalability:ReflectionQuality@3:r.Lumen.TranslucencyReflections.FrontLayer.Enable:0=0
+ConfigSystem.Mac.Scalability:ReflectionQuality@3:r.SSR.HalfResSceneColor:0=0
+ConfigSystem.Mac.Scalability:ReflectionQuality@3:r.SSR.Quality:0=3
+ConfigSystem.Mac.Scalability:ShadingQuality@3:r.AnisotropicMaterials:0=1
+ConfigSystem.Mac.Scalability:ShadingQuality@3:r.HairStrands.SkyAO.SampleCount:0=4
+ConfigSystem.Mac.Scalability:ShadingQuality@3:r.HairStrands.SkyLighting.IntegrationType:0=2
+ConfigSystem.Mac.Scalability:ShadingQuality@3:r.HairStrands.Visibility.MSAA.SamplePerPixel:0=4
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.CapsuleShadows:0=1
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.DistanceFieldShadowing:0=1
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.LightFunctionQuality:0=1
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.LightMaxDrawDistanceScale:0=1
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.CSM.MaxCascades:0=10
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.CSM.TransitionScale:0=1.0
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.DistanceScale:0=1.0
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.MaxCSMResolution:0=2048
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.MaxResolution:0=2048
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.PreShadowResolutionFactor:0=1.0
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.RadiusThreshold:0=0.01
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.Virtual.MaxPhysicalPages:0=4096
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasDirectional:0=-1.5
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0=-1.5
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasLocal:0=0.0
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasLocalMoving:0=1.0
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.RayCountDirectional:0=8
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.RayCountLocal:0=8
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:0=4
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.SamplesPerRayLocal:0=4
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.ShadowQuality:0=5
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.VolumetricFog:0=1
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.VolumetricFog.GridPixelSize:0=8
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.VolumetricFog.GridSizeZ:0=128
+ConfigSystem.Mac.Scalability:ShadowQuality@3:r.VolumetricFog.HistoryMissSupersampleCount:0=4
+ConfigSystem.Mac.Scalability:TextureQuality@3:r.MaxAnisotropy:0=8
+ConfigSystem.Mac.Scalability:TextureQuality@3:r.Streaming.AmortizeCPUToGPUCopy:0=0
+ConfigSystem.Mac.Scalability:TextureQuality@3:r.Streaming.Boost:0=1
+ConfigSystem.Mac.Scalability:TextureQuality@3:r.Streaming.LimitPoolSizeToVRAM:0=0
+ConfigSystem.Mac.Scalability:TextureQuality@3:r.Streaming.MaxEffectiveScreenSize:0=0
+ConfigSystem.Mac.Scalability:TextureQuality@3:r.Streaming.MaxNumTexturesToStreamPerFrame:0=0
+ConfigSystem.Mac.Scalability:TextureQuality@3:r.Streaming.MipBias:0=0
+ConfigSystem.Mac.Scalability:TextureQuality@3:r.Streaming.PoolSize:0=1000
+ConfigSystem.Mac.Scalability:TextureQuality@3:r.VT.MaxAnisotropy:0=8
+ConfigSystem.Mac.Scalability:ViewDistanceQuality@3:r.SkeletalMeshLODBias:0=0
+ConfigSystem.Mac.Scalability:ViewDistanceQuality@3:r.ViewDistanceScale:0=1.0
 ConfigSystem.<Editor>.C::::/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Saved/Config/WindowsEditor/ChaosVD.ini:/Script/ChaosVD.ChaosVDParticleVisualizationColorSettings:ColorsByClientServer:0=(ServerBaseColor=(B=80,G=92,R=231,A=255),ClientBaseColor=(B=178,G=114,R=0,A=255))
 ConfigSystem.<Editor>.C::::/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Saved/Config/WindowsEditor/ChaosVD.ini:/Script/ChaosVD.ChaosVDParticleVisualizationColorSettings:ColorsByParticleState:0=(DynamicColor=(B=98,G=246,R=253,A=255),SleepingColor=(B=80,G=92,R=231,A=255),KinematicColor=(B=178,G=114,R=0,A=255),StaticColor=(B=156,G=159,R=150,A=255))
 ConfigSystem.<Editor>.C::::/Users/gavin/Documents/GitHub/Reconnection/Reconnection/Saved/Config/WindowsEditor/ChaosVD.ini:/Script/ChaosVD.ChaosVDParticleVisualizationColorSettings:ColorsByShapeType:0=(SimpleTypeColor=(B=115,G=158,R=0,A=255),ConvexColor=(B=66,G=228,R=240,A=255),HeightFieldColor=(B=233,G=180,R=86,A=255),TriangleMeshColor=(B=0,G=94,R=213,A=255),LevelSetColor=(B=167,G=121,R=204,A=255))
@@ -1329,9 +2154,9 @@ ConfigSystem.<Editor>.Engine:/Script/Engine.WorldPartitionSettings:EditorHashDef
 ConfigSystem.<Editor>.Engine:/Script/Engine.WorldPartitionSettings:RuntimeHashDefaultClass:0=/Script/CoreUObject.Class'/Script/Engine.WorldPartitionRuntimeHashSet'
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:bOffsetPlayerGamepadIds:0=False
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:bUseSplitscreen:0=True
-ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/Levels/Top-DownCameraTest.Top-DownCameraTest
+ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/Levels/MainMenu.MainMenu
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:FourPlayerSplitscreenLayout:0=Grid
-ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/TurnBased.TurnBased
+ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/MainMenu.MainMenu
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Core/TurnBased/Reconnection_GameMode.Reconnection_GameMode_C
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
@@ -1730,6 +2555,7 @@ ConfigSystem.<Editor>.Engine:DevOptions.Shaders:NumUnusedShaderCompilingThreads:
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:NumUnusedShaderCompilingThreadsDuringGame:0=4
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:ProcessGameThreadTargetTime:0=.01
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:ShaderCompilerCoreCountThreshold:0=12
+ConfigSystem.<Editor>.Engine:DevOptions.Shaders:WorkerProcessPriority:0=-1
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:WorkerTimeToLive:0=20
 ConfigSystem.<Editor>.Engine:Engine.ErrorHandling:bPromptForRemoteDebugging:0=false
 ConfigSystem.<Editor>.Engine:Engine.ErrorHandling:bPromptForRemoteDebugOnEnsure:0=false
@@ -1867,7 +2693,7 @@ ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:P
 ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformBuildConfig:0=()
 ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformBuildTarget:0=()
 ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:PerPlatformTargetFlavorName:0=(("Android", "Android_ASTC"))
-ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:StagingDirectory:0=(Path="C/Users/gavin/Downloads/Windows 0.2.04.3")
+ConfigSystem.<Editor>.Game:/Script/DeveloperToolSettings.PlatformsMenuSettings:StagingDirectory:0=(Path="C/Users/gavin/Downloads/Windows 0.2.05.1")
 ConfigSystem.<Editor>.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
 ConfigSystem.<Editor>.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
 ConfigSystem.<Editor>.Game:/Script/Engine.DebugCameraController:bShowSelectedInfo:0=true
@@ -2336,6 +3162,9 @@ ConfigSystem.<Editor>.Scalability:AntiAliasingQuality@3:r.TSR.RejectionAntiAlias
 ConfigSystem.<Editor>.Scalability:AntiAliasingQuality@3:r.TSR.ReprojectionField:0=1
 ConfigSystem.<Editor>.Scalability:AntiAliasingQuality@3:r.TSR.Resurrection:0=1
 ConfigSystem.<Editor>.Scalability:AntiAliasingQuality@3:r.TSR.ShadingRejection.Flickering:0=1
+ConfigSystem.<Editor>.Scalability:EffectsQuality@0:fx.Niagara.QualityLevel:0=0
+ConfigSystem.<Editor>.Scalability:EffectsQuality@1:fx.Niagara.QualityLevel:0=1
+ConfigSystem.<Editor>.Scalability:EffectsQuality@2:fx.Niagara.QualityLevel:0=2
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:fx.Niagara.QualityLevel:0=3
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.DetailMode:0=3
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.EmitterSpawnRateScale:0=1.0
@@ -2367,6 +3196,7 @@ ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.SSS.SampleSet:0=2
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.SSS.Scale:0=1
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.TranslucencyLightingVolumeDim:0=64
 ConfigSystem.<Editor>.Scalability:EffectsQuality@3:r.TranslucencyVolumeBlur:0=1
+ConfigSystem.<Editor>.Scalability:EffectsQuality@Cine:fx.Niagara.QualityLevel:0=4
 ConfigSystem.<Editor>.Scalability:FoliageQuality@3:foliage.DensityScale:0=1.0
 ConfigSystem.<Editor>.Scalability:FoliageQuality@3:grass.DensityScale:0=1.0
 ConfigSystem.<Editor>.Scalability:GlobalIlluminationQuality@3:r.AOQuality:0=2
@@ -2480,6 +3310,280 @@ ConfigSystem.<Editor>.Scalability:TextureQuality@3:r.Streaming.PoolSize:0=1000
 ConfigSystem.<Editor>.Scalability:TextureQuality@3:r.VT.MaxAnisotropy:0=8
 ConfigSystem.<Editor>.Scalability:ViewDistanceQuality@3:r.SkeletalMeshLODBias:0=0
 ConfigSystem.<Editor>.Scalability:ViewDistanceQuality@3:r.ViewDistanceScale:0=1.0
+ConfigSystem.TVOS.DeviceProfiles:AppleTV DeviceProfile:BaseProfileName:0=IOS
+ConfigSystem.TVOS.DeviceProfiles:AppleTV DeviceProfile:CVars:0=ios.PhysicalScreenDensity=0
+ConfigSystem.TVOS.DeviceProfiles:AppleTV DeviceProfile:CVars:1=sg.PostProcessQuality=3
+ConfigSystem.TVOS.DeviceProfiles:AppleTV DeviceProfile:CVars:2=sg.ShadowQuality=3
+ConfigSystem.TVOS.DeviceProfiles:AppleTV DeviceProfile:CVars:3=sg.GlobalIlluminationQuality=3
+ConfigSystem.TVOS.DeviceProfiles:AppleTV DeviceProfile:CVars:4=r.Mobile.AmbientOcclusionQuality=0
+ConfigSystem.TVOS.DeviceProfiles:AppleTV DeviceProfile:CVars:5=UI.SlateSDFText.RasterizationMode=SdfApproximation
+ConfigSystem.TVOS.DeviceProfiles:AppleTV DeviceProfile:CVars:6=UI.SlateSDFText.ResolutionLevel=1
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:BaseProfileName:0=
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:0=r.HZBOcclusion=0
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:1=r.EarlyZPass=0
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:2=r.TranslucentLightingVolume=0
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:3=r.AllowPointLightCubemapShadows=0
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:4=r.Decal.StencilSizeThreshold=-1
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:5=r.MorphTarget.Mode=0
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:6=r.DefaultBackBufferPixelFormat=0
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:7=sg.AntiAliasingQuality=0
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:8=sg.ShadowQuality=1
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:9=sg.GlobalIlluminationQuality=1
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:10=sg.ReflectionQuality=1
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:11=sg.ViewDistanceQuality=3
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:12=sg.PostProcessQuality=3
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:13=sg.TextureQuality=3
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:14=sg.EffectsQuality=3
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:15=sg.FoliageQuality=3
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:16=sg.LandscapeQuality=2
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:17=r.Forward.LightLinkedListCulling=0
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:18=UI.SlateSDFText.RasterizationMode=SdfApproximation
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:19=UI.SlateSDFText.ResolutionLevel=1
+ConfigSystem.TVOS.DeviceProfiles:IOS DeviceProfile:CVars:20=AsyncTraceDelegateHitchThresholdMS=0.75
+ConfigSystem.TVOS.DeviceProfiles:TVOS DeviceProfile:BaseProfileName:0=AppleTV
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.ActorClusteringEnabled:0=False
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.AllowParallelGC:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.AssetClustreringEnabled:0=False
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.CreateGCClusters:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.FlushStreamingOnGC:0=0
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.GarbageEliminationEnabled:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.IncrementalBeginDestroyEnabled:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsInEditor:0=25165824
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsInGame:0=131072
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.MaxObjectsNotConsideredByGC:0=1
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.MinGCClusterSize:0=5
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.NumRetriesBeforeForcingGC:0=10
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.TimeBetweenPurgingPendingKillObjects:0=61.1
+ConfigSystem.TVOS.Engine:/Script/Engine.GarbageCollectionSettings:gc.VerifyUObjectsAreNotFGCObjects:0=False
+ConfigSystem.TVOS.Engine:/Script/Engine.NetworkSettings:NetworkEmulationProfiles:0=(ProfileName="Average",ToolTip="Simulates average internet conditions")
+ConfigSystem.TVOS.Engine:/Script/Engine.NetworkSettings:NetworkEmulationProfiles:1=(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:MaxSkinBones:0=(Default=65536,PerPlatform=(("Mobile", 256)))
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.AllowStaticLighting:0=False
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.LocalExposure.HighlightContrastScale:0=0.8
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.DefaultFeature.LocalExposure.ShadowContrastScale:0=0.8
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.DistanceFields:0=0
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.DynamicGlobalIlluminationMethod:0=1
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.GenerateMeshDistanceFields:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.GPUCrashDebugging:0=false
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.RayTracing:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.RayTracing.RayTracingProxies.ProjectEnabled:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.ReflectionMethod:0=1
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.Shadow.Virtual.Enable:0=1
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.SkinCache.CompileShaders:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.Substrate.ClosuresPerPixel:0=1
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.Substrate.Glints:0=0
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.Substrate.RoughDiffuse:0=0
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.Substrate.ShadingQuality:0=2
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.Substrate.SheenQuality:0=2
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.Substrate.TileCoord8bits:0=1
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.TemporalAA.Mobile.UseCompute:0=0
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:r.Visibility.DynamicMeshElements.Parallel:0=0
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:VisualizeCalibrationColorMaterialPath:0=/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor
+ConfigSystem.TVOS.Engine:/Script/Engine.RendererSettings:VisualizeCalibrationGrayscaleMaterialPath:0=/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:0=/Script/Engine/Default__SoundBase
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:1=/Script/Engine/Default__MaterialInterface
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:FixedBootOrder:2=/Script/Engine/Default__DeviceProfileManager
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.AsyncLoadingThreadEnabled:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.EventDrivenLoaderEnabled:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.FlushStreamingOnExit:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingActorsUpdateTimeLimit:0=5.0
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingComponentsRegistrationGranularity:0=10
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.LevelStreamingComponentsUnregistrationGranularity:0=5
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.MaxPackageSummarySize:0=16384
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.MinBulkDataSizeForAsyncLoading:0=131072
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.PriorityAsyncLoadingExtraTime:0=15.0
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.PriorityLevelStreamingActorsUpdateExtraTime:0=5.0
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.TimeLimitExceededMinTime:0=0.005
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.TimeLimitExceededMultiplier:0=1.5
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.UnregisterComponentsTimeLimit:0=1.0
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.UseBackgroundLevelStreaming:0=True
+ConfigSystem.TVOS.Engine:/Script/Engine.StreamingSettings:s.WarnIfTimeLimitExceeded:0=False
+ConfigSystem.TVOS.Engine:ConsoleVariables:r.Forward.LightGridSizeZ:0=8
+ConfigSystem.TVOS.Engine:ConsoleVariables:r.Forward.MaxCulledLightsPerCell:0=8
+ConfigSystem.TVOS.Engine:ConsoleVariables:r.HairStrands.Binding:0=0
+ConfigSystem.TVOS.Engine:ConsoleVariables:r.HairStrands.Simulation:0=0
+ConfigSystem.TVOS.Engine:ConsoleVariables:r.HairStrands.Strands:0=0
+ConfigSystem.TVOS.Engine:ConsoleVariables:Slate.CacheRenderData:0=0
+ConfigSystem.TVOS.Engine:SystemSettings:con.DebugEarlyCheat:0=True
+ConfigSystem.TVOS.Engine:SystemSettings:con.DebugEarlyDefault:0=True
+ConfigSystem.TVOS.Engine:SystemSettings:con.DebugLateCheat:0=True
+ConfigSystem.TVOS.Engine:SystemSettings:con.DebugLateDefault:0=True
+ConfigSystem.TVOS.Engine:SystemSettings:fx.Niagara.QualityLevel.Max:0=1
+ConfigSystem.TVOS.Engine:SystemSettings:fx.Niagara.QualityLevel.Min:0=0
+ConfigSystem.TVOS.Engine:SystemSettings:LogNamedEventFilters:0=Frame *
+ConfigSystem.TVOS.Engine:SystemSettings:net.DisableIPv6:0=0
+ConfigSystem.TVOS.Engine:SystemSettings:QualityLevelMapping:0=low
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@0:r.FXAA.Quality:0=0
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@0:r.TemporalAA.Quality:0=0
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@0:r.TSR.History.R11G11B10:0=1
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@0:r.TSR.History.ScreenPercentage:0=100
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@0:r.TSR.History.UpdateQuality:0=0
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@0:r.TSR.RejectionAntiAliasingQuality:0=0
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@0:r.TSR.ReprojectionField:0=0
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@0:r.TSR.Resurrection:0=0
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@0:r.TSR.ShadingRejection.Flickering:0=0
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@3:r.FXAA.Quality:0=0
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@3:r.TemporalAA.Quality:0=2
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@3:r.TSR.History.R11G11B10:0=1
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@3:r.TSR.History.ScreenPercentage:0=200
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@3:r.TSR.History.UpdateQuality:0=3
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@3:r.TSR.RejectionAntiAliasingQuality:0=2
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@3:r.TSR.ReprojectionField:0=1
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@3:r.TSR.Resurrection:0=1
+ConfigSystem.TVOS.Scalability:AntiAliasingQuality@3:r.TSR.ShadingRejection.Flickering:0=1
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:fx.Niagara.QualityLevel:0=1
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.DetailMode:0=3
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.EmitterSpawnRateScale:0=1.0
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.DownsampleFactor:0=2
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.MaxStepCount:0=256
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.Shadows.MaxSampleCount:0=8
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.Shadows.Resolution:0=256
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.HeterogeneousVolumes.UseExistenceMask:0=0
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.MaterialQualityLevel:0=1 ; High quality
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.ParticleLightQuality:0=2
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.Refraction.OffsetQuality:0=1
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.RefractionQuality:0=1
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SceneColorFormat:0=4
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:0=4
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0=1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:0=1
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT:0=1
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.Height:0=50
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.SampleCountMax:0=8.0
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.SampleCountMin:0=1.0
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.FastSkyLUT.Width:0=96
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.MultiScatteringLUT.SampleCount:0=15.0
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.SampleCountMax:0=128.0
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.SampleCountMin:0=4.0
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.TransmittanceLUT.SampleCount:0=10.0
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0=1
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SSGI.Quality:0=3
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SSS.HalfRes:0=0
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SSS.Quality:0=1
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SSS.SampleSet:0=2
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.SSS.Scale:0=1
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.TranslucencyLightingVolumeDim:0=64
+ConfigSystem.TVOS.Scalability:EffectsQuality@3:r.TranslucencyVolumeBlur:0=1
+ConfigSystem.TVOS.Scalability:FoliageQuality@3:foliage.DensityScale:0=1.0
+ConfigSystem.TVOS.Scalability:FoliageQuality@3:grass.CullDistanceScale:0=1.0
+ConfigSystem.TVOS.Scalability:FoliageQuality@3:grass.DensityScale:0=1.0
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.AOQuality:0=2
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.DistanceFieldAO:0=1
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.DiffuseIndirect.Allow:0=1
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.DownsampleFactor:0=16
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:0=1
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.IrradianceFormat:0=0
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.NumAdaptiveProbes:0=8
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:0=100
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:0=32
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:0=1
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:0=1
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0=0
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.StochasticInterpolation:0=0
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.TracingOctahedronResolution:0=8
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:0=1
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TraceMeshSDFs.Allow:0=1
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.GridPixelSize:0=32
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:0=70
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:0=8
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.TraceFromVolume:0=1
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.Lumen.TranslucencyVolume.TracingOctahedronResolution:0=3
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.LumenScene.DirectLighting.MaxLightsPerTile:0=8
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.LumenScene.DirectLighting.UpdateFactor:0=32
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.HemisphereProbeResolution:0=4
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.ProbeSpacing:0=4
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.LumenScene.Radiosity.UpdateFactor:0=64
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.RayTracing.Scene.BuildMode:0=1
+ConfigSystem.TVOS.Scalability:GlobalIlluminationQuality@3:r.SkylightIntensityMultiplier:0=1.0
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.AmbientOcclusionLevels:0=-1
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.AmbientOcclusionMaxQuality:0=100
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.AmbientOcclusionMipLevelFactor:0=0.4
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.AmbientOcclusionRadiusScale:0=1.0
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.Bloom.ScreenPercentage:0=50.000
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.BloomQuality:0=3
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DepthOfFieldQuality:0=1
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Gather.AccumulatorQuality:0=1        ; higher gathering accumulator quality
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Gather.EnableBokehSettings:0=0       ; no bokeh simulation when gathering
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Gather.PostfilterMethod:0=1          ; Median3x3 postfilering method
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Gather.ResolutionDivisor:0=2         ; lower gathering resolution
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Gather.RingCount:0=4                 ; medium number of samples when gathering
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Kernel.MaxBackgroundRadius:0=0.025
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Kernel.MaxForegroundRadius:0=0.025
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Recombine.EnableBokehSettings:0=0    ; no bokeh simulation on slight out of focus
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Recombine.Quality:0=1                ; cheap slight out of focus
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Scatter.BackgroundCompositing:0=2    ; additive background scattering
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Scatter.EnableBokehSettings:0=1      ; bokeh simulation when scattering
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Scatter.ForegroundCompositing:0=1    ; additive foreground scattering
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.Scatter.MaxSpriteRatio:0=0.1         ; only a maximum of 10% of scattered bokeh
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.DOF.TemporalAAQuality:0=1                ; more stable temporal accumulation
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.EyeAdaptationQuality:0=1
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.FastBlurThreshold:0=100
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.Filter.SizeScale:0=1
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.LensFlareQuality:0=2
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.LightShaftQuality:0=1
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.Mobile.AmbientOcclusionQuality:0=1
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.MotionBlur.HalfResGather:0=0
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.MotionBlurQuality:0=4
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.RenderTargetPoolMin:0=400
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.SceneColorFringeQuality:0=1
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.Tonemapper.Quality:0=3
+ConfigSystem.TVOS.Scalability:PostProcessQuality@3:r.Upscale.Quality:0=3
+ConfigSystem.TVOS.Scalability:ReflectionQuality@1:r.Lumen.Reflections.Allow:0=0
+ConfigSystem.TVOS.Scalability:ReflectionQuality@1:r.SSR.HalfResSceneColor:0=1
+ConfigSystem.TVOS.Scalability:ReflectionQuality@1:r.SSR.Quality:0=2
+ConfigSystem.TVOS.Scalability:ReflectionQuality@3:r.Lumen.Reflections.Allow:0=1
+ConfigSystem.TVOS.Scalability:ReflectionQuality@3:r.Lumen.Reflections.DownsampleFactor:0=1
+ConfigSystem.TVOS.Scalability:ReflectionQuality@3:r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0=0.4
+ConfigSystem.TVOS.Scalability:ReflectionQuality@3:r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0=0
+ConfigSystem.TVOS.Scalability:ReflectionQuality@3:r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:0=5
+ConfigSystem.TVOS.Scalability:ReflectionQuality@3:r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0=0.8
+ConfigSystem.TVOS.Scalability:ReflectionQuality@3:r.Lumen.TranslucencyReflections.FrontLayer.Allow:0=1
+ConfigSystem.TVOS.Scalability:ReflectionQuality@3:r.Lumen.TranslucencyReflections.FrontLayer.Enable:0=0
+ConfigSystem.TVOS.Scalability:ReflectionQuality@3:r.SSR.HalfResSceneColor:0=0
+ConfigSystem.TVOS.Scalability:ReflectionQuality@3:r.SSR.Quality:0=3
+ConfigSystem.TVOS.Scalability:ShadingQuality@3:r.AnisotropicMaterials:0=1
+ConfigSystem.TVOS.Scalability:ShadingQuality@3:r.HairStrands.SkyAO.SampleCount:0=4
+ConfigSystem.TVOS.Scalability:ShadingQuality@3:r.HairStrands.SkyLighting.IntegrationType:0=2
+ConfigSystem.TVOS.Scalability:ShadingQuality@3:r.HairStrands.Visibility.MSAA.SamplePerPixel:0=4
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.CapsuleShadows:0=1
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.ContactShadows:0=0
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.DistanceFieldShadowing:0=1
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.LightFunctionQuality:0=1
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.LightMaxDrawDistanceScale:0=1
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.CSM.MaxCascades:0=3
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.CSM.TransitionScale:0=1.0
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.DistanceScale:0=1.0
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.MaxCSMResolution:0=2048
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.MaxResolution:0=2048
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.PreShadowResolutionFactor:0=1.0
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.RadiusThreshold:0=0.06
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.MaxPhysicalPages:0=4096
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasDirectional:0=-1.5
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0=-1.5
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasLocal:0=0.0
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.ResolutionLodBiasLocalMoving:0=1.0
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.RayCountDirectional:0=8
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.RayCountLocal:0=8
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:0=4
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.Shadow.Virtual.SMRT.SamplesPerRayLocal:0=4
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.ShadowQuality:0=2
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.VolumetricFog:0=0
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.VolumetricFog.GridPixelSize:0=8
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.VolumetricFog.GridSizeZ:0=128
+ConfigSystem.TVOS.Scalability:ShadowQuality@3:r.VolumetricFog.HistoryMissSupersampleCount:0=4
+ConfigSystem.TVOS.Scalability:TextureQuality@3:r.MaxAnisotropy:0=4
+ConfigSystem.TVOS.Scalability:TextureQuality@3:r.Streaming.AmortizeCPUToGPUCopy:0=0
+ConfigSystem.TVOS.Scalability:TextureQuality@3:r.Streaming.Boost:0=1
+ConfigSystem.TVOS.Scalability:TextureQuality@3:r.Streaming.LimitPoolSizeToVRAM:0=0
+ConfigSystem.TVOS.Scalability:TextureQuality@3:r.Streaming.MaxEffectiveScreenSize:0=0
+ConfigSystem.TVOS.Scalability:TextureQuality@3:r.Streaming.MaxNumTexturesToStreamPerFrame:0=0
+ConfigSystem.TVOS.Scalability:TextureQuality@3:r.Streaming.MipBias:0=0
+ConfigSystem.TVOS.Scalability:TextureQuality@3:r.Streaming.PoolSize:0=1000
+ConfigSystem.TVOS.Scalability:TextureQuality@3:r.VT.MaxAnisotropy:0=8
+ConfigSystem.TVOS.Scalability:ViewDistanceQuality@3:r.NeverOcclusionTestDistance:0=200
+ConfigSystem.TVOS.Scalability:ViewDistanceQuality@3:r.SkeletalMeshLODBias:0=0
+ConfigSystem.TVOS.Scalability:ViewDistanceQuality@3:r.ViewDistanceScale:0=1.0
 ConfigSystem.Windows.DeviceProfiles:Windows DeviceProfile:BaseProfileName:0=
 ConfigSystem.Windows.DeviceProfiles:Windows DeviceProfile:CVars:0=UI.SlateSDFText.RasterizationMode=Msdf
 ConfigSystem.Windows.DeviceProfiles:Windows DeviceProfile:CVars:1=UI.SlateSDFText.ResolutionLevel=2
@@ -2720,7 +3824,7 @@ LocalIniFile.Android.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSetting
 LocalIniFile.Android.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bSupportsVulkan:0=true
 LocalIniFile.Android.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bSupportsVulkanSM5:0=false
 LocalIniFile.IOS.Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:bSupportsMetalMRT:0=False
-LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/TurnBased.TurnBased
+LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Levels/MainMenu.MainMenu
 LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Core/TurnBased/Reconnection_GameMode.Reconnection_GameMode_C
 LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None

@@ -38,6 +38,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "B567550989C6A2B918FE3F5EF8114BCED4F35024",
+			"Assets": [
+				"/Engine/EngineSky/M_SimpleSkyDome"
+			]
+		},
+		{
 			"ShaderMapHash": "BA16850BB63CD65C96ECF31D6C59DF5BDCE2246A",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Mask_DS"
@@ -98,6 +104,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "F6FA16251903EF75CAEB53F6B1B81A460B07C1E9",
+			"Assets": [
+				"/Game/Movies/MP_Intro_Video_UI"
+			]
+		},
+		{
 			"ShaderMapHash": "CF77AC26A3B88B4081C1F18B0E343EA3D73A8978",
 			"Assets": [
 				"/Engine/EngineMaterials/GizmoMaterial"
@@ -152,6 +164,13 @@
 			]
 		},
 		{
+			"ShaderMapHash": "8C574B3A4F5F9FDCE2F10032A43880031EA6D123",
+			"Assets": [
+				"/Game/ArtSources/Environment/Nature/Trees/log_low_v2_standardSurface2_BaseColor_Mat",
+				"/Game/Enviorment/Fort/weapon_rack_standardSurface1_BaseColor_Mat"
+			]
+		},
+		{
 			"ShaderMapHash": "DDB7A23B4E9DE2765488354FB3E8E6A6350215A8",
 			"Assets": [
 				"/InterchangeAssets/gltf/M_Transmission"
@@ -182,9 +201,21 @@
 			]
 		},
 		{
+			"ShaderMapHash": "7E26C94207FE7B28EFF495D304B73CD2DF44E6F6",
+			"Assets": [
+				"/Game/VFX/Fire_Particles/Niagara_System/M_smoke_subUV"
+			]
+		},
+		{
 			"ShaderMapHash": "30000A455ABFCDC00C20FF127B2136B3CF53A8E3",
 			"Assets": [
 				"/DeformerGraph/Deformers/DG_LinearBlendSkin_Morph_Cloth_RecomputeNormals"
+			]
+		},
+		{
+			"ShaderMapHash": "B310D145CACA294A34B191F41A96A6C62C507A18",
+			"Assets": [
+				"/Game/VFX/Fire_Particles/Niagara_System/NS_FirePartciles"
 			]
 		},
 		{
@@ -223,6 +254,12 @@
 			"ShaderMapHash": "B99E6C5E0030E0F1E9F89D45ABFFC314DE8A828F",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Default_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "37A9C75F0E4486687B770849BBD2AA91D0B0C49F",
+			"Assets": [
+				"/Niagara/DefaultAssets/DefaultSpriteMaterial"
 			]
 		},
 		{
@@ -292,9 +329,21 @@
 			]
 		},
 		{
+			"ShaderMapHash": "7056267830FE8D7267D32D1F56E43314D44FAB56",
+			"Assets": [
+				"/Game/VFX/Fire_Particles/Niagara_System/M_Fire_SubUV"
+			]
+		},
+		{
 			"ShaderMapHash": "283F997BE144224D5D25855304C84E7B72C8CB27",
 			"Assets": [
 				"/Engine/EngineMaterials/RemoveSurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "DCE05C876F886C8F2200EA7048D08CC73AF1A9CF",
+			"Assets": [
+				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
 			]
 		},
 		{
@@ -310,6 +359,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "34584D89DFFD6B0F1D48A131ED94E260F60F16C8",
+			"Assets": [
+				"/Game/Levels/Level_1"
+			]
+		},
+		{
 			"ShaderMapHash": "B1396D89FA4DD7D8C8A1F650A42621B2B16C9186",
 			"Assets": [
 				"/DeformerGraph/Deformers/DG_LinearBlendSkin_Morph_Cloth"
@@ -322,6 +377,19 @@
 			]
 		},
 		{
+			"ShaderMapHash": "47F7E38BD2708D4D3347A72598C76E8CF0B0D936",
+			"Assets": [
+				"/Game/ArtSources/Materials/Crates/Crate/M_Crate",
+				"/Game/ArtSources/Materials/Crates/Reinforced_Crate/M_ReinforcedCrate",
+				"/Game/ArtSources/Materials/Logs/BasicLog/M_BasicLog",
+				"/Game/ArtSources/Materials/Logs/LogOneBranch/M_LogOneBranch",
+				"/Game/ArtSources/Materials/M_Campfire",
+				"/Game/ArtSources/Materials/M_GreenTree",
+				"/Game/ArtSources/Materials/Tents/M_GeneralTent",
+				"/Game/ArtSources/Materials/Tents/M_SmallTent"
+			]
+		},
+		{
 			"ShaderMapHash": "9DB68E8C40C4016EB465EF5DB6FC9D9BF7775E4A",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Blend"
@@ -330,7 +398,6 @@
 		{
 			"ShaderMapHash": "C46D9990A42AEB35811CB8D91C4941304B3D0EC1",
 			"Assets": [
-				"/Engine/EditorLandscapeResources/MaskBrushMaterial",
 				"/Engine/EditorLandscapeResources/MaskBrushMaterial_MaskedRegion"
 			]
 		},
@@ -371,6 +438,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "8E3B30A5D58F3FFF64AB0CD6605C4476305C6BF9",
+			"Assets": [
+				"/Game/VFX/Fire_Particles/Niagara_System/NS_FirePartciles"
+			]
+		},
+		{
 			"ShaderMapHash": "172D75A54879D9AA868011373999B39F7F71BD95",
 			"Assets": [
 				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
@@ -401,6 +474,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "91A6A0ACD7F346E36528B5238F715D95CE8CDFEE",
+			"Assets": [
+				"/Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud"
+			]
+		},
+		{
 			"ShaderMapHash": "3FBFBEAF8F158D0C46C493DC5F8F9559FB1D35AF",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Blend_DS"
@@ -422,6 +501,12 @@
 			"ShaderMapHash": "C6338EBA07B65633E34B4124D325DD4619EB17D3",
 			"Assets": [
 				"/Engine/VREditor/TransformGizmo/Main"
+			]
+		},
+		{
+			"ShaderMapHash": "B0050FBB87DBCA2628E6B8F1582CA654143DADD8",
+			"Assets": [
+				"/Game/Characters/Enemies/LowRank/granizo"
 			]
 		},
 		{
@@ -457,7 +542,6 @@
 		{
 			"ShaderMapHash": "16056EC51B9971BA659704233276AF119E1939E5",
 			"Assets": [
-				"/Engine/EngineMaterials/Widget3DPassThrough",
 				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided"
 			]
 		},
@@ -474,8 +558,25 @@
 			]
 		},
 		{
+			"ShaderMapHash": "066C11C7E151AF74607D633AC8D6BC10C4F2E977",
+			"Assets": [
+				"/Game/ArtSources/Environment/Fort/lambert2"
+			]
+		},
+		{
+			"ShaderMapHash": "F624B9C7ADAC7A3335A7A63DB211B5DFA09CCF15",
+			"Assets": [
+				"/Game/Characters/Enemies/LowRank/granizo_low_granizo_BaseColor_sRGB_1001__2__Mat"
+			]
+		},
+		{
 			"ShaderMapHash": "2B4589C8194A288642B50BA2E61AF2C2BEC59D4A",
 			"Assets": [
+				"/Game/ArtSources/Characters/1_FirstGeneral/FG_Materials/FG_001",
+				"/Game/ArtSources/Characters/1_FirstGeneral/FG_Materials/FG_002",
+				"/Game/ArtSources/Characters/1_FirstGeneral/FG_Materials/FG_003",
+				"/Game/ArtSources/Characters/1_FirstGeneral/FG_Materials/FG_004",
+				"/Game/ArtSources/Characters/1_FirstGeneral/FG_Materials/FG_005",
 				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_001",
 				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_002",
 				"/Game/ArtSources/Characters/2_Titan/TTN_Materials/TTN_003",
@@ -500,6 +601,12 @@
 			"ShaderMapHash": "C55271D15BBBFB227D46116B4F7D629603701B7F",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "E2EA05D25DFC537F40A129DEFDB936DB6F8C34E8",
+			"Assets": [
+				"/Game/VFX/Fire_Particles/Niagara_System/NS_FirePartciles"
 			]
 		},
 		{
@@ -557,6 +664,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "438FE1E049BEC0F61A2124120DDF09A11677143B",
+			"Assets": [
+				"/Game/ArtSources/Characters/Enemies/MidRank/helmetwisp_low_helmetwisp_BaseColor_sRGB_1001__2__Mat"
+			]
+		},
+		{
 			"ShaderMapHash": "274C3CE1EC7FE7909362A61B32D46678B0636692",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Mask"
@@ -566,6 +679,12 @@
 			"ShaderMapHash": "085E81E44C25D3AED1243E354C2C3502C523C835",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Default_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "9A1D24EAFFCBF76E781BBC63E243B67313C90BF1",
+			"Assets": [
+				"/Game/ArtSources/Materials/Landscape"
 			]
 		},
 		{
@@ -594,6 +713,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "45FB2CF0A8A124375377DFB67A865790402D7E16",
+			"Assets": [
+				"/Game/VFX/Fire_Particles/Niagara_System/M_Heat_Distortion"
+			]
+		},
+		{
 			"ShaderMapHash": "71C310F10B4D7DC98FD1D84515D7727703C2C9CE",
 			"Assets": [
 				"/Game/ArtSources/Characters/Nomad/NMD_Materials/nomad_low_standardSurface1_BaseColor_sRGB_Mat"
@@ -609,6 +734,12 @@
 			"ShaderMapHash": "226B89F38E055EEB860D64A057DD68396FD93D61",
 			"Assets": [
 				"/Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "079D27F5F9F0E885A60ECA01CDB847CF084F9257",
+			"Assets": [
+				"/Game/ArtSources/Materials/lambert2"
 			]
 		},
 		{
@@ -639,6 +770,14 @@
 			"ShaderMapHash": "C536CFFD897E82A21F95DE80FFCF99F96BF4A341",
 			"Assets": [
 				"/Engine/EngineMaterials/PhAT_JointLimitMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A1546BFE2718E7EA49B8D2D2F3E6B9F071DC7910",
+			"Assets": [
+				"/Game/ArtSources/Materials/M_OrangeTree",
+				"/Game/ArtSources/Materials/M_RedTree",
+				"/Game/ArtSources/Materials/M_YellowTree"
 			]
 		}
 	]
