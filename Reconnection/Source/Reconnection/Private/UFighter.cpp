@@ -15,10 +15,46 @@ UFighter::UFighter()
 
 void UFighter::StartTurn()
 {
+	if (bIsTurn)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("UFighter::StartTurn - %s already has active turn, skipping"), *GetOwner()->GetName());
+		return;
+	}
+	
 	bIsTurn = true;
+
+		// List of all EStats values
+		static const EStats AllStats[] = {
+			EStats::Movement,
+			EStats::Health,
+			EStats::Damage,
+			EStats::Attack,
+			EStats::Defense,
+			EStats::Block,
+			EStats::Heal
+		};
+
+		for (EStats CurrBuffStat : AllStats)
+		{
+			if (BuffTracker.Contains(CurrBuffStat))
+			{
+				if (BuffTracker[CurrBuffStat] - 1 <= 0)
+				{
+					RemoveBuff(100.0f, CurrBuffStat);
+					BuffTracker.Remove(CurrBuffStat);
+				}
+				else
+				{
+					--BuffTracker[CurrBuffStat];
+				}
+			}
+		}
 
 	MovementLeft = MaxMovement;
 
+	DamageReduction = 0;
+
+	UE_LOG(LogTemp, Warning, TEXT("UFighter::StartTurn - Broadcasting OnStartTurn for %s"), *GetOwner()->GetName());
 	OnStartTurn.Broadcast(this);
 }
 
@@ -29,12 +65,12 @@ void UFighter::EndTurn()
 	OnEndTurn.Broadcast(this);
 }
 
-void UFighter::SendDamage_Implementation(float Damage, UFighter* Target)
+void UFighter::SendDamage(float Damage, UFighter* Target)
 {
 	Target->ReceiveDamage(Damage);
 }
 
-void UFighter::ReceiveDamage_Implementation(float Damage)
+void UFighter::ReceiveDamage(float Damage)
 {
 	CurrentHealth = FMath::Clamp(CurrentHealth - (Damage - DamageReduction), 0.0f, MaxHealth);
 	if (CurrentHealth <= 0)
@@ -55,23 +91,13 @@ float UFighter::RollDamage()
 	return Damage;
 }
 
-void UFighter::CallHeal()
-{
-	Heal();
-}
-
-void UFighter::CallBlock()
-{
-	Block();
-}
-
-void UFighter::Heal_Implementation()
+void UFighter::Heal()
 {
 	CurrentHealth = FMath::Clamp(CurrentHealth + BaseHeal, 0.0f, MaxHealth);
 	EndTurn();
 }
 
-void UFighter::Block_Implementation()
+void UFighter::Block()
 {
 	DamageReduction = BaseBlock + BlockBuff;
 	EndTurn();
@@ -83,90 +109,143 @@ int UFighter::RollToHit()
 	return Roll + BaseAttack + AttackBuff;
 }
 
-void UFighter::Attack(UFighter *Target)
+FAttackData UFighter::Attack(UFighter *Target)
 {
-	if (RollToHit() >= Target->GetDefense())
+	FAttackData AttackData;
+	
+	// Null check to prevent crash
+	if (!Target)
 	{
-		SendDamage(RollDamage(), Target);
+		UE_LOG(LogTemp, Warning, TEXT("UFighter::Attack called with null Target"));
+		AttackData.HitRoll = 0;
+		AttackData.DamageAmount = 0.0f;
+		AttackData.bDidHit = false;
+		return AttackData;
+	}
+	
+	AttackData.HitRoll = RollToHit();
+	if (AttackData.HitRoll >= Target->GetDefense())
+	{
+		AttackData.DamageAmount = RollDamage();
+		SendDamage(AttackData.DamageAmount, Target);
 		OnHitAttack.Broadcast(Target);
+		AttackData.bDidHit = true;
 	}
 	else
 	{
 		OnHitMiss.Broadcast(Target);
+		AttackData.DamageAmount = 0.0f;
+		AttackData.bDidHit = false;
 	}
 	EndTurn();
+	return AttackData;
 }
 
-void UFighter::AddBuff(float BuffAmount, const FString& stat)
+bool UFighter::CheckSightToTarget(UFighter* Target)
 {
-	if (stat == "Attack")
-	{
-		AttackBuff += BuffAmount;
-	}
-	else if (stat == "Damage")
-	{
-		DamageBuff += BuffAmount;
-	}
-	else if (stat == "Defense")
-	{
-		DefenseBuff += BuffAmount;
-	}
-	else if (stat == "Block")
-	{
-		BlockBuff += BuffAmount;
-	}
-	else if (stat == "Heal")
-	{
-		HealBuff += BuffAmount;
-	}
+	if (!Target) return false;
+
+	FVector Start = GetOwner()->GetActorLocation();
+	FVector End = Target->GetOwner()->GetActorLocation();
+
+	// Clamp distance to 50 units
+	FVector Direction = (End - Start).GetSafeNormal();
+	End = Start + Direction * 50.0f;
+
+	FHitResult OutHit;
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(GetOwner());
+
+	bool bHit = GetWorld()->LineTraceSingleByChannel(
+		OutHit,
+		Start,
+		End,
+		ECC_Visibility,
+		Params
+	);
+
+	return bHit;
 }
 
-void UFighter::RemoveBuff(float BuffAmount, const FString& stat)
+void UFighter::AddBuff(float BuffAmount, const EStats& Stat, int NumberOfRounds)
 {
-	if (stat == "Attack")
+	if (!BuffTracker[Stat])
+ 	{
+ 		BuffTracker.Add(Stat, NumberOfRounds);
+ 	}
+ 	else
+ 	{
+ 		BuffTracker[Stat] += NumberOfRounds;
+ 	}
+	
+	switch (Stat)
 	{
-		AttackBuff -= BuffAmount;
-	}
-	else if (stat == "Damage")
-	{
-		DamageBuff -= BuffAmount;
-	}
-	else if (stat == "Defense")
-	{
-		DefenseBuff -= BuffAmount;
-	}
-	else if (stat == "Block")
-	{
-		BlockBuff -= BuffAmount;
-	}
-	else if (stat == "Heal")
-	{
-		HealBuff -= BuffAmount;
+	case EStats::Movement:
+		{
+			MaxMovement += BuffAmount;
+		}
+	case EStats::Health:
+		{
+			MaxHealth += BuffAmount;
+		}
+	case EStats::Damage:
+		{
+			DamageBuff += BuffAmount;
+		}
+	case EStats::Attack:
+		{
+			AttackBuff += BuffAmount;
+		}
+	case EStats::Defense:
+		{
+			DefenseBuff += BuffAmount;
+		}
+	case EStats::Block:
+		{
+			BlockBuff += BuffAmount;
+		}
+	case EStats::Heal:
+		{
+			HealBuff += BuffAmount;
+		}
+	default:
+		{
+			return;
+		}
 	}
 }
 
-void UFighter::Die_Implementation()
+void UFighter::RemoveBuff(float BuffAmount, const EStats& Stat)
+{
+		switch (Stat)
+		{
+		case EStats::Movement:
+			MaxMovement = FMath::Max(MaxMovement - BuffAmount, 0.0f);
+			break;
+		case EStats::Health:
+			MaxHealth = FMath::Max(MaxHealth - BuffAmount, 0.0f);
+			break;
+		case EStats::Damage:
+			DamageBuff = FMath::Max(DamageBuff - BuffAmount, 0.0f);
+			break;
+		case EStats::Attack:
+			AttackBuff = FMath::Max(AttackBuff - BuffAmount, 0.0f);
+			break;
+		case EStats::Defense:
+			DefenseBuff = FMath::Max(DefenseBuff - BuffAmount, 0.0f);
+			break;
+		case EStats::Block:
+			BlockBuff = FMath::Max(BlockBuff - BuffAmount, 0.0f);
+			break;
+		case EStats::Heal:
+			HealBuff = FMath::Max(HealBuff - BuffAmount, 0.0f);
+			break;
+		default:
+			return;
+		}
+}
+
+void UFighter::Die()
 {
 	OnDeath.Broadcast(this);
-}
-
-TArray<float> UFighter::GetAllStats()
-{
-	TArray<float> Stats;
-	Stats.Add(InitiativeScore);
-	Stats.Add(MaxHealth);
-	Stats.Add(CurrentHealth);
-	Stats.Add(MinDamage);
-	Stats.Add(MaxDamage);
-	Stats.Add(DamageBuff);
-	Stats.Add(BaseAttack);
-	Stats.Add(AttackBuff);
-	Stats.Add(BaseDefense);
-	Stats.Add(DefenseBuff);
-	Stats.Add(BaseBlock);
-	Stats.Add(BlockBuff);
-	Stats.Add(BaseHeal);
-	Stats.Add(HealBuff);
-	Stats.Add(DamageReduction);
-	return Stats;
 }

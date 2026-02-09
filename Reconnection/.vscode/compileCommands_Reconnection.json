@@ -184,6 +184,14 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
 	},
 	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Private\\UTurnManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Reconnection\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Public\\UEnemy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
@@ -193,6 +201,14 @@
 	},
 	{
 		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Public\\UFighter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Reconnection\\Reconnection.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\Source\\Reconnection\\Public\\UTurnManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
 			"@C:\\Users\\gavin\\Documents\\GitHub\\Reconnection\\Reconnection\\.vscode\\compileCommands_Reconnection\\Reconnection.1.rsp"
