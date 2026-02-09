@@ -78,19 +78,6 @@ UEnum* Z_Construct_UEnum_Reconnection_EWeaponType()
 // ********** End Enum EWeaponType *****************************************************************
 
 // ********** Begin Class UEnemy Function ChooseAction *********************************************
-static FName NAME_UEnemy_ChooseAction = FName(TEXT("ChooseAction"));
-void UEnemy::ChooseAction()
-{
-	UFunction* Func = FindFunctionChecked(NAME_UEnemy_ChooseAction);
-	if (!Func->GetOwnerClass()->HasAnyClassFlags(CLASS_Native))
-	{
-	ProcessEvent(Func,NULL);
-	}
-	else
-	{
-		ChooseAction_Implementation();
-	}
-}
 struct Z_Construct_UFunction_UEnemy_ChooseAction_Statics
 {
 #if WITH_METADATA
@@ -101,7 +88,7 @@ struct Z_Construct_UFunction_UEnemy_ChooseAction_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEnemy_ChooseAction_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UEnemy, nullptr, "ChooseAction", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEnemy_ChooseAction_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEnemy_ChooseAction_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEnemy_ChooseAction_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UEnemy, nullptr, "ChooseAction", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEnemy_ChooseAction_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEnemy_ChooseAction_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_UEnemy_ChooseAction()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -115,7 +102,7 @@ DEFINE_FUNCTION(UEnemy::execChooseAction)
 {
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->ChooseAction_Implementation();
+	P_THIS->ChooseAction();
 	P_NATIVE_END;
 }
 // ********** End Class UEnemy Function ChooseAction ***********************************************
@@ -855,7 +842,7 @@ struct Z_Construct_UClass_UEnemy_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UEnemy_ChooseAction, "ChooseAction" }, // 346619400
+		{ &Z_Construct_UFunction_UEnemy_ChooseAction, "ChooseAction" }, // 2552182653
 		{ &Z_Construct_UFunction_UEnemy_GetAllyHealUtility, "GetAllyHealUtility" }, // 3610300957
 		{ &Z_Construct_UFunction_UEnemy_GetAttackUtility, "GetAttackUtility" }, // 1860539213
 		{ &Z_Construct_UFunction_UEnemy_GetBlockUtility, "GetBlockUtility" }, // 1342516898
@@ -981,19 +968,19 @@ UEnemy::~UEnemy() {}
 // ********** End Class UEnemy *********************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics
+struct Z_CompiledInDeferFile_FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 200093190U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UEnemy, UEnemy::StaticClass, TEXT("UEnemy"), &Z_Registration_Info_UClass_UEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEnemy), 1070327966U) },
+		{ Z_Construct_UClass_UEnemy, UEnemy::StaticClass, TEXT("UEnemy"), &Z_Registration_Info_UClass_UEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEnemy), 3895216129U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_938807469(TEXT("/Script/Reconnection"),
-	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_783960167(TEXT("/Script/Reconnection"),
+	Z_CompiledInDeferFile_FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::ClassInfo),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_gavin_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::EnumInfo));
+	Z_CompiledInDeferFile_FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_MPolf_OneDrive_Documents_GitHub_Reconnection_Reconnection_Source_Reconnection_Public_UEnemy_h__Script_Reconnection_Statics::EnumInfo));
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
