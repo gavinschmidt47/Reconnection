@@ -4,7 +4,7 @@
 #include "UFighter.h"
 void UFighter::BeginPlay()
 {
-	
+	BuffTracker.Empty();
 }
 
 // Sets default values
