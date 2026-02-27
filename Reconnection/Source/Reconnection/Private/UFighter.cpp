@@ -4,7 +4,7 @@
 #include "UFighter.h"
 void UFighter::BeginPlay()
 {
-	
+	BuffTracker.Empty();
 }
 
 // Sets default values
@@ -169,7 +169,7 @@ bool UFighter::CheckSightToTarget(UFighter* Target)
 
 void UFighter::AddBuff(float BuffAmount, const EStats& Stat, int NumberOfRounds)
 {
-	if (!BuffTracker[Stat])
+	if (!BuffTracker.Contains(Stat))
  	{
  		BuffTracker.Add(Stat, NumberOfRounds);
  	}
