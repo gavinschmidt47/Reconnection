@@ -1,0 +1,17 @@
+{
+  "initialized": true,
+  "project_name": "Reconnection",
+  "integration_branch": "main",
+  "auto_merge_pr": true,
+  "created_at": "2026-04-20T04:34:43Z",
+  "admin_users": [
+    "Gavin Schmidt"
+  ],
+  "users": [
+    {
+      "username": "Gavin Schmidt",
+      "role": "admin",
+      "registered_at": "2026-04-20T04:34:43Z"
+    }
+  ]
+}

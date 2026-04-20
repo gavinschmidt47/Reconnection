@@ -40,21 +40,7 @@
 *.sdf
 *.VC.db
 *.VC.opendb
-
-# Don't ignore .vcxproj files - include them in version control
-!*.vcxproj
-!*.vcxproj.filters
-
-# Don't ignore .uproject files - these are essential!
-!*.uproject
-
-# Don't ignore Source files - these are essential for building!
-!Source/
-!Source/**/*.cs
-!Source/**/*.cpp
-!Source/**/*.h
-!Source/**/*.Build.cs
-!Source/**/*.Target.cs
+.vsconfig
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -87,23 +73,4 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-*.ushaderbytecode
-*.pdb
-Reconnection/Saved/Crashes/
-Reconnection/Saved/Config/CrashReportClient/
-Reconnection/Saved/**/*.log
-Reconnection/Saved/**/*.ini
-Reconnection/Saved/**/*.xml
-Reconnection/Build/**/*.log
-Reconnection/Intermediate/**/*.log
-Reconnection/Intermediate/**/*.xml
-*.rsp
-*.old
 
-# Keep essential config files
-!Reconnection/Config/*.ini
-!Reconnection/Plugins/**/Config/*.ini
-!Reconnection/.idea/**/*.xml
-!Reconnection/.run/**/*.xml
-/Reconnection/Intermediate/ProjectFiles/.Rider
-/Reconnection/Saved/StagedBuilds
