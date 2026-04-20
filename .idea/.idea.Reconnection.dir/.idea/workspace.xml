@@ -9,6 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0254f528-3482-4571-8256-f57f0172fb38" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reconnection.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reconnection.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Core/BP_GridFloorSector.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Core/BP_GridFloorSector.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Levels/Level_1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/Level_1.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <workItem from="1770651954565" duration="853000" />
       <workItem from="1776662035897" duration="791000" />
       <workItem from="1776662873136" duration="426000" />
-      <workItem from="1776663893929" duration="751000" />
+      <workItem from="1776663893929" duration="1450000" />
     </task>
     <servers />
   </component>
