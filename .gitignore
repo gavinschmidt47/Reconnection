@@ -107,3 +107,11 @@ Reconnection/Intermediate/**/*.xml
 !Reconnection/.run/**/*.xml
 /Reconnection/Intermediate/ProjectFiles/.Rider
 /Reconnection/Saved/StagedBuilds
+
+# UnrealVersionControl — auto-managed (do not edit this block)
+# Local runtime state — never commit these:
+.uvc_monitor.pid
+.uvc_monitor_stop
+.uvc_monitor_data.json
+# .uvc_config.json and .uvc_timeclock.json are intentionally tracked.
+# End UnrealVersionControl
