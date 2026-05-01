@@ -26,10 +26,10 @@ struct FAttackData
 
 	UPROPERTY(BlueprintReadWrite)
 	int HitRoll;
-	
+
 	UPROPERTY(BlueprintReadWrite)
 	float DamageAmount;
-	
+
 	UPROPERTY(BlueprintReadWrite)
 	bool bDidHit;
 };
@@ -39,6 +39,15 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnEndTurn, class UFighter*, Fighter
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnDeath, class UFighter*, Fighter);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHitAttack, class UFighter*, Target);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHitMiss, class UFighter*, Target);
+
+// Fired after a successful attack — provides the attacker, target, and net damage dealt
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnDamageDealt, class UFighter*, Attacker, class UFighter*, Target, float, Amount);
+
+// Fired after any heal (self or received) — provides the healed fighter and amount restored
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnHealPerformed, class UFighter*, Fighter, float, Amount);
+
+// Fired when this fighter consumes movement budget toward a world-space destination
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnFighterMoved, class UFighter*, Fighter, FVector, Destination);
 
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class RECONNECTION_API UFighter : public UActorComponent
@@ -56,20 +65,27 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Turn")
 	bool bIsTurn;
 
+	// Set to true before playing an action animation so the turn does not end
+	// automatically. Blueprint is then responsible for calling EndTurn() once
+	// the montage (or any other animation event) finishes.
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Turn")
+	bool bWaitForAnimation = false;
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Turn")
 	float InitiativeScore;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Turn")
 	class UTexture2D* FighterImage;
 
-	// Movement
+	// Movement — all values are world-unit distances used with the NavMesh agent
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Movement")
 	float BaseMovement;
-	
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Movement")
 	float MaxMovement;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Movement")
+	// How many world units of NavMesh-path distance remain this turn
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Fighter|Movement")
 	float MovementLeft;
 
 	// Health
@@ -120,9 +136,13 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|Heal")
 	float HealBuff;
 
-	// Buff Map
+	// Tracks remaining rounds for each active buff
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Fighter|BuffManagement")
 	TMap<EStats, int32> BuffTracker;
+
+	// Tracks the amount that was applied for each active buff, so it can be correctly reversed
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Fighter|BuffManagement")
+	TMap<EStats, float> BuffAmountTracker;
 
 	// Events
 	UPROPERTY(BlueprintAssignable, Category = "Fighter|Events")
@@ -140,6 +160,18 @@ public:
 	UPROPERTY(BlueprintAssignable, Category = "Fighter|Events")
 	FOnHitMiss OnHitMiss;
 
+	// Fired on a successful hit — bind in Blueprint to show floating damage numbers
+	UPROPERTY(BlueprintAssignable, Category = "Fighter|Events")
+	FOnDamageDealt OnDamageDealt;
+
+	// Fired after any heal — bind in Blueprint to show floating heal numbers
+	UPROPERTY(BlueprintAssignable, Category = "Fighter|Events")
+	FOnHealPerformed OnHealPerformed;
+
+	// Fired when movement budget is consumed — bind in Blueprint to drive camera follow
+	UPROPERTY(BlueprintAssignable, Category = "Fighter|Events")
+	FOnFighterMoved OnFighterMoved;
+
 	// Functions
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Turn")
 	virtual void StartTurn();
@@ -147,11 +179,21 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Turn")
 	virtual void EndTurn();
 
+	// Ends the turn only when bWaitForAnimation is false.
+	// Action functions call this instead of EndTurn() directly so Blueprint can
+	// hold the turn open while an animation plays, then call EndTurn() manually.
+	UFUNCTION(BlueprintCallable, Category = "Fighter|Turn")
+	void ConditionalEndTurn();
+
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
 	virtual void SendDamage(float Damage, UFighter* Target);
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
 	virtual void ReceiveDamage(float Damage);
+
+	// Apply healing directly without ending the turn — used when healing an ally
+	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
+	void ReceiveHeal(float Amount);
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
 	float GetDefense();
@@ -182,4 +224,20 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Fighter|Combat")
 	void Die();
+
+	// NavMesh movement helpers — distances are in world units (Unreal units)
+
+	// Returns the NavMesh path length from this fighter's location to Destination.
+	// Returns FLT_MAX if no path exists.
+	UFUNCTION(BlueprintCallable, Category = "Fighter|Movement")
+	float GetPathLengthTo(FVector Destination);
+
+	// Returns true if Destination is reachable within the remaining movement budget.
+	UFUNCTION(BlueprintCallable, Category = "Fighter|Movement")
+	bool CanMoveToLocation(FVector Destination);
+
+	// Deducts the NavMesh path distance from MovementLeft and fires OnFighterMoved.
+	// Returns false (no deduction) if the path would exceed the remaining budget.
+	UFUNCTION(BlueprintCallable, Category = "Fighter|Movement")
+	bool TryConsumeMovement(FVector Destination);
 };

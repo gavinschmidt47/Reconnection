@@ -76,6 +76,13 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Enemy|Utility|Weight")
 	bool bHasBlock;
 
+	// Buff action config — which stat the enemy buffs and by how much
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Enemy|Utility|Weight")
+	EStats EnemyBuffStat = EStats::Damage;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Enemy|Utility|Weight")
+	float EnemyBuffAmount = 20.0f;
+
 	UFUNCTION(BlueprintCallable, Category = "Enemy|StorageAccess")
 	UFighter* GetClosestEnemy();
 	UFUNCTION(BlueprintCallable, Category = "Enemy|StorageAccess")

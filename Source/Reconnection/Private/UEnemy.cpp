@@ -20,12 +20,86 @@ void UEnemy::StartTurn()
 {
 	UE_LOG(LogTemp, Warning, TEXT("UEnemy::StartTurn - Called for %s"), *GetOwner()->GetName());
 	Super::StartTurn();
-	ChooseAction();
+
+	// Defer action to the next tick so StartTurn() returns before ChooseAction runs.
+	// Without this, the entire enemy turn (including EndTurn→NextTurn) executes inside
+	// StartTurn(), causing UTurnManager to broadcast OnTurnChanged with a stale fighter
+	// after the turn has already advanced — which makes Blueprint skip the player's turn.
+	if (UWorld* World = GetWorld())
+	{
+		TWeakObjectPtr<UEnemy> WeakSelf(this);
+		World->GetTimerManager().SetTimerForNextTick([WeakSelf]()
+		{
+			if (UEnemy* Self = WeakSelf.Get())
+			{
+				Self->ChooseAction();
+			}
+		});
+	}
 }
 
 void UEnemy::ChooseAction_Implementation()
 {
-	// Default implementation does nothing - override this in Blueprint
+	// Guard: OnTurnChanged can trigger ChooseAction after the turn already ended.
+	if (!bIsTurn) return;
+
+	// Evaluate weighted utility scores for every available action.
+	// Call GetAttackUtility first — it also sets ClosestEnemyIndex as a side-effect.
+	float AttackScore    = GetAttackUtility();
+	float SelfHealScore  = bHasSelfHeal  ? GetSelfHealUtility()  : -1.0f;
+	float AllyHealScore  = bHasAllyHeal  ? GetAllyHealUtility()  : -1.0f;
+	float BlockScore     = bHasBlock     ? GetBlockUtility()     : -1.0f;
+	float BuffScore      = bHasBuff      ? GetBuffUtility()      : -1.0f;
+
+	// 0=Attack, 1=SelfHeal, 2=AllyHeal, 3=Block, 4=Buff
+	float BestScore  = AttackScore;
+	int32 BestAction = 0;
+
+	if (SelfHealScore > BestScore) { BestScore = SelfHealScore; BestAction = 1; }
+	if (AllyHealScore > BestScore) { BestScore = AllyHealScore; BestAction = 2; }
+	if (BlockScore    > BestScore) { BestScore = BlockScore;    BestAction = 3; }
+	if (BuffScore     > BestScore) { BestScore = BuffScore;     BestAction = 4; }
+
+	UE_LOG(LogTemp, Log, TEXT("UEnemy ChooseAction: best=%d score=%.2f hp=%.0f/%.0f"),
+		BestAction, BestScore, CurrentHealth, MaxHealth);
+
+	switch (BestAction)
+	{
+	case 1: // Self Heal
+		Heal();
+		break;
+
+	case 2: // Heal the most-injured ally in sight (LowestAllyIndex set by GetAllyHealUtility)
+		if (Allies.IsValidIndex(LowestAllyIndex))
+		{
+			Allies[LowestAllyIndex]->ReceiveHeal(BaseHeal + HealBuff);
+		}
+		EndTurn();
+		break;
+
+	case 3: // Block
+		Block();
+		break;
+
+	case 4: // Buff self
+		AddBuff(EnemyBuffAmount, EnemyBuffStat, 1);
+		EndTurn();
+		break;
+
+	default: // Attack the closest reachable enemy
+		{
+			UFighter* Target = Enemies.IsValidIndex(ClosestEnemyIndex) ? Enemies[ClosestEnemyIndex] : nullptr;
+			if (Target)
+			{
+				Attack(Target);
+			}
+			else
+			{
+				EndTurn();
+			}
+		}
+		break;
+	}
 }
 
 void UEnemy::InitializeEnemy(const TArray<UFighter*>& AllFighters)
@@ -80,18 +154,34 @@ float UEnemy::GetAttackUtility()
 	float CurrUtility = 0;
 	ClosestEnemyIndex = 0;
 	if (Enemies.Num() <= 0) return CurrUtility;
-	float ClosestDistance = Enemies[ClosestEnemyIndex]->GetOwner()->GetHorizontalDistanceTo(this->GetOwner());
+
+	AActor* MyOwner = GetOwner();
+	if (!MyOwner) return CurrUtility;
+
+	// Skip enemies whose actor has already been destroyed
+	AActor* FirstOwner = Enemies[0] ? Enemies[0]->GetOwner() : nullptr;
+	if (!FirstOwner) return CurrUtility;
+
+	float ClosestDistance = FirstOwner->GetHorizontalDistanceTo(MyOwner);
 	bool bHasLineOfSight = false;
 	bool bWithinMelee = false;
 
 	int i = 0;
-	
-	for ( UFighter* CurrFighter : Enemies )
+
+	for (UFighter* CurrFighter : Enemies)
 	{
-		if ( CurrFighter->GetOwner()->GetHorizontalDistanceTo(this->GetOwner()) < ClosestDistance)
+		AActor* FighterOwner = CurrFighter ? CurrFighter->GetOwner() : nullptr;
+		if (!FighterOwner)
+		{
+			++i;
+			continue;
+		}
+
+		float Dist = FighterOwner->GetHorizontalDistanceTo(MyOwner);
+		if (Dist < ClosestDistance)
 		{
 			ClosestEnemyIndex = i;
-			ClosestDistance = CurrFighter->GetOwner()->GetHorizontalDistanceTo(this->GetOwner());
+			ClosestDistance = Dist;
 		}
 		if (CheckSightToTarget(CurrFighter))
 		{

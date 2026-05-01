@@ -188,7 +188,12 @@ void UTurnManager::EndCombat()
 void UTurnManager::HandleFighterDeath(UFighter* DeadFighter)
 {
 	RemoveFighter(DeadFighter);
-	if (DeadFighter -> GetOwner() -> FindComponentByClass<UEnemy>())
+
+	// Notify all enemies so they rebuild their Allies/Enemies arrays before their next turn
+	OnFighterDeath.Broadcast(DeadFighter);
+
+	AActor* DeadOwner = DeadFighter ? DeadFighter->GetOwner() : nullptr;
+	if (DeadOwner && DeadOwner->FindComponentByClass<UEnemy>())
 	{
 		--EnemiesLeft;
 		if (EnemiesLeft <= 0)
